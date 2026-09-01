@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="480" viewBox="0 0 720 480" role="img" aria-labelledby="title desc">
+  <title id="title">Taktilās kartes un grīdas marķējumi</title>
+  <desc id="desc">Neitrāla VIAA kataloga ilustrācija risinājumam “Taktilās kartes un grīdas marķējumi”.</desc>
+  <rect width="720" height="480" rx="28" fill="#e1f0e7"/>
+  <circle cx="212" cy="196" r="146" fill="#8bbb9d" opacity=".34"/>
+  <g fill="none" stroke="#315b43" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"><rect x="104" y="98" width="216" height="155" rx="16"/><path d="M151 295h122M183 253l-9 42M241 253l9 42M175 154h74M175 193h105"/></g>
+  <rect x="350" y="72" width="330" height="336" rx="24" fill="#fff" opacity=".94"/>
+  <text x="370" y="118" fill="#315b43" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="1.5">AT–103</text>
+  <text x="370" y="182" fill="#25202a" font-family="Arial, sans-serif" font-size="23" font-weight="700"><tspan x="405" dy="0">Taktilās kartes un</tspan><tspan x="405" dy="39">grīdas marķējumi</tspan></text>
+  <text x="370" y="368" fill="#315b43" font-family="Arial, sans-serif" font-size="17" font-weight="600">Asistīvo tehnoloģiju katalogs</text>
+</svg>

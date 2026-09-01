@@ -188,3 +188,32 @@ cd <repository-name>
 npm i
 npm run dev
 ```
+
+## Kataloga attēli
+
+Katrai no 106 risinājumu kartītēm ir lokāls attēls mapē
+`assets/images/catalog`:
+
+- konkrētiem produktiem izmantots ražotāja produkta lapas kopīgošanas attēls;
+- vispārīgām risinājumu kategorijām izmantota neitrāla, šim prototipam veidota ilustrācija.
+
+Kartītes attēls jaunā pārlūka cilnē atver attiecīgā produkta, risinājuma vai
+autoritatīva atsauces resursa lapu. Poga “Uzzināt vairāk” atver risinājuma
+informācijas logu. Fails `assets/catalog-fallback.js` nodrošina pogas darbību
+arī tad, ja `index.html` tiek atvērts lokāli no datora un pārlūks neielādē
+moduļu JavaScript pakotnes.
+
+Attēlu avoti un piezīmes par izmantošanas tiesībām ir apkopotas failā
+`data/catalog-image-sources.json`. Turpat katram ierakstam norādīta attēla
+saite (`product_page`) un saites veids (`link_type`). Vispārīgām kategorijām,
+kurām nav viena konkrēta produkta, saite ved uz produkta kategoriju vai
+autoritatīvu atsauces resursu. Pirms gala publicēšanas jāpārbauda vai jāsaņem
+atļauja to ražotāju attēlu pārpublicēšanai, kuri reģistrā atzīmēti ar
+`source_type: "manufacturer"`.
+
+Attēlu komplektu un publicēto statisko lapu var atjaunot ar komandām:
+
+```sh
+node scripts/build-catalog-images.mjs
+node scripts/apply-catalog-images.mjs
+```
