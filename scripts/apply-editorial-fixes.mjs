@@ -64,6 +64,44 @@ function buildWhatIs(resource) {
   return `${resource.name} ir ${kind}, ko var izmantot mācību procesā. Tas var palīdzēt izglītojamajiem, ${audience}.`;
 }
 
+const functionsByNeed = {
+  "ierices Vadiba": ["ierīces vai kursora vadīšana ar lietotājam piemērotu ievades veidu", "objektu izvēle un komandu aktivizēšana", "digitālo mācību materiālu un programmu izmantošana"],
+  tts: ["rakstīta teksta nolasīšana balsī", "mācību satura uztveršana klausoties", "uzrakstītā teksta pārbaude ar audio atgriezenisko saiti"],
+  vizualaPielagosana: ["teksta un attēlu palielināšana vai vizuāla pielāgošana", "kontrasta un salasāmības uzlabošana", "drukāta vai digitāla mācību satura apskatīšana pielāgotā veidā"],
+  ocr: ["drukāta teksta digitalizēšana", "atpazītā teksta sagatavošana lasīšanai vai rediģēšanai", "drukātu mācību materiālu pārveidošana pieejamā digitālā formā"],
+  stt: ["runas pārvēršana rakstītā tekstā", "atbilžu un mācību darbu veidošana diktējot", "teksta ievade, neizmantojot parasto tastatūru"],
+  rakstisanaAtbalsts: ["teksta ievade un rediģēšana", "atbalsts vārdu, teikumu vai garāka teksta veidošanai", "uzrakstītā pārbaude un pilnveidošana"],
+  organizesanaAtbalsts: ["uzdevumu un darbību secības organizēšana", "atgādinājumu, piezīmju vai plānu veidošana", "uzmanības noturēšana un paveiktā pārbaude"],
+  simboli: ["informācijas attēlošana ar simboliem vai vizuālām norādēm", "uzdevumu, izvēļu un darbību secības skaidrošana", "vizuāli saprotama mācību satura veidošana"],
+  aac: ["vajadzību, atbilžu un izvēļu izteikšana alternatīvā veidā", "saziņa ar simboliem, attēliem, tekstu vai balsi", "līdzdalība sarunās un mācību aktivitātēs"],
+  matematikaAtbalsts: ["skaitļu, darbību un matemātisku sakarību attēlošana", "matemātikas uzdevumu veikšana ar vizuālu, taktilu vai digitālu atbalstu", "rezultātu ievade un pārbaude"],
+};
+
+function buildFunctions(resource) {
+  if (resource.id === "alternativas-peles-vada-ar-acu-skatienu") {
+    return [
+      "kursora vadīšana ar acu skatienu",
+      "objektu izvēle un komandu aktivizēšana",
+      "rakstīšana ekrāna tastatūrā",
+      "datora programmu un digitālo mācību materiālu izmantošana",
+      "iespējama izmantošana alternatīvajai komunikācijai",
+    ];
+  }
+  const functions = (resource.needs ?? []).flatMap((need) => functionsByNeed[need] ?? []);
+  return [...new Set(functions)].slice(0, 5).length
+    ? [...new Set(functions)].slice(0, 5)
+    : ["mācību darbību veikšana lietotājam pieejamākā veidā", "līdzdalības veicināšana mācību procesā"];
+}
+
+function buildAcquisition(resource) {
+  const acquisition = (resource.features ?? []).filter((item) =>
+    /^(Produkti Latvijā|Ražotāj|Tehniskais palīglīdzeklis|Pieejamie risinājumi)/i.test(item),
+  );
+  if (acquisition.length) return acquisition;
+  if (resource.productPage) return ["Informāciju par risinājumu un tā pieejamību skatīt norādītajā ārējā avotā."];
+  return ["Informācija par iegūšanas iespējām tiks precizēta."];
+}
+
 for (const relative of files) {
   const file = path.join(root, relative);
   let content = await fs.readFile(file, "utf8");
@@ -116,10 +154,30 @@ for (const resource of extractResources(bundle)) {
   else throw new Error(`Ierakstam ${resource.id} nav atrasts apraksts.`);
 }
 
+for (const resource of extractResources(bundle)) {
+  const id = resource.id.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const functions = JSON.stringify(buildFunctions(resource)).replaceAll("<", "\\u003c");
+  const acquisition = JSON.stringify(buildAcquisition(resource)).replaceAll("<", "\\u003c");
+  const functionsExisting = new RegExp('(id:[`"]' + id + '[` "][\\s\\S]{0,2400}?)functions:\[[\\s\\S]*?\],acquisition:\[[\\s\\S]*?\],features:');
+  const features = new RegExp('(id:[`"]' + id + '[` "][\\s\\S]{0,2400}?)features:');
+  if (functionsExisting.test(bundle)) bundle = bundle.replace(functionsExisting, `$1functions:${functions},acquisition:${acquisition},features:`);
+  else if (features.test(bundle)) bundle = bundle.replace(features, `$1functions:${functions},acquisition:${acquisition},features:`);
+  else throw new Error(`Ierakstam ${resource.id} nav atrasts funkciju lauks.`);
+}
+
 const modalDescription = "(0,C.jsx)(`p`,{className:`text-sm leading-relaxed text-foreground`,children:e.description})";
 const modalWhatIs = "(0,C.jsxs)(`div`,{children:[(0,C.jsx)(`h3`,{className:`text-sm font-semibold text-foreground`,children:`Kas tas ir?`}),(0,C.jsx)(`p`,{className:`mt-2 text-sm leading-relaxed text-foreground`,children:e.whatIs??e.description})]})";
 if (bundle.includes(modalDescription)) bundle = bundle.replace(modalDescription, modalWhatIs);
 else if (!bundle.includes(modalWhatIs)) throw new Error("Modālā loga apraksta komponente nav atrasta.");
+
+bundle = bundle.replace("children:`Galvenās funkcijas`", "children:`Funkcijas`");
+bundle = bundle.replace("children:e.features.map(e=>(0,C.jsx)(`li`,{children:e},e))", "children:(e.functions??e.features).map(e=>(0,C.jsx)(`li`,{children:e},e))");
+const situationsBlock = "(0,C.jsxs)(`div`,{children:[(0,C.jsx)(`h3`,{className:`text-sm font-semibold text-foreground`,children:`Kādās mācību situācijās var palīdzēt`}),(0,C.jsx)(`ul`,{className:`mt-2 list-disc space-y-1 pl-5 text-sm text-foreground`,children:e.situations.map(e=>(0,C.jsx)(`li`,{children:e},e))})]})";
+const acquisitionBlock = "(0,C.jsxs)(`div`,{children:[(0,C.jsx)(`h3`,{className:`text-sm font-semibold text-foreground`,children:`Kur to var iegūt?`}),(0,C.jsx)(`ul`,{className:`mt-2 list-disc space-y-1 pl-5 text-sm text-foreground`,children:e.acquisition.map(e=>(0,C.jsx)(`li`,{children:e},e))})]}),";
+if (!bundle.includes("children:`Kur to var iegūt?`")) {
+  if (!bundle.includes(situationsBlock)) throw new Error("Mācību situāciju sadaļa nav atrasta.");
+  bundle = bundle.replace(situationsBlock, acquisitionBlock + situationsBlock);
+}
 
 bundle = bundle.replaceAll(
   "Konkrētu produktu un piegādātāju norādīšana ir informatīva un nav uzskatāma par VIAA ieteikumu vai priekšrocības piešķiršanu konkrētam ražotājam vai izplatītājam.",

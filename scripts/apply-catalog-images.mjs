@@ -208,9 +208,14 @@ function buildFallbackScript(resources) {
     content.append(whatIs);
 
     const features = element("div");
-    features.append(element("h3", "text-sm font-semibold text-foreground", "Galvenās funkcijas"));
-    appendList(features, resource.features);
+    features.append(element("h3", "text-sm font-semibold text-foreground", "Funkcijas"));
+    appendList(features, resource.functions || resource.features);
     content.append(features);
+
+    const acquisition = element("div");
+    acquisition.append(element("h3", "text-sm font-semibold text-foreground", "Kur to var iegūt?"));
+    appendList(acquisition, resource.acquisition || []);
+    content.append(acquisition);
 
     const situations = element("div");
     situations.append(element("h3", "text-sm font-semibold text-foreground", "Kādās mācību situācijās var palīdzēt"));
