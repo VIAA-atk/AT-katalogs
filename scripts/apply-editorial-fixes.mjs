@@ -70,7 +70,11 @@ const existingNotice = "Katalogā sniegtā informācija ir orientējoša. Katalo
 if (!bundle.includes(disclaimer)) bundle = bundle.replace(existingNotice, `${existingNotice} ${disclaimer}`);
 bundle = bundle.replace(
   "(0,C.jsxs)(`div`,{className:`flex min-w-0 items-center gap-3`,children:",
-  "(0,C.jsxs)(`a`,{href:`https://www.viaa.gov.lv/lv`,\"aria-label\":`Atvērt Valsts izglītības attīstības aģentūras mājaslapu`,className:`flex min-w-0 items-center gap-3 rounded-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary-foreground`,children:",
+  "(0,C.jsxs)(`a`,{href:`https://www.viaa.gov.lv/lv`,target:`_blank`,rel:`noopener noreferrer`,\"aria-label\":`Atvērt Valsts izglītības attīstības aģentūras mājaslapu jaunā cilnē`,className:`flex min-w-0 items-center gap-3 rounded-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary-foreground`,children:",
+);
+bundle = bundle.replace(
+  "href:`https://www.viaa.gov.lv/lv`,\"aria-label\":`Atvērt Valsts izglītības attīstības aģentūras mājaslapu`",
+  "href:`https://www.viaa.gov.lv/lv`,target:`_blank`,rel:`noopener noreferrer`,\"aria-label\":`Atvērt Valsts izglītības attīstības aģentūras mājaslapu jaunā cilnē`",
 );
 await fs.writeFile(bundlePath, bundle);
 
@@ -100,7 +104,11 @@ html = html.replaceAll(
 if (!html.includes(disclaimer)) html = html.replace(existingNotice, `${existingNotice} ${disclaimer}`);
 html = html.replace(
   '<div class="flex min-w-0 items-center gap-3">',
-  '<a href="https://www.viaa.gov.lv/lv" aria-label="Atvērt Valsts izglītības attīstības aģentūras mājaslapu" class="flex min-w-0 items-center gap-3 rounded-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary-foreground">',
+  '<a href="https://www.viaa.gov.lv/lv" target="_blank" rel="noopener noreferrer" aria-label="Atvērt Valsts izglītības attīstības aģentūras mājaslapu jaunā cilnē" class="flex min-w-0 items-center gap-3 rounded-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary-foreground">',
+);
+html = html.replace(
+  '<a href="https://www.viaa.gov.lv/lv" aria-label="Atvērt Valsts izglītības attīstības aģentūras mājaslapu"',
+  '<a href="https://www.viaa.gov.lv/lv" target="_blank" rel="noopener noreferrer" aria-label="Atvērt Valsts izglītības attīstības aģentūras mājaslapu jaunā cilnē"',
 );
 html = html.replace(
   '</span></div><nav aria-label="Galvenā navigācija"',
