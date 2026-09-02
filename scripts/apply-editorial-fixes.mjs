@@ -68,6 +68,10 @@ bundle = bundle.replaceAll(
 const disclaimer = "Konkrētu produktu un piegādātāju norādīšana ir informatīva un nav uzskatāma par VIAA ieteikumu vai priekšrocības piešķiršanu konkrētam ražotājam vai izplatītājam.";
 const existingNotice = "Katalogā sniegtā informācija ir orientējoša. Katalogs nav individuālo vajadzību izvērtēšanas, diagnostikas vai tehnoloģiju piešķiršanas rīks — risinājuma piemērotība jāizvērtē atbilstoši konkrētā izglītojamā vajadzībām un mācību videi.";
 if (!bundle.includes(disclaimer)) bundle = bundle.replace(existingNotice, `${existingNotice} ${disclaimer}`);
+bundle = bundle.replace(
+  "(0,C.jsxs)(`div`,{className:`flex min-w-0 items-center gap-3`,children:",
+  "(0,C.jsxs)(`a`,{href:`https://www.viaa.gov.lv/lv`,\"aria-label\":`Atvērt Valsts izglītības attīstības aģentūras mājaslapu`,className:`flex min-w-0 items-center gap-3 rounded-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary-foreground`,children:",
+);
 await fs.writeFile(bundlePath, bundle);
 
 const fallbackPath = path.join(root, "assets/catalog-fallback.js");
@@ -90,6 +94,14 @@ html = html.replaceAll(
   "Freewrite (SIA &quot;Exceed&quot; plāno testēt)",
 );
 if (!html.includes(disclaimer)) html = html.replace(existingNotice, `${existingNotice} ${disclaimer}`);
+html = html.replace(
+  '<div class="flex min-w-0 items-center gap-3">',
+  '<a href="https://www.viaa.gov.lv/lv" aria-label="Atvērt Valsts izglītības attīstības aģentūras mājaslapu" class="flex min-w-0 items-center gap-3 rounded-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary-foreground">',
+);
+html = html.replace(
+  '</span></div><nav aria-label="Galvenā navigācija"',
+  '</span></a><nav aria-label="Galvenā navigācija"',
+);
 html = html.replaceAll("Programmatūra vai lietotne</dd>", "Programmatūra vai lietotne</dd>");
 
 for (const [id, type] of Object.entries(typeById)) {
