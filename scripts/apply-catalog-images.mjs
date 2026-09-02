@@ -202,7 +202,10 @@ function buildFallbackScript(resources) {
     const areas = (resource.areas || []).map((area) => areaLabels[area] || area).join(", ");
     intro.append(element("p", "mt-1 text-sm text-muted-foreground", areas + " · " + (typeLabels[resource.type] || resource.type) + " · " + resource.latvian));
     content.append(intro);
-    content.append(element("p", "text-sm leading-relaxed text-foreground", resource.description));
+    const whatIs = element("div");
+    whatIs.append(element("h3", "text-sm font-semibold text-foreground", "Kas tas ir?"));
+    whatIs.append(element("p", "mt-2 text-sm leading-relaxed text-foreground", resource.whatIs || resource.description));
+    content.append(whatIs);
 
     const features = element("div");
     features.append(element("h3", "text-sm font-semibold text-foreground", "Galvenās funkcijas"));

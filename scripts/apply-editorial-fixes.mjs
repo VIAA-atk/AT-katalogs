@@ -18,6 +18,52 @@ const literalFixes = new Map([
   ["Ražotāji ārpus Latvijas: IRIS / Canon Group (Beļģija); Freewrite - Astrohaus (ASV)", "Ražotājs ārpus Latvijas: Freewrite - Astrohaus (ASV)"],
 ]);
 
+function escapeTemplate(value) {
+  return value.replaceAll("\\", "\\\\").replaceAll("`", "\\`").replaceAll("${", "\\${");
+}
+
+function extractResources(bundle) {
+  const start = bundle.indexOf("c=[{id:`alternativas-peles");
+  const end = bundle.indexOf("}],l=", start) + 2;
+  if (start < 0 || end < 2) throw new Error("Kataloga datu masīvs nav atrasts.");
+  return Function(`return ${bundle.slice(start + 2, end)}`)();
+}
+
+const needExplanations = {
+  "ierices Vadiba": "kuriem kustību vai koordinācijas ierobežojumu dēļ ir grūti izmantot parasto peli, tastatūru vai skārienekrānu",
+  tts: "kuriem ir grūti patstāvīgi izlasīt vai uztvert rakstītu tekstu",
+  vizualaPielagosana: "kuriem teksta vai vizuālās informācijas uztveršanai nepieciešams palielinājums, kontrasts vai cits pielāgojums",
+  ocr: "kuriem nepieciešams drukātu tekstu pārvērst pieejamā digitālā formā",
+  stt: "kuriem ir grūti rakstīt ar tastatūru un kuriem noder iespēja tekstu ievadīt ar balsi",
+  rakstisanaAtbalsts: "kuriem ir grūtības rakstīt, veidot tekstu vai pārbaudīt uzrakstīto",
+  organizesanaAtbalsts: "kuriem nepieciešams atbalsts uzmanības noturēšanai, darbību plānošanai vai informācijas organizēšanai",
+  simboli: "kuriem informāciju ir vieglāk saprast ar attēliem, simboliem vai citām vizuālām norādēm",
+  aac: "kuriem ir grūti sazināties ar runu un nepieciešams alternatīvs saziņas veids",
+  matematikaAtbalsts: "kuriem nepieciešams vizuāls, taktils vai digitāls atbalsts matemātikas uzdevumu veikšanai",
+};
+
+const typeDescriptions = {
+  ierice: "ierīce vai tehniskais aprīkojums",
+  programmatura: "programmatūra vai digitāls rīks",
+  iebuveta: "ierīcē vai operētājsistēmā iebūvēta piekļūstamības funkcija",
+  bezmaksas: "bezmaksas digitāls rīks",
+  metodiskais: "metodiskais materiāls vai pamācība",
+  materials: "mācību materiāls",
+  piederums: "pielāgots piederums",
+};
+
+function buildWhatIs(resource) {
+  if (resource.id === "alternativas-peles-vada-ar-acu-skatienu") {
+    return "Acu skatiena vadības ierīce ļauj vadīt datoru ar acu kustībām. Tā var palīdzēt izglītojamajiem, kuri nevar precīzi izmantot parasto peli, tastatūru vai skārienekrānu.";
+  }
+  const kind = typeDescriptions[resource.type] ?? "asistīvās tehnoloģijas risinājums";
+  const explanations = [...new Set((resource.needs ?? []).map((need) => needExplanations[need]).filter(Boolean))];
+  const audience = explanations.length
+    ? explanations.slice(0, 2).join(" un ")
+    : "kuriem nepieciešams papildu atbalsts līdzdalībai mācību procesā";
+  return `${resource.name} ir ${kind}, ko var izmantot mācību procesā. Tas var palīdzēt izglītojamajiem, ${audience}.`;
+}
+
 for (const relative of files) {
   const file = path.join(root, relative);
   let content = await fs.readFile(file, "utf8");
@@ -60,6 +106,21 @@ for (const [id, type] of Object.entries(typeById)) {
   bundle = bundle.replace(pattern, `$1\`${type}\``);
 }
 
+for (const resource of extractResources(bundle)) {
+  const whatIs = escapeTemplate(buildWhatIs(resource));
+  const id = resource.id.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const existing = new RegExp('(id:[`"]' + id + '[` "][\\s\\S]{0,1800}?)whatIs:`[^`]*`,description:');
+  const description = new RegExp('(id:[`"]' + id + '[` "][\\s\\S]{0,1800}?)description:');
+  if (existing.test(bundle)) bundle = bundle.replace(existing, `$1whatIs:\`${whatIs}\`,description:`);
+  else if (description.test(bundle)) bundle = bundle.replace(description, `$1whatIs:\`${whatIs}\`,description:`);
+  else throw new Error(`Ierakstam ${resource.id} nav atrasts apraksts.`);
+}
+
+const modalDescription = "(0,C.jsx)(`p`,{className:`text-sm leading-relaxed text-foreground`,children:e.description})";
+const modalWhatIs = "(0,C.jsxs)(`div`,{children:[(0,C.jsx)(`h3`,{className:`text-sm font-semibold text-foreground`,children:`Kas tas ir?`}),(0,C.jsx)(`p`,{className:`mt-2 text-sm leading-relaxed text-foreground`,children:e.whatIs??e.description})]})";
+if (bundle.includes(modalDescription)) bundle = bundle.replace(modalDescription, modalWhatIs);
+else if (!bundle.includes(modalWhatIs)) throw new Error("Modālā loga apraksta komponente nav atrasta.");
+
 bundle = bundle.replaceAll(
   "Konkrētu produktu un piegādātāju norādīšana ir informatīva un nav uzskatāma par VIAA ieteikumu vai priekšrocības piešķiršanu konkrētam ražotājam vai izplatītājam.",
   "Konkrētu produktu un piegādātāju norādīšana ir informatīva un nav uzskatāma par VIAA ieteikumu vai priekšrocības piešķiršanu konkrētam ražotājam vai izplatītājam.",
@@ -80,6 +141,11 @@ await fs.writeFile(bundlePath, bundle);
 
 const fallbackPath = path.join(root, "assets/catalog-fallback.js");
 let fallback = await fs.readFile(fallbackPath, "utf8");
+const resources = extractResources(bundle);
+const fallbackStart = fallback.indexOf("const resources = ");
+const fallbackEnd = fallback.indexOf(";\n  const byId", fallbackStart);
+if (fallbackStart < 0 || fallbackEnd < 0) throw new Error("Rezerves kataloga dati nav atrasti.");
+fallback = `${fallback.slice(0, fallbackStart)}const resources = ${JSON.stringify(resources).replaceAll("<", "\\u003c")}${fallback.slice(fallbackEnd)}`;
 fallback = fallback.replace(
   '    metodiskais: "Metodiskais materiāls vai pamācība",',
   '    metodiskais: "Metodiskais materiāls vai pamācība",\n    materials: "Mācību materiāls",\n    piederums: "Pielāgots piederums",',
