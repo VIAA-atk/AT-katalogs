@@ -57,12 +57,14 @@ function patchBundle(bundle, records) {
   const legacyCardImageWithStyle = "(0,C.jsx)(`div`,{className:`overflow-hidden border-b border-border bg-secondary`,style:{height:`10rem`},children:e.image?(0,C.jsx)(`img`,{src:`./${e.image}`,alt:e.imageAlt??e.name,className:`h-full w-full bg-secondary`,style:{objectFit:`contain`},loading:`lazy`,decoding:`async`}):(0,C.jsx)(T,{type:e.type})})";
   const legacyClickableCardImage = "(0,C.jsx)(`button`,{type:`button`,\"data-catalog-open\":e.id,onClick:()=>t(e),\"aria-label\":`Atvērt informāciju par ${e.name}`,className:`overflow-hidden border-b border-border bg-secondary`,style:{height:`10rem`,width:`100%`,padding:0,cursor:`pointer`},children:e.image?(0,C.jsx)(`img`,{src:`./${e.image}`,alt:e.imageAlt??e.name,className:`h-full w-full bg-secondary`,style:{objectFit:`contain`},loading:`lazy`,decoding:`async`}):(0,C.jsx)(T,{type:e.type})})";
   const legacyProductCardImage = "(0,C.jsx)(`a`,{href:e.productPage,target:`_blank`,rel:`noopener noreferrer`,\"aria-label\":`Atvērt produkta vai risinājuma lapu: ${e.name}`,className:`block overflow-hidden border-b border-border bg-secondary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring`,style:{height:`10rem`,width:`100%`,cursor:`pointer`},children:e.image?(0,C.jsx)(`img`,{src:`./${e.image}`,alt:e.imageAlt??e.name,className:`h-full w-full bg-secondary`,style:{objectFit:`contain`},loading:`lazy`,decoding:`async`}):(0,C.jsx)(T,{type:e.type})})";
-  const cardImage = "(0,C.jsx)(`a`,{href:e.productPage,target:`_blank`,rel:`noopener noreferrer`,\"aria-label\":`Atvērt produkta vai risinājuma lapu jaunā cilnē: ${e.name}`,className:`block overflow-hidden border-b border-border bg-secondary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring`,style:{height:`10rem`,width:`100%`,cursor:`pointer`},children:e.image?(0,C.jsx)(`img`,{src:`./${e.image}`,alt:e.imageAlt??e.name,className:`h-full w-full bg-secondary`,style:{objectFit:`contain`},loading:`lazy`,decoding:`async`}):(0,C.jsx)(T,{type:e.type})})";
+  const currentProductCardImage = "(0,C.jsx)(`a`,{href:e.productPage,target:`_blank`,rel:`noopener noreferrer`,\"aria-label\":`Atvērt produkta vai risinājuma lapu jaunā cilnē: ${e.name}`,className:`block overflow-hidden border-b border-border bg-secondary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring`,style:{height:`10rem`,width:`100%`,cursor:`pointer`},children:e.image?(0,C.jsx)(`img`,{src:`./${e.image}`,alt:e.imageAlt??e.name,className:`h-full w-full bg-secondary`,style:{objectFit:`contain`},loading:`lazy`,decoding:`async`}):(0,C.jsx)(T,{type:e.type})})";
+  const cardImage = legacyClickableCardImage;
   if (bundle.includes(cardNeedle)) bundle = bundle.replace(cardNeedle, cardImage);
   else if (bundle.includes(legacyCardImage)) bundle = bundle.replace(legacyCardImage, cardImage);
   else if (bundle.includes(legacyCardImageWithStyle)) bundle = bundle.replace(legacyCardImageWithStyle, cardImage);
   else if (bundle.includes(legacyClickableCardImage)) bundle = bundle.replace(legacyClickableCardImage, cardImage);
   else if (bundle.includes(legacyProductCardImage)) bundle = bundle.replace(legacyProductCardImage, cardImage);
+  else if (bundle.includes(currentProductCardImage)) bundle = bundle.replace(currentProductCardImage, cardImage);
   else if (!bundle.includes(cardImage)) throw new Error("Kartītes attēla komponente komplektā nav atrasta.");
 
   const detailsButton = "type:`button`,onClick:()=>t(e),className:`mt-1 inline-flex";
@@ -78,15 +80,19 @@ function patchBundle(bundle, records) {
   const modalNeedle = "(0,C.jsx)(`div`,{className:`flex h-48 items-center justify-center rounded-t-md border-b border-border bg-secondary`,children:(0,C.jsx)(T,{type:e.type,size:`lg`})})";
   const legacyModalImage = "(0,C.jsx)(`div`,{className:`h-64 overflow-hidden rounded-t-md border-b border-border bg-secondary`,children:e.image?(0,C.jsx)(`img`,{src:`./${e.image}`,alt:e.imageAlt??e.name,className:`h-full w-full bg-secondary object-contain`}):(0,C.jsx)(T,{type:e.type,size:`lg`})})";
   const legacyModalImageWithStyle = "(0,C.jsx)(`div`,{className:`overflow-hidden rounded-t-md border-b border-border bg-secondary`,style:{height:`16rem`},children:e.image?(0,C.jsx)(`img`,{src:`./${e.image}`,alt:e.imageAlt??e.name,className:`h-full w-full bg-secondary`,style:{objectFit:`contain`}}):(0,C.jsx)(T,{type:e.type,size:`lg`})})";
-  const modalImage = "(0,C.jsx)(`a`,{href:e.productPage,target:`_blank`,rel:`noopener noreferrer`,\"aria-label\":`Atvērt produkta vai risinājuma lapu jaunā cilnē: ${e.name}`,className:`block overflow-hidden rounded-t-md border-b border-border bg-secondary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring`,style:{height:`16rem`},children:e.image?(0,C.jsx)(`img`,{src:`./${e.image}`,alt:e.imageAlt??e.name,className:`h-full w-full bg-secondary`,style:{objectFit:`contain`}}):(0,C.jsx)(T,{type:e.type,size:`lg`})})";
+  const currentModalImage = "(0,C.jsx)(`a`,{href:e.productPage,target:`_blank`,rel:`noopener noreferrer`,\"aria-label\":`Atvērt produkta vai risinājuma lapu jaunā cilnē: ${e.name}`,className:`block overflow-hidden rounded-t-md border-b border-border bg-secondary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring`,style:{height:`16rem`},children:e.image?(0,C.jsx)(`img`,{src:`./${e.image}`,alt:e.imageAlt??e.name,className:`h-full w-full bg-secondary`,style:{objectFit:`contain`}}):(0,C.jsx)(T,{type:e.type,size:`lg`})})";
+  const modalImage = legacyModalImageWithStyle;
   if (bundle.includes(modalNeedle)) bundle = bundle.replace(modalNeedle, modalImage);
   else if (bundle.includes(legacyModalImage)) bundle = bundle.replace(legacyModalImage, modalImage);
   else if (bundle.includes(legacyModalImageWithStyle)) bundle = bundle.replace(legacyModalImageWithStyle, modalImage);
+  else if (bundle.includes(currentModalImage)) bundle = bundle.replace(currentModalImage, modalImage);
   else if (!bundle.includes(modalImage)) throw new Error("Modālā loga attēla komponente komplektā nav atrasta.");
 
   const modalExternalLink = "e.link?(0,C.jsxs)(`a`,{href:e.link,target:`_blank`,rel:`noopener noreferrer`,className:`inline-flex min-h-11 items-center rounded-md bg-primary px-4 text-sm font-medium text-primary-foreground hover:bg-primary/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring`,children:[`Atvērt ārējo resursu (`,e.linkLabel,`)`]}):(0,C.jsx)(`p`,{className:`text-sm text-muted-foreground`,children:`Saite: Informācija tiks papildināta`})";
-  const modalProductLink = "(0,C.jsx)(`a`,{href:e.productPage,target:`_blank`,rel:`noopener noreferrer`,className:`inline-flex min-h-11 items-center rounded-md bg-primary px-4 text-sm font-medium text-primary-foreground hover:bg-primary/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring`,children:`Atvērt produkta vai risinājuma lapu`})";
+  const modalProductLink = "(0,C.jsx)(`a`,{href:e.productPage,target:`_blank`,rel:`noopener noreferrer`,className:`inline-flex min-h-11 items-center rounded-md bg-primary px-4 text-sm font-medium text-primary-foreground hover:bg-primary/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring`,children:{product:`Ražotāja informācija`,category:`Skatīt risinājumu kategoriju`,resource:`Papildu informācija`}[e.productLinkType]??`Papildu informācija`})";
+  const legacyModalProductLink = "(0,C.jsx)(`a`,{href:e.productPage,target:`_blank`,rel:`noopener noreferrer`,className:`inline-flex min-h-11 items-center rounded-md bg-primary px-4 text-sm font-medium text-primary-foreground hover:bg-primary/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring`,children:`Atvērt produkta vai risinājuma lapu`})";
   if (bundle.includes(modalExternalLink)) bundle = bundle.replace(modalExternalLink, modalProductLink);
+  else if (bundle.includes(legacyModalProductLink)) bundle = bundle.replace(legacyModalProductLink, modalProductLink);
   else if (!bundle.includes(modalProductLink)) throw new Error("Modālā loga ārējā saite nav atrasta.");
 
   return bundle;
@@ -104,7 +110,7 @@ function patchStaticHtml(html, records) {
     if (title !== record.name) throw new Error(`Kartīšu secība nesakrīt: “${title}” / “${record.name}”.`);
 
     card = card.replace(/^<li(?: data-resource-id="[^"]+")? /, `<li data-resource-id="${escapeHtml(record.id)}" `);
-    const imageBlock = `<a href="${escapeHtml(record.product_page)}" target="_blank" rel="noopener noreferrer" aria-label="Atvērt produkta vai risinājuma lapu jaunā cilnē: ${escapeHtml(record.name)}" class="block overflow-hidden border-b border-border bg-secondary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring" style="height:10rem;width:100%;cursor:pointer"><img src="./${escapeHtml(record.file)}" alt="${escapeHtml(record.alt)}" class="h-full w-full bg-secondary" style="object-fit:contain" loading="lazy" decoding="async"/></a>`;
+    const imageBlock = `<button type="button" data-catalog-open="${escapeHtml(record.id)}" aria-label="Atvērt informāciju par ${escapeHtml(record.name)}" class="overflow-hidden border-b border-border bg-secondary" style="height:10rem;width:100%;padding:0;cursor:pointer"><img src="./${escapeHtml(record.file)}" alt="${escapeHtml(record.alt)}" class="h-full w-full bg-secondary" style="object-fit:contain" loading="lazy" decoding="async"/></button>`;
     const placeholderPattern = /<div class="flex h-32 items-center justify-center border-b border-border bg-secondary">.*?<\/svg><\/div><\/div>/;
     const existingImagePattern = /<div class="(?:h-40 )?overflow-hidden border-b border-border bg-secondary"(?: style="height:10rem")?><img .*?<\/div>/;
     const existingImageButtonPattern = /<button type="button" data-catalog-open="[^"]+" aria-label="[^"]+" class="overflow-hidden border-b border-border bg-secondary" style="height:10rem;width:100%;padding:0;cursor:pointer"><img .*?<\/button>/;
@@ -177,12 +183,8 @@ function buildFallbackScript(resources) {
     panel.setAttribute("aria-modal", "true");
     panel.setAttribute("aria-labelledby", "fallback-resource-dialog-title");
 
-    const media = element("a", "block overflow-hidden rounded-t-md border-b border-border bg-secondary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring");
+    const media = element("div", "overflow-hidden rounded-t-md border-b border-border bg-secondary");
     media.style.height = "16rem";
-    media.href = resource.productPage;
-    media.target = "_blank";
-    media.rel = "noopener noreferrer";
-    media.setAttribute("aria-label", "Atvērt produkta vai risinājuma lapu jaunā cilnē: " + resource.name);
     if (resource.image) {
       const image = element("img", "h-full w-full bg-secondary");
       image.src = "./" + resource.image;
@@ -214,7 +216,8 @@ function buildFallbackScript(resources) {
 
     const actions = element("div", "flex flex-wrap items-center gap-3 border-t border-border pt-4");
     if (resource.productPage) {
-      const link = element("a", "inline-flex min-h-11 items-center rounded-md bg-primary px-4 text-sm font-medium text-primary-foreground hover:bg-primary/90", "Atvērt produkta vai risinājuma lapu");
+      const linkLabels = { product: "Ražotāja informācija", category: "Skatīt risinājumu kategoriju", resource: "Papildu informācija" };
+      const link = element("a", "inline-flex min-h-11 items-center rounded-md bg-primary px-4 text-sm font-medium text-primary-foreground hover:bg-primary/90", linkLabels[resource.productLinkType] || "Papildu informācija");
       link.href = resource.productPage;
       link.target = "_blank";
       link.rel = "noopener noreferrer";
