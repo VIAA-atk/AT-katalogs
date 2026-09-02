@@ -89,6 +89,10 @@ await fs.writeFile(fallbackPath, fallback);
 const htmlPath = path.join(root, "index.html");
 let html = await fs.readFile(htmlPath, "utf8");
 html = html.replaceAll("\u0000", "");
+html = html.replace(
+  '<link rel="icon" href="./favicon.svg?v=2" type="image/svg+xml"/><link rel="alternate icon" href="./favicon.ico?v=2" type="image/x-icon"/>',
+  '<link rel="icon" href="./favicon.svg?v=3" type="image/svg+xml"/>',
+);
 html = html.replaceAll(
   "&#x27;IRIScan Desk 6 Pro Dyslexic (IRIS) - SIA &quot;Exceed&quot; (SIA &quot;Exceed&quot; plāno testēt Freewrite)",
   "Freewrite (SIA &quot;Exceed&quot; plāno testēt)",
