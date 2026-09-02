@@ -10,6 +10,7 @@ const files = [
 ];
 
 const literalFixes = new Map([
+  ["e.currentTarget.src:`", "e.currentTarget.src=`"],
   ["Pārvietojams mobilās indukcijas cilpas rsinājums", "Pārvietojams mobilās indukcijas cilpas risinājums"],
   ["Tehniskais palīdzlīdzeklis", "Tehniskais palīglīdzeklis"],
   ["Genio - Nyxoah (Beļģija), Goodnotes - Goodnotes Ltd (Honkonga)", "Genio Notes, Goodnotes - Goodnotes Ltd (Honkonga)"],

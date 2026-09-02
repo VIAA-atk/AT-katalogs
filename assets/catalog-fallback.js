@@ -18,6 +18,8 @@
     metodiskais: "Metodiskais materiāls vai pamācība",
     materials: "Mācību materiāls",
     piederums: "Pielāgots piederums",
+    materials: "Mācību materiāls",
+    piederums: "Pielāgots piederums",
   };
   let lastTrigger = null;
 
@@ -52,6 +54,9 @@
       image.src = "./" + resource.image;
       image.alt = resource.imageAlt || resource.name;
       image.style.objectFit = "contain";
+      image.addEventListener("error", () => {
+        image.src = "./assets/images/catalog/catalog-placeholder.svg";
+      }, { once: true });
       media.append(image);
     }
     panel.append(media);

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="480" viewBox="0 0 720 480" role="img" aria-labelledby="title desc">
+  <title id="title">Asistīvās tehnoloģijas risinājuma ilustrācija</title>
+  <desc id="desc">Neitrāla VIAA kataloga ilustrācija gadījumam, kad konkrētais attēls nav pieejams.</desc>
+  <rect width="720" height="480" rx="28" fill="#f2edf7"/>
+  <circle cx="210" cy="240" r="126" fill="#5b2a86"/>
+  <text x="210" y="268" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="80" font-weight="700">AT</text>
+  <text x="382" y="220" fill="#25202a" font-family="Arial, sans-serif" font-size="28" font-weight="700">Asistīvās tehnoloģijas</text>
+  <text x="382" y="260" fill="#5b2a86" font-family="Arial, sans-serif" font-size="24" font-weight="600">mācību atbalstam</text>
+  <text x="382" y="315" fill="#655f69" font-family="Arial, sans-serif" font-size="18">VIAA risinājumu katalogs</text>
+</svg>
