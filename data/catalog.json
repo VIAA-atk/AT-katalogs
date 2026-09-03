@@ -99,6 +99,7 @@
       "komunikacija"
     ],
     "needs": [
+      "simboli",
       "aac"
     ],
     "type": "programmatura",
@@ -157,7 +158,7 @@
   },
   {
     "id": "komunikacijas-kartites-piem-pecs",
-    "name": "Komunikācijas kartītes (piem., PECS)",
+    "name": "Komunikācijas kartītes",
     "short": "Fiziskas kartītes ar attēliem, simboliem vai vārdiem, ko izmanto saprotama vēstījuma veidošanai.",
     "areas": [
       "komunikacija"
@@ -177,11 +178,11 @@
     "acquisition": [
       "Var pagatavot skolā: izvēlas lietotājam saprotamus fotoattēlus vai piktogrammas, pievieno tekstu latviski, izdrukā, laminē un vajadzības gadījumā piestiprina līpošus stiprinājumus."
     ],
-    "image": "assets/images/catalog/komunikacijas-kartites-piem-pecs.webp",
+    "image": "assets/images/catalog/komunikacijas-kartites-piem-pecs.png",
     "imageAlt": "Komunikācijas kartītes (piem., PECS) — reāls produkta vai risinājuma attēls",
     "imageSource": "https://pecsusa.com/store/",
     "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
-    "productPage": "https://pecsusa.com/store/",
+    "productPage": "https://arasaac.org/",
     "productLinkType": "category"
   },
   {
