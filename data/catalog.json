@@ -500,7 +500,7 @@
   },
   {
     "id": "krasu-filtri-parklaji-pleves",
-    "name": "Krāsu filtri (pārklāji/plēves)",
+    "name": "Krāsu filtri (plēves)",
     "short": "Caurspīdīgas krāsainas plēves vai pārklāji, ko novieto virs teksta, lai mainītu fona toni.",
     "areas": [
       "lasisana"
@@ -508,7 +508,7 @@
     "needs": [
       "vizualaPielagosana"
     ],
-    "type": "programmatura",
+    "type": "piederums",
     "level": "zems",
     "latvian": "Informācija tiks papildināta",
     "whatIs": "Caurspīdīgas krāsainas plēves vai pārklāji, ko novieto virs teksta, lai mainītu fona toni.",
@@ -537,7 +537,7 @@
     "needs": [
       "organizesanaAtbalsts"
     ],
-    "type": "programmatura",
+    "type": "piederums",
     "level": "zems",
     "latvian": "Informācija tiks papildināta",
     "whatIs": "Šauras sloksnes vai lineāli, kas aizsedz apkārtējo tekstu un palīdz sekot vienai rindai.",
@@ -547,13 +547,14 @@
       "uzmanības noturēšana un paveiktā pārbaude"
     ],
     "acquisition": [
-      "Var pagatavot no stingra kartona vai necaurspīdīgas plastmasas, izgriežot logu vienai teksta rindai; gatavi lineāli pieejami kancelejas un specializētajos veikalos."
+      "Var pagatavot no stingra kartona vai necaurspīdīgas plastmasas, izgriežot logu vienai teksta rindai; gatavi lineāli pieejami kancelejas un specializētajos veikalos.",
+      "Piemēram: https://8kajis.lv/products/lasisanas-ramitis-un-lineals"
     ],
-    "image": "assets/images/catalog/lasisanas-lineali.webp",
+    "image": "assets/images/catalog/lasisanas-lineali.png",
     "imageAlt": "Lasīšanas lineāli — reāls produkta vai risinājuma attēls",
-    "imageSource": "https://www.thedyslexiashop.co.uk/collections/reading-rulers",
+    "imageSource": "https://8kajis.lv/products/lasisanas-ramitis-un-lineals",
     "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
-    "productPage": "https://www.thedyslexiashop.co.uk/collections/reading-rulers",
+    "productPage": "https://8kajis.lv/products/lasisanas-ramitis-un-lineals?srsltid=AfmBOoqrRpZz6ycKfmRV8RYI7pzhI5K4fgIsbO1SI4uNICp9FU1aU1ke",
     "productLinkType": "category"
   },
   {
