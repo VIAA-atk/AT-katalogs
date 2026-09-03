@@ -73,6 +73,9 @@ fieldset { min-width: 0; margin: 0; padding: 0; border: 0; }
 .image-row img { width: 100%; aspect-ratio: 3 / 2; border: 1px solid var(--border); border-radius: .35rem; background: #f7f5f9; object-fit: contain; }
 .image-row label + .help { margin-bottom: 1rem; }
 .form-actions { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--border); }
+.editor-panel .status:not([hidden]) { margin: 1.25rem 0 0; padding: .8rem 1rem; border: 1px solid var(--border); border-radius: .35rem; background: #f7f5f9; }
+.editor-panel .status.success:not([hidden]) { border-color: #70a987; background: #eff9f2; }
+.editor-panel .status.error:not([hidden]) { border-color: #c77786; background: #fff0f2; }
 [hidden] { display: none !important; }
 @media (max-width: 860px) {
   .workspace { grid-template-columns: 1fr; }

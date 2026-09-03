@@ -44,9 +44,9 @@ repozitorijā.
 - **Saglabāt melnrakstā** saglabā izmaiņas tikai atvērtajā pārlūka cilnē.
 - **Publicēt izmaiņas** izveido vienu GitHub commitu `main` zarā.
 
-Ja augšupielādē attēlu, panelis to pārlūkā proporcionāli ievieto 720×480
-laukā un saglabā WebP formātā. Jānorāda alternatīvais teksts, avota saite, ja
-tāda ir, un attēla izmantošanas tiesību piezīme.
+Panelī var augšupielādēt JPG, PNG vai WebP attēlu līdz 8 MB, saglabājot tā
+sākotnējo formātu. Jānorāda alternatīvais teksts, avota saite, ja tāda ir, un
+attēla izmantošanas tiesību piezīme.
 
 GitHub Pages atjaunošana pēc commita parasti aizņem dažas minūtes.
 

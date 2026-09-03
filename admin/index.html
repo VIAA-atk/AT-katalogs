@@ -7,8 +7,8 @@
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: blob:; style-src 'self'; script-src 'self'; connect-src https://api.github.com; base-uri 'self'; form-action 'self'; frame-ancestors 'none'" />
     <title>Kataloga administrēšana | VIAA</title>
     <link rel="icon" href="../favicon.svg?v=3" type="image/svg+xml" />
-    <link rel="stylesheet" href="./admin.css" />
-    <script type="module" src="./admin-v5.js"></script>
+    <link rel="stylesheet" href="./admin.css?v=2" />
+    <script type="module" src="./admin-v6.js"></script>
   </head>
   <body>
     <header class="site-header">
@@ -41,7 +41,7 @@
           </div>
         </form>
         <p id="auth-status" class="status" role="status"></p>
-        <p class="help">Administratora paneļa versija 5</p>
+        <p class="help">Administratora paneļa versija 6</p>
       </section>
 
       <section id="admin-app" hidden>
@@ -114,8 +114,8 @@
                   <div class="image-row">
                     <img id="image-preview" src="../assets/images/catalog/catalog-placeholder.svg" alt="Attēla priekšskatījums" />
                     <div>
-                      <label>Jauns attēls<input id="field-image-file" name="imageFile" type="file" accept="image/png,image/jpeg,image/webp,image/svg+xml" /></label>
-                      <p class="help">Attēls pārlūkā tiks proporcionāli ievietots 720×480 WebP laukā. Maksimālais sākotnējā faila izmērs — 8 MB.</p>
+                      <label>Jauns attēls<input id="field-image-file" name="imageFile" type="file" accept="image/png,image/jpeg,image/webp" /></label>
+                      <p class="help">Atļauts JPG, PNG vai WebP attēls līdz 8 MB. Attēls tiks saglabāts tā sākotnējā formātā.</p>
                       <label>Alternatīvais teksts *<input id="field-image-alt" name="imageAlt" required maxlength="300" /></label>
                     </div>
                   </div>
@@ -123,11 +123,11 @@
                   <label>Attēla izmantošanas tiesību piezīme *<textarea id="field-image-rights" name="imageRightsNote" rows="2" required></textarea></label>
                 </section>
 
+                <p id="editor-status" class="status" role="status" aria-live="polite"></p>
                 <div class="form-actions">
                   <button id="save-draft" type="button" class="button primary">Saglabāt melnrakstā</button>
                   <button id="cancel-edit" type="button" class="button secondary">Atcelt labošanu</button>
                 </div>
-                <p id="editor-status" class="status" role="status" aria-live="polite"></p>
               </fieldset>
             </form>
           </section>
