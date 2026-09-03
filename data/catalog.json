@@ -678,38 +678,9 @@
     "productLinkType": "category"
   },
   {
-    "id": "teksta-markieri",
-    "name": "Teksta marķieri",
-    "short": "Rakstāmrīki vai digitāli rīki nozīmīgu teksta daļu izcelšanai ar krāsu.",
-    "areas": [
-      "lasisana"
-    ],
-    "needs": [
-      "organizesanaAtbalsts"
-    ],
-    "type": "programmatura",
-    "level": "zems",
-    "latvian": "Informācija tiks papildināta",
-    "whatIs": "Rakstāmrīki vai digitāli rīki nozīmīgu teksta daļu izcelšanai ar krāsu.",
-    "functions": [
-      "uzdevumu un darbību secības organizēšana",
-      "atgādinājumu, piezīmju vai plānu veidošana",
-      "uzmanības noturēšana un paveiktā pārbaude"
-    ],
-    "acquisition": [
-      "Iegādājas kancelejas preču veikalā; digitālos marķēšanas rīkus izmanto dokumentu vai PDF programmu iebūvētajās funkcijās."
-    ],
-    "image": "assets/images/catalog/teksta-markieri.svg",
-    "imageAlt": "Teksta marķieri — reāls produkta vai risinājuma attēls",
-    "imageSource": "https://www.stabilo.com/com/products/highlighting/highlighters/stabilo-boss-original/",
-    "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
-    "productPage": "https://www.stabilo.com/com/products/highlighting/highlighters/stabilo-boss-original/",
-    "productLinkType": "product"
-  },
-  {
     "id": "teksta-priekslasitaji-ar-skeneri-galda-priekslas",
-    "name": "Teksta priekšlasītāji ar skeneri (galda priekšlasīšanas ierīces)",
-    "short": "Galda ierīces, kas noskenē drukātu tekstu, atpazīst rakstzīmes un nolasa saturu balsī.",
+    "name": "AISMA - Teksta skenēšanas un priekšā lasīšanas ierīce",
+    "short": "Ierīce, kas uztver vai noskenē drukātu tekstu, atpazīst to ar optiskās rakstzīmju atpazīšanas (OCR) tehnoloģiju un pārvērš runā. Tās ļauj klausīties grāmatu, darba lapu un citu drukātu materiālu saturu.",
     "areas": [
       "lasisana"
     ],
@@ -720,7 +691,7 @@
     "type": "ierice",
     "level": "augsts",
     "latvian": "Pieejams latviešu valodā",
-    "whatIs": "Galda ierīces, kas noskenē drukātu tekstu, atpazīst rakstzīmes un nolasa saturu balsī.",
+    "whatIs": "Skolēniem, kuriem drukāta teksta patstāvīga lasīšana ir apgrūtināta, piemēram, lasīšanas grūtību, disleksijas vai redzes grūtību dēļ.",
     "functions": [
       "rakstīta teksta nolasīšana balsī",
       "mācību satura uztveršana klausoties",
@@ -729,13 +700,13 @@
       "atpazītā teksta sagatavošana lasīšanai vai rediģēšanai"
     ],
     "acquisition": [
-      "Latvijā: Bruno, Aisma — SIA \"Brunomaster\" Brunomaster: https://brunomaster.com/"
+      "Aisma — SIA \"Brunomaster\" Brunomaster: https://brunomaster.com/"
     ],
-    "image": "assets/images/catalog/teksta-priekslasitaji-ar-skeneri-galda-priekslas.webp",
+    "image": "assets/images/catalog/teksta-priekslasitaji-ar-skeneri-galda-priekslas.png",
     "imageAlt": "Teksta priekšlasītāji ar skeneri (galda priekšlasīšanas ierīces) — reāls produkta vai risinājuma attēls",
-    "imageSource": "https://shop.rnib.org.uk/products/d-s-orcam-smart-3",
+    "imageSource": "https://brunomaster.com/produkts/aisma/",
     "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
-    "productPage": "https://shop.rnib.org.uk/products/d-s-orcam-smart-3",
+    "productPage": "",
     "productLinkType": "product"
   },
   {
@@ -751,21 +722,21 @@
     "type": "programmatura",
     "level": "augsts",
     "latvian": "Pieejams latviešu valodā",
-    "whatIs": "Rīki, kas sadala sarežģītu tekstu mazākās daļās vai pārveido to saprotamākā valodā.",
+    "whatIs": "Digitāli rīki, kas palīdz pielāgot tekstu skolēna lasīšanas un informācijas uztveres vajadzībām. Tie var palīdzēt sadalīt tekstu mazākās, pārskatāmākās daļās, vizuāli izcelt lasāmo informāciju vai vienkāršot sarežģītu tekstu, saglabājot tā galveno nozīmi.\n\nKam noder:\nSkolēniem, kuriem ir grūtības uztvert garu vai sarežģītu tekstu, sekot līdzi lasāmajai informācijai vai izprast sarežģītas valodas konstrukcijas.",
     "functions": [
       "teksta un attēlu palielināšana vai vizuāla pielāgošana",
       "kontrasta un salasāmības uzlabošana",
       "drukāta vai digitāla mācību satura apskatīšana pielāgotā veidā"
     ],
     "acquisition": [
-      "Latvijā: Brunomaster, Bruno, Aisma — SIA \"Brunomaster\"",
-      "Ražotāji/izstrādātāji un citi piemēri: Mākopņpakalpojuma programmatūra ar bezmaksas un maksas (pro) versiju Diffit — Diffit for Teachers (ASV) Brunomaster: https://brunomaster.com/"
+      "Hugo.lv Vieglās valodas rīks – automātiski vienkāršo tekstu latviešu valodā, aizstājot sarežģītākus vārdus, frāzes un teikumu konstrukcijas ar vieglāk saprotamu formulējumu. Pašlaik vienā reizē iespējams apstrādāt līdz 1000 vārdiem. Hugo.lv arī norāda, ka rezultāts jāsalīdzina ar oriģinālu, lai pārliecinātos par precizitāti.",
+      "BrunoMaster – palīdz pielāgot teksta pasniegšanas veidu un darbu ar tekstu; pieejama teksta rediģēšana, priekšā lasīšana, pārvietošanās pa teikumiem un lappusēm, lasīšanas ātruma regulēšana un citas funkcijas."
     ],
-    "image": "assets/images/catalog/teksta-segmentesanas-un-vienkarsosanas-riki.webp",
+    "image": "assets/images/catalog/teksta-segmentesanas-un-vienkarsosanas-riki.png",
     "imageAlt": "Teksta segmentēšanas un vienkāršošanas rīki — ražotāja ilustratīvs attēls",
-    "imageSource": "https://web.diffit.me/",
+    "imageSource": "",
     "imageRightsNote": "Pirms gala publicēšanas saņemt vai pārbaudīt ražotāja atļauju attēla pārpublicēšanai.",
-    "productPage": "https://web.diffit.me/",
+    "productPage": "",
     "productLinkType": "product"
   },
   {
