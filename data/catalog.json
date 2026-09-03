@@ -596,7 +596,7 @@
     "needs": [
       "vizualaPielagosana"
     ],
-    "type": "ierice",
+    "type": "piederums",
     "level": "zems",
     "latvian": "Informācija tiks papildināta",
     "whatIs": "Optiski palīglīdzekļi, kas bez elektronikas palielina drukātu tekstu, attēlus vai nelielus priekšmetus.",
@@ -610,43 +610,14 @@
     ],
     "image": "assets/images/catalog/palielinamie-stikli-lupas.webp",
     "imageAlt": "Palielināmie stikli (lupas) — reāls produkta vai risinājuma attēls",
-    "imageSource": "https://shop.rnib.org.uk/collections/magnifiers",
+    "imageSource": "",
     "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
-    "productPage": "https://shop.rnib.org.uk/collections/magnifiers",
+    "productPage": "",
     "productLinkType": "category"
   },
   {
-    "id": "pecs-attelu-apmainas-komunikacijas-sistema-digit",
-    "name": "PECS (Attēlu apmaiņas komunikācijas sistēma - digitālā versija)",
-    "short": "Digitāls attēlu apmaiņas saziņas risinājums, kurā lietotājs izvēlas un sakārto simbolus, lai izteiktu vajadzības vai vēstījumu.",
-    "areas": [
-      "lasisana"
-    ],
-    "needs": [
-      "aac"
-    ],
-    "type": "programmatura",
-    "level": "augsts",
-    "latvian": "Informācija tiks papildināta",
-    "whatIs": "Digitāls attēlu apmaiņas saziņas risinājums, kurā lietotājs izvēlas un sakārto simbolus, lai izteiktu vajadzības vai vēstījumu.",
-    "functions": [
-      "vajadzību, atbilžu un izvēļu izteikšana alternatīvā veidā",
-      "saziņa ar simboliem, attēliem, tekstu vai balsi",
-      "līdzdalība sarunās un mācību aktivitātēs"
-    ],
-    "acquisition": [
-      "Ražotāji/izstrādātāji un citi piemēri: PECS IV (Applie iPad), PECSTalk (Android) — Pyramid Educational Consultants (ASV)"
-    ],
-    "image": "assets/images/catalog/pecs-attelu-apmainas-komunikacijas-sistema-digit.webp",
-    "imageAlt": "PECS (Attēlu apmaiņas komunikācijas sistēma - digitālā versija) — ražotāja ilustratīvs attēls",
-    "imageSource": "https://pecs.com/PECSIV/",
-    "imageRightsNote": "Pirms gala publicēšanas saņemt vai pārbaudīt ražotāja atļauju attēla pārpublicēšanai.",
-    "productPage": "https://pecs.com/PECSIV/",
-    "productLinkType": "product"
-  },
-  {
     "id": "simbolu-programmatura",
-    "name": "Simbolu programmatūra",
+    "name": "SymWriter 2",
     "short": "Programmatūra teksta, darba lapu un saziņas materiālu veidošanai ar piktogrammām vai citiem simboliem.",
     "areas": [
       "lasisana",
@@ -668,14 +639,13 @@
       "saziņa ar simboliem, attēliem, tekstu vai balsi"
     ],
     "acquisition": [
-      "Latvijā: Widgit Symwriter — Piktogrammas.lv; Boardmaker 7 — SIA \"Arbor Medical Korporācija)",
-      "Ražotāji/izstrādātāji un citi piemēri: Widgit Symwriter — Widgit Software Ltd (Lielbritānija); Boardmaker — Tobii Dynavox (Zviedrija); ARASAAC bezmaksas programmatūta (Spānija) Piktogrammas: https://www.piktogrammas.lv/ Arbor Medical: https://arbor.lv/ Tobii Dynavox: https://www.tobiidynavox.com/"
+      "SymWriter 2 ir maksas programmatūra. Widgit oficiālajā Latvijas atbalsta lapā kā Latvijas izplatītājs norādīts Piktogrammas; pieejama arī 21 dienas bezmaksas izmēģinājuma versija."
     ],
     "image": "assets/images/catalog/simbolu-programmatura.webp",
     "imageAlt": "Simbolu programmatūra — ražotāja ilustratīvs attēls",
-    "imageSource": "https://www.widgit.com/products/symwriter/index.htm",
+    "imageSource": "https://www.piktogrammas.lv/symwriter/pas%C5%ABt%C4%ABt-licences",
     "imageRightsNote": "Pirms gala publicēšanas saņemt vai pārbaudīt ražotāja atļauju attēla pārpublicēšanai.",
-    "productPage": "https://www.widgit.com/products/symwriter/index.htm",
+    "productPage": "https://www.piktogrammas.lv/symwriter/pas%C5%ABt%C4%ABt-licences",
     "productLinkType": "product"
   },
   {
