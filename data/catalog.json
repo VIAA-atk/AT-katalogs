@@ -559,8 +559,8 @@
   },
   {
     "id": "lasitajam-draudzigi-fonti-disleksijai-vieglajai-",
-    "name": "Lasītājam draudzīgi fonti (disleksijai, vieglajai valodai)",
-    "short": "Viegli salasāmi burtveidoli ar skaidri atšķiramām zīmēm, piemērotu izmēru un atstarpēm.",
+    "name": "OpenDyslexic un viegli salasāmi fonti",
+    "short": "Viegli salasāmi fonti ar skaidri atšķiramām rakstzīmēm, piemērotu burtu izmēru un pietiekamām atstarpēm starp burtiem, vārdiem un rindām.",
     "areas": [
       "lasisana"
     ],
@@ -570,15 +570,14 @@
     "type": "programmatura",
     "level": "videjs",
     "latvian": "Pieejams latviešu valodā",
-    "whatIs": "Viegli salasāmi burtveidoli ar skaidri atšķiramām zīmēm, piemērotu izmēru un atstarpēm.",
+    "whatIs": "OpenDyslexic ir bezmaksas fonts, kas veidots, lai atvieglotu teksta uztveri cilvēkiem ar disleksiju. Burtiem ir atšķirīgas formas un izteiktāka apakšdaļa, kas palīdz tos savstarpēji atšķirt un orientēties teksta rindā.\nTeksta lasāmības uzlabošanai var izmantot arī plaši pieejamus, vienkāršus bezserifa fontus, piemēram, Arial, Verdana, Calibri, Tahoma vai Century Gothic. Šādi fonti ir ieteikti arī LU Vieglās valodas rokasgrāmatā; LU ieteikumos cilvēkiem ar disleksiju īpaši minēti Arial un Verdana. Rokasgrāmata pieejama :https://dspace.lu.lv/server/api/core/bitstreams/80b219b7-d5e7-48d7-82da-b195cc481cc9/content",
     "functions": [
       "teksta un attēlu palielināšana vai vizuāla pielāgošana",
       "kontrasta un salasāmības uzlabošana",
       "drukāta vai digitāla mācību satura apskatīšana pielāgotā veidā"
     ],
     "acquisition": [
-      "Latvijā: TextAid, ZoomText, Readiris Dyslexic — SIA \"Exceed\"; Brunomaster, Bruno, Aisma — SIA \"Brunomaster\"",
-      "Ražotāji/izstrādātāji un citi piemēri: ZoomText — Freedom Scientific (ASV); TextAid — ReadSpeaker (Nīderlande/Zviedrija), Readiris Dyslexic — I.R.I.S. (Beļģija) Exceed: https://www.exceed.lv/ Brunomaster: https://brunomaster.com/"
+      "https://opendyslexic.org/ bezmaksas lejupielāde"
     ],
     "image": "assets/images/catalog/lasitajam-draudzigi-fonti-disleksijai-vieglajai-.webp",
     "imageAlt": "Lasītājam draudzīgi fonti (disleksijai, vieglajai valodai) — reāls produkta vai risinājuma attēls",
