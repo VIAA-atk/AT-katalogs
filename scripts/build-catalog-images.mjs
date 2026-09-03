@@ -106,6 +106,33 @@ function findSocialImage(html, pageUrl) {
       candidates.push(htmlEntityDecode(a.content));
     }
   }
+  for (const tag of html.match(/<link\b[^>]*>/gi) ?? []) {
+    const a = attrs(tag);
+    if ((a.rel ?? "").toLowerCase() === "image_src" && a.href) candidates.push(htmlEntityDecode(a.href));
+  }
+  for (const match of html.matchAll(/"image"\s*:\s*(?:\[\s*)?"([^"]+)"/gi)) {
+    candidates.push(htmlEntityDecode(match[1].replaceAll("\\/", "/")));
+  }
+  if (!candidates.length) {
+    const scored = [];
+    for (const tag of html.match(/<img\b[^>]*>/gi) ?? []) {
+      const a = attrs(tag);
+      const srcset = a.srcset?.split(",").at(-1)?.trim().split(/\s+/)[0];
+      const src = a["data-src"] ?? a["data-lazy-src"] ?? srcset ?? a.src;
+      if (!src || src.startsWith("data:")) continue;
+      const text = `${src} ${a.alt ?? ""} ${a.class ?? ""}`.toLowerCase();
+      if (/logo|icon|avatar|spinner|pixel|badge|payment/.test(text)) continue;
+      let score = 0;
+      if (/product|hero|featured|gallery|main|screenshot/.test(text)) score += 5;
+      const width = Number.parseInt(a.width ?? "0", 10);
+      const height = Number.parseInt(a.height ?? "0", 10);
+      if (width >= 500 || height >= 350) score += 3;
+      if (/\.svg(?:\?|$)/i.test(src)) score -= 1;
+      scored.push({ src, score });
+    }
+    scored.sort((a, b) => b.score - a.score);
+    if (scored[0]) candidates.push(scored[0].src);
+  }
   if (!candidates.length) return null;
   return new URL(candidates[0], pageUrl).href;
 }
@@ -221,7 +248,19 @@ async function buildOfficialImage(resource, pageUrl) {
   const resolved = await resolveSocialImage(pageUrl);
   const image = await loadImage(resolved.imageUrl);
 
-  const inputPath = path.join(outputDir, `${resource.id}.source${extensionFromContentType(image.contentType)}`);
+  const extension = extensionFromContentType(image.contentType);
+  if (extension === ".svg") {
+    const outputPath = path.join(outputDir, `${resource.id}.svg`);
+    await fs.writeFile(outputPath, image.buffer);
+    return {
+      file: `assets/images/catalog/${resource.id}.svg`,
+      source_type: "manufacturer",
+      source_page: resolved.pageUrl,
+      source_image: resolved.imageUrl,
+      rights_note: "Pirms gala publicēšanas saņemt vai pārbaudīt attēla pārpublicēšanas atļauju.",
+    };
+  }
+  const inputPath = path.join(outputDir, `${resource.id}.source${extension}`);
   const outputPath = path.join(outputDir, `${resource.id}.webp`);
   await fs.writeFile(inputPath, image.buffer);
   execFileSync("convert", [
@@ -264,6 +303,43 @@ async function main() {
   const productLinkIds = new Set([...Object.keys(officialPages), ...Object.keys(referencePages)]);
   if (productLinkIds.size !== resources.length) {
     throw new Error(`Produktu saišu kartē ir ${productLinkIds.size}, nevis ${resources.length} unikāli ieraksti.`);
+  }
+  if (process.argv.includes("--replace-originals-with-page-images")) {
+    const existing = JSON.parse(await fs.readFile(sourceRegisterPath, "utf8"));
+    const results = [...existing];
+    const pending = resources
+      .map((resource, index) => ({ resource, index, current: existing[index] }))
+      .filter(({ current }) => current?.source_type === "original");
+    let cursor = 0;
+
+    async function worker() {
+      while (cursor < pending.length) {
+        const { resource, index, current } = pending[cursor++];
+        try {
+          const image = await buildOfficialImage(resource, current.product_page);
+          results[index] = {
+            id: resource.id,
+            name: resource.name,
+            alt: `${resource.name} — reāls produkta vai risinājuma attēls`,
+            product_page: current.product_page,
+            link_type: current.link_type,
+            ...image,
+            source_type: current.link_type === "product" ? "manufacturer" : "external_reference",
+            rights_note: "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
+          };
+          console.log(`real-image ${index + 1}/${resources.length} ${resource.id}`);
+        } catch (error) {
+          const reason = error instanceof Error ? error.message : String(error);
+          results[index] = { ...current, fallback_reason: reason };
+          console.warn(`kept-placeholder ${index + 1}/${resources.length} ${resource.id}: ${reason}`);
+        }
+      }
+    }
+
+    await Promise.all(Array.from({ length: 6 }, () => worker()));
+    await fs.writeFile(sourceRegisterPath, `${JSON.stringify(results, null, 2)}\n`, "utf8");
+    console.log(`Pārbaudīti ${pending.length} standartizētie attēli.`);
+    return;
   }
   if (process.argv.includes("--originals-only")) {
     const existing = JSON.parse(await fs.readFile(sourceRegisterPath, "utf8"));
