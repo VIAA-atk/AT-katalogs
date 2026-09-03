@@ -319,31 +319,32 @@
   },
   {
     "id": "audio-atskanotaji",
-    "name": "Audio atskaņotāji",
-    "short": "Ierīces vai lietotnes ierakstītas runas, audiogrāmatu un citu skaņas failu atskaņošanai.",
+    "name": "Teksta priekšlasītājs Bruno",
+    "short": "Ierīce ierakstītas runas, audiogrāmatu un citu skaņas failu atskaņošanai.",
     "areas": [
-      "lasisana"
+      "lasisana",
+      "komunikacija"
     ],
     "needs": [
-      "organizesanaAtbalsts"
+      "tts"
     ],
-    "type": "programmatura",
+    "type": "ierice",
     "level": "videjs",
     "latvian": "Pieejams latviešu valodā",
     "whatIs": "Ierīces vai lietotnes ierakstītas runas, audiogrāmatu un citu skaņas failu atskaņošanai.",
     "functions": [
-      "uzdevumu un darbību secības organizēšana",
-      "atgādinājumu, piezīmju vai plānu veidošana",
-      "uzmanības noturēšana un paveiktā pārbaude"
+      "Bruno iekārta ir aprīkota ar Windows OS datoru.",
+      "Atpazīto tekstu ir iespējams saglabāt MP3 formātā uz ārējo datu nesēju (USB zibatmiņa), kā arī Android telefoniem.",
+      "Bruno pašlaik ir vienīgā iekārta, kas nodrošina savietojamību ar pasaulē populāro pārnēsājamo audio atskaņotāju HumanWare Victor Reader Stream."
     ],
     "acquisition": [
-      "Latvijā: Brunomaster, Bruno, Aisma — SIA \"Brunomaster\" Brunomaster: https://brunomaster.com/"
+      "https://brunomaster.com/"
     ],
-    "image": "assets/images/catalog/audio-atskanotaji.webp",
+    "image": "assets/images/catalog/audio-atskanotaji.png",
     "imageAlt": "Audio atskaņotāji — reāls produkta vai risinājuma attēls",
     "imageSource": "https://store.humanware.com/heu/victor-reader-stream-handheld-media-player.html",
     "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
-    "productPage": "https://store.humanware.com/heu/victor-reader-stream-handheld-media-player.html",
+    "productPage": "https://brunomaster.com/produkts/bruno/",
     "productLinkType": "product"
   },
   {
