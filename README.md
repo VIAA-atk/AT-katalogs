@@ -41,7 +41,8 @@ repozitorijā.
 - **Pievienot jaunu ierakstu** izveido tukšu formu.
 - Izvēloties ierakstu kreisajā sarakstā, to var labot.
 - **Dzēst ierakstu** prasa atsevišķu apstiprinājumu.
-- **Saglabāt melnrakstā** saglabā izmaiņas tikai atvērtajā pārlūka cilnē.
+- Lauku un attēla izmaiņas melnrakstā saglabājas automātiski aptuveni vienu
+  sekundi pēc ievades; **Saglabāt melnrakstā** ļauj to izdarīt uzreiz.
 - **Publicēt izmaiņas** izveido vienu GitHub commitu `main` zarā.
 
 Panelī var augšupielādēt JPG, PNG vai WebP attēlu līdz 8 MB, saglabājot tā

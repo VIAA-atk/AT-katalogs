@@ -27,13 +27,14 @@ if (publicHtml.includes("routes-C_WgTdsH.js") || publicHtml.includes("catalog-fa
 if (!publicHtml.includes("./data/catalog.json") && !publicJs.includes("./data/catalog.json")) throw new Error("Publiskā lapa nelasa autoritatīvo kataloga datni.");
 if (catalog.some((item) => "situations" in item || "features" in item || "description" in item)) throw new Error("Katalogā saglabāti novecojušie lauki.");
 if (/localStorage|sessionStorage|document\.cookie/.test(adminJs)) throw new Error("Administratora panelis mēģina pastāvīgi saglabāt autentifikācijas datus.");
-if (!adminHtml.includes("./admin-v6.js")) throw new Error("Administratora paneļa unikālā ielādes versija nav piesaistīta.");
+if (!adminHtml.includes("./admin-v7.js")) throw new Error("Administratora paneļa unikālā ielādes versija nav piesaistīta.");
 if (!adminHtml.includes('id="save-draft" type="button"') || !adminJs.includes('ui["save-draft"].addEventListener("click", saveDraft)')) {
   throw new Error("Melnraksta saglabāšanas pogai nav drošas darbības bez lapas pārlādes.");
 }
 if (adminJs.includes("fileToWebp") || !adminJs.includes("await file.arrayBuffer()") || !adminJs.includes("upload.content")) {
   throw new Error("Attēla saglabāšanas plūsma joprojām izmanto pārlūkā nestabilo pārveidošanu.");
 }
+if (!adminJs.includes("window.setInterval") || !adminJs.includes("editorSnapshot()")) throw new Error("Administratora automātiskā melnraksta saglabāšana nav piesaistīta.");
 for (const endpoint of ["/git/blobs", "/git/trees", "/git/commits", "/git/refs/heads/"]) {
   if (!adminJs.includes(endpoint)) throw new Error(`Administratora publicēšanas plūsmā trūkst ${endpoint}.`);
 }
