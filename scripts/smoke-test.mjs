@@ -27,7 +27,10 @@ if (publicHtml.includes("routes-C_WgTdsH.js") || publicHtml.includes("catalog-fa
 if (!publicHtml.includes("./data/catalog.json") && !publicJs.includes("./data/catalog.json")) throw new Error("Publiskā lapa nelasa autoritatīvo kataloga datni.");
 if (catalog.some((item) => "situations" in item || "features" in item || "description" in item)) throw new Error("Katalogā saglabāti novecojušie lauki.");
 if (/localStorage|sessionStorage|document\.cookie/.test(adminJs)) throw new Error("Administratora panelis mēģina pastāvīgi saglabāt autentifikācijas datus.");
-if (!adminHtml.includes("./admin-v7.js")) throw new Error("Administratora paneļa unikālā ielādes versija nav piesaistīta.");
+if (!adminHtml.includes("./admin-v8.js")) throw new Error("Administratora paneļa unikālā ielādes versija nav piesaistīta.");
+if (!adminHtml.includes('<form id="record-form" novalidate>') || /id="field-id"[^>]*pattern=/.test(adminHtml)) {
+  throw new Error("Firefox konfliktējošā identifikatora lauka HTML validācija nav noņemta.");
+}
 if (!adminHtml.includes('id="save-draft" type="button"') || !adminJs.includes('ui["save-draft"].addEventListener("click", saveDraft)')) {
   throw new Error("Melnraksta saglabāšanas pogai nav drošas darbības bez lapas pārlādes.");
 }

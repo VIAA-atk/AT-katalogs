@@ -8,7 +8,7 @@
     <title>Kataloga administrēšana | VIAA</title>
     <link rel="icon" href="../favicon.svg?v=3" type="image/svg+xml" />
     <link rel="stylesheet" href="./admin.css?v=2" />
-    <script type="module" src="./admin-v7.js"></script>
+    <script type="module" src="./admin-v8.js"></script>
   </head>
   <body>
     <header class="site-header">
@@ -41,7 +41,7 @@
           </div>
         </form>
         <p id="auth-status" class="status" role="status"></p>
-        <p class="help">Administratora paneļa versija 7</p>
+        <p class="help">Administratora paneļa versija 8</p>
       </section>
 
       <section id="admin-app" hidden>
@@ -71,7 +71,7 @@
           </aside>
 
           <section class="card editor-panel" aria-labelledby="editor-title">
-            <form id="record-form">
+            <form id="record-form" novalidate>
               <div class="editor-heading">
                 <div>
                   <h2 id="editor-title">Izvēlies ierakstu</h2>
@@ -83,7 +83,7 @@
               <fieldset id="editor-fields" disabled>
                 <div class="form-grid">
                   <label class="wide">Nosaukums *<input id="field-name" name="name" required maxlength="180" /></label>
-                  <label>Identifikators *<input id="field-id" name="id" required pattern="[a-z0-9][a-z0-9-]*" maxlength="180" aria-describedby="id-help" /></label>
+                  <label>Identifikators *<input id="field-id" name="id" required maxlength="180" aria-describedby="id-help" /></label>
                   <label>Tehnoloģiju līmenis *
                     <select id="field-level" name="level" required><option value="augsts">Augsts līmenis</option><option value="videjs">Vidējs līmenis</option><option value="zems">Zems līmenis</option></select>
                   </label>
