@@ -220,11 +220,6 @@ function buildFallbackScript(resources) {
     appendList(acquisition, resource.acquisition || []);
     content.append(acquisition);
 
-    const situations = element("div");
-    situations.append(element("h3", "text-sm font-semibold text-foreground", "Kādās mācību situācijās var palīdzēt"));
-    appendList(situations, resource.situations);
-    content.append(situations);
-
     const actions = element("div", "flex flex-wrap items-center gap-3 border-t border-border pt-4");
     if (resource.productPage) {
       const linkLabels = { product: "Ražotāja informācija", category: "Skatīt risinājumu kategoriju", resource: "Papildu informācija" };

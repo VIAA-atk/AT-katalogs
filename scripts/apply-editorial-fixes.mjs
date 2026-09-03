@@ -179,6 +179,7 @@ if (!bundle.includes("children:`Kur to var iegūt?`")) {
   if (!bundle.includes(situationsBlock)) throw new Error("Mācību situāciju sadaļa nav atrasta.");
   bundle = bundle.replace(situationsBlock, acquisitionBlock + situationsBlock);
 }
+bundle = bundle.replaceAll(situationsBlock, "");
 
 bundle = bundle.replaceAll(
   "Konkrētu produktu un piegādātāju norādīšana ir informatīva un nav uzskatāma par VIAA ieteikumu vai priekšrocības piešķiršanu konkrētam ražotājam vai izplatītājam.",
