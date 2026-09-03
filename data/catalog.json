@@ -392,22 +392,21 @@
     "type": "programmatura",
     "level": "augsts",
     "latvian": "Pieejams latviešu valodā",
-    "whatIs": "Programmatūra, kas nolasa ekrānā redzamo saturu ar runas sintēzi vai nodod to Braila displejam.",
+    "whatIs": "Kas tas ir:\nProgrammatūra, kas nolasa ekrānā redzamo informāciju ar runas sintēzes palīdzību un ļauj lietotājam vadīt datoru, izmantojot tastatūru un īsinājumtaustiņus. Ekrānlasītājs var nolasīt ne tikai tekstu, bet arī izvēlnes, pogas, saites, dokumentu struktūru un citus saskarnes elementus.\n\nKam noder:\nGalvenokārt skolēniem ar neredzību vai būtiskiem redzes traucējumiem, kuriem vizuāla datora vai digitālā satura lietošana ir apgrūtināta vai nav iespējama.",
     "functions": [
       "rakstīta teksta nolasīšana balsī",
       "mācību satura uztveršana klausoties",
       "uzrakstītā teksta pārbaude ar audio atgriezenisko saiti"
     ],
     "acquisition": [
-      "Latvijā: Jaws, ZoomText, TextAid, Readiris Dyslexic — SIA \"Exceed\" (SIA \"Exceed\" ir oficiālais Freedom Scientific pārstāvis Latvijā); daļēji / integrējams Brunomaster, Bruno — SIA \"Brunomaster\"",
-      "Ražotāji/izstrādātāji un citi piemēri: JAWS, ZoomText — Freedom Scientific (ASV); TextAid — ReadSpeaker (Nīderlande/Zviedrija), Readiris Dyslexic — I.R.I.S. (Beļģija)",
-      "Pakalpojumu vai atsevišķu palīgtehnoloģiju pieejamību noskaidro Latvijas Neredzīgo bibliotēkā: https://www.lnb.lv/ Exceed: https://www.exceed.lv/ Brunomaster: https://brunomaster.com/"
+      "Latvijā: Jaws, ZoomText — SIA \"Exceed\" (SIA \"Exceed\" ir oficiālais Freedom Scientific pārstāvis Latvijā); daļēji / integrējams Brunomaster, Bruno — SIA \"Brunomaster\"",
+      "Pakalpojumu vai atsevišķu palīgtehnoloģiju pieejamību noskaidro Latvijas Neredzīgo bibliotēkā: https://www.lnb.lv/"
     ],
     "image": "assets/images/catalog/ekranlasitaji.webp",
     "imageAlt": "Ekrānlasītāji — reāls ierīces vai programmas attēls",
-    "imageSource": "https://www.accessibility-developer-guide.com/setup/screen-readers/jaws/",
+    "imageSource": "",
     "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
-    "productPage": "https://www.freedomscientific.com/products/software/jaws/",
+    "productPage": "",
     "productLinkType": "product"
   },
   {
