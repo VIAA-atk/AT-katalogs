@@ -650,18 +650,18 @@
   },
   {
     "id": "slipie-paliktni",
-    "name": "Slīpie paliktņi",
-    "short": "Slīpas virsmas grāmatas, darba lapas vai planšetes novietošanai piemērotākā skatīšanās leņķī.",
+    "name": "Slīpais paliktnis rakstīšanai un lasīšanai",
+    "short": "Slīpa darba virsma, uz kuras novieto grāmatu, darba lapu vai rakstāmo materiālu. Tā ļauj materiālu novietot piemērotākā leņķī un tuvāk skolēna redzes laukam.",
     "areas": [
       "lasisana"
     ],
     "needs": [
       "organizesanaAtbalsts"
     ],
-    "type": "programmatura",
+    "type": "piederums",
     "level": "zems",
     "latvian": "Informācija tiks papildināta",
-    "whatIs": "Slīpas virsmas grāmatas, darba lapas vai planšetes novietošanai piemērotākā skatīšanās leņķī.",
+    "whatIs": "Slīpas virsmas grāmatas, darba lapas vai planšetes novietošanai piemērotākā skatīšanās leņķī. Skolēniem, kuriem nepieciešams pielāgot darba virsmas novietojumu, piemēram, redzes, kustību, stājas vai rakstīšanas grūtību dēļ. Var palīdzēt arī skolēniem, kuriem ir grūti ilgstoši strādāt ar materiāliem, kas novietoti horizontāli uz galda. Ko tas palīdz darīt:\nAtvieglo lasīšanu, rakstīšanu, zīmēšanu un darbu ar mācību materiāliem. Var palīdzēt uzturēt ērtāku galvas, kakla un ķermeņa pozīciju un samazināt nepieciešamību pārlieku noliekties pār galdu.",
     "functions": [
       "uzdevumu un darbību secības organizēšana",
       "atgādinājumu, piezīmju vai plānu veidošana",
@@ -672,9 +672,9 @@
     ],
     "image": "assets/images/catalog/slipie-paliktni.webp",
     "imageAlt": "Slīpie paliktņi — reāls ierīces vai programmas attēls",
-    "imageSource": "https://www.schoolhealth.com/slantscript-slant-boards",
+    "imageSource": "https://www.everydayotireland.com/products/slanted-writing-board",
     "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
-    "productPage": "https://www.therapro.com/Assistive_Technology/Slant-Boards/",
+    "productPage": "https://www.everydayotireland.com/products/slanted-writing-board",
     "productLinkType": "category"
   },
   {
