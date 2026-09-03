@@ -158,7 +158,8 @@ function showRecord(resource) {
   ui["field-image-source"].value = resource.imageSource ?? "";
   ui["field-image-rights"].value = resource.imageRightsNote;
   ui["field-image-file"].value = "";
-  ui["image-preview"].src = `../${resource.image}`;
+  const pendingImage = pendingImages.get(resource.image);
+  ui["image-preview"].src = pendingImage ? `data:image/webp;base64,${pendingImage}` : `../${resource.image}`;
   renderList();
   ui["field-name"].focus();
 }
@@ -287,8 +288,7 @@ function disconnect() {
   setStatus("Atvienots. Tokens no cilnes atmiņas ir noņemts.", "success", ui["auth-status"]);
 }
 
-async function saveDraft(event) {
-  event.preventDefault();
+async function saveDraft() {
   setStatus("");
   const original = newRecord ? null : resources.find((item) => item.id === selectedId);
   const id = ui["field-id"].value.trim();
@@ -387,7 +387,8 @@ ui.disconnect.addEventListener("click", disconnect);
 ui.publish.addEventListener("click", publish);
 ui["record-search"].addEventListener("input", renderList);
 ui["new-record"].addEventListener("click", blankRecord);
-ui["record-form"].addEventListener("submit", saveDraft);
+ui["record-form"].addEventListener("submit", (event) => event.preventDefault());
+ui["save-draft"].addEventListener("click", saveDraft);
 ui["delete-record"].addEventListener("click", deleteRecord);
 ui["cancel-edit"].addEventListener("click", () => {
   const current = resources.find((item) => item.id === selectedId);
