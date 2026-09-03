@@ -3,8 +3,8 @@ import path from "node:path";
 
 const root = path.resolve(import.meta.dirname, "..");
 const read = (relative) => fs.readFile(path.join(root, relative), "utf8");
-const [catalog, publicHtml, publicJs, adminHtml, adminJs, adminLoader] = await Promise.all([
-  read("data/catalog.json").then(JSON.parse), read("index.html"), read("assets/catalog-app.js"), read("admin/index.html"), read("admin/admin.js"), read("admin/admin-loader-v4.js"),
+const [catalog, publicHtml, publicJs, adminHtml, adminJs] = await Promise.all([
+  read("data/catalog.json").then(JSON.parse), read("index.html"), read("assets/catalog-app.js"), read("admin/index.html"), read("admin/admin.js"),
 ]);
 
 function ids(html) {
@@ -27,7 +27,7 @@ if (publicHtml.includes("routes-C_WgTdsH.js") || publicHtml.includes("catalog-fa
 if (!publicHtml.includes("./data/catalog.json") && !publicJs.includes("./data/catalog.json")) throw new Error("Publiskā lapa nelasa autoritatīvo kataloga datni.");
 if (catalog.some((item) => "situations" in item || "features" in item || "description" in item)) throw new Error("Katalogā saglabāti novecojušie lauki.");
 if (/localStorage|sessionStorage|document\.cookie/.test(adminJs)) throw new Error("Administratora panelis mēģina pastāvīgi saglabāt autentifikācijas datus.");
-if (!adminHtml.includes("./admin-loader-v4.js") || !adminLoader.includes('./admin.js?v=4')) throw new Error("Administratora paneļa unikālā ielādes versija nav piesaistīta.");
+if (!adminHtml.includes("./admin-v5.js")) throw new Error("Administratora paneļa unikālā ielādes versija nav piesaistīta.");
 if (!adminHtml.includes('id="save-draft" type="button"') || !adminJs.includes('ui["save-draft"].addEventListener("click", saveDraft)')) {
   throw new Error("Melnraksta saglabāšanas pogai nav drošas darbības bez lapas pārlādes.");
 }
