@@ -740,7 +740,7 @@
   },
   {
     "id": "teksta-runas-text-to-speech-programmas",
-    "name": "Teksta-runas (Text-to-Speech) programmas",
+    "name": "TextAid pro5 – lasīšanas un rakstīšanas atbalsta rīks",
     "short": "Programmas, kas digitālu tekstu pārvērš sintezētā balsī un nolasa to lietotājam.",
     "areas": [
       "lasisana"
@@ -751,22 +751,20 @@
     "type": "programmatura",
     "level": "augsts",
     "latvian": "Pieejams latviešu valodā",
-    "whatIs": "Programmas, kas digitālu tekstu pārvērš sintezētā balsī un nolasa to lietotājam.",
+    "whatIs": "as tas ir:\nDigitāls rīks, kas palīdz lasīt un veidot tekstu. TextAid var nolasīt digitālu tekstu balsī, vienlaikus vizuāli izceļot lasāmo tekstu, kā arī piedāvā funkcijas rakstīšanas un teksta uztveres atbalstam.\n\nKam noder:\nSkolēniem ar lasīšanas un rakstīšanas grūtībām, tostarp disleksiju, kā arī skolēniem, kuriem nepieciešams papildu atbalsts digitāla teksta uztveršanai un patstāvīgam darbam ar mācību materiāliem.\n\nKo tas palīdz darīt:\nNoklausīties digitālu tekstu, sekot līdzi priekšā lasītajam tekstam ekrānā, pielāgot lasīšanas procesu un izmantot papildu atbalsta funkcijas darbā ar tekstu.",
     "functions": [
       "rakstīta teksta nolasīšana balsī",
       "mācību satura uztveršana klausoties",
       "uzrakstītā teksta pārbaude ar audio atgriezenisko saiti"
     ],
     "acquisition": [
-      "Latvijā: SpeechMaker, TextAid, SpeakUp (ReadSpeaker); IRIScan Book 7 Dyslexic, IRIScan Visualizer 7 Dyslexicc, 'Readiris Dyslexic (IRIS) — SIA \"Exceed\"; Brunomaster, Bruno, Aisma — SIA \"Brunomaster\"; Tildes balss — SIA \"Tilde\"",
-      "Ražotāji/izstrādātāji un citi piemēri: SpeechMaker, TextAid, SpeakUp — ReadSpeaker (Nīderlande/Zviedrija)",
-      "Pakalpojumu vai atsevišķu palīgtehnoloģiju pieejamību noskaidro Latvijas Neredzīgo bibliotēkā: https://www.lnb.lv/ Exceed: https://www.exceed.lv/ Brunomaster: https://brunomaster.com/"
+      "TextAid ir licencējams tiešsaistes risinājums, to var iegādāties www. exceed.lv"
     ],
     "image": "assets/images/catalog/teksta-runas-text-to-speech-programmas.webp",
     "imageAlt": "Teksta-runas (Text-to-Speech) programmas — ražotāja ilustratīvs attēls",
     "imageSource": "https://www.readspeaker.com/solutions/text-to-speech-online/readspeaker-textaid/",
     "imageRightsNote": "Pirms gala publicēšanas saņemt vai pārbaudīt ražotāja atļauju attēla pārpublicēšanai.",
-    "productPage": "https://www.readspeaker.com/solutions/text-to-speech-online/readspeaker-textaid/",
+    "productPage": "https://exceed.lv/index.php/lv/produkti/programmaturas/view/680:textaid-pro5",
     "productLinkType": "product"
   },
   {
