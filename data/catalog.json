@@ -180,7 +180,7 @@
     ],
     "image": "assets/images/catalog/komunikacijas-kartites-piem-pecs.png",
     "imageAlt": "Komunikācijas kartītes (piem., PECS) — reāls produkta vai risinājuma attēls",
-    "imageSource": "https://pecsusa.com/store/",
+    "imageSource": "https://arasaac.org/",
     "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
     "productPage": "https://arasaac.org/",
     "productLinkType": "category"
@@ -251,7 +251,7 @@
   },
   {
     "id": "teksta-runas-text-to-speech-lietotnes",
-    "name": "Teksta-runas (Text-to-Speech) lietotnes",
+    "name": "Teksta priekšlasītāji (lietotnes)",
     "short": "Mobilās vai tīmekļa lietotnes, kas ievadītu vai izvēlētu tekstu nolasa sintezētā balsī.",
     "areas": [
       "komunikacija"
@@ -269,15 +269,20 @@
       "uzrakstītā teksta pārbaude ar audio atgriezenisko saiti"
     ],
     "acquisition": [
-      "Latvijā: SpeechMaker, TextAid, SpeakUp (ReadSpeaker) — SIA \"Exceed\"; Brunomaster, Bruno, Aisma — SIA \"Brunomaster\"; Tildes balss — SIA \"Tilde\"",
-      "Ražotāji/izstrādātāji un citi piemēri: SpeechMaker, TextAid, SpeakUp — ReadSpeaker (Nīderlande/Zviedrija)",
-      "Pakalpojumu vai atsevišķu palīgtehnoloģiju pieejamību noskaidro Latvijas Neredzīgo bibliotēkā: https://www.lnb.lv/ Exceed: https://www.exceed.lv/ Brunomaster: https://brunomaster.com/"
+      "Latvijā: SpeechMaker, TextAid (ReadSpeaker) — SIA \"Exceed\";",
+      "Brunomaster, Bruno, Aisma — SIA \"Brunomaster\"; Tildes balss — SIA \"Tilde\"",
+      "Pakalpojumu vai atsevišķu asistīvo pieejamību noskaidro:",
+      "Latvijas Neredzīgo bibliotēkā: https://www.lnb.lv/ - noteiktos gadījumos.",
+      "Uzņēmumi:",
+      "Exceed: https://www.exceed.lv/",
+      "Brunomaster: https://brunomaster.com/",
+      "Tilde: https://tilde.ai/"
     ],
-    "image": "assets/images/catalog/teksta-runas-text-to-speech-lietotnes.webp",
+    "image": "assets/images/catalog/teksta-runas-text-to-speech-lietotnes.png",
     "imageAlt": "Teksta-runas (Text-to-Speech) lietotnes — ražotāja ilustratīvs attēls",
     "imageSource": "https://www.readspeaker.com/solutions/text-to-speech-online/readspeaker-textaid/",
     "imageRightsNote": "Pirms gala publicēšanas saņemt vai pārbaudīt ražotāja atļauju attēla pārpublicēšanai.",
-    "productPage": "https://www.readspeaker.com/solutions/text-to-speech-online/readspeaker-textaid/",
+    "productPage": "",
     "productLinkType": "product"
   },
   {
