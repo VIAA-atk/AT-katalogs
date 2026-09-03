@@ -8,7 +8,7 @@
     <title>Kataloga administrēšana | VIAA</title>
     <link rel="icon" href="../favicon.svg?v=3" type="image/svg+xml" />
     <link rel="stylesheet" href="./admin.css?v=2" />
-    <script type="module" src="./admin-v8.js"></script>
+    <script type="module" src="./admin-v9.js"></script>
   </head>
   <body>
     <header class="site-header">
@@ -41,7 +41,7 @@
           </div>
         </form>
         <p id="auth-status" class="status" role="status"></p>
-        <p class="help">Administratora paneļa versija 8</p>
+        <p class="help">Administratora paneļa versija 9</p>
       </section>
 
       <section id="admin-app" hidden>
@@ -124,9 +124,9 @@
                 </section>
 
                 <p id="editor-status" class="status" role="status" aria-live="polite"></p>
-                <p class="help">Izmaiņas melnrakstā saglabājas automātiski aptuveni vienu sekundi pēc rakstīšanas vai attēla izvēles. Publicēšana GitHub jāapstiprina atsevišķi.</p>
+                <p class="help">Izmaiņas melnrakstā saglabājas uzreiz pēc rakstīšanas vai attēla izvēles. Publicēšana GitHub jāapstiprina atsevišķi.</p>
                 <div class="form-actions">
-                  <button id="save-draft" type="button" class="button primary">Saglabāt melnrakstā</button>
+                  <button id="save-draft" type="submit" formnovalidate class="button primary">Saglabāt melnrakstā</button>
                   <button id="cancel-edit" type="button" class="button secondary">Atcelt labošanu</button>
                 </div>
               </fieldset>
