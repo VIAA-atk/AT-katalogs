@@ -770,7 +770,7 @@
   {
     "id": "viedpildspalvas-skenesanai",
     "name": "Viedpildspalvas (skenēšanai)",
-    "short": "Rokas skenēšanas pildspalvas, ar kurām pārvelk pāri drukātam tekstam, lai to atpazītu digitāli.",
+    "short": "Pārnēsājamas ierīces drukāta teksta skenēšanai. Pildspalvu virza pāri teksta rindai, un ierīce ar optiskās rakstzīmju atpazīšanas (OCR) tehnoloģiju pārvērš noskenēto saturu digitālā tekstā. Atkarībā no modeļa tekstu iespējams arī noklausīties, saglabāt, tulkot vai pārsūtīt uz datoru.",
     "areas": [
       "lasisana"
     ],
@@ -779,22 +779,24 @@
     ],
     "type": "ierice",
     "level": "augsts",
-    "latvian": "Pieejams latviešu valodā",
-    "whatIs": "Rokas skenēšanas pildspalvas, ar kurām pārvelk pāri drukātam tekstam, lai to atpazītu digitāli.",
+    "latvian": "Daļēji pieejams latviešu valodā",
+    "whatIs": "Kam noder:\nSkolēniem, kuriem nepieciešams ātri digitalizēt drukātu tekstu vai saņemt atbalstu darbā ar grāmatām, darba lapām un citiem drukātiem mācību materiāliem. Modeļi ar teksta priekšā lasīšanas funkciju var būt īpaši noderīgi skolēniem ar lasīšanas grūtībām.\n\nPiemērs: IRISPen Reader 8 – pārnēsājama skenējoša pildspalva, kas atpazīst drukātu tekstu un var to nolasīt balsī.",
     "functions": [
       "drukāta teksta digitalizēšana",
       "atpazītā teksta sagatavošana lasīšanai vai rediģēšanai",
       "drukātu mācību materiālu pārveidošana pieejamā digitālā formā"
     ],
     "acquisition": [
-      "Latvijā: I.R.I.S. viedpildspalvas, skeneri Iriscan Visualizer 7 Dyslexic, Iriscan Book 7 Dyslexic — SIA \"Exceed\"; daļēji / inegrējams Brunomaster, Bruno, Aisma — SIA \"Brunomaster\"",
-      "Ražotāji/izstrādātāji un citi piemēri: C-Pen ExamReader 2 (lasīšanas rīks bez wi-fi, datu krātuves un tulkotāja, var izmantot pārbaudes darbos) — C-Pen / Scanning Pens (Lielbritānija); IRISPen Reader 8 — I.R.I.S. / Canon (Beļģija) Exceed: https://www.exceed.lv/ Brunomaster: https://brunomaster.com/"
+      "Iegāde :",
+      "• 220.lv – IRISPen Reader 8",
+      "• Dateks.lv – IRISPen Reader 8",
+      "• RD Electronics – IRISPen Reader 8"
     ],
     "image": "assets/images/catalog/viedpildspalvas-skenesanai.webp",
     "imageAlt": "Viedpildspalvas (skenēšanai) — reāls produkta vai risinājuma attēls",
-    "imageSource": "https://cpen.com/products/c-pen-reader-2",
+    "imageSource": "",
     "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
-    "productPage": "https://cpen.com/products/c-pen-reader-2",
+    "productPage": "",
     "productLinkType": "product"
   },
   {
