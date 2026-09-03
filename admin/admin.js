@@ -134,6 +134,7 @@ function clearPreviewUrl() {
 
 function showRecord(resource) {
   clearPreviewUrl();
+  setStatus("", "", ui["editor-status"]);
   newRecord = false;
   idTouched = true;
   selectedId = resource.id;
@@ -166,6 +167,7 @@ function showRecord(resource) {
 
 function blankRecord() {
   clearPreviewUrl();
+  setStatus("", "", ui["editor-status"]);
   newRecord = true;
   idTouched = false;
   selectedId = null;
@@ -288,8 +290,10 @@ function disconnect() {
   setStatus("Atvienots. Tokens no cilnes atmiņas ir noņemts.", "success", ui["auth-status"]);
 }
 
-async function saveDraft() {
-  setStatus("");
+async function saveDraft(event) {
+  event.preventDefault();
+  ui["save-draft"].disabled = true;
+  setStatus("Saglabā melnrakstu…", "", ui["editor-status"]);
   const original = newRecord ? null : resources.find((item) => item.id === selectedId);
   const id = ui["field-id"].value.trim();
   const file = ui["field-image-file"].files[0];
@@ -325,9 +329,11 @@ async function saveDraft() {
     newRecord = false;
     markDirty();
     showRecord(resource);
-    setStatus("Ieraksts saglabāts melnrakstā. Lai izmaiņas parādītos publiskajā katalogā, nospied “Publicēt izmaiņas”.", "success");
+    setStatus("Ieraksts saglabāts melnrakstā. Tagad lapas augšā nospied “Publicēt izmaiņas”.", "success", ui["editor-status"]);
   } catch (error) {
-    setStatus(error.message, "error");
+    setStatus(`Melnrakstu neizdevās saglabāt. ${error.message}`, "error", ui["editor-status"]);
+  } finally {
+    ui["save-draft"].disabled = false;
   }
 }
 
@@ -387,8 +393,7 @@ ui.disconnect.addEventListener("click", disconnect);
 ui.publish.addEventListener("click", publish);
 ui["record-search"].addEventListener("input", renderList);
 ui["new-record"].addEventListener("click", blankRecord);
-ui["record-form"].addEventListener("submit", (event) => event.preventDefault());
-ui["save-draft"].addEventListener("click", saveDraft);
+ui["record-form"].addEventListener("submit", saveDraft);
 ui["delete-record"].addEventListener("click", deleteRecord);
 ui["cancel-edit"].addEventListener("click", () => {
   const current = resources.find((item) => item.id === selectedId);
@@ -410,6 +415,7 @@ ui["field-image-file"].addEventListener("change", () => {
   if (file) {
     previewUrl = URL.createObjectURL(file);
     ui["image-preview"].src = previewUrl;
+    setStatus(`Izvēlēts attēls “${file.name}”. Nospied “Saglabāt melnrakstā”.`, "success", ui["editor-status"]);
   }
 });
 ui["image-preview"].addEventListener("error", () => { ui["image-preview"].src = "../assets/images/catalog/catalog-placeholder.svg"; }, { once: true });
