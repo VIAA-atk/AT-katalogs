@@ -290,8 +290,7 @@ function disconnect() {
   setStatus("Atvienots. Tokens no cilnes atmiņas ir noņemts.", "success", ui["auth-status"]);
 }
 
-async function saveDraft(event) {
-  event.preventDefault();
+async function saveDraft() {
   ui["save-draft"].disabled = true;
   setStatus("Saglabā melnrakstu…", "", ui["editor-status"]);
   const original = newRecord ? null : resources.find((item) => item.id === selectedId);
@@ -393,7 +392,11 @@ ui.disconnect.addEventListener("click", disconnect);
 ui.publish.addEventListener("click", publish);
 ui["record-search"].addEventListener("input", renderList);
 ui["new-record"].addEventListener("click", blankRecord);
-ui["record-form"].addEventListener("submit", saveDraft);
+ui["record-form"].addEventListener("submit", (event) => {
+  event.preventDefault();
+  saveDraft();
+});
+ui["save-draft"].addEventListener("click", saveDraft);
 ui["delete-record"].addEventListener("click", deleteRecord);
 ui["cancel-edit"].addEventListener("click", () => {
   const current = resources.find((item) => item.id === selectedId);
