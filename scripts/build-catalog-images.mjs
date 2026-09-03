@@ -64,6 +64,12 @@ const officialPages = {
   "video-palielinataji-cctv-sistemas": "https://www.optelec.com/products/clearview-c/",
 };
 
+// Some product pages expose a customer or case-study image as their social
+// preview. Pin the verified manufacturer asset for those catalogue entries.
+const officialImageOverrides = {
+  "mi-macibstundu-asistents": "https://tilde.ai/wp-content/uploads/2024/05/Tilde_logo_1080-1.png",
+};
+
 const palette = {
   rakstisana: ["#5b2a86", "#ede3f5", "#b48ad0"],
   lasisana: ["#263b80", "#e5eafb", "#8da1dc"],
@@ -245,7 +251,9 @@ function loadImage(imageUrl) {
 }
 
 async function buildOfficialImage(resource, pageUrl) {
-  const resolved = await resolveSocialImage(pageUrl);
+  const resolved = officialImageOverrides[resource.id]
+    ? { pageUrl, imageUrl: officialImageOverrides[resource.id] }
+    : await resolveSocialImage(pageUrl);
   const image = await loadImage(resolved.imageUrl);
 
   const extension = extensionFromContentType(image.contentType);
