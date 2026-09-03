@@ -287,16 +287,17 @@
   },
   {
     "id": "vienkarsas-runas-ierices-ar-ierakstitu-zinu",
-    "name": "Vienkāršas runas ierīces ar ierakstītu ziņu",
-    "short": "Vienas vai vairāku pogu ierīces, kas pēc nospiešanas atskaņo iepriekš ierakstītu vārdu, frāzi vai skaņu.",
+    "name": "GoTalk 9+ (Runas dēlis)",
+    "short": "Runas dēlis- Ierīce runas funkcijas aizvietošanai",
     "areas": [
-      "komunikacija"
+      "komunikacija",
+      "vide"
     ],
     "needs": [
       "aac"
     ],
     "type": "ierice",
-    "level": "videjs",
+    "level": "augsts",
     "latvian": "Pieejams latviešu valodā",
     "whatIs": "Vienas vai vairāku pogu ierīces, kas pēc nospiešanas atskaņo iepriekš ierakstītu vārdu, frāzi vai skaņu.",
     "functions": [
@@ -311,10 +312,10 @@
     ],
     "image": "assets/images/catalog/vienkarsas-runas-ierices-ar-ierakstitu-zinu.webp",
     "imageAlt": "Vienkāršas runas ierīces ar ierakstītu ziņu — ražotāja ilustratīvs attēls",
-    "imageSource": "https://www.attainmentcompany.com/gotalk-9",
+    "imageSource": "https://arbor.lv/katalogs/audiologopedija/308-gotalk-9-runas-delis.html",
     "imageRightsNote": "Pirms gala publicēšanas saņemt vai pārbaudīt ražotāja atļauju attēla pārpublicēšanai.",
-    "productPage": "https://www.attainmentcompany.com/gotalk-9",
-    "productLinkType": "product"
+    "productPage": "https://arbor.lv/katalogs/audiologopedija/308-gotalk-9-runas-delis.html",
+    "productLinkType": "resource"
   },
   {
     "id": "audio-atskanotaji",
