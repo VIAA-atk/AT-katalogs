@@ -348,37 +348,6 @@
     "productLinkType": "product"
   },
   {
-    "id": "digitalie-lasitaji-daisy-atskanotaji",
-    "name": "Digitālie lasītāji DAISY atskaņotāji",
-    "short": "Specializēti atskaņotāji strukturētām DAISY audiogrāmatām un pieejamiem digitāliem izdevumiem.",
-    "areas": [
-      "lasisana"
-    ],
-    "needs": [
-      "organizesanaAtbalsts"
-    ],
-    "type": "programmatura",
-    "level": "videjs",
-    "latvian": "Pieejams latviešu valodā",
-    "whatIs": "Specializēti atskaņotāji strukturētām DAISY audiogrāmatām un pieejamiem digitāliem izdevumiem.",
-    "functions": [
-      "uzdevumu un darbību secības organizēšana",
-      "atgādinājumu, piezīmju vai plānu veidošana",
-      "uzmanības noturēšana un paveiktā pārbaude"
-    ],
-    "acquisition": [
-      "Latvijā: Webbox — SIA \"Exceed\"; Brunomaster, Bruno, Aisma (daļēji / integrējams) — SIA \"Brunomaster\"",
-      "Ražotāji/izstrādātāji un citi piemēri: Victor Reader — HumanWare (Kanāda); WebBox — Solutions Radio (Nīderlande)",
-      "Pakalpojumu vai atsevišķu palīgtehnoloģiju pieejamību noskaidro Latvijas Neredzīgo bibliotēkā: https://www.lnb.lv/ Exceed: https://www.exceed.lv/ Brunomaster: https://brunomaster.com/"
-    ],
-    "image": "assets/images/catalog/digitalie-lasitaji-daisy-atskanotaji.jpg",
-    "imageAlt": "Digitālie lasītāji DAISY atskaņotāji — ražotāja ilustratīvs attēls",
-    "imageSource": "https://store.humanware.com/heu/victor-reader-stream-handheld-media-player.html",
-    "imageRightsNote": "Pirms gala publicēšanas saņemt vai pārbaudīt ražotāja atļauju attēla pārpublicēšanai.",
-    "productPage": "https://store.humanware.com/heu/victor-reader-stream-handheld-media-player.html",
-    "productLinkType": "product"
-  },
-  {
     "id": "digitalie-palielinataji",
     "name": "Digitālie palielinātāji",
     "short": "Elektroniskas ierīces vai lietotnes, kas ar kameru palielina tekstu un attēlus ekrānā.",
@@ -451,7 +420,7 @@
     "needs": [
       "organizesanaAtbalsts"
     ],
-    "type": "programmatura",
+    "type": "piederums",
     "level": "zems",
     "latvian": "Informācija tiks papildināta",
     "whatIs": "Statīvi, kas notur grāmatu atvērtu un novieto to stabilā, ērtā leņķī.",
@@ -473,9 +442,9 @@
   {
     "id": "komunikacijas-kartites-pecs",
     "name": "Komunikācijas kartītes (PECS)",
-    "short": "Fiziskas kartītes ar attēliem vai simboliem, ko lietotājs izvēlas un nodod saziņas partnerim.",
+    "short": "Izmantojot PECS metodi, bērns apgūst komunikācijas prasmes, lietojot komunikācijas mapi, grāmatu vai albumu ar atsevišķām attēlu kartītēm un teikumu veidošanas lenti. Gan komunikācijas prasmes, gan vizuālo vārdu krājums mācību gaitā pieaug. Vingrināšanos sāk, mācot bērnu ar vienu attēla palīdzību palūgt kādu patīkamu lietu, priekšmetu, ēdienu (cepumu, konfekti, ābolu u.tml.). Tad komunikācijas prasmes tiek paplašinātas, sagrupējot patīkamās un nepatīkamās lietas, kā arī izsakot lūgumu pilnos teikumos. Ar PECS metodi īpaši tiek vingrinātas komunikācijai svarīgās iniciatīvas, mērķtiecības un neatlaidības prasmes.",
     "areas": [
-      "lasisana"
+      "komunikacija"
     ],
     "needs": [
       "aac"
@@ -483,20 +452,20 @@
     "type": "programmatura",
     "level": "zems",
     "latvian": "Informācija tiks papildināta",
-    "whatIs": "Fiziskas kartītes ar attēliem vai simboliem, ko lietotājs izvēlas un nodod saziņas partnerim.",
+    "whatIs": "Komunikācijas mapes/grāmatas/albumi var būt dažāda apjoma. Parasti tās ir atslēgvārdus apzīmējošu attēlu mapes, kas nodrošina komunikāciju teikumu formā. Ir atdalāmu attēlu mapes (PECS mapes), atslēgvārdu mapes, kurās apkopoti atsevišķi atslēgvārdi, kā arī paplašinātās mapes – tās ir dinamiskas un tajās apkopots diezgan liels vārdu krājums pa tēmām. Tāpat ir teikumu mapes, kurās ir gatavi vārdu savienojumi. Komunikācijas mapēs bērns var parādīt savu sakāmo pats, vai izvēlēties no pieaugušā nolasītiem variantiem.\n\nPECS galvenais mērķis ir mācīt funkcionālo komunikāciju. Pētījumi liecina, ka daži bērni, kuri izmanto PECS, attīsta arī runu, savukārt, citi var pāriet uz runas ģenerēšanas ierīci (SGD). PECS efektivitāte ir apliecināta daudzos pētījumos - kopumā vairāk nekā 190 pētnieciskajos rakstos no visas pasaules.\n\nPECS sastāv no sešiem posmiem un sākas ar to, ka bērns tiek mācīts sniegt vienu vēlamā priekšmeta vai darbības attēlu komunikācijas partnerim, kurš nekavējoties novērtē šo apmaiņu kā lūgumu. Tālāk PECS māca atšķirt attēlus un savienot tos teikumos. Sīkākos posmos bērnus māca lietot modifikatorus, atbildēt uz jautājumiem un komentēt.",
     "functions": [
       "vajadzību, atbilžu un izvēļu izteikšana alternatīvā veidā",
       "saziņa ar simboliem, attēliem, tekstu vai balsi",
       "līdzdalība sarunās un mācību aktivitātēs"
     ],
     "acquisition": [
-      "Var pagatavot skolā: izvēlas lietotājam saprotamus fotoattēlus vai piktogrammas, pievieno tekstu latviski, izdrukā, laminē un vajadzības gadījumā piestiprina līpošus stiprinājumus."
+      "Informācija par metodi: https://www.veselapasaule.lv/lv/lasitava/autiska-spektra-traucejumi/pecs-jeb-komunikacijas-sistema-ar-attelu-palidzibu#par-metodi"
     ],
     "image": "assets/images/catalog/komunikacijas-kartites-pecs.webp",
     "imageAlt": "Komunikācijas kartītes (PECS) — reāls produkta vai risinājuma attēls",
-    "imageSource": "https://pecsusa.com/store/",
+    "imageSource": "",
     "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
-    "productPage": "https://pecsusa.com/store/",
+    "productPage": "",
     "productLinkType": "category"
   },
   {
