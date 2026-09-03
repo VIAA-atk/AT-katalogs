@@ -1,219 +1,105 @@
-# AT Katalogs LV GitHub
+# VIAA asistīvo tehnoloģiju katalogs
 
-Izveido funkcionējošu publiska asistīvo tehnoloģiju kataloga prototipu latviešu valodā.
+Publiskais katalogs: <https://viaa-atk.github.io/AT-katalogs/>
 
-Vizuālajai identitātei izmanto pašreizējo VIAA kataloga dizainu:
+Administratora panelis: <https://viaa-atk.github.io/AT-katalogs/admin/>
 
-https://viaa-at.github.io/katalogs/catalog.html
+## Uzbūve
 
-Kataloga uzbūves un lietošanas vienkāršības paraugs:
+Vietne ir statiska un paredzēta GitHub Pages. Tai nav datubāzes vai servera:
 
-https://www.openaccess-ca.org/at-resource-flipkit
+- `index.html` un `assets/catalog-app.js` veido publisko katalogu;
+- `data/catalog.json` ir vienīgais publiskās lapas datu avots;
+- `data/catalog.schema.json` dokumentē datu shēmu;
+- `assets/images/catalog/` glabā kartīšu attēlus;
+- `admin/` ir administratora panelis;
+- `scripts/validate-catalog.mjs` pārbauda datu struktūru un attēlu esamību;
+- `.github/workflows/validate-catalog.yml` automātiski pārbauda izmaiņas GitHub vidē.
 
-Izmanto arī pievienotos VIAA priekšizpētes dokumentus, lai saprastu:
+Publiskā lapa saglabā VIAA kataloga dizainu, filtrus, meklēšanu, kartītes,
+modālos “Uzzināt vairāk” logus, ārējās saites un attēlu rezerves mehānismu.
 
-asistīvo tehnoloģiju mācību atbalsta jomas;
+## Administratora paneļa lietošana
 
-tehnoloģiju iedalījumu;
+### 1. Izveido ierobežotu GitHub tokenu
 
-katalogā iekļaujamos risinājumus;
+1. GitHub atver [Fine-grained personal access token izveidi](https://github.com/settings/personal-access-tokens/new).
+2. Izvēlies īsu derīguma termiņu.
+3. Pie “Repository access” izvēlies **Only select repositories** un tikai
+   `VIAA-atk/AT-katalogs`.
+4. Pie “Repository permissions” iestati **Contents — Read and write**.
+5. Citas rakstīšanas atļaujas nav nepieciešamas.
 
-lietotājiem nepieciešamo informāciju.
+### 2. Atver paneli
 
-Šajā posmā izveido tikai kataloga publiskās sākumlapas pirmo versiju. Neveido datubāzi, autentifikāciju, administrēšanas vidi, rezervēšanu, pieteikuma iesniegšanu vai citus backend risinājumus.
+Atver <https://viaa-atk.github.io/AT-katalogs/admin/> un ievadi tokenu.
+Panelis pārbauda, vai GitHub lietotājam ir rakstīšanas tiesības šajā
+repozitorijā.
 
-Kataloga mērķis
+### 3. Labo katalogu
 
-Katalogs paredzēts pedagogiem, atbalsta speciālistiem, vecākiem un citiem interesentiem. Tam jāpalīdz vienkārši atrast asistīvās tehnoloģijas un saistītos resursus.
+- **Pievienot jaunu ierakstu** izveido tukšu formu.
+- Izvēloties ierakstu kreisajā sarakstā, to var labot.
+- **Dzēst ierakstu** prasa atsevišķu apstiprinājumu.
+- **Saglabāt melnrakstā** saglabā izmaiņas tikai atvērtajā pārlūka cilnē.
+- **Publicēt izmaiņas** izveido vienu GitHub commitu `main` zarā.
 
-Tas nav individuālo vajadzību izvērtēšanas, diagnostikas vai tehnoloģiju piešķiršanas rīks.
+Ja augšupielādē attēlu, panelis to pārlūkā proporcionāli ievieto 720×480
+laukā un saglabā WebP formātā. Jānorāda alternatīvais teksts, avota saite, ja
+tāda ir, un attēla izmantošanas tiesību piezīme.
 
-Lapas struktūra
+GitHub Pages atjaunošana pēc commita parasti aizņem dažas minūtes.
 
-Izveido:
+## Drošības modelis
 
-VIAA stilam atbilstošu galveni;
+- Administratora lapa pati par sevi nav slepena; rakstīšanu atļauj GitHub.
+- Tokens netiek saglabāts `localStorage`, `sessionStorage`, sīkdatnēs, failos
+  vai repozitorijā. Tas atrodas tikai atvērtās cilnes JavaScript atmiņā.
+- Panelim nav ārēju JavaScript bibliotēku vai trešo pušu CDN.
+- Datu un attēlu izmaiņas tiek apvienotas vienā atomārā Git commitā.
+- Pirms publicēšanas panelis pārbauda, vai `main` nav mainījies. Ja ir radies
+  konflikts, publicēšana tiek apturēta un svešas izmaiņas netiek pārrakstītas.
+- Dzēstu ierakstu var atjaunot no GitHub commit vēstures.
+- Attēla fails pēc ieraksta dzēšanas netiek automātiski dzēsts, lai nepieļautu
+  neatgriezenisku vai kļūdainu koplietota attēla noņemšanu.
 
-nosaukumu “Asistīvo tehnoloģiju katalogs”;
+Tokenam ieteicams piešķirt tikai šo vienu repozitoriju un īsu derīguma
+termiņu. Pēc darba panelī nospied **Atvienot** un aizver cilni.
 
-īsu ievadu par kataloga izmantošanu;
+## Validācija
 
-kompaktu filtru joslu;
-
-resursu kartīšu režģi;
-
-vienkāršu kājeni.
-
-Filtri
-
-Izmanto tikai trīs nolaižamās izvēlnes.
-
-Mācību atbalsta joma
-
-Visas jomas;
-
-Lasīšana;
-
-Rakstīšana;
-
-Matemātika;
-
-Komunikācija;
-
-Uzmanība, atmiņa un organizēšana;
-
-Piekļuve videi un tehnoloģijām.
-
-Es meklēju
-
-Visus risinājumus;
-
-Teksta priekšā lasīšanu;
-
-Teksta vizuālu pielāgošanu;
-
-Drukāta teksta digitalizēšanu;
-
-Runas pārvēršanu tekstā;
-
-Atbalstu rakstīšanai un pareizrakstībai;
-
-Atbalstu darba organizēšanai;
-
-Simbolus un vizuālo atbalstu;
-
-Alternatīvu saziņas veidu;
-
-Pielāgotu ierīces vadību;
-
-Atbalstu matemātikas uzdevumiem.
-
-Resursa veids
-
-Visi resursi;
-
-Ierīce;
-
-Programmatūra vai lietotne;
-
-Iebūvēta piekļūstamības funkcija;
-
-Bezmaksas digitālais rīks;
-
-Metodiskais materiāls vai pamācība.
-
-Pievieno arī:
-
-vienkāršu meklēšanas lauku pēc nosaukuma;
-
-pogu “Notīrīt filtrus”;
-
-atrasto rezultātu skaitu.
-
-Rezultātiem jāatjaunojas automātiski.
-
-Resursu kartītes
-
-Katrā kartītē parādi:
-
-attēla vietu;
-
-tehnoloģijas vai resursa nosaukumu;
-
-īsu aprakstu;
-
-mācību atbalsta jomu;
-
-resursa veidu;
-
-norādi par latviešu valodas pieejamību;
-
-pogu “Uzzināt vairāk”.
-
-Izveido 10–12 demonstrācijas kartītes, izmantojot pievienotajos dokumentos un pašreizējā VIAA katalogā minētus piemērus.
-
-Neizdomā nezināmus faktus, cenas vai juridiskus apgalvojumus. Ja informācijas nav, raksti “Informācija tiks papildināta”.
-
-Nospiežot “Uzzināt vairāk”, atver vienkāršu modālo logu ar:
-
-lielāku attēlu;
-
-īsu aprakstu;
-
-galvenajām funkcijām;
-
-piemēriem, kādās mācību situācijās risinājums var palīdzēt;
-
-saiti uz ārējo resursu vai ražotāja vietni;
-
-aizvēršanas pogu.
-
-Dizains
-
-Saglabā VIAA kataloga violeto vizuālo identitāti.
-
-Izkārtojuma vienkāršībā iedvesmojies no AT Resource FlipKit.
-
-Neveido interneta veikala izskatu.
-
-Neizmanto pārmērīgus gradientus, ēnas vai animācijas.
-
-Izmanto īstu latviešu valodas saturu.
-
-Veido skaidru, mierīgu un institucionālu dizainu.
-
-Nodrošini responsīvu datora, planšetes un telefona izkārtojumu.
-
-Ievēro WCAG 2.2 AA piekļūstamības pamatprincipus.
-
-Pirms koda veidošanas īsi izplāno lapas komponentes un datu struktūru. Ja kāds būtisks jautājums nav skaidrs, vispirms uzdod man precizējošus jautājumus.
-
-This project was built with [Lovable](https://lovable.dev).
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/907ddc8c-5f4a-4595-825e-f2d11ef10eac).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+Nepieciešams Node.js 22 vai jaunāks.
 
 ```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
+npm run validate
 ```
 
-## Kataloga attēli
+Validācija pārbauda:
 
-Katrai no 106 risinājumu kartītēm ir lokāls attēls mapē
-`assets/images/catalog`:
+- JSON sintaksi un obligātos laukus;
+- unikālus ierakstu identifikatorus;
+- klasifikatoru vērtības;
+- HTTPS ārējās saites;
+- lokālo attēlu ceļus un failu esamību;
+- publiskās lapas un administratora paneļa JavaScript sintaksi.
 
-- konkrētiem produktiem izmantots ražotāja produkta lapas kopīgošanas attēls;
-- vispārīgām risinājumu kategorijām izmantota neitrāla, šim prototipam veidota ilustrācija.
+## Vēsturiskie migrācijas skripti
 
-Kartītes attēls jaunā pārlūka cilnē atver attiecīgā produkta, risinājuma vai
-autoritatīva atsauces resursa lapu. Poga “Uzzināt vairāk” atver risinājuma
-informācijas logu. Fails `assets/catalog-fallback.js` nodrošina pogas darbību
-arī tad, ja `index.html` tiek atvērts lokāli no datora un pārlūks neielādē
-moduļu JavaScript pakotnes.
+`scripts/export-catalog-data.mjs`, `scripts/apply-catalog-images.mjs`,
+`scripts/apply-editorial-fixes.mjs` un attēlu būvēšanas skripti saglabāti kā
+iepriekšējā prototipa migrācijas un audita rīki. Publiskā lapa vairs nelasa
+datus no minificētā `assets/routes-C_WgTdsH.js`; pēc migrācijas autoritatīvais
+avots ir tikai `data/catalog.json`.
 
-Attēlu avoti un piezīmes par izmantošanas tiesībām ir apkopotas failā
-`data/catalog-image-sources.json`. Turpat katram ierakstam norādīta attēla
-saite (`product_page`) un saites veids (`link_type`). Vispārīgām kategorijām,
-kurām nav viena konkrēta produkta, saite ved uz produkta kategoriju vai
-autoritatīvu atsauces resursu. Pirms gala publicēšanas jāpārbauda vai jāsaņem
-atļauja to ražotāju attēlu pārpublicēšanai, kuri reģistrā atzīmēti ar
-`source_type: "manufacturer"`.
+## Attēlu tiesības
 
-Attēlu komplektu un publicēto statisko lapu var atjaunot ar komandām:
+Attēlu izcelsmes un izmantošanas piezīmes ir saglabātas katrā
+`data/catalog.json` ierakstā. Pirms gala publicēšanas atbildīgajai personai
+jāpārliecinās par tiesībām attēlu pārpublicēt. Vēsturiskais avotu reģistrs ir
+`data/catalog-image-sources.json`.
 
-```sh
-node scripts/build-catalog-images.mjs
-node scripts/apply-catalog-images.mjs
-```
+## Lovable sinhronizācija
+
+Projekts ir savienots ar Lovable. Nedrīkst pārrakstīt publicēto Git vēsturi ar
+`force push`, rebase vai jau publicētu commitu labošanu. Katrs jauns commits
+`main` zarā sinhronizējas ar Lovable.

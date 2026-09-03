@@ -1,0 +1,40 @@
+name: Kataloga validācija
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "admin/**"
+      - "assets/catalog-app.js"
+      - "assets/images/catalog/**"
+      - "data/catalog.json"
+      - "data/catalog.schema.json"
+      - "index.html"
+      - "scripts/validate-catalog.mjs"
+      - "scripts/smoke-test.mjs"
+  pull_request:
+    paths:
+      - "admin/**"
+      - "assets/catalog-app.js"
+      - "assets/images/catalog/**"
+      - "data/catalog.json"
+      - "data/catalog.schema.json"
+      - "index.html"
+      - "scripts/validate-catalog.mjs"
+      - "scripts/smoke-test.mjs"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Lejupielādēt repozitoriju
+        uses: actions/checkout@v4
+      - name: Iestatīt Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Pārbaudīt kataloga datus un JavaScript
+        run: npm run validate

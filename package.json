@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite dev",
-    "build": "vite build",
+    "build": "npm run validate",
     "build:dev": "vite build --mode development",
     "preview": "vite preview",
+    "validate": "node scripts/validate-catalog.mjs && node --check assets/catalog-app.js && node --check admin/admin.js && node scripts/smoke-test.mjs",
     "lint": "eslint .",
     "format": "prettier --write ."
   },

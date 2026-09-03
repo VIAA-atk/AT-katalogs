@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://viaa-atk.github.io/AT-katalogs/data/catalog.schema.json",
+  "title": "VIAA asistīvo tehnoloģiju katalogs",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["id", "name", "short", "areas", "needs", "type", "level", "latvian", "whatIs", "functions", "acquisition", "image", "imageAlt", "imageSource", "imageRightsNote", "productPage", "productLinkType"],
+    "properties": {
+      "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+      "name": { "type": "string", "minLength": 1 },
+      "short": { "type": "string", "minLength": 1 },
+      "areas": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "enum": ["lasisana", "rakstisana", "matematika", "komunikacija", "organizesana", "vide"] } },
+      "needs": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "enum": ["tts", "vizualaPielagosana", "ocr", "stt", "rakstisanaAtbalsts", "organizesanaAtbalsts", "simboli", "aac", "ierices Vadiba", "matematikaAtbalsts"] } },
+      "type": { "enum": ["ierice", "programmatura", "iebuveta", "bezmaksas", "metodiskais", "materials", "piederums"] },
+      "level": { "enum": ["augsts", "videjs", "zems"] },
+      "latvian": { "type": "string", "minLength": 1 },
+      "whatIs": { "type": "string", "minLength": 1 },
+      "functions": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+      "acquisition": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+      "image": { "type": "string", "pattern": "^assets/images/catalog/[a-z0-9.-]+$" },
+      "imageAlt": { "type": "string", "minLength": 1 },
+      "imageSource": { "type": "string", "pattern": "^(https://.*)?$" },
+      "imageRightsNote": { "type": "string", "minLength": 1 },
+      "productPage": { "type": "string", "pattern": "^(https://.*)?$" },
+      "productLinkType": { "enum": ["product", "category", "resource", "reference"] }
+    }
+  }
+}

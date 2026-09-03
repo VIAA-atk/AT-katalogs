@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="lv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex,nofollow" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: blob:; style-src 'self'; script-src 'self'; connect-src https://api.github.com; base-uri 'self'; form-action 'self'; frame-ancestors 'none'" />
+    <title>Kataloga administrēšana | VIAA</title>
+    <link rel="icon" href="../favicon.svg?v=3" type="image/svg+xml" />
+    <link rel="stylesheet" href="./admin.css" />
+    <script type="module" src="./admin.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a href="../" class="brand" aria-label="Atgriezties publiskajā katalogā">
+        <span class="brand-mark" aria-hidden="true">VIAA</span>
+        <span>Asistīvo tehnoloģiju kataloga administrēšana</span>
+      </a>
+      <a href="../" class="header-link">Publiskais katalogs</a>
+    </header>
+
+    <main>
+      <section id="auth-panel" class="card auth-card" aria-labelledby="auth-title">
+        <h1 id="auth-title">Savienojums ar GitHub</h1>
+        <p>Administrēšanas lapa ir publiski atverama, taču ierakstus var mainīt tikai lietotājs ar rakstīšanas tiesībām repozitorijā <strong>VIAA-atk/AT-katalogs</strong>.</p>
+        <p>Izmanto fine-grained tokenu, kas piešķirts tikai šim repozitorijam ar atļauju <strong>Contents: Read and write</strong>. Tokens tiek turēts tikai šīs cilnes atmiņā un pēc pārlādes pazūd.</p>
+        <details>
+          <summary>Kā droši izveidot tokenu</summary>
+          <ol>
+            <li>GitHub atver <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener noreferrer">Fine-grained personal access token</a>.</li>
+            <li>Pie “Repository access” izvēlies tikai <strong>AT-katalogs</strong>.</li>
+            <li>Pie “Repository permissions” iestati <strong>Contents — Read and write</strong>.</li>
+            <li>Izvēlies īsu derīguma termiņu. Nekopīgo tokenu un neievieto to failos.</li>
+          </ol>
+        </details>
+        <form id="auth-form" class="auth-form">
+          <label for="github-token">GitHub fine-grained tokens</label>
+          <div class="inline-control">
+            <input id="github-token" name="token" type="password" autocomplete="off" spellcheck="false" required />
+            <button type="submit" class="button primary">Savienot</button>
+          </div>
+        </form>
+        <p id="auth-status" class="status" role="status"></p>
+      </section>
+
+      <section id="admin-app" hidden>
+        <div class="toolbar card">
+          <div>
+            <h1>Kataloga ieraksti</h1>
+            <p id="connection-info" class="muted"></p>
+          </div>
+          <div class="toolbar-actions">
+            <span id="draft-status" class="draft-status">Nav nepublicētu izmaiņu</span>
+            <button id="disconnect" type="button" class="button secondary">Atvienot</button>
+            <button id="publish" type="button" class="button primary" disabled>Publicēt izmaiņas</button>
+          </div>
+        </div>
+
+        <p id="app-status" class="status card" role="status" hidden></p>
+
+        <div class="workspace">
+          <aside class="card list-panel" aria-label="Kataloga ierakstu saraksts">
+            <div class="list-heading">
+              <label for="record-search">Meklēt ierakstu</label>
+              <input id="record-search" type="search" placeholder="Nosaukums…" />
+              <button id="new-record" type="button" class="button primary full">Pievienot jaunu ierakstu</button>
+            </div>
+            <p id="record-count" class="muted"></p>
+            <ul id="record-list" class="record-list"></ul>
+          </aside>
+
+          <section class="card editor-panel" aria-labelledby="editor-title">
+            <form id="record-form">
+              <div class="editor-heading">
+                <div>
+                  <h2 id="editor-title">Izvēlies ierakstu</h2>
+                  <p class="muted">Obligātie lauki atzīmēti ar *.</p>
+                </div>
+                <button id="delete-record" type="button" class="button danger" hidden>Dzēst ierakstu</button>
+              </div>
+
+              <fieldset id="editor-fields" disabled>
+                <div class="form-grid">
+                  <label class="wide">Nosaukums *<input id="field-name" name="name" required maxlength="180" /></label>
+                  <label>Identifikators *<input id="field-id" name="id" required pattern="[a-z0-9][a-z0-9-]*" maxlength="180" aria-describedby="id-help" /></label>
+                  <label>Tehnoloģiju līmenis *
+                    <select id="field-level" name="level" required><option value="augsts">Augsts līmenis</option><option value="videjs">Vidējs līmenis</option><option value="zems">Zems līmenis</option></select>
+                  </label>
+                  <p id="id-help" class="help wide">Jaunam ierakstam identifikators tiek izveidots no nosaukuma. Pēc saglabāšanas to vairs nemaina.</p>
+                  <label>Resursa veids *
+                    <select id="field-type" name="type" required><option value="ierice">Ierīce</option><option value="programmatura">Programmatūra vai lietotne</option><option value="iebuveta">Iebūvēta piekļūstamības funkcija</option><option value="bezmaksas">Bezmaksas digitālais rīks</option><option value="metodiskais">Metodiskais materiāls vai pamācība</option><option value="materials">Mācību materiāls</option><option value="piederums">Pielāgots piederums</option></select>
+                  </label>
+                  <label>Latviešu valodas pieejamība *<input id="field-latvian" name="latvian" required maxlength="180" /></label>
+                  <label class="wide">Īsais teksts kartītē *<textarea id="field-short" name="short" rows="2" required maxlength="1000"></textarea></label>
+                </div>
+
+                <fieldset class="choice-group"><legend>Mācību atbalsta jomas *</legend><div id="field-areas" class="choices"></div></fieldset>
+                <fieldset class="choice-group"><legend>Vajadzības / filtri *</legend><div id="field-needs" class="choices"></div></fieldset>
+
+                <label>Kas tas ir? *<textarea id="field-what-is" name="whatIs" rows="5" required maxlength="4000"></textarea></label>
+                <label>Funkcijas * <span class="help">Viena funkcija katrā rindā.</span><textarea id="field-functions" name="functions" rows="6" required></textarea></label>
+                <label>Kur to var iegūt? * <span class="help">Viens punkts katrā rindā.</span><textarea id="field-acquisition" name="acquisition" rows="5" required></textarea></label>
+
+                <div class="form-grid">
+                  <label class="wide">Produkta vai informācijas saite<input id="field-product-page" name="productPage" type="url" pattern="https://.*" placeholder="https://…" /></label>
+                  <label>Saites veids
+                    <select id="field-link-type" name="productLinkType"><option value="product">Ražotāja informācija</option><option value="category">Risinājumu kategorija</option><option value="resource">Papildu informācija</option><option value="reference">Atsauces resurss</option></select>
+                  </label>
+                </div>
+
+                <section class="image-editor" aria-labelledby="image-title">
+                  <h3 id="image-title">Kartītes attēls</h3>
+                  <div class="image-row">
+                    <img id="image-preview" src="../assets/images/catalog/catalog-placeholder.svg" alt="Attēla priekšskatījums" />
+                    <div>
+                      <label>Jauns attēls<input id="field-image-file" name="imageFile" type="file" accept="image/png,image/jpeg,image/webp,image/svg+xml" /></label>
+                      <p class="help">Attēls pārlūkā tiks proporcionāli ievietots 720×480 WebP laukā. Maksimālais sākotnējā faila izmērs — 8 MB.</p>
+                      <label>Alternatīvais teksts *<input id="field-image-alt" name="imageAlt" required maxlength="300" /></label>
+                    </div>
+                  </div>
+                  <label>Attēla avota saite<input id="field-image-source" name="imageSource" type="url" pattern="https://.*" placeholder="https://…" /></label>
+                  <label>Attēla izmantošanas tiesību piezīme *<textarea id="field-image-rights" name="imageRightsNote" rows="2" required></textarea></label>
+                </section>
+
+                <div class="form-actions">
+                  <button type="submit" class="button primary">Saglabāt melnrakstā</button>
+                  <button id="cancel-edit" type="button" class="button secondary">Atcelt labošanu</button>
+                </div>
+              </fieldset>
+            </form>
+          </section>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
