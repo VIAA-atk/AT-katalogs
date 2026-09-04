@@ -1778,7 +1778,8 @@
       "uzrakstītā pārbaude un pilnveidošana"
     ],
     "acquisition": [
-      "Iegādājas kancelejas, elektronikas, mācību materiālu vai specializēto palīglīdzekļu veikalā atbilstoši individuāli izvērtētajai vajadzībai."
+      "Latvijā specializētu tastatūras masku mazumtirdzniecības piedāvājums ir ierobežots; tās var pasūtīt no ārvalstu asistīvo tehnoloģiju piegādātājiem vai izgatavot konkrētam tastatūras modelim, piemēram, ar 3D drukas palīdzību.",
+      "https://clevy.com/product/clevy-keyguard/"
     ],
     "image": "assets/images/catalog/tastaturas-maskas-keyguards.webp",
     "imageAlt": "Tastatūras maskas (keyguards) — reāls ierīces vai programmas attēls",
@@ -1789,7 +1790,7 @@
   },
   {
     "id": "vairaku-kanalu-bezvadu-audio-straumesanas-sistem",
-    "name": "Vairāku kanālu bezvadu audio straumēšanas sistēma Talsys (serveris, skaņu mikserpults, WiFi maršrutētājs, radiosistēma, klausītāju saskarne)",
+    "name": "Vairāku kanālu bezvadu audio straumēšanas sistēma",
     "short": "Daudzkanālu sistēma, kas pa bezvadu tīklu pārraida vairākas audio plūsmas klausītāju ierīcēm.",
     "areas": [
       "vide"
@@ -1800,15 +1801,18 @@
     "type": "programmatura",
     "level": "augsts",
     "latvian": "Pieejams latviešu valodā",
-    "whatIs": "Daudzkanālu sistēma, kas pa bezvadu tīklu pārraida vairākas audio plūsmas klausītāju ierīcēm.",
+    "whatIs": "Sistēma, kas ļauj pārraidīt vienu vai vairākus audio kanālus bezvadu tīklā uz klausītāju personīgajām ierīcēm. Klausītājs var izvēlēties nepieciešamo audio kanālu un klausīties to savā ierīcē, izmantojot austiņas vai citu saderīgu dzirdes palīglīdzekli.",
     "functions": [
-      "uzdevumu un darbību secības organizēšana",
-      "atgādinājumu, piezīmju vai plānu veidošana",
-      "uzmanības noturēšana un paveiktā pārbaude"
+      "vairāku audio kanālu vienlaicīga pārraidīšana;",
+      "skaņas pārraide bezvadu tīklā;",
+      "iespēja klausītājam izvēlēties nepieciešamo audio kanālu;",
+      "runas un citas audio informācijas pārraidīšana uz klausītāja ierīci;",
+      "individuāla skaļuma regulēšana klausītāja ierīcē;",
+      "izmantošana mācību telpās, pasākumos un citās vidēs, kur nepieciešama individuāla audio piekļuve."
     ],
     "acquisition": [
       "Latvijā: SIA 'Talsys\"",
-      "Ražotāji/izstrādātāji un citi piemēri: ListenWiFi — Listen Technologies (ASV)"
+      "Ražotāji/izstrādātāji un citi piemēri: ListenWiFi — Listen Technologies (ASV) https://www.listentech.com/listenwifi/"
     ],
     "image": "assets/images/catalog/vairaku-kanalu-bezvadu-audio-straumesanas-sistem.webp",
     "imageAlt": "Vairāku kanālu bezvadu audio straumēšanas sistēma Talsys (serveris, skaņu mikserpults, WiFi maršrutētājs, radiosistēma, klausītāju saskarne) — ražotāja ilustratīvs attēls",
