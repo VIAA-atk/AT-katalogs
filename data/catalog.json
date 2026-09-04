@@ -2273,7 +2273,7 @@
   },
   {
     "id": "papirs-ar-reljefam-linijam",
-    "name": "Papīrs ar reljefām līnijām",
+    "name": "Papīrs ar reljefām līnijām (eng: tactile line paper)",
     "short": "Rakstāmpapīrs ar sataustāmām paceltām līnijām, kas palīdz ievērot rakstīšanas robežas.",
     "areas": [
       "rakstisana"
@@ -2291,6 +2291,7 @@
       "uzmanības noturēšana un paveiktā pārbaude"
     ],
     "acquisition": [
+      "Latvijā specializēts rakstāmpapīrs ar reljefām līnijām mazumtirdzniecībā nav plaši pieejams..",
       "Iegādājas specializētā veikalā vai pagatavo skolā, līnijas izceļot ar reljefa līmi, vaskotu auklu vai citu drošu sataustāmu materiālu."
     ],
     "image": "assets/images/catalog/papirs-ar-reljefam-linijam.webp",
