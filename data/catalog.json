@@ -1253,9 +1253,10 @@
   },
   {
     "id": "balss-teksta-speech-to-text-parveidosanas-progra",
-    "name": "Balss-teksta (Speech-to-Text) pārveidošanas programmatūra",
-    "short": "Programmatūra, kas mikrofonā uztvertu runu automātiski pārveido rediģējamā tekstā.",
+    "name": "Diktēšanas jeb runas pārvēršanas tekstā rīki",
+    "short": "Programmatūra vai digitāls rīks, kas atpazīst lietotāja runu un pārvērš to rakstītā tekstā, ļaujot tekstu ievadīt ar balsi, nevis rakstīt ar tastatūru.",
     "areas": [
+      "rakstisana",
       "vide"
     ],
     "needs": [
@@ -1265,23 +1266,24 @@
     "type": "programmatura",
     "level": "augsts",
     "latvian": "Pieejams latviešu valodā",
-    "whatIs": "Programmatūra, kas mikrofonā uztvertu runu automātiski pārveido rediģējamā tekstā.",
+    "whatIs": "Programmatūra vai digitāls rīks, kas atpazīst lietotāja runu un pārvērš to rakstītā tekstā. Tas ļauj skolēnam diktēt tekstu, nevis ievadīt to ar tastatūru.",
     "functions": [
-      "runas pārvēršana rakstītā tekstā",
-      "atbilžu un mācību darbu veidošana diktējot",
-      "teksta ievade, neizmantojot parasto tastatūru",
-      "teksta ievade un rediģēšana",
-      "atbalsts vārdu, teikumu vai garāka teksta veidošanai"
+      "runas pārvēršana rakstītā tekstā;",
+      "teksta ievade ar balsi;",
+      "rakstisku darbu, atbilžu un piezīmju veidošana diktējot;",
+      "alternatīva vai papildinājums rakstīšanai ar tastatūru;",
+      "iespēja rediģēt un papildināt atpazīto tekstu."
     ],
     "acquisition": [
-      "Latvijā: TextAid — SIA \"Exceed\"; Brunomaster, Bruno, Aisma — SIA \"Brunomaster\"",
-      "Ražotāji/izstrādātāji un citi piemēri: Clicker — Crick Software Ltd (Lielbritānija), Grid — Smartbox Assistive Technology Ltd (Lielbritānija), Read & Write — Everyway Ltd (Lielbritānija) Exceed: https://www.exceed.lv/ Brunomaster: https://brunomaster.com/"
+      "*Google Docs Voice Typing – balss rakstīšanas funkcija Google dokumentos; atbalsta latviešu valodu",
+      "*Microsoft Word Dictate – diktēšanas funkcija Microsoft 365; latviešu valoda ir pieejama kā priekšskatījuma (Preview) valoda, tāpēc iespējama zemāka atpazīšanas precizitāte un ierobežots pieturzīmju atbalsts.",
+      "*Produkts Textaid PRO5, www.exceed.lv"
     ],
-    "image": "assets/images/catalog/balss-teksta-speech-to-text-parveidosanas-progra.webp",
+    "image": "assets/images/catalog/balss-teksta-speech-to-text-parveidosanas-progra.png",
     "imageAlt": "Balss-teksta (Speech-to-Text) pārveidošanas programmatūra — ražotāja ilustratīvs attēls",
-    "imageSource": "https://www.readspeaker.com/solutions/text-to-speech-online/readspeaker-textaid/",
+    "imageSource": "",
     "imageRightsNote": "Pirms gala publicēšanas saņemt vai pārbaudīt ražotāja atļauju attēla pārpublicēšanai.",
-    "productPage": "https://www.readspeaker.com/solutions/text-to-speech-online/readspeaker-textaid/",
+    "productPage": "",
     "productLinkType": "product"
   },
   {
