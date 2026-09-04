@@ -867,7 +867,7 @@
     "needs": [
       "organizesanaAtbalsts"
     ],
-    "type": "programmatura",
+    "type": "piederums",
     "level": "zems",
     "latvian": "Informācija tiks papildināta",
     "whatIs": "Mērīšanas rīki ar paaugstinātām malām, sataustāmām atzīmēm vai pielāgotu marķējumu.",
@@ -1018,7 +1018,7 @@
     "needs": [
       "matematikaAtbalsts"
     ],
-    "type": "programmatura",
+    "type": "piederums",
     "level": "zems",
     "latvian": "Informācija tiks papildināta",
     "whatIs": "Fiziski priekšmeti matemātisku jēdzienu praktiskai attēlošanai un darbību modelēšanai.",
@@ -1110,7 +1110,7 @@
     "needs": [
       "ierices Vadiba"
     ],
-    "type": "programmatura",
+    "type": "ierice",
     "level": "augsts",
     "latvian": "Pieejams latviešu valodā",
     "whatIs": "Tehnoloģija, kas nosaka acu skatiena punktu un ļauj ar skatienu vadīt datoru vai komunikācijas ierīci.",
@@ -1300,7 +1300,7 @@
     "needs": [
       "organizesanaAtbalsts"
     ],
-    "type": "programmatura",
+    "type": "ierice",
     "level": "augsts",
     "latvian": "Informācija tiks papildināta",
     "whatIs": "Specializēti printeri, kas digitālu tekstu un dažkārt grafiku izspiež reljefā Braila rakstā uz papīra.",
@@ -2780,7 +2780,7 @@
     "needs": [
       "organizesanaAtbalsts"
     ],
-    "type": "programmatura",
+    "type": "piederums",
     "level": "zems",
     "latvian": "Informācija tiks papildināta",
     "whatIs": "Nelieli taustes vai kustību rīki, kas nodrošina kontrolētu sensoro aktivitāti un palīdz pašregulēties.",
@@ -2809,7 +2809,7 @@
     "needs": [
       "organizesanaAtbalsts"
     ],
-    "type": "programmatura",
+    "type": "piederums",
     "level": "zems",
     "latvian": "Pieejams latviešu valodā",
     "whatIs": "Austiņas vai ausu aizsargi, kas samazina apkārtējās vides trokšņa dzirdamību.",
