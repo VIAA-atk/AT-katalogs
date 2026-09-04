@@ -2427,71 +2427,9 @@
     "productLinkType": "product"
   },
   {
-    "id": "runas-teksta-speech-to-text-riki",
-    "name": "Runas-teksta (Speech-to-Text) rīki",
-    "short": "Programmatūra, kas lietotāja runu automātiski pārvērš rakstītā tekstā.",
-    "areas": [
-      "rakstisana"
-    ],
-    "needs": [
-      "stt",
-      "rakstisanaAtbalsts"
-    ],
-    "type": "programmatura",
-    "level": "augsts",
-    "latvian": "Pieejams latviešu valodā",
-    "whatIs": "Programmatūra, kas lietotāja runu automātiski pārvērš rakstītā tekstā.",
-    "functions": [
-      "runas pārvēršana rakstītā tekstā",
-      "atbilžu un mācību darbu veidošana diktējot",
-      "teksta ievade, neizmantojot parasto tastatūru",
-      "teksta ievade un rediģēšana",
-      "atbalsts vārdu, teikumu vai garāka teksta veidošanai"
-    ],
-    "acquisition": [
-      "Latvijā: TextAid — SIA \"Exceed\"; Brunomaster, Bruno, Aisma — SIA \"Brunomaster\"",
-      "Ražotāji/izstrādātāji un citi piemēri: Clicker — Crick Software Ltd (Lielbritānija), Grid — Smartbox Assistive Technology Ltd (Lielbritānija), Read & Write — Everyway Ltd (Lielbritānija) Exceed: https://www.exceed.lv/ Brunomaster: https://brunomaster.com/"
-    ],
-    "image": "assets/images/catalog/runas-teksta-speech-to-text-riki.webp",
-    "imageAlt": "Runas-teksta (Speech-to-Text) rīki — ražotāja ilustratīvs attēls",
-    "imageSource": "https://www.readspeaker.com/solutions/text-to-speech-online/readspeaker-textaid/",
-    "imageRightsNote": "Pirms gala publicēšanas saņemt vai pārbaudīt ražotāja atļauju attēla pārpublicēšanai.",
-    "productPage": "https://www.readspeaker.com/solutions/text-to-speech-online/readspeaker-textaid/",
-    "productLinkType": "product"
-  },
-  {
-    "id": "slipie-deli-rakstisanai",
-    "name": "Slīpie dēļi rakstīšanai",
-    "short": "Slīpas darba virsmas, kas paceļ papīru piemērotākā leņķī rakstīšanai vai zīmēšanai.",
-    "areas": [
-      "rakstisana"
-    ],
-    "needs": [
-      "rakstisanaAtbalsts"
-    ],
-    "type": "piederums",
-    "level": "zems",
-    "latvian": "Informācija tiks papildināta",
-    "whatIs": "Slīpas darba virsmas, kas paceļ papīru piemērotākā leņķī rakstīšanai vai zīmēšanai.",
-    "functions": [
-      "teksta ievade un rediģēšana",
-      "atbalsts vārdu, teikumu vai garāka teksta veidošanai",
-      "uzrakstītā pārbaude un pilnveidošana"
-    ],
-    "acquisition": [
-      "Iegādājas specializētā veikalā; vienkāršu dēli var izgatavot skolā, nodrošinot stabilu slīpumu, neslīdošu pamatni un papīra fiksatoru."
-    ],
-    "image": "assets/images/catalog/slipie-deli-rakstisanai.webp",
-    "imageAlt": "Slīpie dēļi rakstīšanai — reāls ierīces vai programmas attēls",
-    "imageSource": "https://www.schoolhealth.com/slantscript-slant-boards",
-    "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
-    "productPage": "https://www.therapro.com/Handwriting/Handwriting-Slant-Boards/Better-Board-Slant-Boards.html",
-    "productLinkType": "product"
-  },
-  {
     "id": "smagie-zimuli-weighted-pencils",
     "name": "Smagie zīmuļi (Weighted pencils)",
-    "short": "Zīmuļi ar palielinātu svaru, kas sniedz izteiktāku proprioceptīvu atgriezenisko saiti rakstīšanas laikā.",
+    "short": "Zīmuļi, pildspalvas vai rakstāmrīku uzlikas ar palielinātu svaru. Papildu svars maina rakstāmrīka sajūtu un kustības atgriezenisko saiti rakstīšanas vai zīmēšanas laikā.",
     "areas": [
       "rakstisana"
     ],
@@ -2503,12 +2441,16 @@
     "latvian": "Informācija tiks papildināta",
     "whatIs": "Zīmuļi ar palielinātu svaru, kas sniedz izteiktāku proprioceptīvu atgriezenisko saiti rakstīšanas laikā.",
     "functions": [
-      "uzdevumu un darbību secības organizēšana",
-      "atgādinājumu, piezīmju vai plānu veidošana",
-      "uzmanības noturēšana un paveiktā pārbaude"
+      "nodrošina izteiktāku proprioceptīvo un taktilo atgriezenisko saiti;",
+      "atsevišķiem lietotājiem var palīdzēt kontrolēt rakstāmrīka kustību;",
+      "var palīdzēt regulēt rakstāmrīka spiedienu;",
+      "var uzlabot rakstāmrīka stabilitāti rokā;",
+      "pieejami gan gatavi rakstāmrīki, gan svara uzlikas parastiem zīmuļiem un pildspalvām."
     ],
     "acquisition": [
-      "Iegādājas kancelejas, elektronikas, mācību materiālu vai specializēto palīglīdzekļu veikalā atbilstoši individuāli izvērtētajai vajadzībai."
+      "Latvijā specializēti rakstāmrīki ar papildu svaru nav plaši pieejami.",
+      "Var pasūtīt no ārvalstu ergoterapijas un asistīvo palīglīdzekļu piegādātājiem.",
+      "Alternatīva ir rakstāmrīkam pievienojama svara uzlika, kas ļauj pielāgot parastu zīmuli vai pildspalvu."
     ],
     "image": "assets/images/catalog/smagie-zimuli-weighted-pencils.webp",
     "imageAlt": "Smagie zīmuļi (Weighted pencils) — reāls ierīces vai programmas attēls",
