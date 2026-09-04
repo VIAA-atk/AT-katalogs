@@ -1664,55 +1664,28 @@
     "productLinkType": "product"
   },
   {
-    "id": "rakstiski-zinojumi-tafeles",
-    "name": "Rakstiski ziņojumi / tāfeles",
-    "short": "Tekstā attēlota informācija uz papīra, tāfeles vai digitāla ekrāna mutiskas informācijas papildināšanai vai aizstāšanai.",
-    "areas": [
-      "vide"
-    ],
-    "needs": [
-      "organizesanaAtbalsts"
-    ],
-    "type": "materials",
-    "level": "zems",
-    "latvian": "Informācija tiks papildināta",
-    "whatIs": "Tekstā attēlota informācija uz papīra, tāfeles vai digitāla ekrāna mutiskas informācijas papildināšanai vai aizstāšanai.",
-    "functions": [
-      "uzdevumu un darbību secības organizēšana",
-      "atgādinājumu, piezīmju vai plānu veidošana",
-      "uzmanības noturēšana un paveiktā pārbaude"
-    ],
-    "acquisition": [
-      "Var pagatavot skolā ar papīru, marķieru tāfeli vai planšeti; informāciju raksta īsi, skaidri un pietiekami lielā drukā."
-    ],
-    "image": "assets/images/catalog/rakstiski-zinojumi-tafeles.webp",
-    "imageAlt": "Rakstiski ziņojumi / tāfeles — reāls produkta vai risinājuma attēls",
-    "imageSource": "https://aulaabierta.arasaac.org/en/aac-materials-communication-boards",
-    "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
-    "productPage": "https://aulaabierta.arasaac.org/en/aac-materials-communication-boards",
-    "productLinkType": "resource"
-  },
-  {
     "id": "reallaika-automatisko-subtitru-sistemas",
-    "name": "Reāllaika automātisko subtitru sistēmas",
+    "name": "Reāllaika automātisko subtitri  LiveVoice",
     "short": "Programmatūra, kas runu tiešsaistē pārvērš ekrānā redzamos subtitros ar nelielu aizkavi.",
     "areas": [
       "vide"
     ],
     "needs": [
-      "organizesanaAtbalsts"
+      "vizualaPielagosana",
+      "organizesanaAtbalsts",
+      "aac"
     ],
     "type": "programmatura",
     "level": "augsts",
     "latvian": "Nav latviešu valodā",
-    "whatIs": "Programmatūra, kas runu tiešsaistē pārvērš ekrānā redzamos subtitros ar nelielu aizkavi.",
+    "whatIs": "Programmatūra, kas automātiski atpazīst runātāja teikto un reāllaikā attēlo to rakstīta teksta jeb subtitru veidā. Tā ļauj sekot mutiski sniegtajai informācijai arī tad, ja runu ir grūti vai nav iespējams sadzirdēt.",
     "functions": [
       "uzdevumu un darbību secības organizēšana",
       "atgādinājumu, piezīmju vai plānu veidošana",
       "uzmanības noturēšana un paveiktā pārbaude"
     ],
     "acquisition": [
-      "Latvijā: LiveVoice — SIA \"Exceed\" Exceed: https://www.exceed.lv/"
+      "LiveVoice — SIA \"Exceed\" Exceed: https://www.exceed.lv/"
     ],
     "image": "assets/images/catalog/reallaika-automatisko-subtitru-sistemas.webp",
     "imageAlt": "Reāllaika automātisko subtitru sistēmas — ražotāja ilustratīvs attēls",
