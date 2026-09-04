@@ -43,7 +43,7 @@
     "needs": [
       "organizesanaAtbalsts"
     ],
-    "type": "programmatura",
+    "type": "ierice",
     "level": "augsts",
     "latvian": "Informācija tiks papildināta",
     "whatIs": "Bezvadu dzirdes palīgsistēmas, kas skolotāja balsi no mikrofona pārraida tieši skolēna uztvērējā vai dzirdes ierīcē.",
