@@ -2602,7 +2602,7 @@
     ],
     "type": "programmatura",
     "level": "augsts",
-    "latvian": "Pieejams latviešu valodā",
+    "latvian": "Daļēji pieejams latviešu valodā",
     "whatIs": "Programmas ideju, jēdzienu un to savstarpējo saikņu vizuālai attēlošanai.",
     "functions": [
       "uzdevumu un darbību secības organizēšana",
@@ -2689,7 +2689,7 @@
     "needs": [
       "simboli"
     ],
-    "type": "programmatura",
+    "type": "ierice",
     "level": "videjs",
     "latvian": "Pieejams latviešu valodā",
     "whatIs": "Taimeri un pulksteņi, kas ar krāsu, disku, skalu vai citu vizuālu zīmi parāda atlikušo laiku.",
@@ -2699,8 +2699,8 @@
       "vizuāli saprotama mācību satura veidošana"
     ],
     "acquisition": [
-      "Latvijā: Time Timer — SIA \"Exceed\" potenciāla sadarbība",
-      "Ražotāji/izstrādātāji un citi piemēri: Time Timer LLC (ASV); Timer Visual — TFA Dostmann (Vācija) Exceed: https://www.exceed.lv/"
+      "Latvijā: pieejams www.exceed.lv",
+      "Ražotāji/izstrādātāji un citi piemēri: Time Timer LLC (ASV); Timer Visual — TFA Dostmann (Vācija)"
     ],
     "image": "assets/images/catalog/fiziskie-mehaniskie-vizualie-taimeri-pielagoti-p.webp",
     "imageAlt": "Fiziskie/mehāniskie vizuālie taimeri, pielāgoti pulksteņi — ražotāja ilustratīvs attēls",
