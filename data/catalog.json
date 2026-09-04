@@ -2888,5 +2888,50 @@
     "imageRightsNote": "Pirms gala publicēšanas saņemt vai pārbaudīt ražotāja atļauju attēla pārpublicēšanai.",
     "productPage": "https://www.forestapp.cc/",
     "productLinkType": "product"
+  },
+  {
+    "id": "eraf-projekta-asistivas-tehnologijas-macibu-atbalstam-metodiskie-materiali",
+    "name": "ERAF projekta \"Asistīvās tehnoloģijas mācību atbalstam\" metodiskie materiāli",
+    "short": "ERAF projekta “Asistīvās tehnoloģijas mācību atbalstam” ietvaros izstrādāti metodiskie materiāli par asistīvo tehnoloģiju izmantošanu izglītības programmas apguvei. Materiāli paredzēti pedagogiem, atbalsta personālam un citiem izglītības jomas speciālistiem.",
+    "areas": [
+      "lasisana",
+      "rakstisana",
+      "matematika",
+      "komunikacija",
+      "organizesana",
+      "vide"
+    ],
+    "needs": [
+      "tts",
+      "vizualaPielagosana",
+      "ocr",
+      "stt",
+      "rakstisanaAtbalsts",
+      "organizesanaAtbalsts",
+      "simboli",
+      "aac",
+      "ierices Vadiba",
+      "matematikaAtbalsts"
+    ],
+    "type": "metodiskais",
+    "level": "zems",
+    "latvian": "Pieejams latviešu valodā",
+    "whatIs": "Par Projektu:\nEiropas Savienības kohēzijas politikas programmas 2021.–2027. gadam 4.2.1. specifiskā atbalsta mērķa \"Uzlabot vienlīdzīgu piekļuvi iekļaujošiem un kvalitatīviem pakalpojumiem izglītības, mācību un mūžizglītības jomā, attīstot pieejamu infrastruktūru, tostarp veicinot noturību izglītošanā un mācībās attālinātā un tiešsaistes režīmā\" Projekta mērķis: Izveidot izglītības programmu apguvei atbilstošu asistīvo tehnoloģiju apmaiņas sistēmu, lai nodrošinātu asistīvo tehnoloģiju piekļūstamību mērķa grupas izglītojamiem izglītības programmu apguvei.\n\nProjekta nosaukums\nAsistīvās tehnoloģijas mācību atbalstam\n\nProjekta numurs\n4.2.1.2/1/25/I/001\n\nProjekta īstenošanas ilgums\n09/2025 – 12/2027\n\nProjekta finansējums\nKopējais projekta attiecināmais finansējums ir 1 740 000  euro, tai skaitā Eiropas Reģionālās attīstības fonda finansējums – 1 479 000 euro un valsts budžeta līdzfinansējums –  261 000 euro.\n\nProjekta darbības:\nasistīvo tehnoloģiju apmaiņas sistēmas izveide;\nasistīvo tehnoloģiju apmaiņas sistēmas darbības nodrošināšanā iesaistīto speciālistu un izglītības iestāžu darbinieku izglītošana, kā arī izglītojamo likumisko pārstāvju konsultācijas par izglītojamam izsniegto asistīvo tehnoloģiju lietošanu;\nasistīvo tehnoloģiju iegāde, noma, abonēšana un uzturēšana;\nasistīvo tehnoloģiju apmaiņas sistēmas izmēģinājumprojekta īstenošana izglītības iestādēs un izmēģinājumprojekta rezultātu izvērtēšana;\nkomunikācijas un vizuālās identitātes pasākumi par projekta īstenošanu.\nSadarbības partneri\nIzglītības un zinātnes ministrija\n5 pašvaldības: Liepājas valstspilsētas, Jelgavas novada, Valmieras novada, Mārupes novada un Preiļu novada pašvaldība.\n5 privātās izglītības iestādes: privātā pamatskola „Valmieras Zaļā skola”, privātais bērnudārzs „Mūsu poga”, privātā sākumskola „Namiņš”, Rīgas Katoļu ģimnāzija un Talsu Kristīgā vidusskola.\n2 tiešās pārvaldes dibinātas izglītības iestādes: Murjāņu sporta skola (IZM) un Nacionālā Mākslu vidusskola (KM).",
+    "functions": [
+      "sniedz informāciju par asistīvajām tehnoloģijām un to izmantošanu mācību procesā;",
+      "palīdz izprast dažādu asistīvo tehnoloģiju pielietojuma iespējas;",
+      "sniedz metodisku atbalstu piemērota risinājuma izvēlē;",
+      "palīdz plānot asistīvo tehnoloģiju izmantošanu izglītības procesā;",
+      "izmantojami pedagogu un atbalsta personāla profesionālajai pilnveidei."
+    ],
+    "acquisition": [
+      "Metodiskie materiāli ir brīvi pieejami VIAA tīmekļvietnē."
+    ],
+    "image": "assets/images/catalog/catalog-placeholder.svg",
+    "imageAlt": "Asistīvās tehnoloģijas mācību atbalstam",
+    "imageSource": "https://www.viaa.gov.lv/lv/projekts/asistivastehnologijas",
+    "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
+    "productPage": "https://www.viaa.gov.lv/lv/metodiskie-materiali-0#eraf-projekta-asistivas-tehnologijas-macibu-atbalstam-metodiskie-materiali",
+    "productLinkType": "resource"
   }
 ]
