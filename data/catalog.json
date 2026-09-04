@@ -1989,7 +1989,7 @@
     "needs": [
       "organizesanaAtbalsts"
     ],
-    "type": "programmatura",
+    "type": "piederums",
     "level": "zems",
     "latvian": "Informācija tiks papildināta",
     "whatIs": "Veidnes ar izgrieztām burtu vai ciparu formām, pa kurām var vilkt rakstāmrīku.",
@@ -2105,7 +2105,7 @@
     "needs": [
       "organizesanaAtbalsts"
     ],
-    "type": "programmatura",
+    "type": "piederums",
     "level": "zems",
     "latvian": "Informācija tiks papildināta",
     "whatIs": "Drukātas shēmas informācijas sakārtošanai, piemēram, domu kartes, tabulas, secības vai salīdzinājuma veidnes.",
