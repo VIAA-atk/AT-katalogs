@@ -12,28 +12,26 @@
   </head>
   <body>
     <div class="min-h-screen bg-background">
-      <header class="bg-primary text-primary-foreground">
-        <div class="mx-auto grid max-w-6xl grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-4 py-4 sm:flex sm:justify-between">
-          <a href="https://www.viaa.gov.lv/lv" target="_blank" rel="noopener noreferrer" aria-label="Atvērt Valsts izglītības attīstības aģentūras mājaslapu jaunā cilnē" class="flex min-w-0 items-center gap-3 rounded-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary-foreground">
-            <span aria-hidden="true" class="grid size-10 shrink-0 place-items-center rounded-full border border-primary-foreground text-xs font-semibold">VIAA</span>
-            <span class="truncate text-sm font-semibold uppercase tracking-wide">Valsts izglītības attīstības aģentūra</span>
-          </a>
-          <nav aria-label="Galvenā navigācija" class="text-sm">
-            <ul class="flex flex-wrap gap-4">
-              <li><a class="underline underline-offset-4 hover:no-underline" href="#par-katalogu">Par katalogu</a></li>
-              <li><a class="underline underline-offset-4 hover:no-underline" href="#rezultati">Risinājumi</a></li>
-            </ul>
-          </nav>
+      <header>
+        <div class="bg-white">
+          <div class="mx-auto max-w-6xl px-4 py-3">
+            <div role="img" aria-label="Eiropas Savienības, Nacionālā attīstības plāna, Izglītības un zinātnes ministrijas un VIAA logotipi" style="position: relative; display: block; overflow: hidden; width: min(100%, 340px); aspect-ratio: 1418 / 286">
+              <img src="./assets/images/atbalsta-programmas-logotipi.png" alt="" width="1576" height="409" style="position: absolute; display: block; left: -6.135%; top: -22.727%; width: 111.142%; height: auto; max-width: none" />
+            </div>
+          </div>
         </div>
-        <div class="border-t border-primary-foreground/20">
-          <div class="mx-auto max-w-6xl px-4 py-10" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 24px">
-            <div style="min-width: 0; flex: 1 1 560px">
+        <div class="bg-primary text-primary-foreground">
+          <div class="mx-auto max-w-6xl px-4 py-10" style="display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: start; gap: 24px">
+            <div style="min-width: 0">
               <h1 class="text-3xl font-semibold sm:text-4xl">Asistīvo tehnoloģiju katalogs</h1>
               <p class="mt-3 max-w-3xl text-base text-primary-foreground/90">Atrodi tehnoloģijas un resursus, kas var palīdzēt mazināt šķēršļus mācību procesā.</p>
             </div>
-            <div role="img" aria-label="Eiropas Savienības, Nacionālā attīstības plāna, Izglītības un zinātnes ministrijas un VIAA logotipi" style="position: relative; display: block; overflow: hidden; flex: 0 1 340px; width: min(100%, 340px); aspect-ratio: 1418 / 286">
-              <img src="./assets/images/atbalsta-programmas-logotipi.png" alt="" width="1576" height="409" style="position: absolute; display: block; left: -6.135%; top: -22.727%; width: 111.142%; height: auto; max-width: none" />
-            </div>
+            <nav aria-label="Galvenā navigācija" class="text-sm">
+              <ul class="flex flex-wrap gap-4">
+                <li><a class="underline underline-offset-4 hover:no-underline" href="#par-katalogu">Par katalogu</a></li>
+                <li><a class="underline underline-offset-4 hover:no-underline" href="#rezultati">Risinājumi</a></li>
+              </ul>
+            </nav>
           </div>
         </div>
       </header>
