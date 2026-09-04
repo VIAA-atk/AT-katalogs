@@ -2690,7 +2690,7 @@
     "needs": [
       "organizesanaAtbalsts"
     ],
-    "type": "programmatura",
+    "type": "piederums",
     "level": "zems",
     "latvian": "Informācija tiks papildināta",
     "whatIs": "Secīgs veicamo darbību vai pārbaudāmo punktu saraksts papīra vai digitālā formā.",
