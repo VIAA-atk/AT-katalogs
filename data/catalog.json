@@ -1322,6 +1322,8 @@
     "name": "Braila printeri",
     "short": "Specializēti printeri, kas digitālu tekstu un dažkārt grafiku izspiež reljefā Braila rakstā uz papīra.",
     "areas": [
+      "lasisana",
+      "komunikacija",
       "vide"
     ],
     "needs": [
@@ -1469,31 +1471,39 @@
   },
   {
     "id": "indukcijas-cilpa",
-    "name": "Indukcijas cilpa",
-    "short": "Dzirdes palīgsistēma, kas ar magnētisku lauku pārraida skaņu tieši dzirdes aparātam vai kohleārā implanta procesoram ar T spoli.",
+    "name": "Pārnēsājamā indukcijas cilpa",
+    "short": "Izmantojot pārnēsājamo indukcijas cilpu, jūs atvieglosiet dzīvi cilvēkiem ar dzirdes traucējumiem, jo tā nodrošina skaidru saziņu ar viņiem, īpaši gadījumos, kad ir liels fona troksnis vai runātājs nerunā skaidri.\n\n \n\nPārvietojamā indukcijas cilpa ir piemērota individuālām sanāksmēm vai sarunām. Tās var novietot uz reģistratūras letes un vajadzības gadījumā pārvietot uz konkrētām sanāksmēm/konsultāciju telpām.",
     "areas": [
       "vide"
     ],
     "needs": [
       "organizesanaAtbalsts"
     ],
-    "type": "programmatura",
+    "type": "ierice",
     "level": "augsts",
     "latvian": "Pieejams latviešu valodā",
     "whatIs": "Dzirdes palīgsistēma, kas ar magnētisku lauku pārraida skaņu tieši dzirdes aparātam vai kohleārā implanta procesoram ar T spoli.",
     "functions": [
-      "uzdevumu un darbību secības organizēšana",
-      "atgādinājumu, piezīmju vai plānu veidošana",
-      "uzmanības noturēšana un paveiktā pārbaude"
+      "unātāja balss pārraidīšana tieši uz saderīgu dzirdes aparātu vai kohleāro implantu;",
+      "fona trokšņu ietekmes mazināšana;",
+      "runas skaidrības un saprotamības uzlabošana;",
+      "individuālas saziņas atbalsts trokšņainā vidē;",
+      "bezvadu skaņas signāla pārraide, izmantojot indukcijas lauku;",
+      "iespēja pārvietot ierīci un izmantot dažādās telpās vai mācību situācijās."
     ],
     "acquisition": [
-      "Latvijā: SIA 'Talsys\""
+      "Dzirdes cilpas (arī akustiskās jeb indukcijas cilpas)",
+      "Dzirdes cilpa ir palīglīdzeklis dzirdes aparātu lietotājiem, kas nodrošina ērtu un diskrētu pakalpojumu pieejamību – lietotājs savu dzirdes aparātu var pārslēgt dzirdes cilpas režīmā (T) un dzirdes aparātā skaņa nonāk skaidra un bez apkārtējā fona trokšņiem.",
+      "Dzirdes cilpai vajadzētu būt ievilktai sabiedrisko iestāžu telpās. Latvijā tā pieejama divās zālēs Nacionālajā bibliotēkā, Liepājas koncertzālē \"Lielais dzintars\" un vēl dažās vietās. Cilpa var būt arī pārnēsājama.",
+      "https://surdocentrs.lv/parnesajama-indukcijas-cilpa-ierice-ko-iesakam-visam-sabiedriskajam-iestadem/",
+      "https://surdotehnika.lv/produkta-kategorija/preces-specialistiem/indukcijas-cilpas/",
+      "https://www.ktserviss.lv/lv/noma/audio-sistemas/indukcijas-cilpas-vajdzirdigajiem"
     ],
-    "image": "assets/images/catalog/indukcijas-cilpa.webp",
+    "image": "assets/images/catalog/indukcijas-cilpa.png",
     "imageAlt": "Indukcijas cilpa — reāls produkta vai risinājuma attēls",
     "imageSource": "https://www.ampetronic.com/",
     "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
-    "productPage": "https://www.ampetronic.com/",
+    "productPage": "https://surdocentrs.lv/parnesajama-indukcijas-cilpa-ierice-ko-iesakam-visam-sabiedriskajam-iestadem/",
     "productLinkType": "category"
   },
   {
