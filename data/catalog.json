@@ -1823,8 +1823,8 @@
   },
   {
     "id": "video-palielinataji-cctv-sistemas",
-    "name": "Video palielinātāji (CCTV sistēmas)",
-    "short": "Galda vai portatīvas kameru sistēmas, kas palielinātu dokumenta vai objekta attēlu rāda monitorā.",
+    "name": "Video palielinātāji",
+    "short": "Elektroniska ierīce, kas ar kameru uztver drukātu tekstu, attēlu vai priekšmetu un parāda to palielinātā veidā ekrānā. Atšķirībā no parastas lupas video palielinātājs ļauj mainīt ne tikai palielinājuma pakāpi, bet arī attēla kontrastu un krāsu režīmus.",
     "areas": [
       "vide"
     ],
@@ -1834,14 +1834,19 @@
     "type": "ierice",
     "level": "videjs",
     "latvian": "Informācija tiks papildināta",
-    "whatIs": "Galda vai portatīvas kameru sistēmas, kas palielinātu dokumenta vai objekta attēlu rāda monitorā.",
+    "whatIs": "Elektroniska ierīce, kas ar kameru uztver drukātu tekstu, attēlu vai priekšmetu un parāda to palielinātā veidā ekrānā. Atšķirībā no parastas lupas video palielinātājs ļauj mainīt ne tikai palielinājuma pakāpi, bet arī attēla kontrastu un krāsu režīmus.",
     "functions": [
-      "teksta un attēlu palielināšana vai vizuāla pielāgošana",
-      "kontrasta un salasāmības uzlabošana",
-      "drukāta vai digitāla mācību satura apskatīšana pielāgotā veidā"
+      "teksta, attēlu un priekšmetu palielināšana;",
+      "palielinājuma pakāpes regulēšana;",
+      "kontrasta un krāsu režīmu pielāgošana;",
+      "attēla spilgtuma un salasāmības uzlabošana;",
+      "drukātu mācību materiālu apskate palielinātā veidā;",
+      "atkarībā no modeļa – attēla fiksēšana un saglabāšana;",
+      "atkarībā no modeļa – OCR un teksta priekšā lasīšanas funkcija."
     ],
     "acquisition": [
-      "Latvijā: Optelec, FreedomScientific, Zoomax, Enhanced vision, Koba Vision"
+      "Latvijā: www.exceed.lv - produkts: Optelec.",
+      "Citi: FreedomScientific, Zoomax, Enhanced vision, Koba Vision"
     ],
     "image": "assets/images/catalog/video-palielinataji-cctv-sistemas.webp",
     "imageAlt": "Video palielinātāji (CCTV sistēmas) — ražotāja ilustratīvs attēls",
