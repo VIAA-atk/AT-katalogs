@@ -811,7 +811,7 @@
     ],
     "type": "programmatura",
     "level": "augsts",
-    "latvian": "Pieejams latviešu valodā",
+    "latvian": "Nav pieejams latviešu valodā",
     "whatIs": "Programmas un lietotnes funkciju, datu un ģeometrisku sakarību grafiskai attēlošanai.",
     "functions": [
       "skaitļu, darbību un matemātisku sakarību attēlošana",
