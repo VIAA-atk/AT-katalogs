@@ -2163,7 +2163,7 @@
     "needs": [
       "vizualaPielagosana"
     ],
-    "type": "materials",
+    "type": "piederums",
     "level": "zems",
     "latvian": "Informācija tiks papildināta",
     "whatIs": "Papīrs izvēlētā krāsā vai ar izteiktu kontrastu, kas var uzlabot teksta uztveri un samazināt vizuālo slodzi.",
@@ -2192,7 +2192,7 @@
     "needs": [
       "organizesanaAtbalsts"
     ],
-    "type": "programmatura",
+    "type": "piederums",
     "level": "zems",
     "latvian": "Informācija tiks papildināta",
     "whatIs": "Pārvietojami burti ar magnētisku pamatni vārdu un teikumu veidošanai uz metāla virsmas.",
@@ -2206,9 +2206,9 @@
     ],
     "image": "assets/images/catalog/magnetiskie-burti.webp",
     "imageAlt": "Magnētiskie burti — reāls ierīces vai programmas attēls",
-    "imageSource": "https://www.thedyslexiashop.co.uk/products/show-me-magnetic-uppercase-letters-tub-of-286",
+    "imageSource": "https://www.janisroze.lv/en/toys/developmental-toys/bwbc-magnetiskie-burti-latviesu-alfabets-plastmasas-spainiti.html?srsltid=AfmBOorqyM__ku145XWPOhToWlpRTNrdZZ2JtwyMXJ-w3WbdD6vcPZoF",
     "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
-    "productPage": "https://www.learningresources.com/item-magnetic-letter-and-number-construction-activity-set",
+    "productPage": "https://www.janisroze.lv/en/toys/developmental-toys/bwbc-magnetiskie-burti-latviesu-alfabets-plastmasas-spainiti.html?srsltid=AfmBOorqyM__ku145XWPOhToWlpRTNrdZZ2JtwyMXJ-w3WbdD6vcPZoF",
     "productLinkType": "product"
   },
   {
@@ -2242,40 +2242,11 @@
     "productLinkType": "product"
   },
   {
-    "id": "mehaniskie-uzlimju-printeri-ar-reljefu",
-    "name": "Mehāniskie uzlīmju printeri (ar reljefu)",
-    "short": "Rokas ierīces, kas iespiež reljefus burtus vai Braila zīmes līmlentē marķējumu veidošanai.",
-    "areas": [
-      "rakstisana"
-    ],
-    "needs": [
-      "organizesanaAtbalsts"
-    ],
-    "type": "programmatura",
-    "level": "zems",
-    "latvian": "Informācija tiks papildināta",
-    "whatIs": "Rokas ierīces, kas iespiež reljefus burtus vai Braila zīmes līmlentē marķējumu veidošanai.",
-    "functions": [
-      "uzdevumu un darbību secības organizēšana",
-      "atgādinājumu, piezīmju vai plānu veidošana",
-      "uzmanības noturēšana un paveiktā pārbaude"
-    ],
-    "acquisition": [
-      "Iegādājas kancelejas, elektronikas, mācību materiālu vai specializēto palīglīdzekļu veikalā atbilstoši individuāli izvērtētajai vajadzībai."
-    ],
-    "image": "assets/images/catalog/mehaniskie-uzlimju-printeri-ar-reljefu.webp",
-    "imageAlt": "Mehāniskie uzlīmju printeri (ar reljefu) — reāls ierīces vai programmas attēls",
-    "imageSource": "https://www.123tinta.es/Dymo-Omega-lettertag-2174601-S0717930-i43269-t1351709.html",
-    "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
-    "productPage": "https://www.dymo.com/label-makers-printers/embossing-label-makers/",
-    "productLinkType": "category"
-  },
-  {
     "id": "mi-macibstundu-asistents",
     "name": "MI Mācībstundu asistents",
     "short": "Mākslīgā intelekta rīks, kas palīdz sagatavot, pielāgot vai skaidrot mācību saturu atbilstoši skolēna vajadzībām.",
     "areas": [
-      "rakstisana",
+      "komunikacija",
       "vide"
     ],
     "needs": [
