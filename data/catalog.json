@@ -2490,69 +2490,12 @@
     "productLinkType": "product"
   },
   {
-    "id": "vardu-sienas",
-    "name": "Vārdu sienas",
-    "short": "Redzamā vietā izvietots tematiski vai alfabētiski sakārtotu vārdu kopums ikdienas mācību atbalstam.",
-    "areas": [
-      "rakstisana"
-    ],
-    "needs": [
-      "organizesanaAtbalsts"
-    ],
-    "type": "programmatura",
-    "level": "zems",
-    "latvian": "Informācija tiks papildināta",
-    "whatIs": "Redzamā vietā izvietots tematiski vai alfabētiski sakārtotu vārdu kopums ikdienas mācību atbalstam.",
-    "functions": [
-      "uzdevumu un darbību secības organizēšana",
-      "atgādinājumu, piezīmju vai plānu veidošana",
-      "uzmanības noturēšana un paveiktā pārbaude"
-    ],
-    "acquisition": [
-      "Pagatavo skolā: izvēlas mācību tēmas vārdus, noformē tos lielā, skaidrā drukā un izvieto alfabētiski vai tematiskās grupās."
-    ],
-    "image": "assets/images/catalog/vardu-sienas.webp",
-    "imageAlt": "Vārdu sienas — reāls ierīces vai programmas attēls",
-    "imageSource": "https://the-gilded-pear.blogspot.com/",
-    "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
-    "productPage": "https://www.readingrockets.org/classroom/classroom-strategies/word-walls",
-    "productLinkType": "reference"
-  },
-  {
-    "id": "vardu-burtu-kartites",
-    "name": "Vārdu/burtu kartītes",
-    "short": "Atsevišķas kartītes ar burtiem, zilbēm, vārdiem vai attēliem valodas apguvei.",
-    "areas": [
-      "rakstisana"
-    ],
-    "needs": [
-      "organizesanaAtbalsts"
-    ],
-    "type": "programmatura",
-    "level": "zems",
-    "latvian": "Informācija tiks papildināta",
-    "whatIs": "Atsevišķas kartītes ar burtiem, zilbēm, vārdiem vai attēliem valodas apguvei.",
-    "functions": [
-      "uzdevumu un darbību secības organizēšana",
-      "atgādinājumu, piezīmju vai plānu veidošana",
-      "uzmanības noturēšana un paveiktā pārbaude"
-    ],
-    "acquisition": [
-      "Pagatavo skolā: burtus, zilbes vai vārdus izdrukā uz biezāka papīra un laminē; var izmantot arī attēlus vai krāsu kodus."
-    ],
-    "image": "assets/images/catalog/vardu-burtu-kartites.webp",
-    "imageAlt": "Vārdu/burtu kartītes — reāls ierīces vai programmas attēls",
-    "imageSource": "https://www.teacherspayteachers.com/Product/Alphabet-Picture-Flash-Cards-with-Real-Photos-4675067",
-    "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
-    "productPage": "https://arasaac.org/index.html",
-    "productLinkType": "resource"
-  },
-  {
     "id": "viedpildspalvas-audiosinhronizacijai",
-    "name": "Viedpildspalvas (audiosinhronizācijai)",
-    "short": "Digitālas pildspalvas, kas ieraksta skaņu un sasaista to ar konkrētajā brīdī rakstītajām piezīmēm.",
+    "name": "Digitālās pildspalvas rakstītā teksta digitalizēšanai",
+    "short": "Digitāla pildspalva, kas, rakstot uz speciāli marķēta papīra, uztver pildspalvas kustības un pārvērš rokrakstu digitālā formā. Pierakstus iespējams saglabāt, apskatīt un atkarībā no risinājuma rediģēt datorā vai mobilajā ierīcē.",
     "areas": [
-      "rakstisana"
+      "rakstisana",
+      "vide"
     ],
     "needs": [
       "ocr",
@@ -2563,20 +2506,23 @@
     "latvian": "Pieejams latviešu valodā",
     "whatIs": "Digitālas pildspalvas, kas ieraksta skaņu un sasaista to ar konkrētajā brīdī rakstītajām piezīmēm.",
     "functions": [
-      "drukāta teksta digitalizēšana",
-      "atpazītā teksta sagatavošana lasīšanai vai rediģēšanai",
-      "drukātu mācību materiālu pārveidošana pieejamā digitālā formā",
-      "uzdevumu un darbību secības organizēšana",
-      "atgādinājumu, piezīmju vai plānu veidošana"
+      "ar roku rakstītu piezīmju digitalizēšana;",
+      "rakstītā un zīmētā pārnešana uz datoru, planšetdatoru vai viedtālruni;",
+      "digitālu pierakstu saglabāšana un kārtošana;",
+      "pierakstu kopīgošana un eksportēšana dažādos failu formātos;",
+      "zīmējumu, shēmu un citu ar roku veidotu elementu digitalizēšana;",
+      "atkarībā no modeļa – rokraksta atpazīšana un pārvēršana drukātā tekstā;",
+      "atkarībā no modeļa – audio ieraksta sasaistīšana ar veiktajām piezīmēm."
     ],
     "acquisition": [
-      "Ražotāji/izstrādātāji un citi piemēri: C-Pen — Virrata AB (Zviedrija), IRIS / Canon Group (Beļģija), Livescribe ECHO 2 — Anoto Group AB (Zviedrija)"
+      "Neo Smartpen.",
+      "Exceed.lv"
     ],
-    "image": "assets/images/catalog/viedpildspalvas-audiosinhronizacijai.webp",
-    "imageAlt": "Viedpildspalvas (audiosinhronizācijai) — ražotāja ilustratīvs attēls",
-    "imageSource": "https://us.livescribe.com/products/echo-2%E2%84%A2-smartpen",
+    "image": "assets/images/catalog/viedpildspalvas-audiosinhronizacijai.jpg",
+    "imageAlt": "Digitālās pildspalvas rakstītā teksta digitalizēšanai",
+    "imageSource": "https://shop.neosmartpen.com/",
     "imageRightsNote": "Pirms gala publicēšanas saņemt vai pārbaudīt ražotāja atļauju attēla pārpublicēšanai.",
-    "productPage": "https://us.livescribe.com/products/echo-2%E2%84%A2-smartpen",
+    "productPage": "",
     "productLinkType": "product"
   },
   {
