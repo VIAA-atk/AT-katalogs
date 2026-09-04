@@ -2303,7 +2303,7 @@
   },
   {
     "id": "pareizrakstibas-riki-ar-audio-atgriezenisko-sait",
-    "name": "Pareizrakstības rīki ar audio atgriezenisko saiti vai bez tās",
+    "name": "Pareizrakstības rīki",
     "short": "Rīki, kas atrod pareizrakstības kļūdas un piedāvā labojumus, vajadzības gadījumā tos arī nolasa balsī.",
     "areas": [
       "rakstisana"
@@ -2409,8 +2409,8 @@
     ],
     "type": "programmatura",
     "level": "augsts",
-    "latvian": "Informācija tiks papildināta",
-    "whatIs": "Programmatūra stāstu un mācību darbu veidošanai, apvienojot tekstu, attēlus, skaņu un video.",
+    "latvian": "Daļēji pieejams latviešu valodā",
+    "whatIs": "Programmatūra stāstu un mācību darbu veidošanai, apvienojot tekstu, attēlus, skaņu un video.\nSvarīgi: šie rīki bieži nav īpaši izstrādāti kā asistīvās tehnoloģijas, tādēļ to izmantošana jāpielāgo izglītojamā individuālajām vajadzībām. Var būt nepieciešams vienkāršot uzdevumu un saskarni, izmantot attēlus vai simbolus, samazināt ievadāmā teksta apjomu, nodrošināt balss ieraksta iespēju vai pedagoga atbalstu.",
     "functions": [
       "teksta ievade un rediģēšana",
       "atbalsts vārdu, teikumu vai garāka teksta veidošanai",
