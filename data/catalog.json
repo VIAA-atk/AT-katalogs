@@ -1739,7 +1739,7 @@
     "needs": [
       "rakstisanaAtbalsts"
     ],
-    "type": "ierice",
+    "type": "piederums",
     "level": "zems",
     "latvian": "Informācija tiks papildināta",
     "whatIs": "Stingras plāksnes ar atverēm virs taustiņiem, kas palīdz precīzi nospiest izvēlēto taustiņu.",
