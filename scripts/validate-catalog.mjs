@@ -7,7 +7,7 @@ const resources = JSON.parse(await fs.readFile(dataPath, "utf8"));
 const allowed = {
   areas: new Set(["lasisana", "rakstisana", "matematika", "komunikacija", "organizesana", "vide"]),
   needs: new Set(["tts", "vizualaPielagosana", "ocr", "stt", "rakstisanaAtbalsts", "organizesanaAtbalsts", "simboli", "aac", "ierices Vadiba", "matematikaAtbalsts"]),
-  type: new Set(["ierice", "programmatura", "iebuveta", "bezmaksas", "metodiskais", "materials", "piederums"]),
+  type: new Set(["ierice", "programmatura", "iebuveta", "bezmaksas", "metodiskais", "materials", "piederums", "atFonds", "citsValstsAtbalsts"]),
   level: new Set(["augsts", "videjs", "zems"]),
   productLinkType: new Set(["product", "category", "resource", "reference"]),
 };
