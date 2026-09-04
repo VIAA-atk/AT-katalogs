@@ -1886,7 +1886,7 @@
   },
   {
     "id": "vienkarsie-mehaniskie-sledzi-switches",
-    "name": "Vienkāršie mehāniskie slēdži (switches)",
+    "name": "Mehāniskie vadības slēdži",
     "short": "Nospiežamas vai citādi aktivizējamas pogas vienas noteiktas komandas nosūtīšanai ierīcei.",
     "areas": [
       "vide"
@@ -1898,7 +1898,7 @@
     "type": "ierice",
     "level": "videjs",
     "latvian": "Informācija tiks papildināta",
-    "whatIs": "Nospiežamas vai citādi aktivizējamas pogas vienas noteiktas komandas nosūtīšanai ierīcei.",
+    "whatIs": "Izglītojamiem, kuriem motorikas ierobežojumu dēļ ir grūti precīzi izmantot peli, tastatūru vai skārienekrānu. Slēdzi var novietot atbilstoši konkrētā lietotāja kontrolētajai kustībai — piemēram, pie rokas, galvas vai pēdas.",
     "functions": [
       "teksta ievade un rediģēšana",
       "atbalsts vārdu, teikumu vai garāka teksta veidošanai",
@@ -1908,7 +1908,7 @@
     ],
     "acquisition": [
       "Latvijā: Kevin (daļēji / integrējams) — SIA \"Brunomaster\"",
-      "Ražotāji/izstrādātāji un citi piemēri: AbleNet Brunomaster: https://brunomaster.com/"
+      "Piemēri: BIGmack, Jelly Bean, Buddy Button un dažādu izmēru spiedpogas."
     ],
     "image": "assets/images/catalog/vienkarsie-mehaniskie-sledzi-switches.webp",
     "imageAlt": "Vienkāršie mehāniskie slēdži (switches) — ražotāja ilustratīvs attēls",
