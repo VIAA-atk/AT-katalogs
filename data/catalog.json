@@ -1604,12 +1604,14 @@
     "name": "Optiskie palielinātāji (lupas)",
     "short": "Neelektroniski palielināšanas līdzekļi ar lēcu teksta, attēlu un sīku detaļu apskatei.",
     "areas": [
+      "lasisana",
+      "matematika",
       "vide"
     ],
     "needs": [
       "vizualaPielagosana"
     ],
-    "type": "ierice",
+    "type": "piederums",
     "level": "zems",
     "latvian": "Informācija tiks papildināta",
     "whatIs": "Neelektroniski palielināšanas līdzekļi ar lēcu teksta, attēlu un sīku detaļu apskatei.",
@@ -1625,42 +1627,12 @@
     "imageAlt": "Optiskie palielinātāji (lupas) — reāls produkta vai risinājuma attēls",
     "imageSource": "https://shop.rnib.org.uk/collections/magnifiers",
     "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
-    "productPage": "https://shop.rnib.org.uk/collections/magnifiers",
+    "productPage": "",
     "productLinkType": "category"
   },
   {
-    "id": "parvietojams-mobilas-indukcijas-cilpas-rsinajums",
-    "name": "Pārvietojams mobilās indukcijas cilpas risinājums ListenTalk (raidītājs, austiņas ar mikrofonu, uztvērējs, kakla indukcijas cilpa, organizators)",
-    "short": "Pārnēsājams bezvadu sakaru komplekts, kas runātāja balsi nogādā uztvērējā, austiņās vai kakla indukcijas cilpā.",
-    "areas": [
-      "vide"
-    ],
-    "needs": [
-      "organizesanaAtbalsts"
-    ],
-    "type": "programmatura",
-    "level": "augsts",
-    "latvian": "Pieejams latviešu valodā",
-    "whatIs": "Pārnēsājams bezvadu sakaru komplekts, kas runātāja balsi nogādā uztvērējā, austiņās vai kakla indukcijas cilpā.",
-    "functions": [
-      "uzdevumu un darbību secības organizēšana",
-      "atgādinājumu, piezīmju vai plānu veidošana",
-      "uzmanības noturēšana un paveiktā pārbaude"
-    ],
-    "acquisition": [
-      "Latvijā: SIA 'Talsys\"",
-      "Ražotāji/izstrādātāji un citi piemēri: ListenTalk — Listen Technologies (ASV)"
-    ],
-    "image": "assets/images/catalog/parvietojams-mobilas-indukcijas-cilpas-rsinajums.webp",
-    "imageAlt": "Pārvietojams mobilās indukcijas cilpas risinājums ListenTalk (raidītājs, austiņas ar mikrofonu, uztvērējs, kakla indukcijas cilpa, organizators) — ražotāja ilustratīvs attēls",
-    "imageSource": "https://www.listentech.com/listentalk/",
-    "imageRightsNote": "Pirms gala publicēšanas saņemt vai pārbaudīt ražotāja atļauju attēla pārpublicēšanai.",
-    "productPage": "https://www.listentech.com/listentalk/",
-    "productLinkType": "product"
-  },
-  {
     "id": "personigie-skanas-pastiprinataji",
-    "name": "Personīgie skaņas pastiprinātāji",
+    "name": "Valkājami dzirdes palīglīdzekļi (komunikatori)",
     "short": "Pārnēsājamas ierīces, kas ar mikrofonu uztver un pastiprina tuvumā esošu runu vai skaņu.",
     "areas": [
       "vide"
@@ -1671,20 +1643,24 @@
     "type": "ierice",
     "level": "videjs",
     "latvian": "Informācija tiks papildināta",
-    "whatIs": "Pārnēsājamas ierīces, kas ar mikrofonu uztver un pastiprina tuvumā esošu runu vai skaņu.",
+    "whatIs": "Pārnēsājamas ierīces, kas uztver runātāja balsi ar mikrofonu, pastiprina skaņu un pārraida to klausītājam austiņās vai citā saderīgā uztvērējā. Tās var palīdzēt labāk sadzirdēt runu mācību stundā, individuālā sarunā vai citā situācijā, kur runātājs atrodas tālāk vai ir apkārtējais troksnis.",
     "functions": [
-      "uzdevumu un darbību secības organizēšana",
-      "atgādinājumu, piezīmju vai plānu veidošana",
-      "uzmanības noturēšana un paveiktā pārbaude"
+      "runātāja balss pastiprināšana;",
+      "runas uztveres uzlabošana;",
+      "klausīšanās attāluma radīto grūtību mazināšana;",
+      "apkārtējo skaņu ietekmes mazināšana, ja mikrofons novietots tuvāk runātājam;",
+      "skaļuma pielāgošana individuālajām vajadzībām;",
+      "atkarībā no modeļa – izmantošana ar austiņām, kakla cilpu vai citām klausīšanās ierīcēm."
     ],
     "acquisition": [
-      "Latvijā: SIA \"LNS Surdotehniskās palīdzības centrs\""
+      "Latvijā: SIA \"LNS Surdotehniskās palīdzības centrs\"",
+      "https://surdocentrs.lv/surdotehnika/komunikators/"
     ],
     "image": "assets/images/catalog/personigie-skanas-pastiprinataji.webp",
     "imageAlt": "Personīgie skaņas pastiprinātāji — reāls produkta vai risinājuma attēls",
-    "imageSource": "https://williamsav.com/pocketalker-personal-amplifier/",
+    "imageSource": "https://surdocentrs.lv/surdotehnika/komunikators/",
     "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
-    "productPage": "https://williamsav.com/pocketalker-personal-amplifier/",
+    "productPage": "https://surdocentrs.lv/surdotehnika/komunikators/",
     "productLinkType": "product"
   },
   {
