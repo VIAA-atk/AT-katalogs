@@ -2719,7 +2719,7 @@
     "needs": [
       "vizualaPielagosana"
     ],
-    "type": "programmatura",
+    "type": "piederums",
     "level": "zems",
     "latvian": "Informācija tiks papildināta",
     "whatIs": "Vienota krāsu izmantošana priekšmetu, informācijas, vietu vai uzdevumu kategoriju apzīmēšanai.",
