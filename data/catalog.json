@@ -1867,7 +1867,7 @@
     ],
     "type": "programmatura",
     "level": "augsts",
-    "latvian": "Pieejams latviešu valodā",
+    "latvian": "Nav informācija",
     "whatIs": "Valkājama ierīce ar kameru un mākslīgā intelekta funkcijām, kas balsī apraksta tekstu, objektus vai apkārtni.",
     "functions": [
       "drukāta teksta digitalizēšana",
@@ -1875,7 +1875,6 @@
       "drukātu mācību materiālu pārveidošana pieejamā digitālā formā"
     ],
     "acquisition": [
-      "Latvijā: Envision Glasses, OrCam MyEye, Kapsys — SIA \"Exceed\"",
       "Ražotāji/izstrādātāji un citi piemēri: Envision Glasses — Envision (Nīderlande); OrCam My Eye, OrCam Read — OrCam Technologies (Izraēla) Exceed: https://www.exceed.lv/"
     ],
     "image": "assets/images/catalog/viedbrilles-ar-ai-vides-atpazisanu.webp",
