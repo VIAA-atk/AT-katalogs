@@ -1729,61 +1729,33 @@
     "productLinkType": "category"
   },
   {
-    "id": "statiskie-vizualie-signali",
-    "name": "Statiskie vizuālie signāli",
-    "short": "Nemainīgi redzami simboli, krāsu zīmes vai uzraksti, kas paziņo noteiktu informāciju vai noteikumu.",
-    "areas": [
-      "vide"
-    ],
-    "needs": [
-      "simboli"
-    ],
-    "type": "materials",
-    "level": "zems",
-    "latvian": "Informācija tiks papildināta",
-    "whatIs": "Nemainīgi redzami simboli, krāsu zīmes vai uzraksti, kas paziņo noteiktu informāciju vai noteikumu.",
-    "functions": [
-      "informācijas attēlošana ar simboliem vai vizuālām norādēm",
-      "uzdevumu, izvēļu un darbību secības skaidrošana",
-      "vizuāli saprotama mācību satura veidošana"
-    ],
-    "acquisition": [
-      "Pagatavo skolā: izveido vienotas krāsu zīmes, piktogrammas vai īsus uzrakstus, izdrukā, laminē un izvieto vajadzīgajā vietā."
-    ],
-    "image": "assets/images/catalog/statiskie-vizualie-signali.webp",
-    "imageAlt": "Statiskie vizuālie signāli — reāls produkta vai risinājuma attēls",
-    "imageSource": "https://aulaabierta.arasaac.org/en/signage-of-public-spaces-and-services-with-arasaac-pictograms",
-    "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
-    "productPage": "https://aulaabierta.arasaac.org/en/signage-of-public-spaces-and-services-with-arasaac-pictograms",
-    "productLinkType": "resource"
-  },
-  {
     "id": "taktilas-kartes-un-gridas-markejumi",
-    "name": "Taktilās kartes un grīdas marķējumi",
-    "short": "Sataustāmi plāni, virsmas un marķējumi, kas palīdz uztvert telpas izkārtojumu un pārvietošanās ceļu.",
+    "name": "Interaktīvas taktilās kartes",
+    "short": "Šādas kartes apvieno datoru, skārienjūtīgu monitoru un caurspīdīgu reljefa slāni, kas ļauj vienlaikus izmantot gan vizuālo, gan taustāmo informāciju. Piemēram, Rīgas pilsētas interaktīvajā kartē attēlotas 170 ielas un objekti: ielas iezīmētas ar punktētām līnijām, dzelzceļš ar cietu līniju, bet objekti atzīmēti ar apļiem. \n\nNeredzīgs lietotājs, izpētot karti un veicot dubultklikšķi uz jebkuras ielas, atskan tās nosaukums. Šo tehnoloģiju iespējams pielāgot ne tikai pilsētas kartēm, bet arī citiem mērķiem, piemēram, mākslas darbu, gleznu vai izstāžu satura interpretācijai.",
     "areas": [
       "vide"
     ],
     "needs": [
       "organizesanaAtbalsts"
     ],
-    "type": "materials",
-    "level": "zems",
+    "type": "programmatura",
+    "level": "augsts",
     "latvian": "Informācija tiks papildināta",
-    "whatIs": "Sataustāmi plāni, virsmas un marķējumi, kas palīdz uztvert telpas izkārtojumu un pārvietošanās ceļu.",
+    "whatIs": "Šādas kartes apvieno datoru, skārienjūtīgu monitoru un caurspīdīgu reljefa slāni, kas ļauj vienlaikus izmantot gan vizuālo, gan taustāmo informāciju. Piemēram, Rīgas pilsētas interaktīvajā kartē attēlotas 170 ielas un objekti: ielas iezīmētas ar punktētām līnijām, dzelzceļš ar cietu līniju, bet objekti atzīmēti ar apļiem. \n\nNeredzīgs lietotājs, izpētot karti un veicot dubultklikšķi uz jebkuras ielas, atskan tās nosaukums. Šo tehnoloģiju iespējams pielāgot ne tikai pilsētas kartēm, bet arī citiem mērķiem, piemēram, mākslas darbu, gleznu vai izstāžu satura interpretācijai.",
     "functions": [
       "uzdevumu un darbību secības organizēšana",
       "atgādinājumu, piezīmju vai plānu veidošana",
       "uzmanības noturēšana un paveiktā pārbaude"
     ],
     "acquisition": [
-      "Vienkāršu taktilu plānu var pagatavot kopā ar tiflopedagogu no atšķirīgu faktūru materiāliem; grīdas marķējumu iegādājas pie pieejamības vai būvniecības preču piegādātāja."
+      "Interaktīvās taktilās kartes — inovatīvs produkts Latvijā, ko piedāvā SOCINTEGRA.",
+      "https://www.socintegra.lv/lv/catalogue/product/interaktivas-taktilas-kartes"
     ],
-    "image": "assets/images/catalog/taktilas-kartes-un-gridas-markejumi.webp",
+    "image": "assets/images/catalog/taktilas-kartes-un-gridas-markejumi.jpg",
     "imageAlt": "Taktilās kartes un grīdas marķējumi — reāls produkta vai risinājuma attēls",
     "imageSource": "https://directaccessgp.com/uk/products/tactile-map-boards/",
     "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
-    "productPage": "https://directaccessgp.com/uk/products/tactile-map-boards/",
+    "productPage": "https://www.socintegra.lv/lv/catalogue/product/interaktivas-taktilas-kartes",
     "productLinkType": "product"
   },
   {
