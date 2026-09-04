@@ -782,7 +782,7 @@
     ],
     "type": "programmatura",
     "level": "videjs",
-    "latvian": "Pieejams latviešu valodā",
+    "latvian": "Nav pieejams latviešu valodā",
     "whatIs": "Programma vai lietotne rakstīšanai un zīmēšanai uz regulējama digitāla rūtiņu režģa.",
     "functions": [
       "skaitļu, darbību un matemātisku sakarību attēlošana",
