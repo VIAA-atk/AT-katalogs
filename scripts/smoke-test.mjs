@@ -27,7 +27,7 @@ if (publicHtml.includes("routes-C_WgTdsH.js") || publicHtml.includes("catalog-fa
 if (!publicHtml.includes("./data/catalog.json") && !publicJs.includes("./data/catalog.json")) throw new Error("Publiskā lapa nelasa autoritatīvo kataloga datni.");
 if (catalog.some((item) => "situations" in item || "features" in item || "description" in item)) throw new Error("Katalogā saglabāti novecojušie lauki.");
 if (/localStorage|sessionStorage|document\.cookie/.test(adminJs)) throw new Error("Administratora panelis mēģina pastāvīgi saglabāt autentifikācijas datus.");
-if (!adminHtml.includes("./admin-v11.js")) throw new Error("Administratora paneļa unikālā ielādes versija nav piesaistīta.");
+if (!adminHtml.includes("./admin-v12.js")) throw new Error("Administratora paneļa unikālā ielādes versija nav piesaistīta.");
 if (!adminHtml.includes('<div id="record-form">') || adminHtml.includes('<form id="record-form"') || /id="field-id"[^>]*pattern=/.test(adminHtml)) {
   throw new Error("Firefox konfliktējošā identifikatora lauka HTML validācija nav noņemta.");
 }
@@ -44,6 +44,11 @@ if (/\b(?:resources|filtered)\.sort\s*\(/.test(publicJs)) {
   throw new Error("Publiskais katalogs nedrīkst pārkārtot catalog.json ierakstu secību.");
 }
 if (catalog.some((item) => "order" in item)) throw new Error("Secībai jāizmanto catalog.json masīva secība, nevis papildu order lauks.");
+const atFondsLabel = "AT Fonds (Projekta numurs 4.2.1.2/1/25/I/001, sadarbības partneriem)";
+if (!publicHtml.includes(`<option value="atFonds">${atFondsLabel}</option>`) || !publicJs.includes(`atFonds: "${atFondsLabel}"`) ||
+    !adminHtml.includes(`<option value="atFonds">${atFondsLabel}</option>`) || !adminJs.includes(`atFonds: "${atFondsLabel}"`)) {
+  throw new Error("AT Fonds resursa veids nav konsekventi pieejams publiskajā katalogā un administratora panelī.");
+}
 if (adminJs.includes("fileToWebp") || !adminJs.includes("await file.arrayBuffer()") || !adminJs.includes("upload.content")) {
   throw new Error("Attēla saglabāšanas plūsma joprojām izmanto pārlūkā nestabilo pārveidošanu.");
 }

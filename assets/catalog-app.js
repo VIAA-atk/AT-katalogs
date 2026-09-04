@@ -7,6 +7,7 @@ const labels = {
     ierice: "Ierīce", programmatura: "Programmatūra vai lietotne", iebuveta: "Iebūvēta piekļūstamības funkcija",
     bezmaksas: "Bezmaksas digitālais rīks", metodiskais: "Metodiskais materiāls vai pamācība",
     materials: "Mācību materiāls", piederums: "Pielāgots piederums",
+    atFonds: "AT Fonds (Projekta numurs 4.2.1.2/1/25/I/001, sadarbības partneriem)",
   },
   levels: { augsts: "Augsts līmenis", videjs: "Vidējs līmenis", zems: "Zems līmenis" },
   links: { product: "Ražotāja informācija", category: "Skatīt risinājumu kategoriju", resource: "Papildu informācija", reference: "Papildu informācija" },
