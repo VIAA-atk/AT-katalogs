@@ -2878,13 +2878,15 @@
       "uzmanības noturēšana un paveiktā pārbaude"
     ],
     "acquisition": [
-      "Ražotāji/izstrādātāji un citi piemēri: Tiešsaistes rīki (lielākoties) bezmaksas: Trello, Todoist, Google Keep, Notion"
+      "Tiimo – specializēta vizuālās plānošanas un uzdevumu strukturēšanas lietotne. Pieejama bezmaksas versija ar ierobežotu funkcionalitāti; pilnai funkcionalitātei nepieciešams Tiimo Pro maksas abonements. Latviešu valoda nav pieejama.",
+      "Microsoft To Do – bezmaksas, vispārpieejama uzdevumu plānošanas lietotne, kas nav īpaši izstrādāta kā asistīvā tehnoloģija, bet to iespējams pielāgot izglītojamā individuālajām vajadzībām. Ļauj veidot uzdevumu sarakstus, sadalīt uzdevumus soļos, noteikt termiņus un atgādinājumus.",
+      "Google Tasks – vispārpieejams uzdevumu plānošanas rīks, ko var izmantot uzdevumu un apakšuzdevumu strukturēšanai, termiņu noteikšanai un atgādinājumiem; integrēts Google vidē, tostarp Calendar un Gmail. Tas nav īpaši izstrādāts kā asistīvā tehnoloģija, tādēļ izmantošana jāpielāgo konkrētā izglītojamā vajadzībām."
     ],
-    "image": "assets/images/catalog/uzdevumu-strukturesanas-lietotnes.webp",
+    "image": "assets/images/catalog/uzdevumu-strukturesanas-lietotnes.png",
     "imageAlt": "Uzdevumu strukturēšanas lietotnes — ražotāja ilustratīvs attēls",
     "imageSource": "https://www.todoist.com/",
     "imageRightsNote": "Pirms gala publicēšanas saņemt vai pārbaudīt ražotāja atļauju attēla pārpublicēšanai.",
-    "productPage": "https://todoist.com/",
+    "productPage": "https://www.tiimoapp.com/",
     "productLinkType": "product"
   },
   {
