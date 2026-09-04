@@ -2536,19 +2536,23 @@
       "organizesanaAtbalsts",
       "simboli"
     ],
-    "type": "programmatura",
+    "type": "materials",
     "level": "zems",
     "latvian": "Informācija tiks papildināta",
-    "whatIs": "Attēlos, simbolos vai īsos tekstos attēlots dienas darbību un notikumu plāns.",
+    "whatIs": "Vizuāls atbalsta līdzeklis, kurā ar attēliem, piktogrammām, simboliem, fotogrāfijām un/vai tekstu secīgi attēlo dienā, mācību stundā vai konkrētā aktivitātē paredzētās darbības. Plānu var veidot visai dienai vai tikai noteiktam laika posmam, un tas var būt individuāli pielāgots konkrētam izglītojamajam",
     "functions": [
-      "uzdevumu un darbību secības organizēšana",
-      "atgādinājumu, piezīmju vai plānu veidošana",
-      "uzmanības noturēšana un paveiktā pārbaude",
-      "informācijas attēlošana ar simboliem vai vizuālām norādēm",
-      "uzdevumu, izvēļu un darbību secības skaidrošana"
+      "vizuāli parāda dienas vai stundas darbību secību;",
+      "palīdz saprast, kas notiek tagad un kas sekos pēc tam;",
+      "palīdz orientēties dienas kārtībā un pārejās starp aktivitātēm;",
+      "padara dienas norisi paredzamāku;",
+      "palīdz atcerēties veicamos uzdevumus;",
+      "var mazināt nepieciešamību pēc atkārtotām mutiskām instrukcijām;",
+      "veicina patstāvīgāku darbību un dienas organizēšanu;",
+      "ļauj vizuāli parādīt izmaiņas ierastajā dienas kārtībā;"
     ],
     "acquisition": [
-      "Pagatavo skolā individuāli: darbību attēlus/piktogrammas izdrukā, laminē un izvieto secībā; paveikto noņem vai atzīmē."
+      "Izgatavo pats – izmantojot izdrukātas fotogrāfijas, attēlus, piktogrammas vai simbolus, laminējot kartītes un piestiprinot tās pie tāfeles/plāna ar līplenti, magnētiem u. c.",
+      "Var veidot ar simbolu programmatūru, piemēram, Widgit/SymWriter, izdrukājot nepieciešamās dienas aktivitāšu kartītes."
     ],
     "image": "assets/images/catalog/vizualie-dienas-planotaji.webp",
     "imageAlt": "Vizuālie dienas plānotāji — reāls produkta vai risinājuma attēls",
