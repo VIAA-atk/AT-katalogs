@@ -166,12 +166,12 @@
       "Ražotāji/izstrādātāji un citi piemēri: Boardmaker 7 — Tobii Dynavox (Zviedrija/ASV); Grid3 — Smartbox (Liebritānija)",
       "Iespējamu piešķiršanu konkrētai personai izvērtē VTPC: https://www.vtpc.lv/pakalpojumi/ka-sanemt-tehnisko-paliglidzekli Arbor Medical: https://arbor.lv/ Tobii Dynavox: https://www.tobiidynavox.com/"
     ],
-    "image": "assets/images/catalog/komunikacijas-deli-ar-runas-sintezi-ar-piktogram.webp",
+    "image": "assets/images/catalog/komunikacijas-deli-ar-runas-sintezi-ar-piktogram.png",
     "imageAlt": "Komunikācijas dēļi ar runas sintēzi ar piktogrammām/attēlu — ražotāja ilustratīvs attēls",
-    "imageSource": "https://www.tobiidynavox.com/products/boardmaker-7",
+    "imageSource": "",
     "imageRightsNote": "Pirms gala publicēšanas saņemt vai pārbaudīt ražotāja atļauju attēla pārpublicēšanai.",
-    "productPage": "https://www.tobiidynavox.com/products/boardmaker-7",
-    "productLinkType": "product"
+    "productPage": "https://www.vtpc.lv/pakalpojumi/ka-sanemt-tehnisko-paliglidzekli",
+    "productLinkType": "resource"
   },
   {
     "id": "komunikacijas-kartites-piem-pecs",
