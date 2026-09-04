@@ -1570,13 +1570,15 @@
   },
   {
     "id": "lielas-drukas-materiali",
-    "name": "Lielas drukas materiāli",
+    "name": "Materiāli palielinātā drukā",
     "short": "Drukāti mācību materiāli ar palielinātu burtu un attēlu izmēru, skaidru izkārtojumu un labu kontrastu.",
     "areas": [
       "vide"
     ],
     "needs": [
-      "organizesanaAtbalsts"
+      "vizualaPielagosana",
+      "organizesanaAtbalsts",
+      "simboli"
     ],
     "type": "materials",
     "level": "zems",
@@ -1590,7 +1592,7 @@
     "acquisition": [
       "Pagatavo skolā no digitālā oriģināla, palielinot fontu un attēlus, vienkāršojot izkārtojumu un saglabājot augstu kontrastu; nedrīkst pārkāpt materiāla licences nosacījumus."
     ],
-    "image": "assets/images/catalog/lielas-drukas-materiali.webp",
+    "image": "assets/images/catalog/lielas-drukas-materiali.png",
     "imageAlt": "Lielas drukas materiāli — reāls produkta vai risinājuma attēls",
     "imageSource": "https://www.rnib.org.uk/living-with-sight-loss/independent-living/leisure/reading-and-books/large-and-giant-print/",
     "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
