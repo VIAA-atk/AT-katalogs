@@ -27,13 +27,23 @@ if (publicHtml.includes("routes-C_WgTdsH.js") || publicHtml.includes("catalog-fa
 if (!publicHtml.includes("./data/catalog.json") && !publicJs.includes("./data/catalog.json")) throw new Error("Publiskā lapa nelasa autoritatīvo kataloga datni.");
 if (catalog.some((item) => "situations" in item || "features" in item || "description" in item)) throw new Error("Katalogā saglabāti novecojušie lauki.");
 if (/localStorage|sessionStorage|document\.cookie/.test(adminJs)) throw new Error("Administratora panelis mēģina pastāvīgi saglabāt autentifikācijas datus.");
-if (!adminHtml.includes("./admin-v10.js")) throw new Error("Administratora paneļa unikālā ielādes versija nav piesaistīta.");
+if (!adminHtml.includes("./admin-v11.js")) throw new Error("Administratora paneļa unikālā ielādes versija nav piesaistīta.");
 if (!adminHtml.includes('<div id="record-form">') || adminHtml.includes('<form id="record-form"') || /id="field-id"[^>]*pattern=/.test(adminHtml)) {
   throw new Error("Firefox konfliktējošā identifikatora lauka HTML validācija nav noņemta.");
 }
 if (!adminHtml.includes('id="save-draft" type="button"') || !adminJs.includes('ui["save-draft"].addEventListener("click"')) {
   throw new Error("Melnraksta saglabāšanas pogai nav tiešas darbības bez formas iesniegšanas.");
 }
+for (const id of ["move-up", "move-down", "order-help"]) {
+  if (!adminIds.has(id)) throw new Error(`Administratora secības vadībā trūkst #${id}.`);
+}
+for (const fragment of ["function reorderResource(", 'handle.draggable = canDrag', 'markDirty();', 'JSON.stringify(resources, null, 2)']) {
+  if (!adminJs.includes(fragment)) throw new Error(`Administratora secības saglabāšanas plūsmā trūkst: ${fragment}`);
+}
+if (/\b(?:resources|filtered)\.sort\s*\(/.test(publicJs)) {
+  throw new Error("Publiskais katalogs nedrīkst pārkārtot catalog.json ierakstu secību.");
+}
+if (catalog.some((item) => "order" in item)) throw new Error("Secībai jāizmanto catalog.json masīva secība, nevis papildu order lauks.");
 if (adminJs.includes("fileToWebp") || !adminJs.includes("await file.arrayBuffer()") || !adminJs.includes("upload.content")) {
   throw new Error("Attēla saglabāšanas plūsma joprojām izmanto pārlūkā nestabilo pārveidošanu.");
 }

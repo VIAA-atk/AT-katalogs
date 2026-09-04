@@ -7,8 +7,8 @@
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: blob:; style-src 'self'; script-src 'self'; connect-src https://api.github.com; base-uri 'self'; form-action 'self'; frame-ancestors 'none'" />
     <title>Kataloga administrēšana | VIAA</title>
     <link rel="icon" href="../favicon.svg?v=3" type="image/svg+xml" />
-    <link rel="stylesheet" href="./admin.css?v=2" />
-    <script type="module" src="./admin-v10.js"></script>
+    <link rel="stylesheet" href="./admin.css?v=3" />
+    <script type="module" src="./admin-v11.js"></script>
   </head>
   <body>
     <header class="site-header">
@@ -41,7 +41,7 @@
           </div>
         </form>
         <p id="auth-status" class="status" role="status"></p>
-        <p class="help">Administratora paneļa versija 10</p>
+        <p class="help">Administratora paneļa versija 11</p>
       </section>
 
       <section id="admin-app" hidden>
@@ -67,6 +67,11 @@
               <button id="new-record" type="button" class="button primary full">Pievienot jaunu ierakstu</button>
             </div>
             <p id="record-count" class="muted"></p>
+            <div class="order-controls" aria-label="Izvēlētā ieraksta secības maiņa">
+              <button id="move-up" type="button" class="button secondary" disabled>↑ Uz augšu</button>
+              <button id="move-down" type="button" class="button secondary" disabled>↓ Uz leju</button>
+            </div>
+            <p id="order-help" class="help order-help">Izvēlies ierakstu un pārvieto to ar pogām vai satver aiz ikonas ☰.</p>
             <ul id="record-list" class="record-list"></ul>
           </aside>
 

@@ -51,9 +51,20 @@ fieldset { min-width: 0; margin: 0; padding: 0; border: 0; }
 .list-panel { position: sticky; top: 1rem; max-height: calc(100vh - 2rem); overflow: auto; padding: 1rem; }
 .list-heading { position: sticky; top: -1rem; z-index: 1; padding: 0 0 1rem; background: white; }
 .list-heading .button { margin-top: .75rem; }
+.order-controls { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .5rem; margin-top: .75rem; }
+.order-controls .button { min-height: 2.5rem; padding: .5rem; font-size: .85rem; }
+.order-help { margin-bottom: .75rem; }
 .record-list { display: grid; gap: .4rem; margin: 0; padding: 0; list-style: none; }
-.record-button { width: 100%; padding: .75rem; border: 1px solid transparent; border-radius: .35rem; background: transparent; text-align: left; cursor: pointer; }
-.record-button:hover, .record-button.active { border-color: var(--border); background: #f3eef6; }
+.record-item { position: relative; display: grid; grid-template-columns: 2.25rem minmax(0, 1fr); align-items: stretch; border: 1px solid transparent; border-radius: .35rem; background: transparent; }
+.record-item:hover, .record-item.active { border-color: var(--border); background: #f3eef6; }
+.record-item.dragging { opacity: .45; }
+.record-item.drop-before::before, .record-item.drop-after::after { position: absolute; right: 0; left: 0; height: 3px; border-radius: 999px; background: var(--primary); content: ""; }
+.record-item.drop-before::before { top: -.3rem; }
+.record-item.drop-after::after { bottom: -.3rem; }
+.drag-handle { display: grid; place-items: center; color: var(--muted); font-size: 1.1rem; line-height: 1; cursor: grab; user-select: none; touch-action: none; }
+.drag-handle:active { cursor: grabbing; }
+.drag-handle[draggable="false"] { cursor: not-allowed; opacity: .45; }
+.record-button { width: 100%; padding: .75rem .75rem .75rem .25rem; border: 0; border-radius: .35rem; background: transparent; text-align: left; cursor: pointer; }
 .record-button strong, .record-button small { display: block; }
 .record-button small { margin-top: .2rem; color: var(--muted); }
 .editor-panel { padding: 1.5rem; }
