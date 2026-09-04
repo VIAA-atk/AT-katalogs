@@ -14,7 +14,7 @@
       "short": { "type": "string", "minLength": 1 },
       "areas": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "enum": ["lasisana", "rakstisana", "matematika", "komunikacija", "organizesana", "vide"] } },
       "needs": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "enum": ["tts", "vizualaPielagosana", "ocr", "stt", "rakstisanaAtbalsts", "organizesanaAtbalsts", "simboli", "aac", "ierices Vadiba", "matematikaAtbalsts"] } },
-      "type": { "enum": ["ierice", "programmatura", "iebuveta", "bezmaksas", "metodiskais", "materials", "piederums", "atFonds"] },
+      "type": { "enum": ["ierice", "programmatura", "iebuveta", "bezmaksas", "metodiskais", "materials", "piederums", "atFonds", "citsValstsAtbalsts"] },
       "level": { "enum": ["augsts", "videjs", "zems"] },
       "latvian": { "type": "string", "minLength": 1 },
       "whatIs": { "type": "string", "minLength": 1 },
