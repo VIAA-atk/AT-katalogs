@@ -34,35 +34,6 @@
     "productLinkType": "product"
   },
   {
-    "id": "attelu-tafeles",
-    "name": "Attēlu tāfeles",
-    "short": "Fiziskas tāfeles ar attēliem vai simboliem, uz kuriem lietotājs norāda, lai sazinātos.",
-    "areas": [
-      "komunikacija"
-    ],
-    "needs": [
-      "organizesanaAtbalsts"
-    ],
-    "type": "programmatura",
-    "level": "zems",
-    "latvian": "Informācija tiks papildināta",
-    "whatIs": "Fiziskas tāfeles ar attēliem vai simboliem, uz kuriem lietotājs norāda, lai sazinātos.",
-    "functions": [
-      "uzdevumu un darbību secības organizēšana",
-      "atgādinājumu, piezīmju vai plānu veidošana",
-      "uzmanības noturēšana un paveiktā pārbaude"
-    ],
-    "acquisition": [
-      "Var pagatavot skolā: izdrukā vai uzzīmē attēlus/piktogrammas, laminē un piestiprina pie tāfeles ar līplenti vai līpošiem stiprinājumiem. Gatavus simbolus var veidot arī ar ARASAAC: https://arasaac.org/"
-    ],
-    "image": "assets/images/catalog/attelu-tafeles.webp",
-    "imageAlt": "Attēlu tāfeles — reāls produkta vai risinājuma attēls",
-    "imageSource": "https://aulaabierta.arasaac.org/en/aac-materials-communication-boards",
-    "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
-    "productPage": "https://aulaabierta.arasaac.org/en/aac-materials-communication-boards",
-    "productLinkType": "resource"
-  },
-  {
     "id": "fm-sistemas",
     "name": "FM sistēmas",
     "short": "Bezvadu dzirdes palīgsistēmas, kas skolotāja balsi no mikrofona pārraida tieši skolēna uztvērējā vai dzirdes ierīcē.",
