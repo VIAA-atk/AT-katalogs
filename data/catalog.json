@@ -3046,7 +3046,7 @@
   },
   {
     "id": "my-board-buddy-go-iar2",
-    "name": "my Board Buddy GO (IAR2)",
+    "name": "my Board Buddy GO (IAR2) Risinājums viedtāfeles palielināšanai vairākās klasēs",
     "short": "Risinājums viedtāfeles palielināšanai vairākās klasēs",
     "areas": [
       "komunikacija",
@@ -3079,11 +3079,47 @@
     "acquisition": [
       "https://exceed.lv/index.php/lv/produkti/komunikaciju-paliglidzekli/izglitibas-atbalsta-risinajumi/view/776:my-board-buddy-go-iar2"
     ],
-    "image": "assets/images/catalog/my-board-buddy-go-iar2.png",
+    "image": "assets/images/catalog/catalog-placeholder.svg",
     "imageAlt": "my Board Buddy GO",
     "imageSource": "https://exceed.lv/index.php/lv/produkti/komunikaciju-paliglidzekli/izglitibas-atbalsta-risinajumi/view/776:my-board-buddy-go-iar2",
     "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
     "productPage": "https://exceed.lv/index.php/lv/produkti/komunikaciju-paliglidzekli/izglitibas-atbalsta-risinajumi/view/776:my-board-buddy-go-iar2",
+    "productLinkType": "resource"
+  },
+  {
+    "id": "my-board-buddy-cam-iar3",
+    "name": "my Board Buddy CAM(IAR3)",
+    "short": "my Board Buddy CAM ir inovatīva 350° kamera, kas īpaši izstrādāta, lai sniegtu optimālu atbalstu skolēniem ar redzes traucējumiem mācību stundās.",
+    "areas": [
+      "komunikacija",
+      "organizesana",
+      "vide"
+    ],
+    "needs": [
+      "organizesanaAtbalsts",
+      "simboli",
+      "aac",
+      "ierices Vadiba"
+    ],
+    "type": "programmatura",
+    "level": "augsts",
+    "latvian": "Informācija tiks papildināta",
+    "whatIs": "Kamera ir viegli piestiprināma pie skolēna galda un ar motorizēto objektīvu uztver katru detaļu klasē, kā arī krīta vai baltās tāfeles saturu ar izcilu asumu.\n\nLai nodrošinātu viedtāfeles pieejamību, ieteicams izmantot my Board Buddy AIR vai my Board Buddy GO. Abas ierīces iespējams arī ērti kombinēt.\n\nTālvadības kamera my Board Buddy CAM var tikt kombinēta arī ar dokumentu kameru. Tas palīdz skolēniem ar redzes traucējumiem palielināt dokumentus un objektus no attāluma.\n\nmy Board Buddy ir izstrādāts tieši jaunākiem skolēniem. Tas ir tik vienkārši lietojams, ka to var izmantot bērni jau no 5 gadu vecuma.",
+    "functions": [
+      "Kamera tiek uzstādīta uz skolēna galda un tiek vadīta ar vienkāršām vadības pogām.",
+      "Skolēni var:",
+      "Palielināt attēlu, lai skaidrāk saskatītu detaļas",
+      "Pielāgot kontrastu un krāsas atbilstoši savām individuālajām redzes vajadzībām",
+      "Saglabāt iecienītās kameras pozīcijas, lai ātri pārslēgtos, piemēram, starp skolotāju un tāfeli"
+    ],
+    "acquisition": [
+      "https://exceed.lv/index.php/lv/produkti/komunikaciju-paliglidzekli/izglitibas-atbalsta-risinajumi/view/775:my-board-buddy-cam-iar3"
+    ],
+    "image": "assets/images/catalog/my-board-buddy-cam-iar3.png",
+    "imageAlt": "my Board Buddy GO.",
+    "imageSource": "https://exceed.lv/index.php/lv/produkti/komunikaciju-paliglidzekli/izglitibas-atbalsta-risinajumi/view/775:my-board-buddy-cam-iar3",
+    "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
+    "productPage": "https://exceed.lv/index.php/lv/produkti/komunikaciju-paliglidzekli/izglitibas-atbalsta-risinajumi/view/775:my-board-buddy-cam-iar3",
     "productLinkType": "resource"
   }
 ]
