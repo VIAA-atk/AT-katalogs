@@ -41,8 +41,10 @@ repozitorijā.
 - **Pievienot jaunu ierakstu** izveido tukšu formu.
 - Izvēloties ierakstu kreisajā sarakstā, to var labot.
 - **Dzēst ierakstu** prasa atsevišķu apstiprinājumu.
-- Lauku un attēla izmaiņas melnrakstā saglabājas automātiski aptuveni vienu
-  sekundi pēc ievades; **Saglabāt melnrakstā** ļauj to izdarīt uzreiz.
+- Rakstīšanas laikā ievadītajam tekstam šajā pārlūka cilnē tiek glabāta
+  rezerves kopija, bet GitHub netiek mainīts fonā.
+- **Saglabāt melnrakstā** atkārtoti ielādē jaunāko `catalog.json` un tā SHA,
+  pēc tam lokāli apvieno tikai rediģētā ieraksta mainītos laukus.
 - **Publicēt izmaiņas** izveido vienu GitHub commitu `main` zarā.
 
 Panelī var augšupielādēt JPG, PNG vai WebP attēlu līdz 8 MB, saglabājot tā
@@ -58,8 +60,13 @@ GitHub Pages atjaunošana pēc commita parasti aizņem dažas minūtes.
   vai repozitorijā. Tas atrodas tikai atvērtās cilnes JavaScript atmiņā.
 - Panelim nav ārēju JavaScript bibliotēku vai trešo pušu CDN.
 - Datu un attēlu izmaiņas tiek apvienotas vienā atomārā Git commitā.
-- Pirms publicēšanas panelis pārbauda, vai `main` nav mainījies. Ja ir radies
-  konflikts, publicēšana tiek apturēta un svešas izmaiņas netiek pārrakstītas.
+- Pirms katra publicēšanas mēģinājuma panelis ielādē jaunāko `catalog.json`,
+  faila SHA un `main` commitu, pēc tam ar trīspusēju apvienošanu uzliek tikai
+  šīs cilnes mainītos ierakstu laukus. Citu ierakstu izmaiņas tiek saglabātas.
+- Ja GitHub atgriež `409` vai zara SHA vairs neatbilst, panelis vienu reizi
+  atkārtoti ielādē jaunāko versiju, apvieno un publicē. Nedroša viena lauka vai
+  secības konflikta gadījumā publicēšana tiek apturēta, bet ievadītais teksts
+  paliek pārlūka cilnes melnrakstā.
 - Dzēstu ierakstu var atjaunot no GitHub commit vēstures.
 - Attēla fails pēc ieraksta dzēšanas netiek automātiski dzēsts, lai nepieļautu
   neatgriezenisku vai kļūdainu koplietota attēla noņemšanu.
@@ -83,6 +90,8 @@ Validācija pārbauda:
 - HTTPS ārējās saites;
 - lokālo attēlu ceļus un failu esamību;
 - publiskās lapas un administratora paneļa JavaScript sintaksi.
+- divu paralēlu administratora cilņu apvienošanu, konflikta apturēšanu un
+  vienreizēju `409` atkārtojumu.
 
 ## Vēsturiskie migrācijas skripti
 
