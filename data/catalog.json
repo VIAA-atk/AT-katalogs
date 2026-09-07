@@ -3006,5 +3006,42 @@
     "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
     "productPage": "https://lnbiedriba.lv/lv/pakalpojumi/tehniskie-paliglidzekli/",
     "productLinkType": "resource"
+  },
+  {
+    "id": "latvijas-nedzirdigo-savieniba",
+    "name": "Latvijas Nedzirdīgo savienība",
+    "short": "Informācija un pakalpojumi nedzirdīgām un vājdzirdīgām personām, tostarp surdotehniskie palīglīdzekļi, zīmju valodas tulka pakalpojumi un sociālā rehabilitācija.",
+    "areas": [
+      "komunikacija",
+      "vide"
+    ],
+    "needs": [
+      "vizualaPielagosana",
+      "stt",
+      "simboli",
+      "aac"
+    ],
+    "type": "citsValstsAtbalsts",
+    "level": "videjs",
+    "latvian": "Pieejams latviešu valodā un latviešu zīmju valodā",
+    "whatIs": "Latvijas Nedzirdīgo savienība (LNS) ir organizācija, kas pārstāv nedzirdīgu un vājdzirdīgu cilvēku intereses un nodrošina dažādus atbalsta pakalpojumus. LNS tīmekļvietnē pieejama informācija par surdotehniskajiem palīglīdzekļiem, latviešu zīmju valodas tulka pakalpojumiem, sociālo rehabilitāciju un citiem atbalsta veidiem. Surdotehnisko palīglīdzekļu pakalpojumus nodrošina SIA “LNS Surdotehniskās palīdzības centrs”",
+    "functions": [
+      "Informē par surdotehniskajiem palīglīdzekļiem un to saņemšanas kārtību",
+      "Nodrošina latviešu zīmju valodas tulka pakalpojumus",
+      "Nodrošina sociālās rehabilitācijas pakalpojumus",
+      "Sniedz informāciju par atbalsta iespējām nedzirdīgām un vājdzirdīgām personām",
+      "Piedāvā resursus latviešu zīmju valodā",
+      "Informē par piekļūstamības risinājumiem un nedzirdīgu cilvēku tiesībām"
+    ],
+    "acquisition": [
+      "Surdotehnikas piešķiršanas un saņemšanas kārtību nosaka:",
+      "Ministru kabineta 20.04.2021. noteikumi Nr.250 „Kārtība, kādā Latvijas Neredzīgo biedrība un Latvijas Nedzirdīgo savienība sniedz sociālās rehabilitācijas pakalpojumus un nodrošina tehniskos palīglīdzekļus – tiflotehniku un surdotehniku”."
+    ],
+    "image": "assets/images/catalog/latvijas-nedzirdigo-savieniba.png",
+    "imageAlt": "https://lnbiedriba.lv/lv/pakalpojumi/tehniskie-paliglidzekli/",
+    "imageSource": "https://lnbiedriba.lv/lv/pakalpojumi/tehniskie-paliglidzekli/",
+    "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
+    "productPage": "https://lns.lv/surdotehniskie-paliglidzekli/",
+    "productLinkType": "resource"
   }
 ]
