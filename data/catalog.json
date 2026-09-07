@@ -2965,5 +2965,46 @@
     "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
     "productPage": "https://www.vtpc.lv/Pakalpojumi/ka-sanemt-tehnisko-paliglidzekli",
     "productLinkType": "resource"
+  },
+  {
+    "id": "latvijas-neredzigo-biedriba",
+    "name": "Latvijas Neredzīgo biedrība",
+    "short": "Latvijas Neredzīgo biedrība ir lielākā un vecākā sabiedriskā labuma organizācija, kas apvieno un pārstāv 1., 2. un 3. grupas redzes invalīdu intereses Latvijā.",
+    "areas": [
+      "lasisana",
+      "rakstisana",
+      "matematika",
+      "komunikacija",
+      "organizesana",
+      "vide"
+    ],
+    "needs": [
+      "tts",
+      "vizualaPielagosana",
+      "ocr",
+      "stt",
+      "rakstisanaAtbalsts",
+      "organizesanaAtbalsts",
+      "simboli",
+      "aac",
+      "ierices Vadiba",
+      "matematikaAtbalsts"
+    ],
+    "type": "citsValstsAtbalsts",
+    "level": "augsts",
+    "latvian": "Informācija tiks papildināta",
+    "whatIs": "Tiflotehnika ir speciālie tehniskie palīglīdzekļi, kas paredzēti personām ar funkcionāliem redzes traucējumiem vai anatomiskiem defektiem personu rehabilitēšanai, integrēšanai sabiedrībā, mobilitātes un patstāvīgu darbošanās spēju pilnveidošanai.",
+    "functions": [
+      "https://lnbiedriba.lv/lv/pakalpojumi/tehniskie-paliglidzekli/"
+    ],
+    "acquisition": [
+      "Plašāka informācija: https://lnbiedriba.lv/lv/pakalpojumi/tehniskie-paliglidzekli/"
+    ],
+    "image": "assets/images/catalog/latvijas-neredzigo-biedriba.png",
+    "imageAlt": "https://lnbiedriba.lv/lv/pakalpojumi/tehniskie-paliglidzekli/",
+    "imageSource": "https://lnbiedriba.lv/lv/pakalpojumi/tehniskie-paliglidzekli/",
+    "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
+    "productPage": "https://lnbiedriba.lv/lv/pakalpojumi/tehniskie-paliglidzekli/",
+    "productLinkType": "resource"
   }
 ]
