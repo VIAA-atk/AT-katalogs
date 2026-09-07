@@ -3121,5 +3121,44 @@
     "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
     "productPage": "https://exceed.lv/index.php/lv/produkti/komunikaciju-paliglidzekli/izglitibas-atbalsta-risinajumi/view/775:my-board-buddy-cam-iar3",
     "productLinkType": "resource"
+  },
+  {
+    "id": "my-board-buddy-air-iar1",
+    "name": "my Board Buddy AIR (IAR1)",
+    "short": "Augstā kvalitātē pārraida viedtāfeles attēlu uz monitoru, kas atrodas skolēna tuvumā.",
+    "areas": [
+      "komunikacija",
+      "organizesana",
+      "vide"
+    ],
+    "needs": [
+      "vizualaPielagosana",
+      "organizesanaAtbalsts",
+      "simboli",
+      "ierices Vadiba",
+      "matematikaAtbalsts"
+    ],
+    "type": "programmatura",
+    "level": "videjs",
+    "latvian": "Informācija tiks papildināta",
+    "whatIs": "Nepieciešams īpašs risinājums tieši digitālajai tāfelei.\nmy Board Buddy AIR ir šis risinājums.\nTas augstā kvalitātē pārraida viedtāfeles attēlu uz monitoru, kas atrodas skolēna tuvumā. Skolēns pats var pielāgot palielinājumu un krāsu kontrastu, izmantojot tālvadības pulti ar kursorsviru, neietekmējot sākotnējo viedtāfeles attēlu.\nViss ekrāna saturs tiek attēlots ar minimālu aizkavi: teksts, attēli, video un tiešraides piezīmes.",
+    "functions": [
+      "Šī vienkāršā, bet ģeniālā ierīce nodrošina vibrācijām brīvu, maksimāli palielināmu viedtāfeles vai jebkuras citas projekcijas attēla kopiju, saglabājot oriģinālo attēla kvalitāti un ļaujot pielāgot krāsas.",
+      "Tā ir ideāli piemērota gan kā papildinājums esošajām skolas sistēmām ar kameru, gan kā patstāvīga ierīce kopā ar monitoru.",
+      "my Board Buddy raidītājs tiek novietots starp attēla avotu (piemēram, klēpjdatoru) un viedtāfeli vai projektoru (beamer), izmantojot HDMI kabeli.",
+      "Attēls bezvadu režīmā tiek pārraidīts uz uztvērēju, kas savienots ar monitoru un kursorsviru ar vienkāršām, krāsainām pogām.",
+      "Lietotājs pats var izvēlēties sev piemērotāko skatījumu, padarot šo ierīci par efektīvāko risinājumu labākai viedtāfeles redzamībai.",
+      "Skolēni ir vairāk iesaistīti mācību procesā un var aktīvi piedalīties uzdevumu izpildē.",
+      "my Board Buddy palīdz viņiem strādāt patstāvīgi."
+    ],
+    "acquisition": [
+      "https://exceed.lv/index.php/lv/produkti/komunikaciju-paliglidzekli/izglitibas-atbalsta-risinajumi/view/774:my-board-buddy-iar1"
+    ],
+    "image": "assets/images/catalog/my-board-buddy-air-iar1.png",
+    "imageAlt": "my Board Buddy AIR",
+    "imageSource": "https://exceed.lv/index.php/lv/produkti/komunikaciju-paliglidzekli/izglitibas-atbalsta-risinajumi/view/774:my-board-buddy-iar1",
+    "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
+    "productPage": "https://exceed.lv/index.php/lv/produkti/komunikaciju-paliglidzekli/izglitibas-atbalsta-risinajumi/view/774:my-board-buddy-iar1",
+    "productLinkType": "resource"
   }
 ]
