@@ -61,11 +61,11 @@
     "latvian": "Nav latviešu valodā",
     "whatIs": "Lietotnes, kas papildina vai aizstāj runu ar simboliem, tekstu, attēliem un sintezētu balsi.",
     "functions": [
-      "informācijas attēlošana ar simboliem vai vizuālām norādēm",
-      "uzdevumu, izvēļu un darbību secības skaidrošana",
-      "vizuāli saprotama mācību satura veidošana",
-      "vajadzību, atbilžu un izvēļu izteikšana alternatīvā veidā",
-      "saziņa ar simboliem, attēliem, tekstu vai balsi"
+      "informācijas attēlošana ar simboliem vai vizuālām norādēm;",
+      "uzdevumu, izvēļu un darbību secības skaidrošana;",
+      "vizuāli saprotama mācību satura veidošana;",
+      "vajadzību, atbilžu un izvēļu izteikšana alternatīvā veidā;",
+      "saziņa ar simboliem, attēliem, tekstu vai balsi;"
     ],
     "acquisition": [
       "Latvijā: TD Snap — SIA \"Arbor Medical Korporācija\"",
@@ -94,9 +94,9 @@
     "latvian": "Informācija tiks papildināta",
     "whatIs": "Bezvadu dzirdes palīgsistēmas, kas skolotāja balsi no mikrofona pārraida tieši skolēna uztvērējā vai dzirdes ierīcē.",
     "functions": [
-      "uzdevumu un darbību secības organizēšana",
-      "atgādinājumu, piezīmju vai plānu veidošana",
-      "uzmanības noturēšana un paveiktā pārbaude"
+      "uzdevumu un darbību secības organizēšana;",
+      "atgādinājumu, piezīmju vai plānu veidošana;",
+      "uzmanības noturēšana un paveiktā pārbaude;"
     ],
     "acquisition": [
       "Latvijā: SIA \"LNS Surdotehniskās palīdzības centrs\""
