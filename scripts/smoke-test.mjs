@@ -3,9 +3,11 @@ import path from "node:path";
 
 const root = path.resolve(import.meta.dirname, "..");
 const read = (relative) => fs.readFile(path.join(root, relative), "utf8");
-const [catalog, publicHtml, publicJs, adminHtml, adminJs] = await Promise.all([
-  read("data/catalog.json").then(JSON.parse), read("index.html"), read("assets/catalog-app.js"), read("admin/index.html"), read("admin/admin.js"),
+const [catalog, publicHtml, publicJs, adminHtml, adminJs, activeAdminJs] = await Promise.all([
+  read("data/catalog.json").then(JSON.parse), read("index.html"), read("assets/catalog-app.js"), read("admin/index.html"), read("admin/admin.js"), read("admin/admin-v16.js"),
 ]);
+
+if (activeAdminJs !== adminJs) throw new Error("Aktīvais administratora v16 kods neatbilst kanoniskajam admin.js.");
 
 function ids(html) {
   return new Set([...html.matchAll(/\sid="([^"]+)"/g)].map((match) => match[1]));
@@ -26,8 +28,10 @@ for (const id of adminReferences) if (!adminIds.has(id)) throw new Error(`Admini
 if (publicHtml.includes("routes-C_WgTdsH.js") || publicHtml.includes("catalog-fallback.js")) throw new Error("Publiskā lapa joprojām izmanto vēsturisko datu pakotni.");
 if (!publicHtml.includes("./data/catalog.json") && !publicJs.includes("./data/catalog.json")) throw new Error("Publiskā lapa nelasa autoritatīvo kataloga datni.");
 if (catalog.some((item) => "situations" in item || "features" in item || "description" in item)) throw new Error("Katalogā saglabāti novecojušie lauki.");
-if (/localStorage|sessionStorage|document\.cookie/.test(adminJs)) throw new Error("Administratora panelis mēģina pastāvīgi saglabāt autentifikācijas datus.");
-if (!adminHtml.includes("./admin-v15.js")) throw new Error("Administratora paneļa unikālā ielādes versija nav piesaistīta.");
+if (/localStorage|document\.cookie/.test(adminJs) || /sessionStorage[^\n]*(?:token|github-token)|(?:token|github-token)[^\n]*sessionStorage/i.test(adminJs)) {
+  throw new Error("Administratora panelis mēģina pastāvīgi saglabāt autentifikācijas datus.");
+}
+if (!adminHtml.includes("./admin-v16.js")) throw new Error("Administratora paneļa unikālā ielādes versija nav piesaistīta.");
 if (!adminHtml.includes('<div id="record-form">') || adminHtml.includes('<form id="record-form"') || /id="field-id"[^>]*pattern=/.test(adminHtml)) {
   throw new Error("Firefox konfliktējošā identifikatora lauka HTML validācija nav noņemta.");
 }
@@ -37,7 +41,7 @@ if (!adminHtml.includes('id="save-draft" type="button"') || !adminJs.includes('u
 for (const id of ["move-up", "move-down", "order-help"]) {
   if (!adminIds.has(id)) throw new Error(`Administratora secības vadībā trūkst #${id}.`);
 }
-for (const fragment of ["function reorderResource(", 'handle.draggable = canDrag', 'markDirty();', 'JSON.stringify(resources, null, 2)']) {
+for (const fragment of ["function reorderResource(", 'handle.draggable = canDrag', 'markDirty();', 'mergeCatalogChanges(remote.resources']) {
   if (!adminJs.includes(fragment)) throw new Error(`Administratora secības saglabāšanas plūsmā trūkst: ${fragment}`);
 }
 if (/\b(?:resources|filtered)\.sort\s*\(/.test(publicJs)) {
@@ -57,8 +61,18 @@ if (!publicHtml.includes(`<option value="citsValstsAtbalsts">${stateSupportLabel
 if (adminJs.includes("fileToWebp") || !adminJs.includes("await file.arrayBuffer()") || !adminJs.includes("upload.content")) {
   throw new Error("Attēla saglabāšanas plūsma joprojām izmanto pārlūkā nestabilo pārveidošanu.");
 }
-if (!adminJs.includes('ui["record-form"].addEventListener("input"') || !adminJs.includes('ui["record-form"].addEventListener("change"')) {
-  throw new Error("Administratora tūlītējā melnraksta saglabāšana nav piesaistīta rakstīšanas un izvēles notikumiem.");
+if (!adminJs.includes('ui["record-form"].addEventListener("input", handleFormChange)') || !adminJs.includes('ui["record-form"].addEventListener("change", handleFormChange)')) {
+  throw new Error("Administratora pārlūka rezerves kopija nav piesaistīta rakstīšanas un izvēles notikumiem.");
+}
+const inputHandler = adminJs.match(/function handleFormChange\(event\) \{([\s\S]*?)\n\}/)?.[1] ?? "";
+if (/\b(?:github|saveDraft|publish)\s*\(/.test(inputHandler)) {
+  throw new Error("Rakstīšanas notikums nedrīkst fonā saglabāt vai publicēt datus GitHub.");
+}
+for (const fragment of ["async function loadRemoteCatalog(", "const remote = await loadRemoteCatalog();", "withOneConflictRetry", "currentRef.object.sha !== remote.headSha", "setRemoteState(refreshed)"]) {
+  if (!adminJs.includes(fragment)) throw new Error(`Drošajā GitHub sinhronizācijas plūsmā trūkst: ${fragment}`);
+}
+if (!adminJs.includes("sessionStorage.setItem(browserDraftKey") || !adminJs.includes("CatalogConflictError")) {
+  throw new Error("Konflikta gadījumam nav pārlūka melnraksta vai drošas apvienošanas kontroles.");
 }
 for (const endpoint of ["/git/blobs", "/git/trees", "/git/commits", "/git/refs/heads/"]) {
   if (!adminJs.includes(endpoint)) throw new Error(`Administratora publicēšanas plūsmā trūkst ${endpoint}.`);
