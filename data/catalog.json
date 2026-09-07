@@ -2934,5 +2934,36 @@
     "imageRightsNote": "Pirms gala publicēšanas saņemt vai pārbaudīt ražotāja atļauju attēla pārpublicēšanai.",
     "productPage": "https://www.forestapp.cc/",
     "productLinkType": "product"
+  },
+  {
+    "id": "vaivari-tehnisko-paliglidzeklu",
+    "name": "Vaivari Tehnisko palīglīdzekļu",
+    "short": "VTPC nodrošina valsts apmaksātus tehniskos palīglīdzekļus personām ar funkcionēšanas ierobežojumiem. Tie paredzēti funkcionēšanas spēju uzlabošanai vai saglabāšanai un var nodrošināt atbalstu pārvietošanās, pašaprūpes, saziņas, informācijas uztveres, datora lietošanas un citās ikdienas aktivitātēs.",
+    "areas": [
+      "komunikacija",
+      "organizesana",
+      "vide"
+    ],
+    "needs": [
+      "simboli",
+      "aac",
+      "ierices Vadiba"
+    ],
+    "type": "citsValstsAtbalsts",
+    "level": "augsts",
+    "latvian": "Pieejams",
+    "whatIs": "VTPC nodrošina valsts apmaksātus tehniskos palīglīdzekļus personām ar funkcionēšanas ierobežojumiem. Tie paredzēti funkcionēšanas spēju uzlabošanai vai saglabāšanai un var nodrošināt atbalstu pārvietošanās, pašaprūpes, saziņas, informācijas uztveres, datora lietošanas un citās ikdienas aktivitātēs.\nhttps://www.vtpc.lv/Pakalpojumi/ka-sanemt-tehnisko-paliglidzekli\nNodrošina valsts finansētu tehnisko palīglīdzekļu piešķiršanu un apriti personām ar funkcionēšanas ierobežojumiem, tostarp vajadzību izvērtēšanu, palīglīdzekļu izsniegšanu, pielāgošanu un lietošanas apmācību.\nŠie risinājumi nav AT fonda resursi. Informācija katalogā norāda uz iespēju attiecīgo tehnisko palīglīdzekli saņemt VTPC noteiktajā kārtībā.\nhttps://www.vtpc.lv/Pakalpojumi/ka-sanemt-tehnisko-paliglidzekli",
+    "functions": [
+      "Nodrošina valsts finansētu tehnisko palīglīdzekļu piešķiršanu un apriti personām ar funkcionēšanas ierobežojumiem, tostarp vajadzību izvērtēšanu, palīglīdzekļu izsniegšanu, pielāgošanu un lietošanas apmācību."
+    ],
+    "acquisition": [
+      "Skatīt: https://www.vtpc.lv/Pakalpojumi/ka-sanemt-tehnisko-paliglidzekli"
+    ],
+    "image": "assets/images/catalog/vaivari-tehnisko-paliglidzeklu.png",
+    "imageAlt": "Vaivari tehnisko palīglīdzekļu centrs",
+    "imageSource": "",
+    "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
+    "productPage": "https://www.vtpc.lv/Pakalpojumi/ka-sanemt-tehnisko-paliglidzekli",
+    "productLinkType": "resource"
   }
 ]
