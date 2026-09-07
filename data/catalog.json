@@ -770,9 +770,9 @@
     "latvian": "Pieejams latviešu valodā",
     "whatIs": "as tas ir:\nDigitāls rīks, kas palīdz lasīt un veidot tekstu. TextAid var nolasīt digitālu tekstu balsī, vienlaikus vizuāli izceļot lasāmo tekstu, kā arī piedāvā funkcijas rakstīšanas un teksta uztveres atbalstam.\n\nKam noder:\nSkolēniem ar lasīšanas un rakstīšanas grūtībām, tostarp disleksiju, kā arī skolēniem, kuriem nepieciešams papildu atbalsts digitāla teksta uztveršanai un patstāvīgam darbam ar mācību materiāliem.\n\nKo tas palīdz darīt:\nNoklausīties digitālu tekstu, sekot līdzi priekšā lasītajam tekstam ekrānā, pielāgot lasīšanas procesu un izmantot papildu atbalsta funkcijas darbā ar tekstu.",
     "functions": [
-      "rakstīta teksta nolasīšana balsī",
-      "mācību satura uztveršana klausoties",
-      "uzrakstītā teksta pārbaude ar audio atgriezenisko saiti"
+      "rakstīta teksta nolasīšana balsī;",
+      "mācību satura uztveršana klausoties;",
+      "uzrakstītā teksta pārbaude ar audio atgriezenisko saiti;"
     ],
     "acquisition": [
       "TextAid ir licencējams tiešsaistes risinājums, to var iegādāties www. exceed.lv"
