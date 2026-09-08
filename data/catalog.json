@@ -46,131 +46,44 @@
     "productLinkType": "resource"
   },
   {
-    "id": "alternativas-augmentativas-komunikacijas-aak-lie",
-    "name": "Alternatīvās, augmentatīvās komunikācijas (AAK) lietotnes / programmatūra",
-    "short": "Lietotnes, kas papildina vai aizstāj runu ar simboliem, tekstu, attēliem un sintezētu balsi.",
-    "areas": [
-      "komunikacija"
-    ],
-    "needs": [
-      "simboli",
-      "aac"
-    ],
-    "type": "programmatura",
-    "level": "augsts",
-    "latvian": "Nav latviešu valodā",
-    "whatIs": "Lietotnes, kas papildina vai aizstāj runu ar simboliem, tekstu, attēliem un sintezētu balsi.",
-    "functions": [
-      "informācijas attēlošana ar simboliem vai vizuālām norādēm;",
-      "uzdevumu, izvēļu un darbību secības skaidrošana;",
-      "vizuāli saprotama mācību satura veidošana;",
-      "vajadzību, atbilžu un izvēļu izteikšana alternatīvā veidā;",
-      "saziņa ar simboliem, attēliem, tekstu vai balsi;"
-    ],
-    "acquisition": [
-      "Latvijā: TD Snap — SIA \"Arbor Medical Korporācija\"",
-      "Ražotāji/izstrādātāji un citi piemēri: TD Snap — Tobii Dynavox (Zviedrija/ASV); Proloquo2Go — ActiveWare (Nīderlande), CoughDrop — Forbes AAC (ASV)",
-      "Iespējamu piešķiršanu konkrētai personai izvērtē VTPC: https://www.vtpc.lv/pakalpojumi/ka-sanemt-tehnisko-paliglidzekli Arbor Medical: https://arbor.lv/ Tobii Dynavox: https://www.tobiidynavox.com/"
-    ],
-    "image": "assets/images/catalog/alternativas-augmentativas-komunikacijas-aak-lie.png",
-    "imageAlt": "Alternatīvās, augmentatīvās komunikācijas (AAK) lietotnes / programmatūra — ražotāja ilustratīvs attēls",
-    "imageSource": "https://www.tobiidynavox.com/products/td-snap",
-    "imageRightsNote": "Pirms gala publicēšanas saņemt vai pārbaudīt ražotāja atļauju attēla pārpublicēšanai.",
-    "productPage": "",
-    "productLinkType": "product"
-  },
-  {
-    "id": "fm-sistemas",
-    "name": "FM sistēmas",
-    "short": "Bezvadu dzirdes palīgsistēmas, kas skolotāja balsi no mikrofona pārraida tieši skolēna uztvērējā vai dzirdes ierīcē.",
-    "areas": [
-      "komunikacija"
-    ],
-    "needs": [
-      "organizesanaAtbalsts"
-    ],
-    "type": "ierice",
-    "level": "augsts",
-    "latvian": "Informācija tiks papildināta",
-    "whatIs": "Bezvadu dzirdes palīgsistēmas, kas skolotāja balsi no mikrofona pārraida tieši skolēna uztvērējā vai dzirdes ierīcē.",
-    "functions": [
-      "uzdevumu un darbību secības organizēšana;",
-      "atgādinājumu, piezīmju vai plānu veidošana;",
-      "uzmanības noturēšana un paveiktā pārbaude;"
-    ],
-    "acquisition": [
-      "Latvijā: SIA \"LNS Surdotehniskās palīdzības centrs\""
-    ],
-    "image": "assets/images/catalog/fm-sistemas.webp",
-    "imageAlt": "FM sistēmas — reāls produkta vai risinājuma attēls",
-    "imageSource": "https://www.phonak.com/en-us/hearing-devices/microphones/roger-for-education",
-    "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
-    "productPage": "https://www.phonak.com/en-us/hearing-devices/microphones/roger-for-education",
-    "productLinkType": "category"
-  },
-  {
     "id": "komunikacijas-atslegu-piekarini",
     "name": "Komunikācijas atslēgu piekariņi",
-    "short": "Neliels pārnēsājams kartīšu vai simbolu komplekts uz gredzena ikdienas saziņai.",
+    "short": "Neliels, pārnēsājams kartīšu komplekts ar simboliem, attēliem un/vai vārdiem ikdienas saziņai un darbību secības atbalstam.",
     "areas": [
-      "komunikacija"
+      "komunikacija",
+      "organizesana"
     ],
     "needs": [
+      "ocr",
       "simboli",
       "aac"
     ],
     "type": "piederums",
     "level": "zems",
     "latvian": "Informācija tiks papildināta",
-    "whatIs": "Neliels pārnēsājams kartīšu vai simbolu komplekts uz gredzena ikdienas saziņai.",
+    "whatIs": "Komunikācijas atslēgu piekariņš ir neliels, pārnēsājams kartīšu komplekts, kurā izmantoti simboli, attēli, fotogrāfijas un/vai vārdi. Kartītes parasti sastiprina ar atveramu metāla gredzenu, lai tās būtu viegli pāršķiramas un vienmēr pieejamas.\n\nTo var izmantot kā alternatīvās un augmentatīvās komunikācijas (AAK) līdzekli vai vizuālu atbalstu mācību procesā.\n\nKā to var izmantot izglītībā?\n\nPirmsskolā un skolā piekariņu var izmantot, lai izglītojamais varētu izteikt vajadzības, izdarīt izvēli, lūgt palīdzību, atbildēt uz jautājumiem vai informēt par savu pašsajūtu. Tas var palīdzēt arī atgādināt uzdevuma veikšanas secību, dienas kārtību, uzvedības noteikumus un pāreju no vienas darbības uz citu.\n\nKartīšu saturu pielāgo izglītojamā vecumam, komunikācijas iespējām, individuālajām vajadzībām un mācību situācijai.",
     "functions": [
-      "vajadzību, atbilžu un izvēļu izteikšana alternatīvā veidā",
-      "saziņa ar simboliem, attēliem, tekstu vai balsi",
-      "līdzdalība sarunās un mācību aktivitātēs"
+      "Nodrošina vizuālu atbalstu saziņai.",
+      "Palīdz izteikt vajadzības, izvēles, emocijas un atbildes.",
+      "Atbalsta runas izpratni un vārdu krājuma apguvi.",
+      "Atgādina darbību vai uzdevuma izpildes secību.",
+      "Palīdz orientēties dienas kārtībā un pārmaiņās.",
+      "Veicina patstāvību un līdzdalību mācību procesā.",
+      "Nodrošina vienmēr pieejamu komunikācijas atbalstu dažādās izglītības iestādes vidēs."
     ],
     "acquisition": [
-      "Var pagatavot skolā: biežāk lietotos simbolus izdrukā nelielā izmērā, laminē, izdur caurumu un savieno ar atveramu gredzenu."
+      "Var izgatavot izglītības iestādē vai mājās, izvēloties izglītojamajam saprotamus simbolus, attēlus, fotogrāfijas un/vai vārdus. Kartītes ieteicams izdrukāt, izgriezt, laminēt, izveidot tajās caurumu un sastiprināt ar atveramu metāla gredzenu. Izglītojamajam piemēroti simboli, attēli vai fotogrāfijas",
+      "Printeris",
+      "Laminēšanas ierīce un laminēšanas plēves",
+      "Šķēres un caurumotājs",
+      "Atverams metāla gredzens vai atslēgu piekariņa stiprinājums",
+      "Pedagogs vai atbalsta speciālists, kurš izvēlas saturu un māca piekariņa lietošanu"
     ],
     "image": "assets/images/catalog/komunikacijas-atslegu-piekarini.png",
-    "imageAlt": "Komunikācijas atslēgu piekariņi — reāls ierīces vai programmas attēls",
+    "imageAlt": "Komunikācijas atslēgu piekariņi",
     "imageSource": "https://arasaac.org/materials/en/1998",
     "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
-    "productPage": "https://arasaac.org/index.html",
-    "productLinkType": "resource"
-  },
-  {
-    "id": "komunikacijas-deli-ar-runas-sintezi-ar-piktogram",
-    "name": "Komunikācijas dēļi ar runas sintēzi ar piktogrammām/attēlu",
-    "short": "Digitāli komunikācijas dēļi, kuros piktogrammu vai attēlu izvēle veido ziņojumu un atskaņo to balsī.",
-    "areas": [
-      "komunikacija"
-    ],
-    "needs": [
-      "tts",
-      "simboli",
-      "aac"
-    ],
-    "type": "programmatura",
-    "level": "augsts",
-    "latvian": "Informācija tiks papildināta",
-    "whatIs": "Digitāli komunikācijas dēļi, kuros piktogrammu vai attēlu izvēle veido ziņojumu un atskaņo to balsī.",
-    "functions": [
-      "rakstīta teksta nolasīšana balsī",
-      "mācību satura uztveršana klausoties",
-      "uzrakstītā teksta pārbaude ar audio atgriezenisko saiti",
-      "informācijas attēlošana ar simboliem vai vizuālām norādēm",
-      "uzdevumu, izvēļu un darbību secības skaidrošana"
-    ],
-    "acquisition": [
-      "Latvijā: Boardmaker 7 — SIA \"Arbor Medical Korporācija\"",
-      "Ražotāji/izstrādātāji un citi piemēri: Boardmaker 7 — Tobii Dynavox (Zviedrija/ASV); Grid3 — Smartbox (Liebritānija)",
-      "Iespējamu piešķiršanu konkrētai personai izvērtē VTPC: https://www.vtpc.lv/pakalpojumi/ka-sanemt-tehnisko-paliglidzekli Arbor Medical: https://arbor.lv/ Tobii Dynavox: https://www.tobiidynavox.com/"
-    ],
-    "image": "assets/images/catalog/komunikacijas-deli-ar-runas-sintezi-ar-piktogram.png",
-    "imageAlt": "Komunikācijas dēļi ar runas sintēzi ar piktogrammām/attēlu — ražotāja ilustratīvs attēls",
-    "imageSource": "",
-    "imageRightsNote": "Pirms gala publicēšanas saņemt vai pārbaudīt ražotāja atļauju attēla pārpublicēšanai.",
-    "productPage": "https://www.vtpc.lv/pakalpojumi/ka-sanemt-tehnisko-paliglidzekli",
+    "productPage": "",
     "productLinkType": "resource"
   },
   {
