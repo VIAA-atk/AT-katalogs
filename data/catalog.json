@@ -222,31 +222,56 @@
   },
   {
     "id": "komunikacijas-kartites-pecs",
-    "name": "Komunikācijas kartītes (PECS)",
-    "short": "Izmantojot PECS metodi, bērns apgūst komunikācijas prasmes, lietojot komunikācijas mapi, grāmatu vai albumu ar atsevišķām attēlu kartītēm un teikumu veidošanas lenti. Gan komunikācijas prasmes, gan vizuālo vārdu krājums mācību gaitā pieaug. Vingrināšanos sāk, mācot bērnu ar vienu attēla palīdzību palūgt kādu patīkamu lietu, priekšmetu, ēdienu (cepumu, konfekti, ābolu u.tml.). Tad komunikācijas prasmes tiek paplašinātas, sagrupējot patīkamās un nepatīkamās lietas, kā arī izsakot lūgumu pilnos teikumos. Ar PECS metodi īpaši tiek vingrinātas komunikācijai svarīgās iniciatīvas, mērķtiecības un neatlaidības prasmes.",
+    "name": "PECSTalk™ ECS piktogrammu saziņas lietotne (maksas)",
+    "short": "Pielāgojama AAK lietotne saziņas ziņojumu veidošanai ar PECS piktogrammām, teikuma joslu un runas izvadi.",
     "areas": [
       "komunikacija"
     ],
     "needs": [
+      "simboli",
       "aac"
     ],
     "type": "programmatura",
-    "level": "zems",
-    "latvian": "Informācija tiks papildināta",
-    "whatIs": "Komunikācijas mapes/grāmatas/albumi var būt dažāda apjoma. Parasti tās ir atslēgvārdus apzīmējošu attēlu mapes, kas nodrošina komunikāciju teikumu formā. Ir atdalāmu attēlu mapes (PECS mapes), atslēgvārdu mapes, kurās apkopoti atsevišķi atslēgvārdi, kā arī paplašinātās mapes – tās ir dinamiskas un tajās apkopots diezgan liels vārdu krājums pa tēmām. Tāpat ir teikumu mapes, kurās ir gatavi vārdu savienojumi. Komunikācijas mapēs bērns var parādīt savu sakāmo pats, vai izvēlēties no pieaugušā nolasītiem variantiem.\n\nPECS galvenais mērķis ir mācīt funkcionālo komunikāciju. Pētījumi liecina, ka daži bērni, kuri izmanto PECS, attīsta arī runu, savukārt, citi var pāriet uz runas ģenerēšanas ierīci (SGD). PECS efektivitāte ir apliecināta daudzos pētījumos - kopumā vairāk nekā 190 pētnieciskajos rakstos no visas pasaules.\n\nPECS sastāv no sešiem posmiem un sākas ar to, ka bērns tiek mācīts sniegt vienu vēlamā priekšmeta vai darbības attēlu komunikācijas partnerim, kurš nekavējoties novērtē šo apmaiņu kā lūgumu. Tālāk PECS māca atšķirt attēlus un savienot tos teikumos. Sīkākos posmos bērnus māca lietot modifikatorus, atbildēt uz jautājumiem un komentēt.",
+    "level": "augsts",
+    "latvian": "Latviešu valoda nav pieejama",
+    "whatIs": "PECSTalk™ ir alternatīvās un augmentatīvās komunikācijas (AAK) lietotne izglītojamajiem ar kompleksām komunikācijas vajadzībām. To izstrādājis PECS® jeb attēlu apmaiņas komunikācijas sistēmas izstrādātājs.\nLietotnes izkārtojums ir veidots līdzīgi tradicionālajai PECS komunikācijas grāmatai. Izglītojamais izvēlas piktogrammas, ievieto tās digitālā teikuma joslā un aktivizē izveidotā ziņojuma atskaņošanu balsī.\nLietotnē ir iekļauta pilna Pics for PECS® attēlu bibliotēka, kā arī iespēja pievienot individuāli veidotus attēlus. \nKā to var izmantot izglītībā?\n\nPirmsskolā un 1.–9. klasē lietotni var izmantot, lai izglītojamais:\n\nizteiktu vēlmes un vajadzības;\nizdarītu izvēli;\nlūgtu priekšmetu, darbību vai palīdzību;\natbildētu uz pedagoga jautājumiem;\nkomentētu notikumus un mācību darbības;\nuzdotu jautājumus;\nveidotu ziņojumus no vairākām piktogrammām;\npiedalītos mācību darbībās un saziņā ar vienaudžiem.\n\nLietotnes saturu pielāgo izglītojamā vecumam, komunikācijas prasmēm, individuālajām vajadzībām un mācību situācijām. Tās ieviešanu ieteicams plānot kopā ar pedagogu, skolotāju logopēdu vai citu AAK jomā kompetentu speciālistu.\n\nPECSTalk™ izmantošana pati par sevi neaizstāj PECS metodikas apguvi un sistemātisku komunikācijas prasmju mācīšanu.",
     "functions": [
-      "vajadzību, atbilžu un izvēļu izteikšana alternatīvā veidā",
-      "saziņa ar simboliem, attēliem, tekstu vai balsi",
-      "līdzdalība sarunās un mācību aktivitātēs"
+      "Piekļuve pilnai Pics for PECS® attēlu bibliotēkai.",
+      "Digitālu komunikācijas grāmatas lapu veidošana.",
+      "Līdz 30 komunikācijas grāmatas lapu izveide.",
+      "Ziņojumu veidošana no vairākām piktogrammām.",
+      "Atsevišķa lapa teikuma uzsākšanai.",
+      "Piktogrammu un teksta pārvēršana runā.",
+      "Individuālu attēlu pievienošana.",
+      "Divvalodīgu komunikācijas grāmatu veidošana.",
+      "Grāmatu kopīgošana starp ierīcēm un platformām.",
+      "Vietējo un mākoņkrātuves rezerves kopiju izveide.",
+      "Komunikācijas grāmatu izveide ar vairāk nekā 2500 attēliem"
     ],
     "acquisition": [
-      "Informācija par metodi: https://www.veselapasaule.lv/lv/lasitava/autiska-spektra-traucejumi/pecs-jeb-komunikacijas-sistema-ar-attelu-palidzibu#par-metodi"
+      "PECSTalk™ ir maksas lietotne, kas Latvijā lejupielādējama no Google Play Android ierīcēm. Tā ir pieejama arī Apple App Store iPhone un iPad ierīcēm.",
+      "Pieejama arī PECSTalk™ Lite versija ar ierobežotām funkcijām un septiņu dienu bezmaksas izmēģinājuma periodu. Pilnās versijas cena var atšķirties atkarībā no platformas un valsts, tāpēc tā jāpārbauda attiecīgajā lietotņu veikalā.",
+      "Tehniskā savietojamība",
+      "Android planšetdatori un viedtālruņi",
+      "Apple iPad un iPhone",
+      "Skārienvadība",
+      "Mākoņkrātuve vai ierīces atmiņa rezerves kopiju veidošanai",
+      "Pirms iegādes jāpārbauda konkrētās ierīces operētājsistēmas versija un lietotnes pieejamība Latvijas lietotņu veikalā.",
+      "Kas nepieciešams izglītības iestādei?",
+      "Saderīgs planšetdators vai viedtālrunis",
+      "Google Play vai Apple App Store konts",
+      "Finansējums lietotnes iegādei",
+      "Interneta pieslēgums lietotnes lejupielādei, atjaunināšanai un mākoņfunkcijām",
+      "Ierīces skaļrunis vai ārējais skaļrunis",
+      "Individuāli izveidots izglītojamā vārdu krājums",
+      "Pedagogs vai atbalsta speciālists lietotnes iestatīšanai un lietošanas mācīšanai",
+      "Aizsargapvalks un, ja nepieciešams, ierīces pārnēsāšanas risinājums"
     ],
-    "image": "assets/images/catalog/komunikacijas-kartites-pecs.webp",
-    "imageAlt": "Komunikācijas kartītes (PECS) — reāls produkta vai risinājuma attēls",
+    "image": "assets/images/catalog/komunikacijas-kartites-pecs.png",
+    "imageAlt": "PECSTalk™ lietotnes ekrānattēls ar PECS piktogrammām, komunikācijas grāmatas lapām un digitālo teikuma joslu.",
     "imageSource": "",
     "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
-    "productPage": "",
+    "productPage": "https://play.google.com/store/apps/details?id=com.pecs.pecstalk",
     "productLinkType": "category"
   },
   {
