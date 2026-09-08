@@ -88,25 +88,37 @@
   },
   {
     "id": "komunikacijas-kartites-piem-pecs",
-    "name": "Komunikācijas kartītes",
-    "short": "Fiziskas kartītes ar attēliem, simboliem vai vārdiem, ko izmanto saprotama vēstījuma veidošanai.",
+    "name": "ARASAAC – piktogrammu un koplietojamo materiālu krātuve (bezmaksas)",
+    "short": "Bezmaksas piktogrammu un koplietojamu materiālu krātuve saziņas, mācību satura uztveres un ikdienas darbību vizuālajam atbalstam.",
     "areas": [
-      "komunikacija"
+      "lasisana",
+      "rakstisana",
+      "matematika",
+      "komunikacija",
+      "organizesana"
     ],
     "needs": [
+      "organizesanaAtbalsts",
+      "simboli",
       "aac"
     ],
-    "type": "materials",
-    "level": "zems",
-    "latvian": "Informācija tiks papildināta",
-    "whatIs": "Fiziskas kartītes ar attēliem, simboliem vai vārdiem, ko izmanto saprotama vēstījuma veidošanai.",
+    "type": "bezmaksas",
+    "level": "augsts",
+    "latvian": "Informācija tiek pielāgota",
+    "whatIs": "ARASAAC ir bezmaksas tiešsaistes piktogrammu un koplietojamu materiālu krātuve. Tajā pieejamas piktogrammas, attēli un citu lietotāju veidoti materiāli alternatīvajai un augmentatīvajai komunikācijai (AAK), mācību satura vizualizēšanai un vides piekļūstamības uzlabošanai.\nPiktogrammas var lejupielādēt un izmantot digitālu vai drukātu komunikācijas materiālu, vizuālo atgādņu, dienas plānu, darbību secību un mācību uzdevumu izveidei. ARASAAC piedāvā arī saistītus bezmaksas rīkus pielāgotu materiālu veidošanai. ARASAAC oficiālā tīmekļvietne\nKā to var izmantot izglītībā?\nPirmsskolā ARASAAC piktogrammas var izmantot dienas ritma, noteikumu, izvēļu, emociju, telpu, darbību un pāreju starp aktivitātēm vizualizēšanai. Tās var iekļaut komunikācijas kartītēs, izvēļu joslās, vizuālajos dienas plānos un darbību secības atgādnēs.\n1.–9. klasē piktogrammas var izmantot, lai vizualizētu uzdevumu nosacījumus, mācību jēdzienus, teksta saturu un darba izpildes secību. Tās var izmantot arī saziņas atbalstam, vārdu krājuma paplašināšanai, teikumu veidošanai, teksta izpratnes sekmēšanai un izglītojamā patstāvības veicināšanai.\n\nMateriāli jāizvēlas un jāpielāgo izglītojamā vecumam, individuālajām vajadzībām, simbolu izpratnei un sasniedzamajam rezultātam.",
     "functions": [
-      "vajadzību, atbilžu un izvēļu izteikšana alternatīvā veidā",
-      "saziņa ar simboliem, attēliem, tekstu vai balsi",
-      "līdzdalība sarunās un mācību aktivitātēs"
+      "Piktogrammu meklēšana un lejupielāde.",
+      "Piktogrammu pielāgošana konkrētai saziņas vai mācību situācijai.",
+      "Komunikācijas kartīšu, komunikācijas dēļu un komunikācijas grāmatu veidošana.",
+      "Vizuālo dienas plānu un darbību secību izveide.",
+      "Noteikumu, izvēļu, emociju un sociālo situāciju vizualizēšana.",
+      "Mācību jēdzienu, uzdevumu un teksta satura vizualizēšana.",
+      "Gatavu koplietojamu materiālu meklēšana un lejupielāde.",
+      "Drukātu un digitālu mācību un saziņas materiālu izveide."
     ],
     "acquisition": [
-      "Var pagatavot skolā: izvēlas lietotājam saprotamus fotoattēlus vai piktogrammas, pievieno tekstu latviski, izdrukā, laminē un vajadzības gadījumā piestiprina līpošus stiprinājumus."
+      "ARASAAC piktogrammas un materiāli ir bez maksas pieejami tīmekļvietnē. Resursu var izmantot Latvijā, izmantojot interneta pārlūkprogrammu. Piktogrammas var lejupielādēt ierīcē un izmantot digitāli vai izdrukāt.",
+      "Izmantojot un pārveidojot ARASAAC piktogrammas, jāievēro licences nosacījumi un jānorāda piktogrammu autors un avots. Piktogrammas tiek izplatītas ar licenci Creative Commons BY-NC-SA: nepieciešama atsauce, tās nedrīkst izmantot komerciāli un atvasinātie materiāli jāizplata ar tādiem pašiem licences nosacījumiem."
     ],
     "image": "assets/images/catalog/komunikacijas-kartites-piem-pecs.png",
     "imageAlt": "Komunikācijas kartītes (piem., PECS) — reāls produkta vai risinājuma attēls",
