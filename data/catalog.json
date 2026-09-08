@@ -398,7 +398,8 @@
       "saziņa ar simboliem, attēliem, tekstu vai balsi"
     ],
     "acquisition": [
-      "SymWriter 2 ir maksas programmatūra. Widgit oficiālajā Latvijas atbalsta lapā kā Latvijas izplatītājs norādīts Piktogrammas; pieejama arī 21 dienas bezmaksas izmēģinājuma versija."
+      "SymWriter 2 ir maksas programmatūra. Widgit oficiālajā Latvijas atbalsta lapā kā Latvijas izplatītājs norādīts Piktogrammas; pieejama arī 21 dienas bezmaksas izmēģinājuma versija.",
+      "*Programma ir pieejama 4.2.1.2. projekta AT fondā, projekta sadarbības partneriem."
     ],
     "image": "assets/images/catalog/simbolu-programmatura.webp",
     "imageAlt": "Simbolu programmatūra — ražotāja ilustratīvs attēls",
@@ -418,7 +419,7 @@
       "tts",
       "ocr"
     ],
-    "type": "ierice",
+    "type": "atFonds",
     "level": "augsts",
     "latvian": "Pieejams latviešu valodā",
     "whatIs": "Skolēniem, kuriem drukāta teksta patstāvīga lasīšana ir apgrūtināta, piemēram, lasīšanas grūtību, disleksijas vai redzes grūtību dēļ.",
@@ -430,13 +431,14 @@
       "atpazītā teksta sagatavošana lasīšanai vai rediģēšanai"
     ],
     "acquisition": [
-      "Aisma — SIA \"Brunomaster\" Brunomaster: https://brunomaster.com/"
+      "Aisma — SIA \"Brunomaster\" Brunomaster: https://brunomaster.com/",
+      "*Ierīce ir pieejama 4.2.1.2. projekta AT fondā, projekta sadarbības partneriem."
     ],
     "image": "assets/images/catalog/teksta-priekslasitaji-ar-skeneri-galda-priekslas.png",
     "imageAlt": "Teksta priekšlasītāji ar skeneri (galda priekšlasīšanas ierīces) — reāls produkta vai risinājuma attēls",
     "imageSource": "https://brunomaster.com/produkts/aisma/",
     "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
-    "productPage": "",
+    "productPage": "https://brunomaster.com/produkts/aisma/",
     "productLinkType": "product"
   },
   {
