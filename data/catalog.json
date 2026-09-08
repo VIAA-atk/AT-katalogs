@@ -562,8 +562,8 @@
   },
   {
     "id": "digitalie-grafiku-veidotaji",
-    "name": "Digitālie grafiku veidotāji",
-    "short": "Programmas un lietotnes funkciju, datu un ģeometrisku sakarību grafiskai attēlošanai.",
+    "name": "GeoGebra grafiskais kalkulators – funkciju, vienādojumu un datu attēlošanai (bezmaksas)",
+    "short": "Bezmaksas digitāls kalkulators funkciju, vienādojumu, koordinātu, grafiku un datu vizuālai attēlošanai.",
     "areas": [
       "matematika"
     ],
@@ -572,15 +572,24 @@
     ],
     "type": "programmatura",
     "level": "augsts",
-    "latvian": "Nav pieejams latviešu valodā",
-    "whatIs": "Programmas un lietotnes funkciju, datu un ģeometrisku sakarību grafiskai attēlošanai.",
+    "latvian": "Daļēji ieejams latviešu valodā",
+    "whatIs": "GeoGebra grafiskais kalkulators ir bezmaksas digitāls matemātikas rīks funkciju, vienādojumu, punktu un datu attēlošanai koordinātu plaknē.\n\nLietotājs ievada matemātisku izteiksmi, bet rīks automātiski izveido tās grafisko attēlojumu. Grafiku var pārvietot un tuvināt, kā arī izpētīt tā punktus, vērtības un savstarpējās sakarības.\n\nKā to var izmantot izglītībā?\n\nGeoGebra grafisko kalkulatoru galvenokārt var izmantot 4.–9. klasē, pielāgojot uzdevumus izglītojamā vecumam un apgūstamajam tematam.\n\nTo var izmantot, lai:\n\natzīmētu punktus koordinātu plaknē;\napgūtu koordinātu sistēmu;\nveidotu un salīdzinātu funkciju grafikus;\npētītu funkcijas parametru ietekmi uz grafiku;\nnoteiktu grafiku krustpunktus;\nvizuāli interpretētu vienādojumus un nevienādības;\nattēlotu mērījumu vai eksperimentu datus;\npārbaudītu uz papīra veikta uzdevuma rezultātu;\nsagatavotu digitāli noformētu matemātikas darbu.\n\nRīks var palīdzēt izglītojamajiem, kuriem ir grūtības precīzi uzzīmēt koordinātu asis un grafikus ar roku. Tas neaizstāj matemātiskās darbības izpratni, tāpēc pedagogam jānosaka, kuros uzdevuma posmos kalkulatoru drīkst izmantot.",
     "functions": [
-      "skaitļu, darbību un matemātisku sakarību attēlošana",
-      "matemātikas uzdevumu veikšana ar vizuālu, taktilu vai digitālu atbalstu",
-      "rezultātu ievade un pārbaude"
+      "Punktu ievietošana koordinātu plaknē.",
+      "Funkciju un vienādojumu grafiku veidošana.",
+      "Vairāku grafiku vienlaicīga attēlošana un salīdzināšana.",
+      "Koordinātu, krustpunktu, sakņu un citu raksturīgo punktu noteikšana.",
+      "Grafika tuvināšana, tālināšana un pārvietošana.",
+      "Funkcijas parametru dinamiska mainīšana.",
+      "Vērtību tabulu veidošana.",
+      "Datu ievadīšana un grafiska attēlošana.",
+      "Krāsu un līniju noformējuma pielāgošana.",
+      "Darba saglabāšana, kopīgošana un attēla eksportēšana."
     ],
     "acquisition": [
-      "Ražotāji/izstrādātāji un citi piemēri: Tiešsaistes rīki ar bezmaksas un maksas (pro) versijām GeoGebra, Desmos"
+      "GeoGebra grafisko kalkulatoru var bez maksas izmantot tīmekļa pārlūkprogrammā: https://www.geogebra.org/graphing",
+      "GeoGebra grafiskais kalkulators",
+      "Pieejama arī lejupielādējama GeoGebra Graphing Calculator lietotne dažādām operētājsistēmām. Lietotāja konts nav obligāts aprēķinu un grafiku veidošanai, bet tas var būt nepieciešams darbu saglabāšanai tiešsaistē un kopīgošanai."
     ],
     "image": "assets/images/catalog/digitalie-grafiku-veidotaji.webp",
     "imageAlt": "Digitālie grafiku veidotāji — reāls ierīces vai programmas attēls",
