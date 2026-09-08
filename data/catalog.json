@@ -310,8 +310,8 @@
   },
   {
     "id": "lasisanas-lineali",
-    "name": "Lasīšanas lineāli",
-    "short": "Šauras sloksnes vai lineāli, kas aizsedz apkārtējo tekstu un palīdz sekot vienai rindai.",
+    "name": "Lasīšanas lineāli teksta rindas izsekošanai",
+    "short": "Lineāls vai rāmītis, kas izceļ lasāmo teksta rindu un aizsedz daļu no apkārtējā teksta, palīdzot noturēt skatienu un lasīšanas vietu.",
     "areas": [
       "lasisana"
     ],
@@ -321,14 +321,20 @@
     "type": "piederums",
     "level": "zems",
     "latvian": "Informācija tiks papildināta",
-    "whatIs": "Šauras sloksnes vai lineāli, kas aizsedz apkārtējo tekstu un palīdz sekot vienai rindai.",
+    "whatIs": "Lasīšanas lineāls ir neliels, pārvietojams palīglīdzeklis, ko novieto virs drukāta teksta. Tas palīdz izcelt vienu vai vairākas lasāmās rindas un aizsegt daļu no apkārtējā teksta.\n\nPieejami necaurspīdīgi lineāli ar lasīšanas lodziņu, caurspīdīgas izsekošanas joslas un tonēti lasīšanas lineāli. Dažiem modeļiem viena mala ir paredzēta vienas rindas izcelšanai, bet otra — plašāka teksta fragmenta pārskatīšanai.\n\nKā to var izmantot izglītībā?\n\nPirmsskolā lasīšanas lineālu var izmantot, apgūstot burtus, zilbes, vārdus un sekojot attēlu vai simbolu rindai.\n\n1.–9. klasē to var izmantot, lai:\n\nsaglabātu lasīšanas vietu un pārietu uz nākamo rindu;\nizceltu konkrētu teikumu vai teksta daļu;\nsamazinātu vienlaikus redzamās informācijas daudzumu;\nsekotu norādēm darba lapā;\npārskatītu tabulas, skaitļu rindas un matemātiskus aprēķinus;\npārbaudītu uzrakstīto tekstu pa vienai rindai.\n\nLineālu pārvieto pa tekstu lasīšanas virzienā. Izglītojamajam jāļauj izmēģināt dažādus lineālu veidus un izvēlēties ērtāko.",
     "functions": [
-      "uzdevumu un darbību secības organizēšana",
-      "atgādinājumu, piezīmju vai plānu veidošana",
-      "uzmanības noturēšana un paveiktā pārbaude"
+      "Izceļ pašlaik lasāmo teksta rindu.",
+      "Palīdz saglabāt vietu tekstā.",
+      "Atvieglo pāreju no vienas rindas uz nākamo.",
+      "Aizsedz daļu no apkārtējā teksta.",
+      "Samazina vienlaikus uztveramās vizuālās informācijas daudzumu.",
+      "Var palīdzēt noturēt uzmanību lasāmajā teksta daļā.",
+      "Var izmantot darbam ar tabulām, skaitļu rindām un rakstītiem aprēķiniem.",
+      "Tonēts lineāls vienlaikus var mainīt lasāmās rindas fona krāsu."
     ],
     "acquisition": [
-      "Var pagatavot no stingra kartona vai necaurspīdīgas plastmasas, izgriežot logu vienai teksta rindai; gatavi lineāli pieejami kancelejas un specializētajos veikalos.",
+      "Lasīšanas lineālus un rāmīšus var iegādāties Latvijā pie mācību un bērnu attīstošo materiālu tirgotājiem. Tos iespējams izgatavot arī izglītības iestādē no necaurspīdīga kartona, izgriežot lasīšanas lodziņu, vai no izturīgas caurspīdīgas plēves.",
+      "Latvijā pieejama produkta piemērs: Lasīšanas rāmītis un lineāls – 8KAJIS.",
       "Piemēram: https://8kajis.lv/products/lasisanas-ramitis-un-lineals"
     ],
     "image": "assets/images/catalog/lasisanas-lineali.png",
