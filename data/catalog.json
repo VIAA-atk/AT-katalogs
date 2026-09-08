@@ -129,39 +129,42 @@
   },
   {
     "id": "teksta-runas-text-to-speech-lietotnes",
-    "name": "Teksta priekšlasītāji (lietotnes)",
-    "short": "Mobilās vai tīmekļa lietotnes, kas ievadītu vai izvēlētu tekstu nolasa sintezētā balsī.",
+    "name": "Hugo.gov.lv teksta tulkošana, vienkāršošana un atskaņošana, runas pārvēršana tekstā (bezmaksas)",
+    "short": "Hugo.gov.lv ir Latvijas valsts pārvaldes valodas tehnoloģiju platforma, kurā bez maksas pieejami vairāki digitāli valodas rīki. Platformā var tulkot tekstu, dokumentus un tīmekļvietnes, pārvērst tekstu runā un runu tekstā, kā arī izmantot vienkāršās valodas un citus ar latviešu valodu saistītus rīkus.",
     "areas": [
-      "komunikacija"
+      "lasisana",
+      "komunikacija",
+      "organizesana",
+      "vide"
     ],
     "needs": [
-      "tts"
+      "tts",
+      "vizualaPielagosana",
+      "stt",
+      "rakstisanaAtbalsts"
     ],
     "type": "programmatura",
     "level": "augsts",
     "latvian": "Pieejams latviešu valodā",
-    "whatIs": "Mobilās vai tīmekļa lietotnes, kas ievadītu vai izvēlētu tekstu nolasa sintezētā balsī.",
+    "whatIs": "Kā to var izmantot izglītībā?\n\nPirmsskolā platformu galvenokārt var izmantot pedagogs, lai sagatavotu bērnam un viņa ģimenei saprotamāku informāciju, tulkotu īsus tekstus vai atskaņotu tekstu balsī.\n\n1.–9. klasē izglītojamais ar pedagoga atbalstu platformu var izmantot, lai:\n\nnoklausītos rakstītu tekstu;\ndiktētu tekstu, ja rakstīšana ar roku vai tastatūru sagādā grūtības;\ntulkotu vārdus, norādes un mācību tekstus;\niegūtu vienkāršāk formulētu teksta versiju;\npārbaudītu un pilnveidotu rakstītu tekstu;\nsalīdzinātu informāciju dažādās valodās;\napgūtu jaunus vārdus un mācību jomu terminus.\n\nRīkus var izmantot individuālā darbā, pedagoga vadītā mācību darbībā un mācību materiālu pielāgošanai.",
     "functions": [
-      "rakstīta teksta nolasīšana balsī",
-      "mācību satura uztveršana klausoties",
-      "uzrakstītā teksta pārbaude ar audio atgriezenisko saiti"
+      "Teksta, dokumentu un tīmekļvietņu automātiska tulkošana.",
+      "Rakstīta teksta atskaņošana balsī.",
+      "Runas pārvēršana rakstītā tekstā.",
+      "Teksta pārveidošana vienkāršāk uztveramā valodā.",
+      "Atbalsts latviešu valodas vārdu un terminu lietošanā.",
+      "Digitāla teksta kopēšana un izmantošana citos mācību materiālos.",
+      "Automātiski izveidots tulkojums,vienkāršots teksts vai runas atšifrējums var saturēt neprecizitātes, tāpēc rezultāts pirms izmantošanas ir jāpārbauda."
     ],
     "acquisition": [
-      "Latvijā: SpeechMaker, TextAid (ReadSpeaker) — SIA \"Exceed\";",
-      "Brunomaster, Bruno, Aisma — SIA \"Brunomaster\"; Tildes balss — SIA \"Tilde\"",
-      "Pakalpojumu vai atsevišķu asistīvo tehnoloģiju pieejamību noskaidro:",
-      "Latvijas Neredzīgo bibliotēkā: https://www.lnb.lv/ - noteiktos gadījumos.",
-      "Uzņēmumi:",
-      "Exceed: https://www.exceed.lv/",
-      "Brunomaster: https://brunomaster.com/",
-      "Tilde: https://tilde.ai/"
+      "Platforma ir bez maksas pieejama tīmekļvietnē Hugo.gov.lv. To var izmantot tīmekļa pārlūkprogrammā bez programmatūras instalēšanas"
     ],
     "image": "assets/images/catalog/teksta-runas-text-to-speech-lietotnes.png",
     "imageAlt": "Teksta-runas (Text-to-Speech) lietotnes — ražotāja ilustratīvs attēls",
-    "imageSource": "https://www.readspeaker.com/solutions/text-to-speech-online/readspeaker-textaid/",
+    "imageSource": "",
     "imageRightsNote": "Pirms gala publicēšanas saņemt vai pārbaudīt ražotāja atļauju attēla pārpublicēšanai.",
-    "productPage": "",
-    "productLinkType": "product"
+    "productPage": "https://hugo.gov.lv/all-tools#/",
+    "productLinkType": "resource"
   },
   {
     "id": "audio-atskanotaji",
