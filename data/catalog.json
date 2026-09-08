@@ -733,8 +733,8 @@
   },
   {
     "id": "specialas-matematikas-pieraksta-apzimejumu-progr",
-    "name": "Speciālās matemātikas pieraksta/apzīmējumu programmas, formulas atpazīšana no rokraksta",
-    "short": "Programmatūra matemātisku simbolu un formulu ievadei, rediģēšanai vai rokraksta pārvēršanai digitālā pierakstā.",
+    "name": "Equatio – matemātisko izteiksmju ievade ar tastatūru, balsi un rokrakstu (maksas)",
+    "short": "Rīks matemātisko izteiksmju, formulu un grafiku digitālai veidošanai, izmantojot tastatūru, rokrakstu, balsi vai attēlu.",
     "areas": [
       "matematika"
     ],
@@ -744,23 +744,30 @@
     ],
     "type": "programmatura",
     "level": "augsts",
-    "latvian": "Pieejams latviešu valodā",
-    "whatIs": "Programmatūra matemātisku simbolu un formulu ievadei, rediģēšanai vai rokraksta pārvēršanai digitālā pierakstā.",
+    "latvian": "Daļēja. Matemātiskās izteiksmes un simbolus var ievadīt neatkarīgi no valodas, taču saskarne un palīdzības materiāli galvenokārt ir angļu valodā.",
+    "whatIs": "Equatio ir digitāls rīks matemātisko izteiksmju, formulu, vienādojumu, grafiku un dabaszinātņu pierakstu veidošanai. Izteiksmes var ievadīt ar tastatūru, balsi vai rokrakstu. Rīks spēj arī atpazīt attēlā redzamu matemātisko pierakstu un pārveidot to digitālā formā. Pieejami grafiku veidošanas, zinātniskā kalkulatora un ķīmisko formulu pieraksta rīki. Equatio produkta apraksts\n\nKā to var izmantot izglītībā?\nPedagogs var veidot digitālus matemātikas un dabaszinātņu uzdevumus, darba lapas, pārbaudes darbus un vizuālus skaidrojumus. Izglītojamais var izvēlēties sev piemērotāko matemātiskā pieraksta veidu, piemēram, rakstīt izteiksmi ar tastatūru vai skārienekrānā, diktēt to balsī vai digitalizēt drukātu uzdevumu. Tas var būt īpaši noderīgi izglītojamajiem, kuriem ir grūtības precīzi rakstīt matemātiskos simbolus, izmantot tastatūru vai uztvert blīvi izkārtotu matemātisko informāciju.\n\nSākumskolā rīku var izmantot skaitlisku izteiksmju un vienkāršu vienādojumu veidošanai. Pamatskolā – daļskaitļu, algebrisku izteiksmju, formulu, funkciju, grafiku un dabaszinātņu pierakstu veidošanai. Pirmsskolā tas galvenokārt izmantojams pedagoga sagatavotu digitālo materiālu izveidei.",
     "functions": [
-      "drukāta teksta digitalizēšana",
-      "atpazītā teksta sagatavošana lasīšanai vai rediģēšanai",
-      "drukātu mācību materiālu pārveidošana pieejamā digitālā formā",
-      "skaitļu, darbību un matemātisku sakarību attēlošana",
-      "matemātikas uzdevumu veikšana ar vizuālu, taktilu vai digitālu atbalstu"
+      "Matemātisko izteiksmju ievade ar tastatūru",
+      "Izteiksmju ievade ar balsi atbalstītajās valodās",
+      "Rokraksta atpazīšana un pārveidošana digitālā pierakstā",
+      "Matemātisko simbolu un struktūru paredzēšana",
+      "LaTeX pieraksta atbalsts",
+      "Grafiku un tabulu veidošana ar integrētiem Desmos rīkiem",
+      "Zinātniskais kalkulators",
+      "Ķīmisko formulu un citu dabaszinātņu pierakstu veidošana",
+      "Attēlā redzamu formulu atpazīšana",
+      "Alternatīvā teksta pievienošana matemātiskajām izteiksmēm",
+      "Matemātiskā satura pielāgošana darbam ar ekrānlasītāju",
+      "Drukātu darba lapu skenēšana mobilajā ierīcē"
     ],
     "acquisition": [
-      "Ražotāji/izstrādātāji un citi piemēri: Tiešsaistes rīki ar bezmaksas un maksas (pro) versijām GeoGebra, Desmos, Photomath; maksas programma EquatIO (jāpērk specializēta izglītības iestāžu licence)"
+      "Equatio licenci var iegādāties izstrādātāja tīmekļvietnē. Izglītības iestādei ieteicams pieprasīt demonstrāciju un licences piedāvājumu atbilstoši lietotāju skaitam. Atsevišķs oficiālais izplatītājs Latvijā nav norādīts. https://www.everway.com/products/equatio/"
     ],
     "image": "assets/images/catalog/specialas-matematikas-pieraksta-apzimejumu-progr.png",
     "imageAlt": "Speciālās matemātikas pieraksta/apzīmējumu programmas, formulas atpazīšana no rokraksta — ražotāja ilustratīvs attēls",
     "imageSource": "https://www.everway.com/products/equatio/",
     "imageRightsNote": "Pirms gala publicēšanas saņemt vai pārbaudīt ražotāja atļauju attēla pārpublicēšanai.",
-    "productPage": "https://www.texthelp.com/products/equatio/",
+    "productPage": "https://www.everway.com/products/equatio/",
     "productLinkType": "product"
   },
   {
