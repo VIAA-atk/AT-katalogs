@@ -178,7 +178,7 @@
     "needs": [
       "tts"
     ],
-    "type": "ierice",
+    "type": "atFonds",
     "level": "augsts",
     "latvian": "Pieejams latviešu valodā",
     "whatIs": "Bruno ir Latvijā izstrādāts specializēts teksta priekšlasītājs. Ierīce ieskenē grāmatas, darba lapas un citus drukātus materiālus, ar optiskās rakstzīmju atpazīšanas tehnoloģiju palīdzību pārvērš attēlu digitālā tekstā un nolasa atpazīto tekstu balsī.\n\nIerīcei ir iebūvēts dators ar Windows operētājsistēmu un četri taktili apzīmēti vadības taustiņi. Tādēļ tās galvenās funkcijas var izmantot arī izglītojamais, kuram nav datorlietošanas prasmju.\n\nKā to var izmantot izglītībā?\n\nPirmsskolā ierīci ar pedagoga palīdzību var izmantot īsu drukātu tekstu, norāžu un mācību materiālu atskaņošanai.\n\n1.–9. klasē Bruno var izmantot, lai izglītojamais:\n\nklausītos mācību grāmatu, darba lapu un citu drukātu materiālu tekstu;\npatstāvīgāk piekļūtu mācību saturam;\natkārtoti noklausītos teikumu vai lappusi;\npielāgotu lasīšanas ātrumu;\nvienlaikus klausītos tekstu un sekotu tam ekrānā;\nsaglabātu atpazīto tekstu MP3 formātā un noklausītos vēlāk.\n\nIerīce var būt piemērota izglītojamajiem ar redzes traucējumiem, lasīšanas grūtībām vai citiem funkcionēšanas ierobežojumiem, kuru dēļ drukāta teksta lasīšana ir apgrūtināta.",
@@ -211,7 +211,8 @@
       "Atsevišķs dators nav nepieciešams, jo Bruno ierīcē jau ir iebūvēts Windows dators."
     ],
     "acquisition": [
-      "Ierīci Latvijā izstrādā un piedāvā SIA “Brunomaster”. Informācija par iegādi, komplektāciju, cenu un piegādi jānoskaidro pie ražotāja. https://brunomaster.com/produkts/bruno/"
+      "Ierīci Latvijā izstrādā un piedāvā SIA “Brunomaster”. Informācija par iegādi, komplektāciju, cenu un piegādi jānoskaidro pie ražotāja. https://brunomaster.com/produkts/bruno/",
+      "*Ierīce ir pieejama 4.2.1.2. projekta AT fondā, projekta sadarbības partneriem."
     ],
     "image": "assets/images/catalog/audio-atskanotaji.png",
     "imageAlt": "Audio atskaņotāji — reāls produkta vai risinājuma attēls",
