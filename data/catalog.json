@@ -696,8 +696,8 @@
   },
   {
     "id": "skaitikli-manipulativi-piem-geometriskas-figuras",
-    "name": "Skaitīkļi, manipulatīvi (piem., ģeometriskas figūras, daļskaitļu apļi, skaitīšanas kociņi)",
-    "short": "Fiziski priekšmeti matemātisku jēdzienu praktiskai attēlošanai un darbību modelēšanai.",
+    "name": "Skaitāmais materiāls un matemātikas manipulatīvi",
+    "short": "Praktiski izmantojami priekšmeti skaitļu, darbību, daļskaitļu, ģeometrisko figūru un citu matemātisku jēdzienu izpratnei.",
     "areas": [
       "matematika"
     ],
@@ -706,22 +706,30 @@
     ],
     "type": "piederums",
     "level": "zems",
-    "latvian": "Informācija tiks papildināta",
-    "whatIs": "Fiziski priekšmeti matemātisku jēdzienu praktiskai attēlošanai un darbību modelēšanai.",
+    "latvian": "Ja uz materiāla ir skaitļi, darbību zīmes vai jēdzienu nosaukumi, tiem jābūt atbilstošiem Latvijas izglītības saturā izmantotajiem apzīmējumiem.",
+    "whatIs": "Skaitāmais materiāls un matemātikas manipulatīvi ir fiziski priekšmeti, kurus izglītojamais var pārvietot, grupēt, savienot, salīdzināt, skaitīt un sakārtot, lai praktiski modelētu matemātiskus jēdzienus un darbības.\n\nTie var būt:\n\nskaitīkļi;\nskaitīšanas kociņi un kubi;\nskaitīšanas žetoni;\ndesmitnieku sistēmas bloki;\nskaitļu taisnes;\nskaitļu un darbību zīmju kartītes;\nģeometriskas figūras un ķermeņi;\nģeometriskās mozaīkas;\ndaļskaitļu apļi un joslas;\nģeodēļi;\nmērīšanas piederumi;\nspēļu kauliņi un citi skaitīšanai izmantojami priekšmeti.\nKā to var izmantot izglītībā?\n\nPirmsskolā manipulatīvus var izmantot priekšmetu skaitīšanai, grupēšanai un salīdzināšanai, skaitļa un daudzuma sasaistīšanai, likumsakarību veidošanai un ģeometrisko figūru iepazīšanai.\n\n1.–9. klasē tos var izmantot, lai:\n\nmodelētu saskaitīšanu, atņemšanu, reizināšanu un dalīšanu;\nizprastu vienus, desmitus, simtus un skaitļa decimālo sastāvu;\nattēlotu daļskaitļus un to savstarpējās attiecības;\nsalīdzinātu skaitļus un lielumus;\nveidotu un pārveidotu ģeometriskas figūras;\npētītu laukumu, perimetru, tilpumu un simetriju;\nmodelētu teksta uzdevumus;\npārbaudītu aprēķinu un spriedumu;\npārietu no praktiskas darbības uz attēlu, shēmu un matemātisku pierakstu.\n\nManipulatīvi īpaši noder, ja abstrakta matemātiska informācija izglītojamajam jāpapildina ar konkrētu, vizuāli un taktili uztveramu modeli.",
     "functions": [
-      "skaitļu, darbību un matemātisku sakarību attēlošana",
-      "matemātikas uzdevumu veikšana ar vizuālu, taktilu vai digitālu atbalstu",
-      "rezultātu ievade un pārbaude"
+      "Padara abstraktus matemātiskus jēdzienus konkrēti uztveramus.",
+      "Palīdz sasaistīt skaitli ar atbilstošu daudzumu.",
+      "Ļauj praktiski modelēt matemātiskās darbības.",
+      "Atbalsta vietvērtību un decimālās skaitīšanas sistēmas izpratni.",
+      "Palīdz izprast daļas un veseluma attiecības.",
+      "Atbalsta ģeometrisko figūru un telpisku ķermeņu izpēti.",
+      "Palīdz sakārtot uzdevuma informāciju un darbību secību.",
+      "Nodrošina vizuālu, taktilu un kinestētisku mācīšanos.",
+      "Ļauj pedagogam novērot izglītojamā izmantoto risināšanas paņēmienu.",
+      "Veicina pāreju no praktiskas darbības uz simbolisku matemātisko pierakstu."
     ],
     "acquisition": [
-      "Iegādājas kancelejas, elektronikas, mācību materiālu vai specializēto palīglīdzekļu veikalā atbilstoši individuāli izvērtētajai vajadzībai."
+      "Skaitāmo materiālu un matemātikas manipulatīvus var iegādāties Latvijas mācību līdzekļu, kancelejas preču un izglītojošo rotaļlietu veikalos.",
+      "Daļu materiālu var izgatavot arī izglītības iestādē, izmantojot pogas, kociņus, korķus, akmentiņus, kartonu, laminētas kartītes vai citus drošus un izturīgus materiālus."
     ],
-    "image": "assets/images/catalog/skaitikli-manipulativi-piem-geometriskas-figuras.webp",
+    "image": "assets/images/catalog/skaitikli-manipulativi-piem-geometriskas-figuras.png",
     "imageAlt": "Skaitīkļi, manipulatīvi (piem., ģeometriskas figūras, daļskaitļu apļi, skaitīšanas kociņi) — reāls produkta vai risinājuma attēls",
-    "imageSource": "https://www.teachingvisuallyimpaired.com/math-adaptations.html",
+    "imageSource": "",
     "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
-    "productPage": "https://www.teachingvisuallyimpaired.com/math-adaptations.html",
-    "productLinkType": "reference"
+    "productPage": "",
+    "productLinkType": "category"
   },
   {
     "id": "specialas-matematikas-pieraksta-apzimejumu-progr",
