@@ -442,56 +442,36 @@
     "productLinkType": "product"
   },
   {
-    "id": "teksta-segmentesanas-un-vienkarsosanas-riki",
-    "name": "Teksta segmentēšanas un vienkāršošanas rīki",
-    "short": "Rīki, kas sadala sarežģītu tekstu mazākās daļās vai pārveido to saprotamākā valodā.",
-    "areas": [
-      "lasisana"
-    ],
-    "needs": [
-      "vizualaPielagosana"
-    ],
-    "type": "programmatura",
-    "level": "augsts",
-    "latvian": "Pieejams latviešu valodā",
-    "whatIs": "Digitāli rīki, kas palīdz pielāgot tekstu skolēna lasīšanas un informācijas uztveres vajadzībām. Tie var palīdzēt sadalīt tekstu mazākās, pārskatāmākās daļās, vizuāli izcelt lasāmo informāciju vai vienkāršot sarežģītu tekstu, saglabājot tā galveno nozīmi.\n\nKam noder:\nSkolēniem, kuriem ir grūtības uztvert garu vai sarežģītu tekstu, sekot līdzi lasāmajai informācijai vai izprast sarežģītas valodas konstrukcijas.",
-    "functions": [
-      "teksta un attēlu palielināšana vai vizuāla pielāgošana",
-      "kontrasta un salasāmības uzlabošana",
-      "drukāta vai digitāla mācību satura apskatīšana pielāgotā veidā"
-    ],
-    "acquisition": [
-      "Hugo.lv Vieglās valodas rīks – automātiski vienkāršo tekstu latviešu valodā, aizstājot sarežģītākus vārdus, frāzes un teikumu konstrukcijas ar vieglāk saprotamu formulējumu. Pašlaik vienā reizē iespējams apstrādāt līdz 1000 vārdiem. Hugo.lv arī norāda, ka rezultāts jāsalīdzina ar oriģinālu, lai pārliecinātos par precizitāti.",
-      "BrunoMaster – palīdz pielāgot teksta pasniegšanas veidu un darbu ar tekstu; pieejama teksta rediģēšana, priekšā lasīšana, pārvietošanās pa teikumiem un lappusēm, lasīšanas ātruma regulēšana un citas funkcijas."
-    ],
-    "image": "assets/images/catalog/teksta-segmentesanas-un-vienkarsosanas-riki.png",
-    "imageAlt": "Teksta segmentēšanas un vienkāršošanas rīki — ražotāja ilustratīvs attēls",
-    "imageSource": "",
-    "imageRightsNote": "Pirms gala publicēšanas saņemt vai pārbaudīt ražotāja atļauju attēla pārpublicēšanai.",
-    "productPage": "",
-    "productLinkType": "product"
-  },
-  {
     "id": "teksta-runas-text-to-speech-programmas",
     "name": "TextAid pro5 – lasīšanas un rakstīšanas atbalsta rīks",
     "short": "Programmas, kas digitālu tekstu pārvērš sintezētā balsī un nolasa to lietotājam.",
     "areas": [
-      "lasisana"
+      "lasisana",
+      "rakstisana",
+      "organizesana",
+      "vide"
     ],
     "needs": [
-      "tts"
+      "tts",
+      "vizualaPielagosana",
+      "ocr",
+      "stt",
+      "rakstisanaAtbalsts",
+      "simboli",
+      "matematikaAtbalsts"
     ],
-    "type": "programmatura",
+    "type": "atFonds",
     "level": "augsts",
     "latvian": "Pieejams latviešu valodā",
-    "whatIs": "as tas ir:\nDigitāls rīks, kas palīdz lasīt un veidot tekstu. TextAid var nolasīt digitālu tekstu balsī, vienlaikus vizuāli izceļot lasāmo tekstu, kā arī piedāvā funkcijas rakstīšanas un teksta uztveres atbalstam.\n\nKam noder:\nSkolēniem ar lasīšanas un rakstīšanas grūtībām, tostarp disleksiju, kā arī skolēniem, kuriem nepieciešams papildu atbalsts digitāla teksta uztveršanai un patstāvīgam darbam ar mācību materiāliem.\n\nKo tas palīdz darīt:\nNoklausīties digitālu tekstu, sekot līdzi priekšā lasītajam tekstam ekrānā, pielāgot lasīšanas procesu un izmantot papildu atbalsta funkcijas darbā ar tekstu.",
+    "whatIs": "Digitāls rīks, kas palīdz lasīt un veidot tekstu. TextAid var nolasīt digitālu tekstu balsī, vienlaikus vizuāli izceļot lasāmo tekstu, kā arī piedāvā funkcijas rakstīšanas un teksta uztveres atbalstam.\nKam noder:\nSkolēniem ar lasīšanas un rakstīšanas grūtībām, tostarp disleksiju, kā arī skolēniem, kuriem nepieciešams papildu atbalsts digitāla teksta uztveršanai un patstāvīgam darbam ar mācību materiāliem.\n\nKo tas palīdz darīt:\nNoklausīties digitālu tekstu, sekot līdzi priekšā lasītajam tekstam ekrānā, pielāgot lasīšanas procesu un izmantot papildu atbalsta funkcijas darbā ar tekstu.",
     "functions": [
       "rakstīta teksta nolasīšana balsī;",
       "mācību satura uztveršana klausoties;",
       "uzrakstītā teksta pārbaude ar audio atgriezenisko saiti;"
     ],
     "acquisition": [
-      "TextAid ir licencējams tiešsaistes risinājums, to var iegādāties www. exceed.lv"
+      "TextAid ir licencējams tiešsaistes risinājums, to var iegādāties www. exceed.lv",
+      "*Licence ir pieejama 4.2.1.2. projekta AT fondā, projekta sadarbības partneriem."
     ],
     "image": "assets/images/catalog/teksta-runas-text-to-speech-programmas.webp",
     "imageAlt": "Teksta-runas (Text-to-Speech) programmas — ražotāja ilustratīvs attēls",
