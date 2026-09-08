@@ -169,25 +169,49 @@
   {
     "id": "audio-atskanotaji",
     "name": "Teksta priekšlasītājs Bruno",
-    "short": "Ierīce ierakstītas runas, audiogrāmatu un citu skaņas failu atskaņošanai.",
+    "short": "Specializēta ierīce, kas skenē drukātu tekstu, atpazīst to un nolasa balsī.",
     "areas": [
       "lasisana",
-      "komunikacija"
+      "komunikacija",
+      "vide"
     ],
     "needs": [
       "tts"
     ],
     "type": "ierice",
-    "level": "videjs",
+    "level": "augsts",
     "latvian": "Pieejams latviešu valodā",
-    "whatIs": "Ierīces vai lietotnes ierakstītas runas, audiogrāmatu un citu skaņas failu atskaņošanai.",
+    "whatIs": "Bruno ir Latvijā izstrādāts specializēts teksta priekšlasītājs. Ierīce ieskenē grāmatas, darba lapas un citus drukātus materiālus, ar optiskās rakstzīmju atpazīšanas tehnoloģiju palīdzību pārvērš attēlu digitālā tekstā un nolasa atpazīto tekstu balsī.\n\nIerīcei ir iebūvēts dators ar Windows operētājsistēmu un četri taktili apzīmēti vadības taustiņi. Tādēļ tās galvenās funkcijas var izmantot arī izglītojamais, kuram nav datorlietošanas prasmju.\n\nKā to var izmantot izglītībā?\n\nPirmsskolā ierīci ar pedagoga palīdzību var izmantot īsu drukātu tekstu, norāžu un mācību materiālu atskaņošanai.\n\n1.–9. klasē Bruno var izmantot, lai izglītojamais:\n\nklausītos mācību grāmatu, darba lapu un citu drukātu materiālu tekstu;\npatstāvīgāk piekļūtu mācību saturam;\natkārtoti noklausītos teikumu vai lappusi;\npielāgotu lasīšanas ātrumu;\nvienlaikus klausītos tekstu un sekotu tam ekrānā;\nsaglabātu atpazīto tekstu MP3 formātā un noklausītos vēlāk.\n\nIerīce var būt piemērota izglītojamajiem ar redzes traucējumiem, lasīšanas grūtībām vai citiem funkcionēšanas ierobežojumiem, kuru dēļ drukāta teksta lasīšana ir apgrūtināta.",
     "functions": [
-      "Bruno iekārta ir aprīkota ar Windows OS datoru.",
-      "Atpazīto tekstu ir iespējams saglabāt MP3 formātā uz ārējo datu nesēju (USB zibatmiņa), kā arī Android telefoniem.",
-      "Bruno pašlaik ir vienīgā iekārta, kas nodrošina savietojamību ar pasaulē populāro pārnēsājamo audio atskaņotāju HumanWare Victor Reader Stream."
+      "Vienas vai vairāku lappušu skenēšana.",
+      "Drukāta teksta automātiska atpazīšana.",
+      "Atpazītā teksta priekšlasīšana.",
+      "Navigācija pa teikumiem un lappusēm.",
+      "Lasīšanas ātruma pielāgošana.",
+      "Valodas un balss izvēle.",
+      "Vairāk nekā 50 valodu un balsu izmantošana.",
+      "Teksta attēlošana ar programmu BrunoMaster.",
+      "Atpazītā teksta saglabāšana MP3 formātā.",
+      "MP3 failu saglabāšana USB zibatmiņā vai pārsūtīšana uz saderīgu ierīci.",
+      "Savietojamība ar HumanWare Victor Reader Stream.",
+      "Ierīce spēj iegūt attēlu un atpazīt tekstu līdz aptuveni 2 mm attālumam no grāmatas iesējuma vietas.",
+      "Tehniskā savietojamība",
+      "Iebūvēts dators ar Windows operētājsistēmu",
+      "USB ārējie datu nesēji",
+      "Android ierīces MP3 failu izmantošanai",
+      "HumanWare Victor Reader Stream",
+      "Komplektā iekļauta teksta vizualizācijas programma BrunoMaster",
+      "Kas nepieciešams izglītības iestādei?",
+      "Vieta ierīces novietošanai un drukātā materiāla skenēšanai",
+      "Elektrības pieslēgums",
+      "Skaļruņi vai austiņas teksta klausīšanai",
+      "USB zibatmiņa, ja audiofailus paredzēts izmantot citā ierīcē",
+      "Sākotnēja ierīces uzstādīšana un lietotāja apmācība",
+      "Atbildīgā persona ierīces uzglabāšanai un tehniskā stāvokļa uzraudzībai",
+      "Atsevišķs dators nav nepieciešams, jo Bruno ierīcē jau ir iebūvēts Windows dators."
     ],
     "acquisition": [
-      "https://brunomaster.com/"
+      "Ierīci Latvijā izstrādā un piedāvā SIA “Brunomaster”. Informācija par iegādi, komplektāciju, cenu un piegādi jānoskaidro pie ražotāja. https://brunomaster.com/produkts/bruno/"
     ],
     "image": "assets/images/catalog/audio-atskanotaji.png",
     "imageAlt": "Audio atskaņotāji — reāls produkta vai risinājuma attēls",
