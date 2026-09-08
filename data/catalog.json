@@ -482,10 +482,11 @@
   },
   {
     "id": "viedpildspalvas-skenesanai",
-    "name": "Viedpildspalvas (skenēšanai)",
-    "short": "Pārnēsājamas ierīces drukāta teksta skenēšanai. Pildspalvu virza pāri teksta rindai, un ierīce ar optiskās rakstzīmju atpazīšanas (OCR) tehnoloģiju pārvērš noskenēto saturu digitālā tekstā. Atkarībā no modeļa tekstu iespējams arī noklausīties, saglabāt, tulkot vai pārsūtīt uz datoru.",
+    "name": "IRISPen Reader 8 – skenēšanas pildspalva drukāta teksta atpazīšanai un atskaņošanai",
+    "short": "Pārnēsājama skenēšanas pildspalva drukāta teksta atpazīšanai, saglabāšanai un atskaņošanai atbalstītajās valodās.",
     "areas": [
-      "lasisana"
+      "lasisana",
+      "komunikacija"
     ],
     "needs": [
       "ocr"
@@ -493,17 +494,23 @@
     "type": "ierice",
     "level": "augsts",
     "latvian": "Daļēji pieejams latviešu valodā",
-    "whatIs": "Kam noder:\nSkolēniem, kuriem nepieciešams ātri digitalizēt drukātu tekstu vai saņemt atbalstu darbā ar grāmatām, darba lapām un citiem drukātiem mācību materiāliem. Modeļi ar teksta priekšā lasīšanas funkciju var būt īpaši noderīgi skolēniem ar lasīšanas grūtībām.\n\nPiemērs: IRISPen Reader 8 – pārnēsājama skenējoša pildspalva, kas atpazīst drukātu tekstu un var to nolasīt balsī.",
+    "whatIs": "RISPen Reader 8 ir pārnēsājama skenēšanas pildspalva ar krāsu skārienekrānu. Virzot ierīci pāri drukāta teksta rindai, tā ieskenē tekstu un ar optiskās rakstzīmju atpazīšanas tehnoloģiju pārvērš to digitālā tekstā.\n\nAtbalstītajās valodās ierīce var atskaņot ieskenēto tekstu balsī un vienlaikus izcelt ekrānā pašlaik atskaņoto vārdu. Ierīci var izmantot patstāvīgi bez pastāvīga savienojuma ar datoru vai internetu.\n\nKā to var izmantot izglītībā?\n\nPirmsskolā ierīci var izmantot ar pedagoga palīdzību, galvenokārt darbā ar atsevišķiem drukātiem vārdiem un svešvalodu apguvē.\n\n1.–9. klasē to var izmantot, lai izglītojamais:\n\nieskenētu nepazīstamu vārdu, teikumu vai īsu teksta fragmentu;\nsekotu ieskenētajam tekstam ierīces ekrānā;\nnoklausītos tekstu kādā no piecām atbalstītajām valodām;\natkārtoti noklausītos atsevišķu vārdu vai teikumu;\nsaglabātu ieskenēto tekstu;\npārsūtītu tekstu uz datoru turpmākai apstrādei;\nierakstītu pedagoga skaidrojumu vai savu audio piezīmi;\nizmantotu ierīci svešvalodu apguvē.\n\nLatviešu valodas mācību materiāliem ierīci var izmantot teksta digitalizēšanai, bet atskaņošanai nepieciešams cits risinājums ar latviešu valodas runas sintēzi.",
     "functions": [
-      "drukāta teksta digitalizēšana",
-      "atpazītā teksta sagatavošana lasīšanai vai rediģēšanai",
-      "drukātu mācību materiālu pārveidošana pieejamā digitālā formā"
+      "Drukāta teksta skenēšana un atpazīšana 48 valodās.",
+      "Teksta atskaņošana piecās valodās.",
+      "Pašlaik atskaņotā vārda izcelšana ekrānā.",
+      "Atskaņošana pa vārdam vai teikumam.",
+      "Lasīšanas ātruma un paužu pielāgošana.",
+      "Ieskenētā teksta saglabāšana un rediģēšana.",
+      "Teksta fotografēšana un atpazīšana.",
+      "Audioierakstu veidošana mācību stundā.",
+      "Iebūvēta atmiņa un vieta microSD atmiņas kartei.",
+      "Pielāgošana lietošanai ar labo vai kreiso roku.",
+      "Darbība bezsaistē.",
+      "Teksta failu pārsūtīšana uz datoru."
     ],
     "acquisition": [
-      "Iegāde :",
-      "• 220.lv – IRISPen Reader 8",
-      "• Dateks.lv – IRISPen Reader 8",
-      "• RD Electronics – IRISPen Reader 8"
+      "IRISPen Reader 8 var iegādāties ražotāja un citu tehnoloģiju tirgotāju internetveikalos."
     ],
     "image": "assets/images/catalog/viedpildspalvas-skenesanai.webp",
     "imageAlt": "Viedpildspalvas (skenēšanai) — reāls produkta vai risinājuma attēls",
