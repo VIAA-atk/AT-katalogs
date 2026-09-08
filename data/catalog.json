@@ -629,8 +629,8 @@
   },
   {
     "id": "matematikas-uzdevumu-atrisinasanas-riki",
-    "name": "Matemātikas uzdevumu atrisināšanas rīki",
-    "short": "Digitāli rīki, kas palīdz analizēt matemātikas uzdevumu un parāda risinājumu vai tā soļus.",
+    "name": "Calcularis – adaptīva matemātikas prasmju apguves programma (maksas)",
+    "short": "Adaptīva matemātikas mācību programma, kas pielāgo uzdevumus izglītojamā prasmēm un sniedz pedagogam informāciju par progresu un kļūdām.",
     "areas": [
       "matematika"
     ],
@@ -640,17 +640,23 @@
     ],
     "type": "programmatura",
     "level": "augsts",
-    "latvian": "Pieejams latviešu valodā",
-    "whatIs": "Digitāli rīki, kas palīdz analizēt matemātikas uzdevumu un parāda risinājumu vai tā soļus.",
+    "latvian": "Latviešu valoda nav pieejama",
+    "whatIs": "Calcularis ir datorizēta, adaptīva matemātikas prasmju apguves programma. Tā analizē izglītojamā atbildes, identificē stiprās puses un grūtības un automātiski pielāgo turpmāko uzdevumu saturu un secību.\n\nProgramma paredzēta matemātikas pamatprasmju apguvei, tostarp izglītojamajiem ar matemātisko spēju traucējumiem jeb diskalkuliju. Izglītojamais uzdevumus var veikt patstāvīgi, savukārt pedagogs vai vecāks var pārraudzīt progresu.\n\nKā to var izmantot izglītībā?\n\nCalcularis galvenokārt paredzēta sākumskolas un pamatskolas jaunāko klašu izglītojamajiem. To var izmantot:\n\nmatemātikas stundā individuālam darbam;\nspeciālā pedagoga nodarbībās;\npapildu mācību pasākumos;\nindividuālajā izglītības programmas apguves plānā;\nmatemātikas pamatprasmju nostiprināšanai mājās;\nizglītojamā kļūdu un progresa uzraudzībai.\n\nProgrammas adaptīvā sistēma izvēlas uzdevumus atbilstoši izglītojamā sniegumam. Pedagogs iegūtos datus var izmantot, lai noteiktu prasmes, kurām nepieciešams papildu atbalsts.\n\nCalcularis neaizstāj pedagoga skaidrojumu un mērķtiecīgu matemātikas mācīšanu. Tā izmantojama kā papildinošs vingrināšanās un individuālā atbalsta rīks.",
     "functions": [
-      "uzdevumu un darbību secības organizēšana",
-      "atgādinājumu, piezīmju vai plānu veidošana",
-      "uzmanības noturēšana un paveiktā pārbaude",
-      "skaitļu, darbību un matemātisku sakarību attēlošana",
-      "matemātikas uzdevumu veikšana ar vizuālu, taktilu vai digitālu atbalstu"
+      "Matemātikas pamatprasmju novērtēšana un vingrināšana.",
+      "Uzdevumu automātiska pielāgošana izglītojamā sniegumam.",
+      "Individuāla mācību ceļa veidošana.",
+      "Skaitļu un daudzuma izpratnes attīstīšana.",
+      "Aritmētisko darbību apguves un automatizēšanas atbalsts.",
+      "Vizuāli un interaktīvi matemātikas uzdevumi.",
+      "Izglītojamā kļūdu veidu analīze.",
+      "Mācību progresa uzraudzība.",
+      "Pedagogam pieejama informācija par izglītojamā sniegumu.",
+      "Patstāvīgas vingrināšanās iespēja."
     ],
     "acquisition": [
-      "Ražotāji/izstrādātāji un citi piemēri: Calcularis — Constructor Technology (Šveice/Singapūra); Talasia — Meister Cody (Vācija)"
+      "Calcularis licenci izglītības iestādei vai ģimenei var iegādāties, sazinoties ar izstrādātāju Constructor Technology AG.",
+      "Latvijā nav identificēts oficiāls vietējais izplatītājs, un programma nav pielāgota latviešu valodai. Pirms licences iegādes jānoskaidro:"
     ],
     "image": "assets/images/catalog/matematikas-uzdevumu-atrisinasanas-riki.webp",
     "imageAlt": "Matemātikas uzdevumu atrisināšanas rīki — reāls ierīces vai programmas attēls",
