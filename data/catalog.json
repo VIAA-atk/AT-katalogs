@@ -277,7 +277,7 @@
   {
     "id": "krasu-filtri-parklaji-pleves",
     "name": "Krāsu filtri (plēves)",
-    "short": "Caurspīdīgas krāsainas plēves vai pārklāji, ko novieto virs teksta, lai mainītu fona toni.",
+    "short": "Caurspīdīgas krāsainas plēves, ko novieto virs drukāta teksta.",
     "areas": [
       "lasisana"
     ],
@@ -287,21 +287,26 @@
     "type": "piederums",
     "level": "zems",
     "latvian": "Informācija tiks papildināta",
-    "whatIs": "Caurspīdīgas krāsainas plēves vai pārklāji, ko novieto virs teksta, lai mainītu fona toni.",
+    "whatIs": "Kā to var izmantot izglītībā?\n\nPirmsskolā un 1.–9. klasē krāsu filtru var uzlikt uz darba lapas, mācību grāmatas, nošu lapas, kartes vai cita drukāta materiāla. Izglītojamajam var piedāvāt vairākas krāsas un novērot, vai kāda no tām palīdz ilgāk strādāt ar tekstu vai padara lasīšanu subjektīvi ērtāku.\n\nIzvēloties filtru, jāņem vērā paša izglītojamā vērtējums un pedagoga novērojumi. Ja filtrs nerada skaidri novērojamu ieguvumu, tā lietošana nav jāturpina.\n\nKrāsu filtrs neaizstāj mērķtiecīgu lasītprasmes mācīšanu, atbilstoši pielāgotu tekstu vai redzes speciālista izvērtējumu.",
     "functions": [
-      "teksta un attēlu palielināšana vai vizuāla pielāgošana",
-      "kontrasta un salasāmības uzlabošana",
-      "drukāta vai digitāla mācību satura apskatīšana pielāgotā veidā"
+      "Maina drukāta materiāla fona krāsu.",
+      "Samazina kontrastu starp baltu papīru un tumšu tekstu.",
+      "Var mazināt gaismas atspīdumu no papīra.",
+      "Var uzlabot subjektīvo komfortu lasīšanas laikā.",
+      "Palīdz individuāli pārbaudīt, vai konkrēta fona krāsa izglītojamajam ir piemērotāka.",
+      "Ir viegli pārvietojams un izmantojams ar dažādiem drukātiem materiāliem.",
+      "Nemaina un nebojā oriģinālo mācību materiālu."
     ],
     "acquisition": [
-      "Var izgatavot no piemērotas caurspīdīgas krāsainas plēves vai iegādāties gatavus lasīšanas pārklājus kancelejas un specializēto preču veikalos."
+      "Izmēģināšanai izglītības iestāde var iegādāties piemērota izmēra caurspīdīgas, matētas krāsainās plēves kancelejas vai mākslas preču veikalos. Plēvei jābūt caurspīdīgai, vienmērīgi tonētai un bez raksta, lai teksts zem tās būtu skaidri salasāms.",
+      "Ieteicams iegādāties vairāku krāsu komplektu, jo viena krāsa nav piemērota visiem izglītojamajiem."
     ],
     "image": "assets/images/catalog/krasu-filtri-parklaji-pleves.webp",
     "imageAlt": "Krāsu filtri (pārklāji/plēves) — reāls produkta vai risinājuma attēls",
-    "imageSource": "https://www.crossboweducation.com/Coloured-overlays-for-visual-stress",
+    "imageSource": "https://220.lv/lv/mebeles-un-interjers/interjers/interjera-prieksmeti/a4-caurspidigas-krasainas-plastmasas-lapas-12-dzivespriecigas?id=46866267",
     "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
     "productPage": "https://www.crossboweducation.com/Coloured-overlays-for-visual-stress",
-    "productLinkType": "product"
+    "productLinkType": "resource"
   },
   {
     "id": "lasisanas-lineali",
