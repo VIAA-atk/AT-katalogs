@@ -803,8 +803,8 @@
   },
   {
     "id": "reallaika-automatisko-subtitru-sistemas",
-    "name": "Reāllaika automātisko subtitri  LiveVoice",
-    "short": "Programmatūra, kas runu tiešsaistē pārvērš ekrānā redzamos subtitros ar nelielu aizkavi.",
+    "name": "LiveVoice – reāllaika automātiskie subtitri un runas tulkošana (maksas)",
+    "short": "Tiešsaistes rīks runas automātiskai attēlošanai subtitros un tulkošanai reāllaikā.",
     "areas": [
       "vide"
     ],
@@ -815,15 +815,21 @@
     ],
     "type": "programmatura",
     "level": "augsts",
-    "latvian": "Nav latviešu valodā",
-    "whatIs": "Programmatūra, kas automātiski atpazīst runātāja teikto un reāllaikā attēlo to rakstīta teksta jeb subtitru veidā. Tā ļauj sekot mutiski sniegtajai informācijai arī tad, ja runu ir grūti vai nav iespējams sadzirdēt.",
+    "latvian": "Pieejama. LiveVoice nodrošina runas atpazīšanu un teksta tulkošanu latviešu valodā. Latviešu valoda ir norādīta kā paplašināti atbalstīta ievades un izvades valoda.",
+    "whatIs": "iveVoice ir tiešsaistes platforma, kas pedagoga vai cita runātāja teikto automātiski pārvērš reāllaika subtitros. Izglītojamie subtitrus var lasīt savā viedtālrunī, planšetdatorā vai datorā. Tos iespējams rādīt arī uz koplietojama ekrāna vai pievienot tiešsaistes video pārraidei. Papildus iespējams izveidot tulkotu subtitru vai balss tulkojuma kanālus. LiveVoice automātisko subtitru apraksts\n\nKā to var izmantot izglītībā?\nMācību stundā pedagoga runu var attēlot rakstveidā izglītojamā ierīcē vai uz klases ekrāna. Tas var palīdzēt izglītojamajiem ar dzirdes traucējumiem, valodas un runas uztveres grūtībām, uzmanības noturēšanas grūtībām vai nepietiekamu mācību satura apguves valodas prasmi.\n\nRīku var izmantot mācību stundās, vieslekcijās, skolas pasākumos, vecāku sapulcēs un attālinātās nodarbībās. Pēc nodarbības transkripciju iespējams lejupielādēt un izmantot mācību satura atkārtošanai vai pieejamu mācību materiālu sagatavošanai.\n\nAutomātiski izveidotajos subtitros var būt kļūdas, īpaši trokšņainā vidē, vienlaikus runājot vairākiem cilvēkiem vai lietojot specifiskus terminus. Tādēļ tie nav uzskatāmi par pedagoga skaidrojuma vai profesionāla zīmju valodas tulka pilnvērtīgu aizstājēju.",
     "functions": [
-      "uzdevumu un darbību secības organizēšana",
-      "atgādinājumu, piezīmju vai plānu veidošana",
-      "uzmanības noturēšana un paveiktā pārbaude"
+      "Runas automātiska pārvēršana tekstā reāllaikā",
+      "Subtitru attēlošana viedtālrunī, planšetdatorā vai tīmekļa pārlūkā",
+      "Subtitru rādīšana uz koplietojama ekrāna",
+      "Subtitru pievienošana tiešraides video",
+      "Automātiska teksta un balss tulkošana",
+      "Vairāku valodu kanālu izveide",
+      "Piekļuve ar saiti, kodu vai kvadrātkodu",
+      "Audio ierakstīšana",
+      "Transkripcijas lejupielāde TXT, CSV, SRT vai VTT formātā"
     ],
     "acquisition": [
-      "LiveVoice — SIA \"Exceed\" Exceed: https://www.exceed.lv/"
+      "LiveVoice ir pieejams tiešsaistē izstrādātāja tīmekļvietnē. Izglītības iestāde var izveidot administratora kontu, izvēlēties lietotāju skaitam atbilstošu plānu un papildus aktivizēt automātiskos subtitrus. Risinājums Latvijā ir izmantojams tiešsaistē."
     ],
     "image": "assets/images/catalog/reallaika-automatisko-subtitru-sistemas.webp",
     "imageAlt": "Reāllaika automātisko subtitru sistēmas — ražotāja ilustratīvs attēls",
