@@ -521,25 +521,37 @@
   },
   {
     "id": "digitalais-rutinu-papirs",
-    "name": "Digitālais rūtiņu papīrs",
-    "short": "Programma vai lietotne rakstīšanai un zīmēšanai uz regulējama digitāla rūtiņu režģa.",
+    "name": "Digitālais rūtiņu papīrs un matemātisko konstrukciju vide (GeoGebra)",
+    "short": "Digitāla matemātikas darba vide aprēķinu, grafiku, ģeometrisku konstrukciju, tabulu un vizuālu modeļu veidošanai.",
     "areas": [
-      "matematika"
+      "rakstisana",
+      "matematika",
+      "organizesana"
     ],
     "needs": [
       "matematikaAtbalsts"
     ],
     "type": "programmatura",
-    "level": "videjs",
+    "level": "augsts",
     "latvian": "Nav pieejams latviešu valodā",
-    "whatIs": "Programma vai lietotne rakstīšanai un zīmēšanai uz regulējama digitāla rūtiņu režģa.",
+    "whatIs": "Digitālais rūtiņu papīrs ir elektroniska darba vide ar rūtiņu tīklu vai koordinātu plakni, kurā var ievadīt skaitļus un matemātiskas izteiksmes, atzīmēt punktus, vilkt līnijas un veidot ģeometriskas figūras.\n\nGeoGebra ir bezmaksas interaktīva matemātikas platforma, kas apvieno digitālu koordinātu plakni, grafiku veidošanu, ģeometriju, algebru, tabulas, statistiku un citus matemātikas rīkus. Izveidotos objektus var mainīt, pārvietot un savstarpēji sasaistīt.\n\nKā to var izmantot izglītībā?\n\nPirmsskolā un sākumskolā GeoGebra var izmantot pedagoga vadībā skaitļu, figūru, simetrijas, secību, mērījumu un telpisko sakarību vizualizēšanai.\n\n1.–9. klasē izglītojamais var:\n\nievadīt skaitļus un matemātiskas izteiksmes ar tastatūru;\nveidot un pārbaudīt ģeometriskas konstrukcijas;\natzīmēt punktus koordinātu plaknē;\nattēlot funkciju grafikus;\nveidot tabulas, diagrammas un datu attēlojumus;\npētīt, kā viena lieluma maiņa ietekmē citus lielumus;\nsaglabāt un iesniegt digitāli izpildītu darbu.\n\nRīks var palīdzēt izglītojamajiem, kuriem ir grūtības precīzi izvietot ciparus, koordinātas, līnijas vai ģeometriskas figūras uz papīra. Tas var samazināt ar rokrakstu un zīmēšanu saistīto slodzi, ļaujot vairāk uzmanības pievērst matemātiskajam uzdevumam.",
     "functions": [
-      "skaitļu, darbību un matemātisku sakarību attēlošana",
-      "matemātikas uzdevumu veikšana ar vizuālu, taktilu vai digitālu atbalstu",
-      "rezultātu ievade un pārbaude"
+      "Digitāls rūtiņu tīkls un koordinātu plakne.",
+      "Punktu, līniju, nogriežņu, leņķu un figūru veidošana.",
+      "Ģeometrisku konstrukciju dinamiska pārveidošana.",
+      "Funkciju un vienādojumu grafiska attēlošana.",
+      "Skaitļu un matemātisku izteiksmju ievade.",
+      "Mērījumu un aprēķinu veikšana.",
+      "Tabulu, diagrammu un statistikas attēlojumu veidošana.",
+      "Divdimensiju un telpisku objektu vizualizēšana.",
+      "Gatavu interaktīvu mācību materiālu izmantošana.",
+      "Darba saglabāšana un kopīgošana.",
+      "Izmantošana tīmekļa pārlūkprogrammā vai lietotnē.",
+      "GeoGebra piedāvā atsevišķus grafiskā kalkulatora, ģeometrijas, telpiskās ģeometrijas, zinātniskā kalkulatora un piezīmju rīkus."
     ],
     "acquisition": [
-      "Ražotāji/izstrādātāji un citi piemēri: GeoGebra, Desmos tiešsaistes matemātikas platformas ar digitālo rūtiņu papīru un skaņas grafikiem"
+      "GeoGebra bez maksas var izmantot GeoGebra tīmekļvietnē. Lietotnes iespējams lejupielādēt arī datoros, planšetdatoros un viedtālruņos.",
+      "Rīka izmantošanai nav obligāti jāizveido lietotāja konts. Konts nepieciešams, ja izveidotos darbus paredzēts saglabāt platformā, kopīgot vai izmantot GeoGebra Classroom iespējas."
     ],
     "image": "assets/images/catalog/digitalais-rutinu-papirs.webp",
     "imageAlt": "Digitālais rūtiņu papīrs — reāls ierīces vai programmas attēls",
@@ -604,35 +616,6 @@
     "imageSource": "https://shop.rnib.org.uk/products/rnib-tactile-ruler-30cm",
     "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
     "productPage": "https://shop.rnib.org.uk/products/rnib-tactile-ruler-30cm",
-    "productLinkType": "product"
-  },
-  {
-    "id": "matematikas-satura-lasitaji-piem-mathplayer-parl",
-    "name": "Matemātikas satura lasītāji (piem., MathPlayer, pārlūku spraudņi)",
-    "short": "Programmatūra, kas padara digitālas formulas pieejamas, tās nolasa balsī vai nodod Braila attēlojumam.",
-    "areas": [
-      "matematika"
-    ],
-    "needs": [
-      "matematikaAtbalsts"
-    ],
-    "type": "programmatura",
-    "level": "augsts",
-    "latvian": "Pieejams latviešu valodā",
-    "whatIs": "Programmatūra, kas padara digitālas formulas pieejamas, tās nolasa balsī vai nodod Braila attēlojumam.",
-    "functions": [
-      "skaitļu, darbību un matemātisku sakarību attēlošana",
-      "matemātikas uzdevumu veikšana ar vizuālu, taktilu vai digitālu atbalstu",
-      "rezultātu ievade un pārbaude"
-    ],
-    "acquisition": [
-      "Ražotāji/izstrādātāji un citi piemēri: MathPlayer pamata versija ir pieejama internetā jebkuram lietotājam"
-    ],
-    "image": "assets/images/catalog/matematikas-satura-lasitaji-piem-mathplayer-parl.webp",
-    "imageAlt": "Matemātikas satura lasītāji (piem., MathPlayer, pārlūku spraudņi) — reāls ierīces vai programmas attēls",
-    "imageSource": "https://www.wirismath.com/en/mathplayer/",
-    "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
-    "productPage": "https://www.wirismath.com/en/mathplayer/",
     "productLinkType": "product"
   },
   {
