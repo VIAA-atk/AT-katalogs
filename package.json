@@ -8,7 +8,7 @@
     "build": "npm run validate",
     "build:dev": "vite build --mode development",
     "preview": "vite preview",
-    "validate": "node scripts/validate-catalog.mjs && node --check assets/catalog-app.js && node --check admin/admin.js && node --check admin/admin-v16.js && node --check admin/catalog-sync.js && node scripts/admin-concurrency-test.mjs && node scripts/smoke-test.mjs",
+    "validate": "node scripts/validate-catalog.mjs && node --check assets/catalog-app.js && node --check admin/admin.js && node --check admin/admin-v17.js && node --check admin/catalog-sync.js && node scripts/admin-concurrency-test.mjs && node scripts/admin-draft-test.mjs && node scripts/smoke-test.mjs",
     "lint": "eslint .",
     "format": "prettier --write ."
   },

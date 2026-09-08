@@ -7,8 +7,8 @@
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: blob:; style-src 'self'; script-src 'self'; connect-src https://api.github.com; base-uri 'self'; form-action 'self'; frame-ancestors 'none'" />
     <title>Kataloga administrēšana | VIAA</title>
     <link rel="icon" href="../favicon.svg?v=3" type="image/svg+xml" />
-    <link rel="stylesheet" href="./admin.css?v=3" />
-    <script type="module" src="./admin-v16.js"></script>
+    <link rel="stylesheet" href="./admin.css?v=17" />
+    <script type="module" src="./admin-v17.js"></script>
   </head>
   <body>
     <header class="site-header">
@@ -41,7 +41,7 @@
           </div>
         </form>
         <p id="auth-status" class="status" role="status"></p>
-        <p class="help">Administratora paneļa versija 16</p>
+        <p class="help">Administratora paneļa versija 17</p>
       </section>
 
       <section id="admin-app" hidden>
@@ -58,6 +58,12 @@
         </div>
 
         <p id="app-status" class="status card" role="status" hidden></p>
+
+        <section id="conflicts-panel" class="card conflicts-panel" aria-labelledby="conflicts-title" hidden>
+          <h2 id="conflicts-title">Melnraksti, kuriem vajadzīga pārskatīšana</h2>
+          <p>Citus ierakstus vari izveidot, rediģēt un publicēt. Šie melnraksti paliks saglabāti līdz atrisināšanai vai atmešanai.</p>
+          <div id="conflict-list"></div>
+        </section>
 
         <div class="workspace">
           <aside class="card list-panel" aria-label="Kataloga ierakstu saraksts">
@@ -132,6 +138,7 @@
                 <p class="help">Rakstīšanas laikā tekstam tiek glabāta rezerves kopija tikai šajā pārlūka cilnē. Melnrakstu saglabā ar pogu zemāk; publicēšana GitHub vienmēr jāapstiprina atsevišķi.</p>
                 <div class="form-actions">
                   <button id="save-draft" type="button" class="button primary">Saglabāt melnrakstā</button>
+                  <button id="publish-record" type="button" class="button primary" disabled>Publicēt šo ierakstu</button>
                   <button id="cancel-edit" type="button" class="button secondary">Atcelt labošanu</button>
                 </div>
               </fieldset>

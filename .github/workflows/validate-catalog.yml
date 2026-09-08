@@ -12,6 +12,7 @@ on:
       - "index.html"
       - "package.json"
       - "scripts/admin-concurrency-test.mjs"
+      - "scripts/admin-draft-test.mjs"
       - "scripts/validate-catalog.mjs"
       - "scripts/smoke-test.mjs"
   pull_request:
@@ -24,6 +25,7 @@ on:
       - "index.html"
       - "package.json"
       - "scripts/admin-concurrency-test.mjs"
+      - "scripts/admin-draft-test.mjs"
       - "scripts/validate-catalog.mjs"
       - "scripts/smoke-test.mjs"
 

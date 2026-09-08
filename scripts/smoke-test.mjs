@@ -4,10 +4,10 @@ import path from "node:path";
 const root = path.resolve(import.meta.dirname, "..");
 const read = (relative) => fs.readFile(path.join(root, relative), "utf8");
 const [catalog, publicHtml, publicJs, adminHtml, adminJs, activeAdminJs] = await Promise.all([
-  read("data/catalog.json").then(JSON.parse), read("index.html"), read("assets/catalog-app.js"), read("admin/index.html"), read("admin/admin.js"), read("admin/admin-v16.js"),
+  read("data/catalog.json").then(JSON.parse), read("index.html"), read("assets/catalog-app.js"), read("admin/index.html"), read("admin/admin.js"), read("admin/admin-v17.js"),
 ]);
 
-if (activeAdminJs !== adminJs) throw new Error("Aktīvais administratora v16 kods neatbilst kanoniskajam admin.js.");
+if (activeAdminJs !== adminJs) throw new Error("Aktīvais administratora v17 kods neatbilst kanoniskajam admin.js.");
 
 function ids(html) {
   return new Set([...html.matchAll(/\sid="([^"]+)"/g)].map((match) => match[1]));
@@ -31,7 +31,7 @@ if (catalog.some((item) => "situations" in item || "features" in item || "descri
 if (/localStorage|document\.cookie/.test(adminJs) || /sessionStorage[^\n]*(?:token|github-token)|(?:token|github-token)[^\n]*sessionStorage/i.test(adminJs)) {
   throw new Error("Administratora panelis mēģina pastāvīgi saglabāt autentifikācijas datus.");
 }
-if (!adminHtml.includes("./admin-v16.js")) throw new Error("Administratora paneļa unikālā ielādes versija nav piesaistīta.");
+if (!adminHtml.includes("./admin-v17.js")) throw new Error("Administratora paneļa unikālā ielādes versija nav piesaistīta.");
 if (!adminHtml.includes('<div id="record-form">') || adminHtml.includes('<form id="record-form"') || /id="field-id"[^>]*pattern=/.test(adminHtml)) {
   throw new Error("Firefox konfliktējošā identifikatora lauka HTML validācija nav noņemta.");
 }
@@ -41,7 +41,7 @@ if (!adminHtml.includes('id="save-draft" type="button"') || !adminJs.includes('u
 for (const id of ["move-up", "move-down", "order-help"]) {
   if (!adminIds.has(id)) throw new Error(`Administratora secības vadībā trūkst #${id}.`);
 }
-for (const fragment of ["function reorderResource(", 'handle.draggable = canDrag', 'markDirty();', 'mergeCatalogChanges(remote.resources']) {
+for (const fragment of ["function reorderResource(", 'handle.draggable = canDrag', 'markDirty();', 'partitionCatalogChanges(remote.resources']) {
   if (!adminJs.includes(fragment)) throw new Error(`Administratora secības saglabāšanas plūsmā trūkst: ${fragment}`);
 }
 if (/\b(?:resources|filtered)\.sort\s*\(/.test(publicJs)) {

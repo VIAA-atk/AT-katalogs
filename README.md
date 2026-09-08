@@ -45,7 +45,18 @@ repozitorijā.
   rezerves kopija, bet GitHub netiek mainīts fonā.
 - **Saglabāt melnrakstā** atkārtoti ielādē jaunāko `catalog.json` un tā SHA,
   pēc tam lokāli apvieno tikai rediģētā ieraksta mainītos laukus.
-- **Publicēt izmaiņas** izveido vienu GitHub commitu `main` zarā.
+- **Publicēt šo ierakstu** publicē tikai atvērto ierakstu.
+- **Publicēt izmaiņas** publicē droši apvienojamos melnrakstus vienā GitHub
+  commitā `main` zarā. Konfliktējošie ieraksti paliek melnrakstā.
+- Konflikta sadaļā katram laukam izvēlies **Mana versija** vai **GitHub
+  versija**, tad saglabā izvēli melnrakstā un publicē.
+- **Atmest manu melnrakstu un ielādēt GitHub versiju** vispirms ielādē
+  jaunāko GitHub versiju, tad atmet tikai konkrētā ieraksta melnrakstu.
+  Citi melnraksti un citā ierakstā ievadītais teksts tiek saglabāti.
+- Pēc veiksmīgas publicēšanas tiek izdzēsti tikai publicētie melnraksti.
+  Atjaunojot 16. versijas melnrakstu tajā pašā cilnē, var izmantot šīs pašas
+  konfliktu atrisināšanas iespējas. Ja vecai nesaglabātai formai nav sākotnējās
+  versijas, pirms publicēšanas tās lauki jāpārskata.
 
 Panelī var augšupielādēt JPG, PNG vai WebP attēlu līdz 8 MB, saglabājot tā
 sākotnējo formātu. Jānorāda alternatīvais teksts, avota saite, ja tāda ir, un
@@ -64,9 +75,11 @@ GitHub Pages atjaunošana pēc commita parasti aizņem dažas minūtes.
   faila SHA un `main` commitu, pēc tam ar trīspusēju apvienošanu uzliek tikai
   šīs cilnes mainītos ierakstu laukus. Citu ierakstu izmaiņas tiek saglabātas.
 - Ja GitHub atgriež `409` vai zara SHA vairs neatbilst, panelis vienu reizi
-  atkārtoti ielādē jaunāko versiju, apvieno un publicē. Nedroša viena lauka vai
-  secības konflikta gadījumā publicēšana tiek apturēta, bet ievadītais teksts
-  paliek pārlūka cilnes melnrakstā.
+  atkārtoti ielādē jaunāko versiju, apvieno un publicē. Konflikts rodas, ja
+  abas puses atšķirīgi mainījušas vienu lauku; jomu un vajadzību izvēļu secība
+  netiek uzskatīta par satura izmaiņu. Konflikts, dzēšanas sadursme vai
+  atkārtoti pievienojams attēls aptur tikai attiecīgā ieraksta publicēšanu.
+  Secības sadursme neaptur ierakstu satura publicēšanu.
 - Dzēstu ierakstu var atjaunot no GitHub commit vēstures.
 - Attēla fails pēc ieraksta dzēšanas netiek automātiski dzēsts, lai nepieļautu
   neatgriezenisku vai kļūdainu koplietota attēla noņemšanu.
@@ -92,6 +105,9 @@ Validācija pārbauda:
 - publiskās lapas un administratora paneļa JavaScript sintaksi.
 - divu paralēlu administratora cilņu apvienošanu, konflikta apturēšanu un
   vienreizēju `409` atkārtojumu.
+- paneļa saglabāšanas un publicēšanas darbības ar imitētu GitHub: vecs
+  ARASAAC melnraksts un jauns Hugo.gov.lv ieraksts, lauku izvēles, individuāla
+  atmešana, pārlāde un publicēto melnrakstu izdzēšana. Testi nemaina GitHub datus.
 
 ## Vēsturiskie migrācijas skripti
 
