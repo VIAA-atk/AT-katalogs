@@ -1999,5 +1999,47 @@
     "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
     "productPage": "https://exceed.lv/index.php/lv/produkti/komunikaciju-paliglidzekli/izglitibas-atbalsta-risinajumi/view/774:my-board-buddy-iar1",
     "productLinkType": "resource"
+  },
+  {
+    "id": "note-anywhere-digitalas-piezimes-timekllapas-bezmaksas",
+    "name": "Note Anywhere – digitālas piezīmes tīmekļlapās (bezmaksas)",
+    "short": "Google Chrome paplašinājums krāsainu digitālo piezīmju pievienošanai jebkurā tīmekļlapas vietā.",
+    "areas": [
+      "lasisana",
+      "rakstisana",
+      "matematika",
+      "komunikacija",
+      "organizesana"
+    ],
+    "needs": [
+      "organizesanaAtbalsts"
+    ],
+    "type": "programmatura",
+    "level": "videjs",
+    "latvian": "Informāciju un piezīmes var rakstīt latviešu valodā. Paplašinājuma saskarne ir angļu valodā.",
+    "whatIs": "Note Anywhere ir Google Chrome, microsoft edge pārlūkprogrammas paplašinājums, kas ļauj tīmekļlapās izvietot digitālas līmlapiņas. Piezīmi var novietot pie konkrēta teksta, attēla, uzdevuma vai citas tīmekļlapas daļas. Tā tiek automātiski saglabāta un atkārtoti parādīta, kad lietotājs atgriežas attiecīgajā tīmekļlapā. Piezīmes nemaina pašas tīmekļlapas saturu un nav redzamas citiem tās apmeklētājiem. https://chromewebstore.google.com/detail/note-anywhere/bohahkiiknkelflnjjlipnaeapefmjbh?pli=1\nKā to var izmantot izglītībā?\nIzglītojamais tīmekļlapā var pievienot atgādinājumus, jautājumus, īsus skaidrojumus, atslēgvārdus vai veicamo darbību secību. Piemēram, pie digitāla uzdevuma var izveidot piezīmes “Izlasi nosacījumu”, “Pasvītro būtisko” un “Pārbaudi atbildi”.\n\nPaplašinājums var palīdzēt izglītojamajiem, kuriem ir grūtības noturēt uzmanību, atcerēties norādījumus, plānot darbības vai orientēties apjomīgā digitālā mācību materiālā. Jaunākiem izglītojamajiem piezīmes var sagatavot pedagogs, savukārt vecāki izglītojamie tās var veidot patstāvīgi.",
+    "functions": [
+      "Funkcijas",
+      "Piezīmju izvietošana jebkurā tīmekļlapas vietā",
+      "Automātiska piezīmju saglabāšana",
+      "Piezīmju automātiska parādīšana, atkārtoti atverot tīmekļlapu",
+      "Piezīmju pārvietošana un izmēra maiņa",
+      "Fona krāsas, burtveidola un teksta izmēra pielāgošana",
+      "Piezīmju paslēpšana, sakļaušana un piespraušana",
+      "Visu izveidoto piezīmju pārskatīšana vienuviet",
+      "Piezīmju eksportēšana CSV datnē",
+      "Piezīmju sinhronizēšana starp ierīcēm, izmantojot papildu pakalpojumu"
+    ],
+    "acquisition": [
+      "Paplašinājumu var bez maksas instalēt no oficiālā Google Chrome interneta veikala. Izglītības iestādes pārvaldītā datorā tā uzstādīšanai var būt nepieciešama IT administratora atļauja.",
+      "Tehniskā savietojamība",
+      "Paredzēts lietošanai datorā pārlūkprogrammā Google Chrome. Tā kā Microsoft Edge izmanto to pašu Chromium tehnoloģiju, paplašinājumu iespējams instalēt un izmantot arī Microsoft Edge pārlūkprogrammā. Mobilajās ierīcēs pilnvērtīga paplašinājuma darbība netiek nodrošināta."
+    ],
+    "image": "assets/images/catalog/note-anywhere-digitalas-piezimes-timekllapas-bezmaksas.png",
+    "imageAlt": "Tīmekļlapā pie mācību uzdevuma izvietotas krāsainas digitālās piezīmes ar atgādinājumiem.",
+    "imageSource": "",
+    "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
+    "productPage": "https://chromewebstore.google.com/detail/note-anywhere/bohahkiiknkelflnjjlipnaeapefmjbh",
+    "productLinkType": "resource"
   }
 ]
