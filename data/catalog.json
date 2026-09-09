@@ -2152,5 +2152,39 @@
     "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
     "productPage": "https://www.paliglidzekluparks.lv/collections/veikals-berniem/products/easgrip-skeres",
     "productLinkType": "resource"
+  },
+  {
+    "id": "alternativais-teksts-atteliem-un-citiem-vizualajiem-objektiem",
+    "name": "Alternatīvais teksts attēliem un citiem vizuālajiem objektiem",
+    "short": "Īss vizuālā satura apraksts, ko ekrānlasītājs nolasa lietotājam, kurš attēlu, diagrammu vai citu objektu nevar uztvert vizuāli.",
+    "areas": [
+      "vide"
+    ],
+    "needs": [
+      "simboli",
+      "aac"
+    ],
+    "type": "programmatura",
+    "level": "augsts",
+    "latvian": "Alternatīvo tekstu iespējams rakstīt latviešu valodā.",
+    "whatIs": "Alternatīvais teksts ir īss un saturiski precīzs attēla, diagrammas, formas, SmartArt grafikas vai cita vizuāla objekta apraksts. Ekrānlasītājs to nolasa lietotājam, kurš vizuālo objektu nevar redzēt vai pilnvērtīgi uztvert.\n\nAlternatīvajā tekstā apraksta vizuālā objekta būtisko nozīmi un tā saistību ar mācību saturu. Ja attēls ir tikai dekoratīvs un nesniedz nozīmīgu informāciju, tas jāatzīmē kā dekoratīvs.\n\nKā to var izmantot izglītībā?\nPedagogs alternatīvo tekstu pievieno mācību materiālos ievietotiem attēliem, shēmām, diagrammām, kartēm un citiem vizuālajiem objektiem. Tas nodrošina, ka izglītojamais, kurš izmanto ekrānlasītāju, var saņemt arī vizuāli sniegto informāciju.\n\nAlternatīvā teksta veidošanu var izmantot arī mācību procesā, attīstot izglītojamo prasmi noteikt galveno informāciju, precīzi aprakstīt attēlu un veidot piekļūstamu digitālo saturu.",
+    "functions": [
+      "Vizuālā objekta satura un nozīmes aprakstīšana",
+      "Apraksta nolasīšana ar ekrānlasītāju",
+      "Attēlu, formu, diagrammu un SmartArt grafiku aprakstīšana",
+      "Dekoratīvu vizuālo objektu atzīmēšana",
+      "Digitālo mācību materiālu piekļūstamības uzlabošana",
+      "Automātiski izveidota apraksta pārskatīšana un rediģēšana"
+    ],
+    "acquisition": [
+      "Alternatīvā teksta pievienošanas funkcija ir iebūvēta daudzās dokumentu, prezentāciju un tīmekļa satura veidošanas programmās. Microsoft 365 vidē tā ir pieejama, piemēram, Word, PowerPoint, Excel un Outlook. Atsevišķa programma nav jāiegādājas.",
+      "Instrukcija pieejama: https://support.microsoft.com/en-us/accessibility/office-accessibility/add-alternative-text-to-a-shape-picture-chart-smartart-graphic-or-other-object"
+    ],
+    "image": "assets/images/catalog/alternativais-teksts-atteliem-un-citiem-vizualajiem-objektiem.png",
+    "imageAlt": "Digitālā dokumentā attēlam tiek pievienots apraksts, kuru iespējams nolasīt ar ekrānlasītāju.",
+    "imageSource": "",
+    "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
+    "productPage": "https://support.microsoft.com/en-us/accessibility/office-accessibility/add-alternative-text-to-a-shape-picture-chart-smartart-graphic-or-other-object",
+    "productLinkType": "resource"
   }
 ]
