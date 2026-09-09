@@ -1520,14 +1520,13 @@
       "ļauj vizuāli parādīt izmaiņas ierastajā dienas kārtībā;"
     ],
     "acquisition": [
-      "Izgatavo pats – izmantojot izdrukātas fotogrāfijas, attēlus, piktogrammas vai simbolus, laminējot kartītes un piestiprinot tās pie tāfeles/plāna ar līplenti, magnētiem u. c.",
-      "Var veidot ar simbolu programmatūru, piemēram, Widgit/SymWriter, izdrukājot nepieciešamās dienas aktivitāšu kartītes."
+      "Vizuālo dienas plānotāju var izgatavot izglītības iestādē, izmantojot piktogrammas, fotogrāfijas, uzrakstus, laminētas kartītes un līpošo aizdari."
     ],
-    "image": "assets/images/catalog/vizualie-dienas-planotaji.webp",
+    "image": "assets/images/catalog/vizualie-dienas-planotaji.png",
     "imageAlt": "Vizuālie dienas plānotāji — reāls produkta vai risinājuma attēls",
-    "imageSource": "https://consciousdiscipline.com/resources/visual-daily-schedule/",
+    "imageSource": "",
     "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
-    "productPage": "https://consciousdiscipline.com/resources/visual-daily-schedule/",
+    "productPage": "https://www.veselapasaule.lv/lv/lasitava/autiska-spektra-traucejumi/vizualo-planu-izmantosana-darba-ar-berniem-ar-autiska-spektra-traucejumiem",
     "productLinkType": "resource"
   },
   {
