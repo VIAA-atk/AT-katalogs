@@ -2186,5 +2186,43 @@
     "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
     "productPage": "https://support.microsoft.com/en-us/accessibility/office-accessibility/add-alternative-text-to-a-shape-picture-chart-smartart-graphic-or-other-object",
     "productLinkType": "resource"
+  },
+  {
+    "id": "microsoft-immersive-reader",
+    "name": "Microsoft Immersive Reader",
+    "short": "Bezmaksas Microsoft rīks, kas lasa tekstu balsī, vienkāršo tā attēlojumu un ļauj pielāgot lasīšanas vidi izglītojamā vajadzībām.",
+    "areas": [
+      "lasisana",
+      "vide"
+    ],
+    "needs": [
+      "tts",
+      "vizualaPielagosana"
+    ],
+    "type": "programmatura",
+    "level": "augsts",
+    "latvian": "Pieejams",
+    "whatIs": "Microsoft Tīrskata lasītājs ir Microsoft programmās un pārlūkprogrammā Edge iebūvēts lasīšanas atbalsta rīks. Tas var nolasīt tekstu balsī, vienlaikus izceļot lasāmo teksta daļu, kā arī ļauj mainīt teksta izmēru, atstarpes, teksta kolonnas platumu un lapas krāsu.\n\nTīrskata lasītājs nav ekrānlasītājs. Tas galvenokārt paredzēts konkrēta teksta lasīšanas un uztveres atbalstam, nevis visas ierīces saskarnes vadīšanai.\n\nKā to var izmantot izglītībā?\nIzglītojamais var klausīties mācību tekstu, vienlaikus sekojot tam ekrānā, pielāgot teksta noformējumu un samazināt lapā redzamo traucējošo elementu daudzumu. Fokuss uz vienu, trim vai piecām rindiņām var palīdzēt nepazaudēt lasīšanas vietu.\n\nRīku var izmantot mācību tekstu, uzdevumu nosacījumu, tīmekļlapu un pieejamu PDF dokumentu lasīšanai. Tas var nodrošināt atbalstu izglītojamajiem ar lasīšanas grūtībām, redzes uztveres vai uzmanības noturēšanas grūtībām, kā arī palīdzēt patstāvīgi pārbaudīt teksta izpratni.",
+    "functions": [
+      "Teksta lasīšana balsī",
+      "Lasīšanas ātruma un balss izvēle",
+      "Lasāmā teksta izcelšana",
+      "Teksta izmēra un atstarpju pielāgošana",
+      "Teksta kolonnas platuma maiņa",
+      "Lapas fona krāsas izvēle",
+      "Fokuss uz vienu, trim vai piecām rindiņām",
+      "Tīmekļlapas vienkāršošana un traucējošu elementu paslēpšana",
+      "Teksta tulkošana",
+      "Funkciju klāsts atšķiras atkarībā no izmantotās Microsoft programmas un valodas."
+    ],
+    "acquisition": [
+      "Tīrskata lasītājs ir iebūvēts pārlūkprogrammā Microsoft Edge, kā arī vairākās Microsoft 365 programmās, tostarp Word, OneNote, Outlook, Teams un Forms. Atsevišķa programma nav jālejupielādē."
+    ],
+    "image": "assets/images/catalog/microsoft-immersive-reader.png",
+    "imageAlt": "Microsoft Tīrskata lasītājā atvērts mācību teksts ar izceltu lasāmo rindiņu un teksta lasīšanas balsī vadīklām.",
+    "imageSource": "",
+    "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
+    "productPage": "https://learn.microsoft.com/en-us/training/educator-center/product-guides/immersive-reader/",
+    "productLinkType": "resource"
   }
 ]
