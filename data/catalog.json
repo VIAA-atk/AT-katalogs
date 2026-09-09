@@ -839,40 +839,6 @@
     "productLinkType": "product"
   },
   {
-    "id": "runajosi-prieksmeti-svari-merlentes-markieri",
-    "name": "Runājoši priekšmeti (svari, mērlentes, marķieri)",
-    "short": "Ikdienas ierīces, kas mērījumu, krāsu vai citu informāciju paziņo sintezētā balsī.",
-    "areas": [
-      "vide"
-    ],
-    "needs": [
-      "tts",
-      "vizualaPielagosana",
-      "matematikaAtbalsts"
-    ],
-    "type": "ierice",
-    "level": "videjs",
-    "latvian": "Nav latviešu valodā",
-    "whatIs": "Ikdienas ierīces, kas mērījumu, krāsu vai citu informāciju paziņo sintezētā balsī.",
-    "functions": [
-      "rakstīta teksta nolasīšana balsī",
-      "mācību satura uztveršana klausoties",
-      "uzrakstītā teksta pārbaude ar audio atgriezenisko saiti",
-      "teksta un attēlu palielināšana vai vizuāla pielāgošana",
-      "kontrasta un salasāmības uzlabošana"
-    ],
-    "acquisition": [
-      "Latvijā: Svari, pulksteņi — SIA \"Exceed\"",
-      "Pakalpojumu pieejamību noskaidro Latvijas Neredzīgo bibliotēkā: https://neredzigobiblioteka.lv/ Exceed: https://www.exceed.lv/"
-    ],
-    "image": "assets/images/catalog/runajosi-prieksmeti-svari-merlentes-markieri.webp",
-    "imageAlt": "Runājoši priekšmeti (svari, mērlentes, marķieri) — reāls ierīces vai programmas attēls",
-    "imageSource": "https://shopattheshop.org/products/talking-tape-measure",
-    "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
-    "productPage": "https://www.caretec.at/shop/",
-    "productLinkType": "category"
-  },
-  {
     "id": "taktilas-kartes-un-gridas-markejumi",
     "name": "Interaktīvas taktilās kartes",
     "short": "Šādas kartes apvieno datoru, skārienjūtīgu monitoru un caurspīdīgu reljefa slāni, kas ļauj vienlaikus izmantot gan vizuālo, gan taustāmo informāciju. Piemēram, Rīgas pilsētas interaktīvajā kartē attēlotas 170 ielas un objekti: ielas iezīmētas ar punktētām līnijām, dzelzceļš ar cietu līniju, bet objekti atzīmēti ar apļiem. \n\nNeredzīgs lietotājs, izpētot karti un veicot dubultklikšķi uz jebkuras ielas, atskan tās nosaukums. Šo tehnoloģiju iespējams pielāgot ne tikai pilsētas kartēm, bet arī citiem mērķiem, piemēram, mākslas darbu, gleznu vai izstāžu satura interpretācijai.",
