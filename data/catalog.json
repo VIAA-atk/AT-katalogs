@@ -1166,7 +1166,7 @@
   },
   {
     "id": "gumijas-satvereji-uzmavas-zimuliem",
-    "name": "Gumijas satvērēji (uzmavas zīmuļiem)",
+    "name": "Zīmuļu satvēriena uzmavas (gumijas satvērēji)",
     "short": "Uz zīmuļa vai pildspalvas uzliekamas formas uzmavas ērtākam un stabilākam satvērienam.",
     "areas": [
       "rakstisana"
@@ -1176,22 +1176,28 @@
     ],
     "type": "piederums",
     "level": "zems",
-    "latvian": "Informācija tiks papildināta",
-    "whatIs": "Uz zīmuļa vai pildspalvas uzliekamas formas uzmavas ērtākam un stabilākam satvērienam.",
+    "latvian": "Nav attiecināms.",
+    "whatIs": "Zīmuļu satvēriena uzmavas ir nelieli, parasti no gumijas, silikona vai putu materiāla izgatavoti palīglīdzekļi, kurus uzmauc uz zīmuļa, pildspalvas, krītiņa vai cita rakstāmpiederuma. Uzmava padara rakstāmpiederumu resnāku, mazina slīdēšanu un var palīdzēt ērtāk novietot pirkstus.\n\nPieejamas vienkāršas cilindriskas vai trīsstūra formas uzmavas, kā arī modeļi ar īpaši izveidotām vietām īkšķim, rādītājpirkstam un vidējam pirkstam. Dažas uzmavas paredzētas noteikta satvēriena atbalstam, bet citas galvenokārt nodrošina mīkstāku un ērtāku rakstāmpiederuma virsmu.\n\nKā to var izmantot izglītībā?\nUzmavu var izmantot pirmsskolā un skolā rakstīšanas, vilkšanas, zīmēšanas, krāsošanas un matemātisko darbību pierakstīšanas laikā. Tā var palīdzēt izglītojamajiem, kuri rakstāmpiederumu satver pārāk cieši, kuriem zīmulis slīd pirkstos, ātri nogurst roka vai ir grūtības saglabāt stabilu pirkstu novietojumu.\n\nUzmavu var izmantot īslaicīgi satvēriena apguves laikā vai pastāvīgi, ja tā samazina piepūli un ļauj izglītojamajam rakstīt ērtāk. Tā pati par sevi neattīsta visus rakstīšanai nepieciešamos priekšnoteikumus, tādēļ pēc vajadzības tā jāizmanto kopā ar sīkās motorikas, plaukstas stabilitātes un acu–roku koordinācijas vingrinājumiem.",
     "functions": [
-      "uzdevumu un darbību secības organizēšana",
-      "atgādinājumu, piezīmju vai plānu veidošana",
-      "uzmanības noturēšana un paveiktā pārbaude"
+      "Padara rakstāmpiederumu resnāku un vieglāk satveramu",
+      "Mazina rakstāmpiederuma slīdēšanu pirkstos",
+      "Palīdz stabilizēt pirkstu novietojumu",
+      "Var veicināt funkcionālāka satvēriena izmantošanu",
+      "Nodrošina mīkstāku satvēriena virsmu",
+      "Var mazināt pārmērīgu spiedienu uz rakstāmpiederumu",
+      "Var samazināt rokas nogurumu rakstīšanas laikā",
+      "Izmantojamas ar zīmuļiem, pildspalvām, krītiņiem un atsevišķiem zīmēšanas piederumiem",
+      "Pieejami modeļi labročiem, kreiļiem vai abām rokām"
     ],
     "acquisition": [
-      "Iegādājas kancelejas, elektronikas, mācību materiālu vai specializēto palīglīdzekļu veikalā atbilstoši individuāli izvērtētajai vajadzībai."
+      "Zīmuļu satvēriena uzmavas var iegādāties kancelejas preču, grāmatnīcu, bērnu preču un specializēto mācību vai terapijas materiālu veikalos Latvijā. Tās var meklēt ar nosaukumiem “zīmuļa uzmava”, “zīmuļa satvērējs”, “zīmuļa turētājs” vai “rakstāmpiederuma satvēriena palīgs”."
     ],
     "image": "assets/images/catalog/gumijas-satvereji-uzmavas-zimuliem.webp",
     "imageAlt": "Gumijas satvērēji (uzmavas zīmuļiem) — reāls produkta vai risinājuma attēls",
-    "imageSource": "https://www.tpgcreations.com/products/the-pencil-grip-original",
+    "imageSource": "",
     "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
-    "productPage": "https://www.thepencilgrip.com/products/the-pencil-grip-original",
-    "productLinkType": "product"
+    "productPage": "https://www.kurpirkt.lv/cena.php?q=zimulu+uzmavas",
+    "productLinkType": "resource"
   },
   {
     "id": "krasains-kontrastejoss-papirs",
