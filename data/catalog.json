@@ -2105,5 +2105,42 @@
     "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
     "productPage": "https://chromewebstore.google.com/detail/note-anywhere/bohahkiiknkelflnjjlipnaeapefmjbh",
     "productLinkType": "resource"
+  },
+  {
+    "id": "pielagotas-skeres",
+    "name": "Pielāgotas šķēres",
+    "short": "Šķēres ar pielāgotu rokturi, automātisku atvēršanos, papildu vadības rokturiem vai galda pamatni, kas atvieglo griešanu izglītojamajiem ar kustību un satvēriena grūtībām.  Cena var atšķirties no šķēru veida, izmēra un pielāgojuma.",
+    "areas": [
+      "vide"
+    ],
+    "needs": [
+      "ierices Vadiba"
+    ],
+    "type": "piederums",
+    "level": "zems",
+    "latvian": "Informācija tiks papildināta",
+    "whatIs": "Pielāgotas šķēres ir griešanas palīglīdzekļi izglītojamajiem, kuriem ir grūtības izmantot parastās šķēres nepietiekama plaukstas spēka, ierobežota kustību apjoma, kustību koordinācijas grūtību vai nepietiekami attīstītas sīkās motorikas dēļ.\n\nPieejami vairāki pielāgoto šķēru veidi:\n\npašatverošās šķēres pēc roktura atlaišanas automātiski atveras;\nšķēres ar nepārtrauktu lokveida rokturi var saspiest ar pirkstiem, plaukstu vai abām rokām;\ndivroku jeb mācību šķēres ir aprīkotas ar papildu rokturi, lai pedagogs varētu vadīt griešanas kustību kopā ar izglītojamo;\ngalda šķēres ir nostiprinātas uz pamatnes un izmantojamas, piespiežot rokturi ar vienu roku;\nšķēres ar pagarinātu rokturi nodrošina lielāku satvēriena laukumu un papildu stabilitāti;\nšķēres labročiem vai kreiļiem ir pielāgotas attiecīgās rokas kustībām un redzamības laukam.\n\nEasi-Grip ir viens no pašatverošo šķēru piemēriem. Tām nav tradicionālo pirkstu atveru, un griešanai nepieciešams viegli saspiest lokveida rokturi https://www.paliglidzekluparks.lv/collections/veikals-berniem/products/easgrip-skeres\n\nKā to var izmantot izglītībā?\nPielāgotas šķēres var izmantot pirmsskolā un skolā, veicot griešanas, aplicēšanas, konstruēšanas un citus praktiskus uzdevumus. Tās palīdz izglītojamajam piedalīties tehnoloģiju un mākslas mācību aktivitātēs, ja parasto šķēru atvēršana, aizvēršana vai noturēšana sagādā grūtības.\n\nPašatverošās šķēres samazina nepieciešamību pārmaiņus saliekt un iztaisnot pirkstus. Divroku šķēres ļauj pedagogam kopā ar izglītojamo vadīt griešanas kustību. Galda šķēres var izmantot izglītojamais, kurš šķēres nespēj stabili noturēt rokā vai griešanai var izmantot tikai vienu roku.\n\nPielāgotas šķēres var izmantot gan griešanas prasmju apguves laikā, gan pastāvīgi kā individuāli piemērotu mācību atbalsta līdzekli.",
+    "functions": [
+      "Automātiski atver šķēres pēc spiediena atlaišanas",
+      "Samazina griešanai nepieciešamo pirkstu un plaukstas spēku",
+      "Ļauj šķēres saspiest ar pirkstiem, plaukstu vai abām rokām",
+      "Palīdz atkārtot atvēršanas un aizvēršanas kustību",
+      "Nodrošina papildu stabilitāti griešanas laikā",
+      "Ļauj pedagogam un izglītojamajam griezt kopā",
+      "Atsevišķos modeļos ļauj griezt, izmantojot tikai vienu roku",
+      "Pieejami modeļi labročiem un kreiļiem",
+      "Bērniem paredzētie modeļi var būt aprīkoti ar noapaļotiem asmeņu galiem",
+      "Var palīdzēt attīstīt acu–roku koordināciju un praktiskās darbības prasmes"
+    ],
+    "acquisition": [
+      "Pielāgotas šķēres var iegādāties specializētajos palīglīdzekļu, attīstošo materiālu un izglītības preču veikalos. Latvijā Easi-Grip paš šķēres un līdzīga veida griešanas palīglīdzekļi ir pieejami, piemēram, SIA Palīglīdzekļu Parks",
+      "Pielāgotas šķēres pirms iegādes ieteicams praktiski izmēģināt, jo viens modelis nebūs piemērots visiem izglītojamajiem."
+    ],
+    "image": "assets/images/catalog/pielagotas-skeres.png",
+    "imageAlt": "Pašatverošās šķēres ar lokveida rokturi, divroku mācību šķēres un uz galda pamatnes nostiprinātas šķēres.",
+    "imageSource": "",
+    "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
+    "productPage": "https://www.paliglidzekluparks.lv/collections/veikals-berniem/products/easgrip-skeres",
+    "productLinkType": "resource"
   }
 ]
