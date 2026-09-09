@@ -1309,27 +1309,36 @@
   },
   {
     "id": "pareizrakstibas-riki-ar-audio-atgriezenisko-sait",
-    "name": "Pareizrakstības rīki",
-    "short": "Rīki, kas atrod pareizrakstības kļūdas un piedāvā labojumus, vajadzības gadījumā tos arī nolasa balsī.",
+    "name": "Pareizrakstības pārbaudes un rakstīšanas atbalsta rīki",
+    "short": "Digitāli rīki, kas atpazīst iespējamas pareizrakstības kļūdas, piedāvā labojumus un palīdz pārbaudīt uzrakstīto tekstu.",
     "areas": [
-      "rakstisana"
+      "rakstisana",
+      "komunikacija"
     ],
     "needs": [
       "rakstisanaAtbalsts"
     ],
     "type": "programmatura",
     "level": "augsts",
-    "latvian": "Pieejams latviešu valodā",
-    "whatIs": "Rīki, kas atrod pareizrakstības kļūdas un piedāvā labojumus, vajadzības gadījumā tos arī nolasa balsī.",
+    "latvian": "Pieejama atsevišķos risinājumos.",
+    "whatIs": "Pareizrakstības pārbaudes rīki ir digitālas funkcijas, kas rakstīšanas laikā vai pēc teksta uzrakstīšanas atpazīst iespējami kļūdainus vārdus. Kļūdas parasti tiek pasvītrotas, un lietotājam tiek piedāvāti iespējamie labojumi.\n\nPaplašināti risinājumi var papildus paredzēt un automātiski pabeigt vārdus, kā arī priekšā nolasīt uzrakstīto tekstu. Klausoties savu tekstu, izglītojamais var pamanīt izlaistus vai atkārtotus vārdus un teikumus, kuri neatbilst iecerētajai domai.\n\nViens no Latvijā izmantojamiem risinājumiem ir ReadSpeaker TextAid PRO, kurā pieejama pareizrakstības pārbaude, labojumu ieteikumi, vārdu paredzēšana un rakstītā teksta priekšā lasīšana. \nKā to var izmantot izglītībā?\nIzglītojamais var izmantot pareizrakstības atbalstu, rakstot teikumus, domrakstus, atbildes uz jautājumiem, prezentācijas un citus mācību darbus. Rīks palīdz pamanīt iespējamu kļūdu un izvēlēties atbilstošo vārda rakstījumu.",
     "functions": [
-      "teksta ievade un rediģēšana",
-      "atbalsts vārdu, teikumu vai garāka teksta veidošanai",
-      "uzrakstītā pārbaude un pilnveidošana"
+      "Iespējamu pareizrakstības kļūdu atpazīšana",
+      "Kļūdaini uzrakstītu vārdu vizuāla izcelšana",
+      "Iespējamo labojumu piedāvāšana",
+      "Izvēlētā labojuma ievietošana tekstā",
+      "Vārdu paredzēšana un automātiska pabeigšana atbalstītajās valodās",
+      "Uzrakstītā burta, vārda, teikuma vai teksta priekšā lasīšana",
+      "Atbalsts patstāvīgai teksta pārbaudīšanai",
+      "Pedagoga iespēja pārvaldīt funkciju pieejamību",
+      "Atsevišķos risinājumos – funkciju ierobežošana pārbaudes darbu laikā"
     ],
     "acquisition": [
-      "Latvijā: TextAid (ReadSpeaker), MicroSpeak (Talking Products) — SIA \"Exceed\"; Brunomaster, Bruno, Aisma — SIA \"Brunomaster\" Exceed: https://www.exceed.lv/ Brunomaster: https://brunomaster.com/"
+      "Vienkārši pareizrakstības pārbaudes rīki ir iekļauti, piemēram, Microsoft Word, Google dokumentos un citās tekstapstrādes programmās. To funkcijas un latviešu valodas atbalsta kvalitāte var atšķirties.",
+      "Projekta “Asistīvās tehnoloģijas mācību atbalstam” ietvaros paredzēta ReadSpeaker TextAid PRO licenču iegāde, tādēļ izmēģinājumā iesaistītajām izglītības iestādēm nav nepieciešams šo licenci iegādāties atsevišķi. Informācija par licenču piešķiršanu, lietotāju skaitu un saņemšanas kārtību jānoskaidro pie projekta īstenotāja vai attiecīgā projekta sadarbības partnera.",
+      "Ārpus projekta TextAid PRO licenci izglītības iestāde var iegādāties, sazinoties ar ražotāju ReadSpeaker."
     ],
-    "image": "assets/images/catalog/pareizrakstibas-riki-ar-audio-atgriezenisko-sait.webp",
+    "image": "assets/images/catalog/pareizrakstibas-riki-ar-audio-atgriezenisko-sait.png",
     "imageAlt": "Pareizrakstības rīki ar audio atgriezenisko saiti vai bez tās — ražotāja ilustratīvs attēls",
     "imageSource": "https://www.readspeaker.com/solutions/text-to-speech-online/readspeaker-textaid/",
     "imageRightsNote": "Pirms gala publicēšanas saņemt vai pārbaudīt ražotāja atļauju attēla pārpublicēšanai.",
