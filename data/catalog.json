@@ -1647,14 +1647,18 @@
     "type": "piederums",
     "level": "zems",
     "latvian": "Informācija tiks papildināta",
-    "whatIs": "Secīgs veicamo darbību vai pārbaudāmo punktu saraksts papīra vai digitālā formā.",
+    "whatIs": "Kontrolsaraksts ir pārskatāms secīgi veicamo darbību vai pārbaudāmo nosacījumu saraksts. Tas var būt veidots uz papīra vai digitālā vidē un papildināts ar simboliem, attēliem, krāsu apzīmējumiem vai izvēles rūtiņām. Izpildīto darbību izglītojamais atzīmē vai noņem no saraksta.\n\nKā to var izmantot izglītībā?\nKontrolsarakstu var izmantot, lai sadalītu mācību uzdevumu nelielos, secīgi izpildāmos soļos. Tas var palīdzēt sagatavoties mācību stundai, pārbaudīt nepieciešamos piederumus, veikt praktisko darbu, risināt uzdevumu, plānot rakstu darbu vai pārliecināties par darba pabeigšanu.\n\nKontrolsaraksts palīdz izglītojamajam saprast, kas jādara, sekot darba gaitai un patstāvīgi pārbaudīt rezultātu. Pirmsskolā un sākumskolā ieteicams izmantot īsus sarakstus ar attēliem vai simboliem. Vēlāk tos var papildināt ar rakstiskiem norādījumiem un darba kvalitātes kritērijiem.",
     "functions": [
-      "uzdevumu un darbību secības organizēšana",
-      "atgādinājumu, piezīmju vai plānu veidošana",
-      "uzmanības noturēšana un paveiktā pārbaude"
+      "Uzdevuma sadalīšana secīgos soļos",
+      "Veicamo darbību vizuāla attēlošana",
+      "Izpildīto darbību atzīmēšana",
+      "Darba gaitas un rezultāta pašpārbaude",
+      "Patstāvības un pašvadītas mācīšanās veicināšana",
+      "Darba atmiņas noslodzes samazināšana"
     ],
     "acquisition": [
-      "Pagatavo skolā papīra vai digitālā formā: uzdevumu sadala īsos, secīgos soļos un pie katra paredz vietu atzīmei."
+      "Kontrolsarakstu var izveidot izglītības iestādē, izmantojot papīru, laminētas kartītes, izvēles rūtiņas, fotogrāfijas vai piktogrammas. Digitālus kontrolsarakstus var veidot teksta apstrādes programmās, piezīmju lietotnēs un uzdevumu plānošanas rīkos.",
+      "Papildu informācijā vizuālie piemēri no mājas lapas twinkl.co.uk"
     ],
     "image": "assets/images/catalog/kontrolsaraksti.webp",
     "imageAlt": "Kontrolsaraksti — reāls ierīces vai programmas attēls",
