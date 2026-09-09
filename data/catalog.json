@@ -1048,32 +1048,44 @@
   },
   {
     "id": "ekrana-virtualas-tastaturas",
-    "name": "Ekrāna (virtuālās) tastatūras",
-    "short": "Programmatūrā attēlota tastatūra, kuras taustiņus izvēlas ekrānā ar peli, skārienu, skatienu vai slēdzi.",
+    "name": "Ekrāntastatūras (virtuālās tastatūras)",
+    "short": "Ierīcē iebūvēta piekļūstamības funkcija vai programmatūra. Parasti bezmaksas un iekļauta ierīces operētājsistēmā. Specializētas ekrāntastatūras ar papildu piekļuves iespējām var būt maksas.",
     "areas": [
-      "rakstisana"
+      "rakstisana",
+      "komunikacija",
+      "vide"
     ],
     "needs": [
       "rakstisanaAtbalsts"
     ],
     "type": "ierice",
     "level": "augsts",
-    "latvian": "Informācija tiks papildināta",
-    "whatIs": "Programmatūrā attēlota tastatūra, kuras taustiņus izvēlas ekrānā ar peli, skārienu, skatienu vai slēdzi.",
+    "latvian": "Pieejama. Var izmantot latviešu valodas tastatūras izkārtojumu un ievadīt tekstu ar latviešu valodas burtiem.",
+    "whatIs": "Ekrāntastatūra jeb virtuālā tastatūra ir datora, planšetdatora vai viedtālruņa ekrānā attēlota tastatūra. Taustiņus var izvēlēties, pieskaroties ekrānam, izmantojot peli, skārienpaliktni vai citu pielāgotu ievades ierīci.\n\nAtsevišķās ekrāntastatūrās iespējams pielāgot taustiņu lielumu un izkārtojumu, izmantot vārdu paredzēšanu, izvēlēties taustiņus ar kursora aizturi vai secīgu skenēšanu.\n\nKā to var izmantot izglītībā?\nEkrāntastatūru var izmantot izglītojamais, kuram ir grūtības lietot fizisku tastatūru, precīzi nospiest taustiņus, koordinēt abu roku kustības vai ilgstoši rakstīt ar roku. Tā var būt piemērota arī īslaicīgi, piemēram, pēc rokas traumas.\n\nIzglītojamais ar ekrāntastatūru var rakstīt vārdus un teikumus, aizpildīt digitālas darba lapas, meklēt informāciju, sagatavot mācību darbus un sazināties digitālajā vidē. Pedagogs var pielāgot rakstīšanas uzdevuma apjomu, taustiņu izkārtojumu un ievades veidu atbilstoši izglītojamā vajadzībām.",
     "functions": [
-      "teksta ievade un rediģēšana",
-      "atbalsts vārdu, teikumu vai garāka teksta veidošanai",
-      "uzrakstītā pārbaude un pilnveidošana"
+      "Teksta ievade bez fiziskas tastatūras",
+      "Vadība ar skārienekrānu, peli vai skārienpaliktni",
+      "Latviešu valodas tastatūras izkārtojums",
+      "Lielo un mazo burtu, ciparu un simbolu ievade",
+      "Vārdu un frāžu paredzēšana atbalstītajās sistēmās",
+      "Taustiņu lieluma un izkārtojuma pielāgošana",
+      "Taustiņa izvēle ar kursora aizturi",
+      "Secīga taustiņu vai taustiņu grupu skenēšana",
+      "Izmantošana kopā ar pielāgotām pelēm, galvas vadības ierīcēm vai slēdžiem",
+      "Skaņas vai vizuāls apstiprinājums pēc taustiņa izvēles",
+      "Konkrēto funkciju pieejamība ir atkarīga no izmantotās operētājsistēmas un ekrāntastatūras."
     ],
     "acquisition": [
-      "Ražotāji/izstrādātāji un citi piemēri: Clicker — Crick Software Ltd (Lielbritānija), Grid — Smartbox Assistive Technology Ltd (Lielbritānija), Read & Write — Everyway Ltd (Lielbritānija)"
+      "Ekrāntastatūra parasti jau ir iekļauta Windows, macOS, ChromeOS, Android, iOS un iPadOS operētājsistēmās, tādēļ atsevišķa iegāde nav nepieciešama. Tā jāieslēdz ierīces tastatūras vai piekļūstamības iestatījumos.",
+      "Windows datorā ekrāntastatūru var atvērt sadaļā Iestatījumi → Pieejamība → Tastatūra → Ekrāntastatūra.",
+      "Ja ar iebūvēto ekrāntastatūru nepietiek, var izvēlēties specializētu programmatūru ar lielākiem taustiņiem, individuāli veidotu izkārtojumu, skenēšanas vadību vai vārdu paredzēšanu."
     ],
-    "image": "assets/images/catalog/ekrana-virtualas-tastaturas.webp",
+    "image": "assets/images/catalog/ekrana-virtualas-tastaturas.png",
     "imageAlt": "Ekrāna (virtuālās) tastatūras — reāls produkta vai risinājuma attēls",
-    "imageSource": "https://thinksmartbox.com/try-grid/",
+    "imageSource": "",
     "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
-    "productPage": "https://thinksmartbox.com/try-grid/",
-    "productLinkType": "product"
+    "productPage": "https://support.microsoft.com/en-us/accessibility/windows/use-the-on-screen-keyboard-osk-to-type",
+    "productLinkType": "resource"
   },
   {
     "id": "ergonomiski-zimuli-piem-trisstura-formas",
