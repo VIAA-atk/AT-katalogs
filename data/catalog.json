@@ -1249,7 +1249,7 @@
   },
   {
     "id": "mi-macibstundu-asistents",
-    "name": "MI Mācībstundu asistents",
+    "name": "MI Mācībstundu asistents Tilde",
     "short": "Mākslīgā intelekta rīks, kas palīdz sagatavot, pielāgot vai skaidrot mācību saturu atbilstoši skolēna vajadzībām.",
     "areas": [
       "komunikacija",
@@ -1261,50 +1261,21 @@
     "type": "programmatura",
     "level": "augsts",
     "latvian": "Pieejams latviešu valodā",
-    "whatIs": "Mākslīgā intelekta rīks, kas palīdz sagatavot, pielāgot vai skaidrot mācību saturu atbilstoši skolēna vajadzībām.",
+    "whatIs": "Latvijā izstrādāts MI rīks, kas pedagoga runu reāllaikā pārvērš tekstā, tulko un pēc mācību stundas sagatavo kopsavilkumu un kontroljautājumus.",
     "functions": [
       "uzdevumu un darbību secības organizēšana",
       "atgādinājumu, piezīmju vai plānu veidošana",
       "uzmanības noturēšana un paveiktā pārbaude"
     ],
     "acquisition": [
-      "Izstrādātājs — Latvijas valodu tehnoloģiju uzņēmums SIA “Tilde”. Risinājums nodrošina skolotāja runas transkripciju, stundas kopsavilkumu un kontroljautājumu sagatavošanu; pieejamību un ieviešanas nosacījumus noskaidro pie Tildes: https://www.tilde.lv/"
+      "Tildes MI mācībstundu asistents ir Latvijas uzņēmuma SIA “Tilde” izstrādāts mākslīgā intelekta risinājums, kas mācību stundas laikā atpazīst pedagoga runu un reāllaikā attēlo to rakstītā tekstā. Pedagoga teiktais var tikt parādīts uz interaktīvās tāfeles vai izglītojamā datorā.",
+      "Rīks var arī tulkot pedagoga teikto citā valodā un pēc mācību stundas sagatavot stundas kopsavilkumu un kontroljautājumus. Tas paredzēts mācību satura pieejamības uzlabošanai, nevis pedagoga aizstāšanai."
     ],
     "image": "assets/images/catalog/mi-macibstundu-asistents.webp",
     "imageAlt": "Tildes logotips",
     "imageSource": "https://tilde.ai/lv/ai-assistant/",
     "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
     "productPage": "https://tilde.ai/lv/ai-assistant/",
-    "productLinkType": "product"
-  },
-  {
-    "id": "papirs-ar-reljefam-linijam",
-    "name": "Papīrs ar reljefām līnijām (eng: tactile line paper)",
-    "short": "Rakstāmpapīrs ar sataustāmām paceltām līnijām, kas palīdz ievērot rakstīšanas robežas.",
-    "areas": [
-      "rakstisana"
-    ],
-    "needs": [
-      "organizesanaAtbalsts"
-    ],
-    "type": "materials",
-    "level": "zems",
-    "latvian": "Informācija tiks papildināta",
-    "whatIs": "Rakstāmpapīrs ar sataustāmām paceltām līnijām, kas palīdz ievērot rakstīšanas robežas.",
-    "functions": [
-      "uzdevumu un darbību secības organizēšana",
-      "atgādinājumu, piezīmju vai plānu veidošana",
-      "uzmanības noturēšana un paveiktā pārbaude"
-    ],
-    "acquisition": [
-      "Latvijā specializēts rakstāmpapīrs ar reljefām līnijām mazumtirdzniecībā nav plaši pieejams..",
-      "Iegādājas specializētā veikalā vai pagatavo skolā, līnijas izceļot ar reljefa līmi, vaskotu auklu vai citu drošu sataustāmu materiālu."
-    ],
-    "image": "assets/images/catalog/papirs-ar-reljefam-linijam.webp",
-    "imageAlt": "Papīrs ar reljefām līnijām — reāls ierīces vai programmas attēls",
-    "imageSource": "https://www.aph.org/product/embossed-pencil-writing-paper/",
-    "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
-    "productPage": "https://www.therapro.com/Handwriting/Raised-Line-Writing-Papers_2/WideLines-Paper_8.html",
     "productLinkType": "product"
   },
   {
@@ -1531,9 +1502,10 @@
   },
   {
     "id": "digitalas-atminas-kartes-palidz-iegaumet-informa",
-    "name": "Digitālās atmiņas kartes (palīdz iegaumēt informāciju ar atkārtošanu un pašpārbaudi)",
-    "short": "Digitālas jautājuma un atbildes kartītes mācību vielas atkārtošanai un pašpārbaudei.",
+    "name": "Digitālās mācību kartītes (palīdz iegaumēt informāciju ar atkārtošanu un pašpārbaudi)",
+    "short": "Digitāls mācību līdzeklis informācijas iegaumēšanai un zināšanu pašpārbaudei, izmantojot jautājumu un atbilžu kartītes un regulāru atkārtošanu.",
     "areas": [
+      "matematika",
       "organizesana"
     ],
     "needs": [
@@ -1542,26 +1514,28 @@
     "type": "programmatura",
     "level": "augsts",
     "latvian": "Pieejams latviešu valodā",
-    "whatIs": "Digitālas jautājuma un atbildes kartītes mācību vielas atkārtošanai un pašpārbaudei.",
+    "whatIs": "Digitālās mācību kartītes ir jautājumu un atbilžu kartītes, kurās var iekļaut tekstu, attēlus un audioierakstus. Atsevišķas lietotnes automātiski plāno kartīšu atkārtošanu atbilstoši tam, cik labi izglītojamais apguvis konkrēto informāciju.\n\nKā to var izmantot izglītībā?\nKartītes var izmantot burtu, vārdu, jēdzienu, faktu, formulu, svešvalodu vārdu un citas mācību informācijas apguvei un nostiprināšanai. Izglītojamais apskata jautājumu, formulē atbildi un pēc tam to pārbauda. Pedagogs var sagatavot diferencētu kartīšu kopu atbilstoši izglītojamā mācīšanās vajadzībām un sasniedzamajiem rezultātiem.",
     "functions": [
       "uzdevumu un darbību secības organizēšana",
       "atgādinājumu, piezīmju vai plānu veidošana",
       "uzmanības noturēšana un paveiktā pārbaude"
     ],
     "acquisition": [
-      "Ražotāji/izstrādātāji un citi piemēri: Tiešsaistes rīki ar bezmaksas un maksas (pro) versijām: Quizlet, Anki, Brainscape"
+      "Digitālās mācību kartītes var veidot un izmantot tiešsaistes platformā Quizlet, kā arī tās tīmekļa un mobilajā lietotnē. Pieejama bezmaksas versija ar pamatfunkcijām un maksas versija ar papildu iespējām. Izglītības iestāde var izmantot arī citus līdzīgus digitālos mācību rīkus.",
+      "Produkta vai informācijas saite:",
+      "https://quizlet.com/"
     ],
     "image": "assets/images/catalog/digitalas-atminas-kartes-palidz-iegaumet-informa.webp",
     "imageAlt": "Digitālās atmiņas kartes (palīdz iegaumēt informāciju ar atkārtošanu un pašpārbaudi) — reāls ierīces vai programmas attēls",
     "imageSource": "https://quizlet.com/",
     "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
     "productPage": "https://quizlet.com/",
-    "productLinkType": "product"
+    "productLinkType": "resource"
   },
   {
     "id": "digitalas-jedzienu-kartes",
     "name": "Digitālās jēdzienu kartes",
-    "short": "Programmas ideju, jēdzienu un to savstarpējo saikņu vizuālai attēlošanai.",
+    "short": "Digitāls grafiskais organizators jēdzienu, ideju un savstarpējo sakarību vizuālai attēlošanai.",
     "areas": [
       "organizesana"
     ],
@@ -1570,15 +1544,17 @@
     ],
     "type": "programmatura",
     "level": "augsts",
-    "latvian": "Daļēji pieejams latviešu valodā",
-    "whatIs": "Programmas ideju, jēdzienu un to savstarpējo saikņu vizuālai attēlošanai.",
+    "latvian": "Informāciju kartēs var ievadīt latviešu valodā; lietotāja saskarnes valoda no izvēlētā rīka.",
+    "whatIs": "Digitāla jēdzienu karte ir grafiskais organizators, kurā jēdzienus attēlo atsevišķos laukos un to savstarpējās sakarības parāda ar līnijām, bultām un saistvārdiem. Kartē var iekļaut tekstu, attēlus, krāsas, simbolus un saites.\n\nKā to var izmantot izglītībā?\nJēdzienu kartes var izmantot, lai apkopotu iepriekšējās zināšanas, skaidrotu jaunu tematu, grupētu informāciju, salīdzinātu jēdzienus un parādītu cēloņsakarības. Tās palīdz plānot stāstījumu vai rakstu darbu, veidot mācību pierakstus un atkārtot apgūto. Izglītojamais karti var veidot patstāvīgi, kopā ar pedagogu vai sadarbojoties ar klasesbiedriem.",
     "functions": [
-      "uzdevumu un darbību secības organizēšana",
-      "atgādinājumu, piezīmju vai plānu veidošana",
-      "uzmanības noturēšana un paveiktā pārbaude"
+      "Jēdzienu un ideju vizuāla strukturēšana",
+      "Sakarību attēlošana ar līnijām un bultām",
+      "Teksta, attēlu, simbolu un krāsu pievienošana",
+      "Kopīga kartes veidošana",
+      "Kartes saglabāšana, kopīgošana un eksportēšana"
     ],
     "acquisition": [
-      "Ražotāji/izstrādātāji un citi piemēri: Tiešsaistes rīki ar bezmaksas un maksas (pro) versijām: Miro, MindMeister, Xmind"
+      "Digitālās jēdzienu kartes var veidot, piemēram, tiešsaistes rīkos Canva.com un Coggle.it, mindmeister.com. Canva piedāvā jēdzienu karšu veidnes un digitālās tāfeles rīkus, savukārt Coggle un mindmeister ļauj veidot, kopīgot un kopīgi rediģēt kartes. Abiem rīkiem ir pieejamas bezmaksas pamatfunkcijas."
     ],
     "image": "assets/images/catalog/digitalas-jedzienu-kartes.webp",
     "imageAlt": "Digitālās jēdzienu kartes — ražotāja ilustratīvs attēls",
@@ -1588,41 +1564,12 @@
     "productLinkType": "product"
   },
   {
-    "id": "digitalie-viediericu-atgadinajumi-un-pazinojumi-",
-    "name": "Digitālie / viedierīču atgādinājumi un paziņojumi (piem., viedpulksteņi)",
-    "short": "Digitāli brīdinājumi telefonā, planšetē vai viedpulkstenī, kas noteiktā laikā atgādina par darbību.",
-    "areas": [
-      "organizesana"
-    ],
-    "needs": [
-      "organizesanaAtbalsts"
-    ],
-    "type": "programmatura",
-    "level": "augsts",
-    "latvian": "Informācija tiks papildināta",
-    "whatIs": "Digitāli brīdinājumi telefonā, planšetē vai viedpulkstenī, kas noteiktā laikā atgādina par darbību.",
-    "functions": [
-      "uzdevumu un darbību secības organizēšana",
-      "atgādinājumu, piezīmju vai plānu veidošana",
-      "uzmanības noturēšana un paveiktā pārbaude"
-    ],
-    "acquisition": [
-      "Latvijā: Elektropreču un sadzīves tehnikas izplatītāji",
-      "Ražotāji/izstrādātāji un citi piemēri: Elektropreču un sadzīves tehnikas izplatītāji"
-    ],
-    "image": "assets/images/catalog/digitalie-viediericu-atgadinajumi-un-pazinojumi-.webp",
-    "imageAlt": "Digitālie / viedierīču atgādinājumi un paziņojumi (piem., viedpulksteņi) — reāls produkta vai risinājuma attēls",
-    "imageSource": "https://www.watchminder.com/",
-    "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
-    "productPage": "https://www.watchminder.com/",
-    "productLinkType": "product"
-  },
-  {
     "id": "digitalie-diktofoni-atgadinajumiem",
     "name": "Digitālie diktofoni atgādinājumiem",
-    "short": "Ierīces vai lietotnes īsu balss piezīmju un atgādinājumu ierakstīšanai.",
+    "short": "Pārnēsājama ierīce mutisku piezīmju, norādījumu un citas svarīgas informācijas ierakstīšanai un atkārtotai noklausīšanai.",
     "areas": [
-      "organizesana"
+      "organizesana",
+      "vide"
     ],
     "needs": [
       "organizesanaAtbalsts"
@@ -1630,15 +1577,17 @@
     "type": "ierice",
     "level": "videjs",
     "latvian": "Informācija tiks papildināta",
-    "whatIs": "Ierīces vai lietotnes īsu balss piezīmju un atgādinājumu ierakstīšanai.",
+    "whatIs": "Neliela digitāla ierīce skaņas ierakstīšanai, saglabāšanai un atkārtotai atskaņošanai. Vienkāršākie risinājumi darbojas kā diktofoni, savukārt risinājumi ar mākslīgā intelekta funkcijām var ierakstu pārvērst tekstā, strukturēt piezīmēs un izveidot kopsavilkumu. Kā piemēru var minēt PLAUD Note.\n\nKā to var izmantot izglītībā?\nIzglītojamais var ierakstīt sev īsu atgādinājumu par veicamo uzdevumu, darba soļiem, nepieciešamajiem mācību piederumiem vai mājasdarbu. Ierīci var izmantot arī savu ideju fiksēšanai pirms rakstu darba, mutvārdu atbilžu sagatavošanai un pedagoga individuāli sniegtu norādījumu atkārtotai noklausīšanai. Tas var palīdzēt izglītojamajiem, kuriem ir grūtības ar rakstīšanu, darba atmiņu, uzmanības noturēšanu vai darbību secības ievērošanu.",
     "functions": [
-      "uzdevumu un darbību secības organizēšana",
-      "atgādinājumu, piezīmju vai plānu veidošana",
-      "uzmanības noturēšana un paveiktā pārbaude"
+      "Balss piezīmju ierakstīšana un atskaņošana",
+      "Ierakstu saglabāšana un sakārtošana",
+      "Ieraksta pārvēršana tekstā",
+      "Ieraksta kopsavilkuma veidošana",
+      "Ierakstu pārsūtīšana uz mobilo lietotni vai datoru",
+      "Funkciju un latviešu valodas atbalsta pieejamība jāprecizē konkrētajam modelim."
     ],
     "acquisition": [
-      "Latvijā: Elektropreču un sadzīves tehnikas izplatītāji",
-      "Pakalpojumu tehnoloģiju pieejamību noskaidro Latvijas Neredzīgo bibliotēkā: https://www.lnb.lv/"
+      "Vienkāršus digitālos diktofonus var iegādāties elektronikas preču veikalos. Risinājums PLAUD Note un tā lietošanai nepieciešamie pakalpojumu plāni ir pieejami PLAUD oficiālajā tīmekļvietnē. Ražotājs piedāvā bezmaksas sākuma plānu ar ierobežotu transkripcijas apjomu un maksas plānus ar papildu iespējām."
     ],
     "image": "assets/images/catalog/digitalie-diktofoni-atgadinajumiem.webp",
     "imageAlt": "Digitālie diktofoni atgādinājumiem — reāls produkta vai risinājuma attēls",
@@ -1649,33 +1598,41 @@
   },
   {
     "id": "fiziskie-mehaniskie-vizualie-taimeri-pielagoti-p",
-    "name": "Fiziskie/mehāniskie vizuālie taimeri, pielāgoti pulksteņi",
-    "short": "Taimeri un pulksteņi, kas ar krāsu, disku, skalu vai citu vizuālu zīmi parāda atlikušo laiku.",
+    "name": "Vizuālie taimeri un pielāgoti pulksteņi",
+    "short": "Ierīces, kas vizuāli attēlo atlikušo laiku un palīdz saprast laika ritējumu, plānot darbības un laikus pabeigt uzdevumu.",
     "areas": [
-      "organizesana"
+      "lasisana",
+      "rakstisana",
+      "matematika",
+      "komunikacija",
+      "organizesana",
+      "vide"
     ],
     "needs": [
-      "simboli"
+      "organizesanaAtbalsts",
+      "simboli",
+      "matematikaAtbalsts"
     ],
     "type": "ierice",
     "level": "videjs",
     "latvian": "Pieejams latviešu valodā",
-    "whatIs": "Taimeri un pulksteņi, kas ar krāsu, disku, skalu vai citu vizuālu zīmi parāda atlikušo laiku.",
+    "whatIs": "Vizuālie taimeri un pielāgoti pulksteņi ir ierīces laika attēlošanai viegli uztveramā veidā. Atlikušais laiks var būt parādīts kā pakāpeniski sarūkošs krāsains laukums, iedaļu skala, gaismas signāls vai vienkāršots ciparu rādījums. Pieejami mehāniski un elektroniski modeļi.\n\nKā to var izmantot izglītībā?\nTos var izmantot, lai parādītu mācību uzdevumam, patstāvīgajam darbam, pārtraukumam vai pārejai uz nākamo darbību atvēlēto laiku. Vizuālais laika attēlojums palīdz izglītojamajam sekot laika ritējumam, uzsākt un pabeigt darbu, ievērot darbību secību un pakāpeniski attīstīt patstāvīgas laika plānošanas prasmes.",
     "functions": [
-      "informācijas attēlošana ar simboliem vai vizuālām norādēm",
-      "uzdevumu, izvēļu un darbību secības skaidrošana",
-      "vizuāli saprotama mācību satura veidošana"
+      "Atlikušā laika vizuāla attēlošana",
+      "Darbības sākuma un beigu norādīšana",
+      "Skaņas signāls vai darbība bez skaņas",
+      "Laika intervāla iestatīšana",
+      "Atbalsts pārejai no vienas darbības uz nākamo"
     ],
     "acquisition": [
-      "Latvijā: pieejams www.exceed.lv",
-      "Ražotāji/izstrādātāji un citi piemēri: Time Timer LLC (ASV); Timer Visual — TFA Dostmann (Vācija)"
+      "Vizuālos taimerus un pielāgotus pulksteņus var iegādāties izglītības preču, kancelejas preču, elektronikas un asistīvo tehnoloģiju veikalos Vienkāršu vizuālo taimeri iespējams izgatavot arī izglītības iestādē, pielāgojot pulksteni ar krāsainām laika iedaļām vai noņemamiem vizuāliem apzīmējumiem."
     ],
     "image": "assets/images/catalog/fiziskie-mehaniskie-vizualie-taimeri-pielagoti-p.webp",
     "imageAlt": "Fiziskie/mehāniskie vizuālie taimeri, pielāgoti pulksteņi — ražotāja ilustratīvs attēls",
     "imageSource": "https://www.timetimer.com/products/time-timer-8-magnet",
     "imageRightsNote": "Pirms gala publicēšanas saņemt vai pārbaudīt ražotāja atļauju attēla pārpublicēšanai.",
-    "productPage": "https://www.timetimer.com/products/time-timer-8-magnet",
-    "productLinkType": "product"
+    "productPage": "",
+    "productLinkType": "resource"
   },
   {
     "id": "kontrolsaraksti",
