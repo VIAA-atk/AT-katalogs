@@ -1503,7 +1503,7 @@
   {
     "id": "digitalas-atminas-kartes-palidz-iegaumet-informa",
     "name": "Digitālās mācību kartītes (palīdz iegaumēt informāciju ar atkārtošanu un pašpārbaudi)",
-    "short": "Digitāls mācību līdzeklis informācijas iegaumēšanai un zināšanu pašpārbaudei, izmantojot jautājumu un atbilžu kartītes un regulāru atkārtošanu.",
+    "short": "Digitāls mācību līdzeklis informācijas iegaumēšanai un zināšanu pašpārbaudei, izmantojot jautājumu un atbilžu kartītes.",
     "areas": [
       "matematika",
       "organizesana"
@@ -1511,8 +1511,8 @@
     "needs": [
       "organizesanaAtbalsts"
     ],
-    "type": "programmatura",
-    "level": "augsts",
+    "type": "materials",
+    "level": "videjs",
     "latvian": "Pieejams latviešu valodā",
     "whatIs": "Digitālās mācību kartītes ir jautājumu un atbilžu kartītes, kurās var iekļaut tekstu, attēlus un audioierakstus. Atsevišķas lietotnes automātiski plāno kartīšu atkārtošanu atbilstoši tam, cik labi izglītojamais apguvis konkrēto informāciju.\n\nKā to var izmantot izglītībā?\nKartītes var izmantot burtu, vārdu, jēdzienu, faktu, formulu, svešvalodu vārdu un citas mācību informācijas apguvei un nostiprināšanai. Izglītojamais apskata jautājumu, formulē atbildi un pēc tam to pārbauda. Pedagogs var sagatavot diferencētu kartīšu kopu atbilstoši izglītojamā mācīšanās vajadzībām un sasniedzamajiem rezultātiem.",
     "functions": [
