@@ -992,25 +992,52 @@
   },
   {
     "id": "digitalas-piezimju-klades-ar-audio",
-    "name": "Digitālās piezīmju klades ar audio",
-    "short": "Piezīmju lietotnes, kurās tekstu, rokrakstu vai attēlus var papildināt ar audioierakstu.",
+    "name": "Goodnotes – digitālā piezīmju klade ar rokrakstu, audioierakstu un PDF anotēšanu",
+    "short": "Digitāla piezīmju klade, kurā var rakstīt ar roku vai tastatūru, anotēt PDF dokumentus un pievienot ar piezīmēm sinhronizētu audioierakstu.",
     "areas": [
-      "rakstisana"
+      "rakstisana",
+      "matematika",
+      "organizesana",
+      "vide"
     ],
     "needs": [
-      "organizesanaAtbalsts"
+      "organizesanaAtbalsts",
+      "simboli"
     ],
     "type": "programmatura",
     "level": "videjs",
-    "latvian": "Informācija tiks papildināta",
-    "whatIs": "Piezīmju lietotnes, kurās tekstu, rokrakstu vai attēlus var papildināt ar audioierakstu.",
+    "latvian": "Daļēja. Piezīmes ar tastatūru var rakstīt latviešu valodā. Mākoņpakalpojumā veidotā audio transkripcija atbalsta latviešu valodu, taču tā pieejama noteiktos maksas plānos.",
+    "whatIs": "Goodnotes ir digitāla piezīmju klade, kurā vienuviet var apvienot ar roku rakstītas un drukātas piezīmes, zīmējumus, attēlus, PDF dokumentus un audioierakstus. Piezīmes iespējams kārtot atsevišķās kladēs un mapēs.\nVeicot audioierakstu, vienlaikus rakstītās piezīmes tiek sasaistītas ar attiecīgo ieraksta brīdi. Atkārtoti pieskaroties piezīmei, lietotājs var noklausīties konkrēto audio fragmentu. \nKā to var izmantot izglītībā?\nIzglītojamais var veidot strukturētas piezīmes, rakstīt ar digitālo irbuli vai tastatūru, zīmēt shēmas, aizpildīt pedagoga sagatavotas PDF darba lapas un izcelt būtisko informāciju. Audioieraksts ļauj vēlāk atkārtoti noklausīties pedagoga skaidrojumu tieši tajā vietā, kur izglītojamais veicis attiecīgo piezīmi.\nRisinājums var palīdzēt izglītojamajiem, kuriem ir grūtības vienlaikus klausīties un pierakstīt, saglabāt uzmanību, rakstīt pietiekami ātri, organizēt mācību materiālus vai atcerēties mutiski sniegtu informāciju. Pedagogs var Goodnotes izmantot arī digitālu darba lapu, vizuālu skaidrojumu un individualizētu mācību materiālu sagatavošanai.\nJaunākiem izglītojamajiem nepieciešams pedagoga atbalsts klades struktūras izveidē un lietošanas apguvē. Patstāvīgai lietošanai risinājums piemērotāks sākumskolas un pamatskolas izglītojamajiem.",
     "functions": [
-      "uzdevumu un darbību secības organizēšana",
-      "atgādinājumu, piezīmju vai plānu veidošana",
-      "uzmanības noturēšana un paveiktā pārbaude"
+      "Rakstīšana ar digitālo irbuli vai pirkstu",
+      "Teksta ievade ar tastatūru",
+      "Zīmējumu, shēmu un ģeometrisku figūru veidošana",
+      "Audioieraksta pievienošana piezīmēm",
+      "Audioieraksta un rakstīto piezīmju sinhronizēta atskaņošana",
+      "Audioieraksta automātiska transkribēšana atbalstītajos plānos",
+      "PDF dokumentu importēšana un anotēšana",
+      "Attēlu un citu mācību materiālu ievietošana",
+      "Piezīmju kārtošana kladēs un mapēs",
+      "Piezīmju veidņu izmantošana",
+      "Meklēšana drukātā tekstā un atbalstīto valodu rokrakstā",
+      "Piezīmju kopīgošana un eksportēšana",
+      "Satura sinhronizēšana starp ierīcēm atbilstoši izvēlētajam plānam"
     ],
     "acquisition": [
-      "Ražotāji/izstrādātāji un citi piemēri: Genio — Nyxoah (Beļģija), Goodnotes — Goodnotes Ltd (Honkonga)"
+      "Rakstīšana ar digitālo irbuli vai pirkstu",
+      "Teksta ievade ar tastatūru",
+      "Zīmējumu, shēmu un ģeometrisku figūru veidošana",
+      "Audioieraksta pievienošana piezīmēm",
+      "Audioieraksta un rakstīto piezīmju sinhronizēta atskaņošana",
+      "Audioieraksta automātiska transkribēšana atbalstītajos plānos",
+      "PDF dokumentu importēšana un anotēšana",
+      "Attēlu un citu mācību materiālu ievietošana",
+      "Piezīmju kārtošana kladēs un mapēs",
+      "Piezīmju veidņu izmantošana",
+      "Meklēšana drukātā tekstā un atbalstīto valodu rokrakstā",
+      "Piezīmju kopīgošana un eksportēšana",
+      "Satura sinhronizēšana starp ierīcēm atbilstoši izvēlētajam plānam",
+      "Goodnotes var lejupielādēt vai atvērt Goodnotes tīmekļvietnē. Tā ir pieejama Apple App Store, Microsoft Store un Google Play, kā arī tīmekļa pārlūkā. Lietotni Latvijā var lejupielādēt un abonēt tiešsaistē. Izglītības iestāde var pieteikties Goodnotes izglītības plānam un izveidot administratora pārvaldītu vidi."
     ],
     "image": "assets/images/catalog/digitalas-piezimju-klades-ar-audio.webp",
     "imageAlt": "Digitālās piezīmju klades ar audio — ražotāja ilustratīvs attēls",
