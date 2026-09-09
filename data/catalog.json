@@ -1090,7 +1090,7 @@
   {
     "id": "ergonomiski-zimuli-piem-trisstura-formas",
     "name": "Ergonomiski zīmuļi (piem., trīsstūra formas)",
-    "short": "Īpašas formas zīmuļi, kas palīdz noturēt stabilāku un ērtāku rakstāmrīka satvērienu.",
+    "short": "Trīsstūra formas vai īpaši veidoti zīmuļi, kas palīdz stabilāk satvert rakstāmpiederumu un kontrolēt tā kustību.",
     "areas": [
       "rakstisana"
     ],
@@ -1100,16 +1100,22 @@
     "type": "piederums",
     "level": "zems",
     "latvian": "Informācija tiks papildināta",
-    "whatIs": "Īpašas formas zīmuļi, kas palīdz noturēt stabilāku un ērtāku rakstāmrīka satvērienu.",
+    "whatIs": "Ergonomiski zīmuļi ir rakstāmpiederumi, kuru forma, diametrs vai satvēriena zona ir veidota tā, lai palīdzētu zīmuli noturēt stabilāk un ar mazāku piepūli. Tie var būt trīsstūra formas, resnāki par parastajiem zīmuļiem vai aprīkoti ar neslīdošiem padziļinājumiem pirkstu novietošanai.\n\nKā to var izmantot izglītībā?\nErgonomisku zīmuli var izmantot pirmsskolā un skolā rakstīšanas, zīmēšanas, krāsošanas, matemātisko darbību un citu rakstisku uzdevumu veikšanai. Tas var palīdzēt izglītojamajiem, kuri zīmuli satver pārāk cieši, ātri nogurst, izjūt diskomfortu rakstīšanas laikā vai kuriem ir grūtības kontrolēt zīmuļa kustību.\nTrīsstūra forma var palīdzēt stabilizēt zīmuli rokā un atvieglot pirkstu novietošanu. Tomēr tā pati par sevi nenodrošina pareizu satvērienu. Pedagogam vai ergoterapeitam jāizvērtē zīmuļa diametrs, forma, svars un piemērotība konkrētā izglītojamā rokai.",
     "functions": [
-      "ierīces vai kursora vadīšana ar lietotājam piemērotu ievades veidu",
-      "objektu izvēle un komandu aktivizēšana",
-      "digitālo mācību materiālu un programmu izmantošana"
+      "Palīdz stabilizēt rakstāmpiederumu rokā",
+      "Atvieglo pirkstu novietošanu uz zīmuļa",
+      "Var mazināt nepieciešamību pārmērīgi sasprindzināt pirkstus",
+      "Atbalsta zīmuļa kustību kontroli",
+      "Neslīdoša satvēriena zona",
+      "Resnāks korpuss ērtākai satveršanai",
+      "Modeļi labročiem un kreiļiem",
+      "Izmantojami rakstīšanai, zīmēšanai un krāsošanai"
     ],
     "acquisition": [
-      "Iegādājas kancelejas, elektronikas, mācību materiālu vai specializēto palīglīdzekļu veikalā atbilstoši individuāli izvērtētajai vajadzībai."
+      "Ergonomiskus un trīsstūra formas zīmuļus var iegādāties kancelejas preču, grāmatnīcu, bērnu preču un specializēto mācību līdzekļu veikalos Latvijā. Meklēšanā var izmantot vārdus “ergonomisks zīmulis”, “trīsstūra zīmulis”, “resns zīmulis” vai “zīmulis kreiļiem”.",
+      "Latvijā pieejami, piemēram, STABILO EASYgraph zīmuļi labročiem un kreiļiem, kā arī dažādu ražotāju trīsstūra formas grafīta un krāsainie zīmuļi"
     ],
-    "image": "assets/images/catalog/ergonomiski-zimuli-piem-trisstura-formas.svg",
+    "image": "assets/images/catalog/ergonomiski-zimuli-piem-trisstura-formas.png",
     "imageAlt": "Ergonomiski zīmuļi (piem., trīsstūra formas) — reāls produkta vai risinājuma attēls",
     "imageSource": "https://www.stabilo.com/com/products/learning-to-write/graphite-pencils/stabilo-easygraph/",
     "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
