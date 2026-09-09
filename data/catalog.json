@@ -1348,24 +1348,41 @@
   {
     "id": "programmatura-digitalo-stastu-veidosanai-digital",
     "name": "Programmatūra digitālo stāstu veidošanai (Digital Storytelling)",
-    "short": "Programmatūra stāstu un mācību darbu veidošanai, apvienojot tekstu, attēlus, skaņu un video.",
+    "short": "Rīki digitālu stāstu, grāmatu un komiksu veidošanai, apvienojot tekstu, attēlus, zīmējumus, balss ierakstus un video.",
     "areas": [
-      "rakstisana"
+      "lasisana",
+      "rakstisana",
+      "komunikacija",
+      "organizesana",
+      "vide"
     ],
     "needs": [
-      "rakstisanaAtbalsts"
+      "rakstisanaAtbalsts",
+      "simboli",
+      "aac"
     ],
     "type": "programmatura",
     "level": "augsts",
     "latvian": "Daļēji pieejams latviešu valodā",
-    "whatIs": "Programmatūra stāstu un mācību darbu veidošanai, apvienojot tekstu, attēlus, skaņu un video.\nSvarīgi: šie rīki bieži nav īpaši izstrādāti kā asistīvās tehnoloģijas, tādēļ to izmantošana jāpielāgo izglītojamā individuālajām vajadzībām. Var būt nepieciešams vienkāršot uzdevumu un saskarni, izmantot attēlus vai simbolus, samazināt ievadāmā teksta apjomu, nodrošināt balss ieraksta iespēju vai pedagoga atbalstu.",
+    "whatIs": "Digitālo stāstu veidošanas rīki ir programmas un tiešsaistes platformas, kurās vienā darbā var apvienot tekstu, attēlus, zīmējumus, simbolus, balss ierakstus, skaņu un video. Izveidotais darbs var būt digitāla grāmata, komikss, attēlu stāsts, animācija, prezentācija vai īss video.\n\nŠie rīki ļauj izglītojamajam parādīt zināšanas ne tikai garā rakstītā tekstā. Piemēram, stāsta daļu var uzrakstīt, ilustrēt un papildināt ar mutvārdos ierakstītu skaidrojumu.\n\nDigitālo stāstu veidošanai var izmantot, piemēram, Book Creator, Canva Education, Microsoft PowerPoint un citas multivides satura veidošanas programmas.\n\nKā to var izmantot izglītībā?\nPirmsskolā izglītojamais ar pedagoga atbalstu var sakārtot attēlus noteiktā secībā, ierakstīt savu stāstījumu un papildināt to ar zīmējumiem vai simboliem.\n\nSākumskolā un pamatskolā digitālo stāstu var izmantot, lai:\n\nveidotu stāstījumu pēc attēlu secības;\natstāstītu izlasītu tekstu;\nraksturotu literāru tēlu vai notikumu;\ndokumentētu eksperimentu vai projekta darbu;\nizskaidrotu vēsturisku notikumu;\nveidotu svešvalodas dialogu;\nsagatavotu pētījuma vai mācību ekskursijas pārskatu;\nattēlotu matemātikas uzdevuma risināšanas gaitu;\nveidotu digitālu mācību sasniegumu portfolio.\n\nRisinājums var būt īpaši noderīgs izglītojamajiem, kuriem ir grūtības veidot apjomīgu rakstītu tekstu, secīgi izklāstīt domas vai parādīt zināšanas tikai rakstveidā. Izglītojamais var kombinēt sev piemērotākos izteiksmes veidus, piemēram, attēlu, atslēgvārdus un balss ierakstu.",
     "functions": [
-      "teksta ievade un rediģēšana",
-      "atbalsts vārdu, teikumu vai garāka teksta veidošanai",
-      "uzrakstītā pārbaude un pilnveidošana"
+      "Digitālu grāmatu, komiksu un attēlu stāstu veidošana",
+      "Teksta rakstīšana un noformēšana",
+      "Fotogrāfiju, attēlu un simbolu ievietošana",
+      "Zīmēšana un anotāciju pievienošana",
+      "Balss un citu skaņu ierakstīšana",
+      "Video pievienošana vai veidošana",
+      "Stāsta sadalīšana secīgās lapās vai ainās",
+      "Gatavu veidņu izmantošana",
+      "Sadarbība viena digitāla darba veidošanā",
+      "Darba demonstrēšana, kopīgošana un eksportēšana",
+      "Atsevišķos risinājumos – teksta priekšā lasīšana",
+      "Atsevišķos risinājumos – audio transkripciju un video subtitru pievienošana"
     ],
     "acquisition": [
-      "Ražotāji/izstrādātāji un citi piemēri: Tiešsaistes rīki ar bezmaksas un maksas (pro) versijām: Book Creator, StoryJumper, Canva"
+      "Digitālo stāstu veidošanas rīki Latvijā ir pieejami tiešsaistē vai lietotņu veikalos.",
+      "Viens no izglītībai paredzētiem piemēriem ir Book Creator. Pedagogs bezmaksas plānā var izveidot vienu bibliotēku ar līdz 40 digitālām grāmatām un tai pievienot izglītojamos. Rīkā var apvienot tekstu, attēlus, zīmējumus, audio un video. Pieejami arī maksas plāni izglītības iestādēm. Book Creator licences nosacījumi",
+      "Cits piemērs ir Canva Education, kas atbilstoši platformas noteikumiem ir bez maksas pieejama prasībām atbilstošiem pirmsskolas un skolu pedagogiem un viņu izglītojamajiem pēc pedagoga statusa pārbaudes."
     ],
     "image": "assets/images/catalog/programmatura-digitalo-stastu-veidosanai-digital.webp",
     "imageAlt": "Programmatūra digitālo stāstu veidošanai (Digital Storytelling) — ražotāja ilustratīvs attēls",
