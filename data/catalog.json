@@ -1427,7 +1427,7 @@
   {
     "id": "vardu-prognozesanas-programmatura",
     "name": "Vārdu prognozēšanas programmatūra",
-    "short": "Programmatūra, kas rakstīšanas laikā piedāvā iespējamos vārdus vai frāzes, balstoties uz ievadītajiem burtiem un kontekstu.",
+    "short": "Rakstīšanas atbalsta rīks, kas pēc ievadītajiem burtiem piedāvā iespējamos vārdus vai nākamo vārdu, tā samazinot nepieciešamo taustiņsitienu skaitu.",
     "areas": [
       "rakstisana"
     ],
@@ -1436,16 +1436,20 @@
     ],
     "type": "programmatura",
     "level": "augsts",
-    "latvian": "Pieejams latviešu valodā",
-    "whatIs": "Programmatūra, kas rakstīšanas laikā piedāvā iespējamos vārdus vai frāzes, balstoties uz ievadītajiem burtiem un kontekstu.",
+    "latvian": "Jāprecizē konkrētajam risinājumam",
+    "whatIs": "Programmatūra, kas rakstīšanas laikā analizē ievadītos burtus un dažkārt arī teikuma kontekstu, pēc tam piedāvā iespējamos vārdus vai nākamo vārdu. Lietotājs izvēlas vajadzīgo vārdu no saraksta, neievadot to pilnībā. Atsevišķos risinājumos piedāvātos vārdus iespējams arī noklausīties.\n\nKā to var izmantot izglītībā?\nVārdu paredzēšana var palīdzēt izglītojamajiem, kuri raksta lēni, ātri nogurst, kuriem ir grūtības ar pareizrakstību, rakstītprasmi vai tastatūras lietošanu. To var izmantot, veidojot teikumus, atbildes uz jautājumiem, aprakstus, mācību pierakstus un citus rakstu darbus.\nPirmsskolā un sākumskolā rīku izmanto pieaugušā vadībā, apgūstot vārdu veidošanu un vienkāršu teikumu rakstīšanu. Vēlāk tas var nodrošināt patstāvīgāku rakstu darbu izpildi dažādās mācību jomās.",
     "functions": [
-      "teksta ievade un rediģēšana",
-      "atbalsts vārdu, teikumu vai garāka teksta veidošanai",
-      "uzrakstītā pārbaude un pilnveidošana"
+      "Iesāktā vārda pabeigšanas varianti",
+      "Nākamā vārda paredzēšana",
+      "Nepieciešamo taustiņsitienu skaita samazināšana",
+      "Pielāgošanās lietotāja vārdu krājumam",
+      "Piedāvāto vārdu atskaņošana",
+      "Personiskās vārdnīcas papildināšana",
+      "Funkciju pieejamība atšķiras atkarībā no izvēlētās programmatūras. Piemēram, ReadSpeaker TextAid piedāvā vārdu paredzēšanu un automātisku vārdu pabeigšanu"
     ],
     "acquisition": [
       "Latvijā: TextAid — SIA \"Exceed\"",
-      "Ražotāji/izstrādātāji un citi piemēri: Clicker — Crick Software Ltd (Lielbritānija), Grid — Smartbox Assistive Technology Ltd (Lielbritānija), Read & Write — Everyway Ltd (Lielbritānija) Exceed: https://www.exceed.lv/"
+      "Exceed: https://www.exceed.lv/"
     ],
     "image": "assets/images/catalog/vardu-prognozesanas-programmatura.webp",
     "imageAlt": "Vārdu prognozēšanas programmatūra — ražotāja ilustratīvs attēls",
