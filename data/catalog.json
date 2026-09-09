@@ -1125,26 +1125,39 @@
   {
     "id": "grafiskie-organizatori-uz-papira",
     "name": "Grafiskie organizatori uz papīra",
-    "short": "Drukātas shēmas informācijas sakārtošanai, piemēram, domu kartes, tabulas, secības vai salīdzinājuma veidnes.",
+    "short": "Vizuāli strukturētas lapas, kas palīdz sakārtot informāciju, saskatīt sakarības un plānot uzdevuma izpildi.",
     "areas": [
-      "rakstisana"
+      "rakstisana",
+      "matematika",
+      "komunikacija",
+      "organizesana"
     ],
     "needs": [
-      "organizesanaAtbalsts"
+      "organizesanaAtbalsts",
+      "simboli"
     ],
-    "type": "piederums",
+    "type": "materials",
     "level": "zems",
-    "latvian": "Informācija tiks papildināta",
-    "whatIs": "Drukātas shēmas informācijas sakārtošanai, piemēram, domu kartes, tabulas, secības vai salīdzinājuma veidnes.",
+    "latvian": "Pilnībā pielāgojami latviešu valodā.",
+    "whatIs": "Grafiskais organizators ir noteiktā sistēmā sakārtots informācijas vizuāls attēlojums. Tajā izmanto laukumus, līnijas, bultas, tabulas, attēlus, simbolus un atslēgvārdus, lai parādītu informācijas secību, grupējumu un savstarpējās sakarības.\n\nGrafisko organizatoru piemēri:\n\ndomu vai jēdzienu karte;\nEilera–Venna diagramma;\nnotikumu secības shēma;\ncēloņu un seku shēma;\nstāsta karte;\nsalīdzināšanas tabula;\npazīmju vai īpašību karte;\nproblēmas un risinājuma shēma;\nplānošanas lapa;\ntabula “Ko es zinu? Ko vēlos uzzināt? Ko uzzināju?”.\n\nKā to var izmantot izglītībā?\nPedagogs izvēlas mācību uzdevumam atbilstošu organizatora veidu un sagatavo tā struktūru uz papīra. Izglītojamais tajā ieraksta atslēgvārdus, zīmē, līmē attēlus, savieno saistītos jēdzienus vai sakārto informāciju noteiktā secībā.\n\nPirmsskolā var izmantot vienkāršas attēlu secības, izvēļu tabulas, pazīmju grupēšanu un dienas norises shēmas. Sākumskolā un pamatskolā grafiskie organizatori palīdz plānot rakstu darbu, apkopot lasīto, salīdzināt jēdzienus, noteikt cēloņus un sekas, risināt problēmas un atkārtot mācību saturu.\n\nTie var būt īpaši noderīgi izglītojamajiem, kuriem ir grūtības uztvert apjomīgu tekstu, atlasīt būtisko, secīgi izklāstīt domas, atcerēties informāciju vai patstāvīgi plānot uzdevuma izpildi.",
     "functions": [
-      "uzdevumu un darbību secības organizēšana",
-      "atgādinājumu, piezīmju vai plānu veidošana",
-      "uzmanības noturēšana un paveiktā pārbaude"
+      "Sadala informāciju mazākās, pārskatāmās daļās",
+      "Palīdz atlasīt un izcelt būtisko informāciju",
+      "Parāda jēdzienu un notikumu savstarpējās sakarības",
+      "Atspoguļo darbību vai notikumu secību",
+      "Palīdz salīdzināt kopīgās un atšķirīgās pazīmes",
+      "Atbalsta lasītā teksta izpratni un atstāstīšanu",
+      "Palīdz plānot rakstu darbu vai mutvārdu stāstījumu",
+      "Atbalsta informācijas iegaumēšanu un atkārtošanu",
+      "Palīdz izglītojamajam patstāvīgi izpildīt uzdevumu",
+      "Sniedz pedagogam iespēju pārbaudīt izglītojamā izpratni"
     ],
     "acquisition": [
-      "Pagatavo skolā vai lejupielādē veidnes: domu kartes, secības, salīdzināšanas un plānošanas shēmas pielāgo konkrētajam uzdevumam."
+      "Grafiskos organizatorus pedagogs var uzzīmēt vai izveidot pats, izmantojot papīru, rakstāmpiederumus, attēlus un simbolus. Veidnes var sagatavot tekstapstrādes vai prezentāciju programmā un izdrukāt. Tās iespējams arī laminēt un atkārtoti aizpildīt ar nodzēšamu marķieri.",
+      "Iespējams izveidot canva.com https://www.canva.com/graphs/graphic-organizers/",
+      "Paraugs no skola2030 https://mape.gov.lv/api/files/E3F24263-1175-4FDE-9CA4-39508226DAE3/download"
     ],
-    "image": "assets/images/catalog/grafiskie-organizatori-uz-papira.webp",
+    "image": "assets/images/catalog/grafiskie-organizatori-uz-papira.png",
     "imageAlt": "Grafiskie organizatori uz papīra — reāls produkta vai risinājuma attēls",
     "imageSource": "https://www.canva.com/graphs/graphic-organizers/",
     "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
