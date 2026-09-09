@@ -1473,7 +1473,7 @@
     "type": "ierice",
     "level": "augsts",
     "latvian": "Pieejams latviešu valodā",
-    "whatIs": "Digitālas pildspalvas, kas ieraksta skaņu un sasaista to ar konkrētajā brīdī rakstītajām piezīmēm.",
+    "whatIs": "Kas tas ir?\nDigitāla pildspalva, kas ar roku rakstītu tekstu, zīmējumus un piezīmes pārnes digitālā formātā. Atkarībā no modeļa rakstītais tiek saglabāts pildspalvas atmiņā vai nosūtīts uz datoru, planšetdatoru vai viedtālruni. Daži risinājumi rokrakstu var pārveidot drukātā tekstā.\n\nKā to var izmantot izglītībā?\nIzglītojamais var rakstīt ar roku uz papīra vai tam paredzētas virsmas, vienlaikus veidojot darba digitālu kopiju. To var izmantot mācību pierakstiem, uzdevumu risināšanai, domu karšu, shēmu un zīmējumu veidošanai, kā arī paveiktā darba iesniegšanai digitālā vidē. Digitālā pildspalva var būt noderīga izglītojamajiem, kuriem vieglāk rakstīt ar roku nekā izmantot tastatūru, bet nepieciešams saglabāt, kopīgot vai turpmāk apstrādāt rakstīto digitāli.",
     "functions": [
       "ar roku rakstītu piezīmju digitalizēšana;",
       "rakstītā un zīmētā pārnešana uz datoru, planšetdatoru vai viedtālruni;",
