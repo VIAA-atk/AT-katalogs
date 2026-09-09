@@ -904,8 +904,8 @@
   },
   {
     "id": "tastaturas-maskas-keyguards",
-    "name": "Tastatūras maskas (keyguards)",
-    "short": "Stingras plāksnes ar atverēm virs taustiņiem, kas palīdz precīzi nospiest izvēlēto taustiņu.",
+    "name": "Tastatūras maskas (taustiņu režģi)",
+    "short": "Virs tastatūras novietojams stingrs režģis, kas atdala taustiņus un palīdz precīzāk nospiest izvēlēto taustiņu.",
     "areas": [
       "vide"
     ],
@@ -914,22 +914,41 @@
     ],
     "type": "piederums",
     "level": "zems",
-    "latvian": "Informācija tiks papildināta",
-    "whatIs": "Stingras plāksnes ar atverēm virs taustiņiem, kas palīdz precīzi nospiest izvēlēto taustiņu.",
+    "latvian": "Maska nemaina tastatūras valodu",
+    "whatIs": "Tastatūras maska jeb taustiņu režģis ir no plastmasas, akrila, metāla vai cita stingra materiāla izgatavots pārklājums ar atverēm katram tastatūras taustiņam. To nostiprina virs fiziskas datora tastatūras.\n\nAtveres palīdz norobežot taustiņus citu no cita. Izglītojamais var ievietot pirkstu vai rādāmkociņu konkrētajā atverē un nospiest izvēlēto taustiņu, mazāk skarot blakus esošos taustiņus. Uz maskas var arī atbalstīt roku, nenospiežot vairākus taustiņus vienlaikus. Tastatūras maskas skaidrojums\n\nKā to var izmantot izglītībā?\nTastatūras masku var izmantot, rakstot tekstu, aizpildot digitālas darba lapas, meklējot informāciju, veicot mācību uzdevumus vai izmantojot alternatīvās un augmentatīvās komunikācijas programmatūru.\n\nTā var palīdzēt izglītojamajiem, kuriem ir:\ngrūti kontrolēt kustības;\ngrūtības izolēt viena pirksta kustību;\ngrūtības noturēt roku virs tastatūras;\ntendence vienlaikus nospiest vairākus taustiņus;\nnepieciešamība rakstīšanai izmantot rādāmkociņu;\ngrūtības vizuāli nošķirt blakus esošos taustiņus.\n\nMaska var uzlabot taustiņu izvēles precizitāti, bet parasti nepalielina rakstīšanas ātrumu uzreiz. Izglītojamajam nepieciešams laiks tās izmantošanas apguvei.",
     "functions": [
-      "teksta ievade un rediģēšana",
-      "atbalsts vārdu, teikumu vai garāka teksta veidošanai",
-      "uzrakstītā pārbaude un pilnveidošana"
+      "Fiziski atdala tastatūras taustiņus",
+      "Samazina nejaušu blakus esošo taustiņu nospiešanu",
+      "Palīdz precīzāk izvēlēties vajadzīgo taustiņu",
+      "Ļauj atbalstīt plaukstu uz maskas virsmas",
+      "Nodrošina rakstīšanu ar vienu pirkstu vai rādāmkociņu",
+      "Var samazināt roku trīces ietekmi uz teksta ievadi",
+      "Var palīdzēt vizuāli nošķirt taustiņu grupas",
+      "Atsevišķos modeļos iespējams nosegt neizmantojamos taustiņus",
+      "Var izmantot kopā ar palielinātu vai augsta kontrasta tastatūru",
+      "Pieejamas standarta un individuāli izgatavotas maskas"
     ],
     "acquisition": [
-      "Latvijā specializētu tastatūras masku mazumtirdzniecības piedāvājums ir ierobežots; tās var pasūtīt no ārvalstu asistīvo tehnoloģiju piegādātājiem vai izgatavot konkrētam tastatūras modelim, piemēram, ar 3D drukas palīdzību.",
-      "https://clevy.com/product/clevy-keyguard/"
+      "Tastatūras maskas jāiegādājas konkrētam tastatūras vai portatīvā datora modelim. Tās pieejamas specializētos asistīvo tehnoloģiju veikalos ārvalstīs, piemēram, Keyguard Assistive Technology, kas piedāvā maskas standarta, kompaktām, palielinātām un portatīvo datoru tastatūrām, kā arī individuāli izgatavojamus modeļus. Masku iespējams pasūtīt no ārvalstu piegādātāja vai izgatavot individuāli no akrila vai ar 3D drukas palīdzību. Individuālai izgatavošanai nepieciešami precīzi tastatūras izmēri un taustiņu izvietojums.",
+      "Tehniskā savietojamība",
+      "Tastatūras maskai precīzi jāatbilst konkrētajam tastatūras ražotājam, modelim, izmēram un taustiņu izkārtojumam. Vienam modelim paredzēta maska parasti nebūs izmantojama ar citu tastatūru.",
+      "Pirms pasūtīšanas jāpārbauda:",
+      "tastatūras ražotājs un precīzs modeļa numurs;",
+      "taustiņu izmērs un izvietojums;",
+      "ciparu tastatūras esamība;",
+      "tastatūras ārējie izmēri;",
+      "maskas piestiprināšanas veids;",
+      "vai netiek aizsegti nepieciešamie taustiņu apzīmējumi un indikatori.",
+      "Maskai nav nepieciešama elektrība, programmatūra vai atsevišķs savienojums ar datoru.",
+      "Kas nepieciešams izglītības iestādei?",
+      "Nepieciešama konkrētajai maskai atbilstoša fiziskā tastatūra un stabila darba vieta. Pirms iegādes pedagogam, ergoterapeitam un vajadzības gadījumā IT speciālistam jāizvērtē izglītojamā kustību precizitāte, taustiņu sasniedzamība un piemērotākais maskas biezums.",
+      "Jāpārbauda, vai izglītojamais spēj sasniegt visus nepieciešamos taustiņus un vai atveres nav pārāk dziļas vai šauras. Ja maska tiek izgatavota individuāli, pirms galīgās izgatavošanas ieteicams izmēģināt kartona vai cita lēta materiāla paraugu."
     ],
-    "image": "assets/images/catalog/tastaturas-maskas-keyguards.webp",
+    "image": "assets/images/catalog/tastaturas-maskas-keyguards.png",
     "imageAlt": "Tastatūras maskas (keyguards) — reāls ierīces vai programmas attēls",
-    "imageSource": "https://keyguardat.com/collections/oversized-keyboard-keyguards",
+    "imageSource": "",
     "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
-    "productPage": "https://clevy.com/product/clevy-keyguard/",
+    "productPage": "https://www.amazon.de/-/en/Clevy-Keyguard-temporary-permanent-difficulties-klar/dp/B07MXPFHSK",
     "productLinkType": "product"
   },
   {
