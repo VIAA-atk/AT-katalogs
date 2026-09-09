@@ -1670,7 +1670,7 @@
   {
     "id": "krasu-kodesanas-sistemas",
     "name": "Krāsu kodēšanas sistēmas",
-    "short": "Vienota krāsu izmantošana priekšmetu, informācijas, vietu vai uzdevumu kategoriju apzīmēšanai.",
+    "short": "Vienota krāsu apzīmējumu sistēma informācijas grupēšanai, darba organizēšanai un būtiskās informācijas izcelšanai.",
     "areas": [
       "organizesana"
     ],
@@ -1680,21 +1680,22 @@
     "type": "piederums",
     "level": "zems",
     "latvian": "Informācija tiks papildināta",
-    "whatIs": "Vienota krāsu izmantošana priekšmetu, informācijas, vietu vai uzdevumu kategoriju apzīmēšanai.",
+    "whatIs": "Krāsu kodēšanas sistēma ir iepriekš noteikta un konsekventi izmantota krāsu apzīmējumu sistēma, kurā katrai krāsai piešķir nozīmi. Krāsas var apzīmēt mācību jomas, informācijas veidus, uzdevuma daļas, darbību secību, nepieciešamos piederumus vai teksta elementus.\n\nKrāsu kodēšana nav vienkārša teksta izkrāsošana. Izglītojamajam jāzina, ko katra krāsa nozīmē, un vienādi apzīmējumi jāizmanto atkārtoti.\n\nKā to var izmantot izglītībā?\nKrāsu kodēšanu var izmantot, lai sagrupētu mācību materiālus, atšķirtu būtisko informāciju, parādītu uzdevuma izpildes secību un sasaistītu darba lapas ar atbilstošiem mācību piederumiem. Ar krāsām var apzīmēt, piemēram, teikuma daļas, teksta struktūru, matemātiskas darbības, jēdzienu grupas vai nedēļas dienas.\n\nSistēma var palīdzēt izglītojamajiem atrast nepieciešamo informāciju, pārskatīt darba gaitu, atcerēties noteikumus un patstāvīgāk organizēt mācību darbu.",
     "functions": [
-      "teksta un attēlu palielināšana vai vizuāla pielāgošana",
-      "kontrasta un salasāmības uzlabošana",
-      "drukāta vai digitāla mācību satura apskatīšana pielāgotā veidā"
+      "Informācijas grupēšana pēc noteiktām pazīmēm",
+      "Būtiskās informācijas izcelšana",
+      "Darbību vai teksta daļu secības attēlošana",
+      "Mācību materiālu un piederumu sistematizēšana"
     ],
     "acquisition": [
-      "Pagatavo skolā: vienojas par dažām nemainīgām krāsām mācību priekšmetiem, darbību soļiem vai materiālu grupām un tās konsekventi lieto."
+      "Krāsu kodēšanas sistēmu izglītības iestāde var izveidot pati, izmantojot krāsainas uzlīmes, mapes, marķierus, kartītes, līmlapiņas, rakstāmpiederumus un citus vizuālus apzīmējumus. Digitālā vidē krāsu kodēšanu var izmantot teksta apstrādes programmās, prezentācijās, digitālajās piezīmju kladēs un mācību platformās."
     ],
     "image": "assets/images/catalog/krasu-kodesanas-sistemas.webp",
     "imageAlt": "Krāsu kodēšanas sistēmas — reāls produkta vai risinājuma attēls",
     "imageSource": "https://www.avery.com/blog/expert-tips-for-color-coding-your-planner/",
     "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
-    "productPage": "https://www.avery.com/blog/expert-tips-for-color-coding-your-planner/",
-    "productLinkType": "reference"
+    "productPage": "",
+    "productLinkType": "category"
   },
   {
     "id": "papira-planotaji-vizualie-saraksti",
