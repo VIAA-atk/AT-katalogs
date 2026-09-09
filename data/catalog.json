@@ -1832,14 +1832,14 @@
     "type": "programmatura",
     "level": "augsts",
     "latvian": "Pieejams latviešu valodā",
-    "whatIs": "Lietotnes, kas palīdz noteikt darba intervālus, ierobežot traucēkļus un uzturēt uzmanību uz uzdevumu.",
+    "whatIs": "Digitālas lietotnes, kurās iespējams iestatīt koncentrēta darba laika posmu un pārtraukumu. Atsevišķi risinājumi ierobežo piekļuvi traucējošām lietotnēm vai tīmekļvietnēm, uzskaita darba laiku un izmanto spēļošanas elementus motivācijas veicināšanai.\n\nViens no piemēriem ir Forest. Uzsākot darba laika posmu, lietotnē tiek iestādīts virtuāls koks, kas aug, kamēr lietotājs turpina darbu un neizmanto citas lietotnes.\n\nKā to var izmantot izglītībā?\nLietotni var izmantot, lai sadalītu garāku uzdevumu īsākos darba un atpūtas posmos, noteiktu laiku patstāvīgajam darbam, lasīšanai vai mājasdarbu izpildei. Tā var palīdzēt izglītojamajam uzsākt darbu, noturēt uzmanību, sekot darba ilgumam un pakāpeniski attīstīt patstāvīgas laika plānošanas prasmes.\n\nPedagogtere kopā ar izglītojamo nosaka sasniedzamu darba laika posmu un pēc tā beigām pārrunā paveikto. Jaunākiem bērniem lietotni ieteicams izmantot pieaugušā vadībā.",
     "functions": [
       "uzdevumu un darbību secības organizēšana",
       "atgādinājumu, piezīmju vai plānu veidošana",
       "uzmanības noturēšana un paveiktā pārbaude"
     ],
     "acquisition": [
-      "Ražotāji/izstrādātāji un citi piemēri: Tiešsaistes rīki ar bezmaksas un maksas (pro) versijām: (piem., Forest, FLora)"
+      "Lietotne Forest ir pieejama mobilajām ierīcēm Google Play un Apple App Store, kā arī kā paplašinājums pārlūkprogrammai Google Chrome. Atkarībā no ierīces un lietotnes versijas atsevišķas funkcijas var būt par maksu."
     ],
     "image": "assets/images/catalog/uzmanibas-koncentresanas-lietotnes.webp",
     "imageAlt": "Uzmanības koncentrēšanas lietotnes — ražotāja ilustratīvs attēls",
