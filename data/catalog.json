@@ -2736,5 +2736,36 @@
     "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
     "productPage": "https://lnbiedriba.lv/lv/paliglidzeklis/datoru-displeji-ar-skanu/",
     "productLinkType": "resource"
+  },
+  {
+    "id": "runas-delis-ar-izveles-iespejam",
+    "name": "Runas dēlis ar izvēles iespējām",
+    "short": "Alternatīvās komunikācijas tehniskais palīglīdzeklis ir atbalsts personām ar runas, valodas, komunikācijas un kustību traucējumiem.",
+    "areas": [
+      "komunikacija",
+      "organizesana"
+    ],
+    "needs": [
+      "simboli",
+      "aac"
+    ],
+    "type": "ierice",
+    "level": "videjs",
+    "latvian": "Ieraksta funkcija latviešu valodā",
+    "whatIs": "Iekārta sniedz iespēju, izmantojot savu balsi, ierakstīt īsus audio ierakstus, kas tiek pastiprināti ar vizuālu atbalstu - attēlu, piktogrammu vai fotogrāfiju.\n\nPersonām ir iespēja atskaņot audio ierakstus dažādās ikdienas situācijās (mājās, skolā, bērnudārzā, nodarbībās ar speciālistiem u.c. vidē), lai paustu savas vēlmes, vajadzības, veidotu dialogu,  sniegtu atbildes un komentārus, apgūtu jaunas prasmes un atvieglotu saziņu ar apkārtējiem. \nIespējami dažādi izvēlnes lodziņi. (2, 2, 6, 9, 20 un augstlīmeņa komunikatori).",
+    "functions": [
+      "Komunikācijas ierīce darbojas atskaņojot iepriekšsagatavotus ierakstus, kas papildināti ar attēliem/piktogrammām vizuālai uzskatei. Iespējama skaļuma regulēšana, ātra ierakstu veidošana un dzēšana. Darbojas uz baterijām."
+    ],
+    "acquisition": [
+      "Šo tehnisko palīglīdzekli iespējams saņemt par valsts budžeta līdzekļiem, piesakoties Vaivaru Tehnisko palīglīdzekļu centrā (VTPC) atbilstoši noteiktajai tehnisko palīglīdzekļu saņemšanas kārtībai.",
+      "https://www.vtpc.lv/Pakalpojumi/ka-sanemt-tehnisko-paliglidzekli",
+      "https://www.vtpc.lv/katalogs?page=0&cat[]=674"
+    ],
+    "image": "assets/images/catalog/runas-delis-ar-izveles-iespejam.webp",
+    "imageAlt": "Runas dēlis ar izvēles iespējām",
+    "imageSource": "https://arbor.lv/katalogs/33_attainment-company",
+    "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
+    "productPage": "https://www.vtpc.lv/katalogs?page=0&cat[]=674",
+    "productLinkType": "resource"
   }
 ]
