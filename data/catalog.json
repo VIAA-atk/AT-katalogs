@@ -2328,5 +2328,73 @@
     "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
     "productPage": "https://lnbiedriba.lv/lv/paliglidzeklis/rakstu-zimju-lasisanas-aparats/",
     "productLinkType": "resource"
+  },
+  {
+    "id": "skanas-ierakstisanas-un-atskanosanas-ierice-daisy",
+    "name": "Skaņas ierakstīšanas un atskaņošanas ierīce (DAISY)",
+    "short": "Skaņas ierakstīšanas un atskaņošanas ierīce (DAISY) ir Daisy formāta lasītājs  jeb audio grāmata. DAISY ir formāts, kas ir izstrādāts kā pilnīgs drukas materiāla audio aizstājējs un tas ir īpaši paredzēts lietošanai cilvēkiem ar drukāta teksta uztveres traucējumiem, neredzīgiem cilvēkiem un cilvēkiem ar redzes traucējumiem un disleksiju. Ir iespējams regulēt lasīšanas ātrumu, lasīt pa rindiņām un ievietot grāmātzīmi.  Ierīces pilnvērtīgai darbībai nepieciešams savienojums ar internetu. Ierīcē iespējams klausīties grāmatas, radio, raidierakstus, televīziju u.c.",
+    "areas": [
+      "lasisana",
+      "matematika",
+      "komunikacija",
+      "organizesana",
+      "vide"
+    ],
+    "needs": [
+      "tts",
+      "organizesanaAtbalsts"
+    ],
+    "type": "citsValstsAtbalsts",
+    "level": "videjs",
+    "latvian": "Informācija tiks papildināta",
+    "whatIs": "Ierīce DAISY formāta audiogrāmatu un citu pielāgotu audio materiālu atskaņošanai. DAISY formāts veidots kā strukturēts drukāta materiāla audio aizstājējs cilvēkiem ar redzes un lasīšanas traucējumiem.",
+    "functions": [
+      "DAISY formāta audiogrāmatu un mācību materiālu atskaņošana.",
+      "Atskaņošanas ātruma pielāgošana.",
+      "Pārvietošanās audio materiālā pa rindām.",
+      "Grāmatzīmju ievietošana.",
+      "Skaņas ierakstīšana un ierakstu atskaņošana."
+    ],
+    "acquisition": [
+      "Tiflotehnika ir speciālie tehniskie palīglīdzekļi, kas paredzēti personām ar funkcionāliem",
+      "redzes traucējumiem vai anatomiskiem defektiem personu rehabilitēšanai, integrēšanai",
+      "sabiedrībā, mobilitātes un patstāvīgu darbošanās spēju pilnveidošanai.",
+      "Tehniskos palīglīdzekļus var saņemt personas (sākot ar III invaliditātes grupu vai, ja",
+      "personai redzes asums labāk redzošajai acij ar maksimālu korekciju ir zemāks par 0,3 vai",
+      "redzes lauks abās acīs sašaurināts mazāk nekā par 20 grādiem no fiksācijas punkta) un",
+      "neredzīgas personas.",
+      "Lai saņemtu tehnisko palīglīdzekli, persona vai viņas likumiskais pārstāvis iesniedz,",
+      "nosūta elektroniski (ja elektroniskais dokuments sagatavots atbilstoši normatīvajiem",
+      "aktiem par elektronisku dokumentu noformēšanu) vai pa pastu šādus dokumentus:",
+      "•rakstisku iesniegumu brīvā formā vai izmantojot veidlapu, kas pieejama mājas lapā",
+      "(www.lnbiedriba.lv/lv/pakalpojumi/tiflotehnika/ - Pielikums nr.1), norādot vārdu, uzvārdu,",
+      "personas kodu, dzimšanas gadu, dzīvesvietas adresi, tālruņa numuru, e-pasta adresi (ja",
+      "tāda ir), nepieciešamo tehnisko palīglīdzekli, kā arī informāciju par vēlamo saziņas veidu;",
+      "•ja iesniegumu iesniedz likumiskais pārstāvis iesniegumā papildus norāda personas",
+      "likumiskā pārstāvja personas datus (vārds, uzvārds, personas kods) un pievieno",
+      "pārstāvības tiesības apliecinoša dokumenta kopiju;",
+      "(www.lnbiedriba.lv/lv/pakalpojumi/tiflotehnika/ - Pielikums nr.2);",
+      "•ģimenes (vispārējās prakses) ārsta atzinumu vai atbilstošas specialitātes ārstniecības",
+      "personas atzinumu tehniskā palīglīdzekļa saņemšanai, kas saskaņā ar normatīvajiem",
+      "aktiem par medicīnisko dokumentu lietvedības kārtību izsniegts ne vēlāk kā sešus",
+      "mēnešus pirms dokumentu iesniegšanasja invaliditāte nav noteikta pēc redzes, bet ir",
+      "nepieciešami tehniskie palīglīdzekļi funkcionālu redzes traucējumu dēļ.",
+      "(www.lnbiedriba.lv/lv/pakalpojumi/tiflotehnika/ - Pielikums nr. 3)",
+      "•ja personai ir redzes funkcionēšanas traucējumi uz kuru pamata noteikta invaliditāte,",
+      "Atzinumu tehniskā palīglīdzekļa saņemšanai var neiesniegt.",
+      "•ja persona piesakās tehniskā palīglīdzekļa saņemšanai steidzamības kārtā, persona",
+      "papildus augstāk minētajiem dokumentiem iesniedz 2021.gada 20.aprīļa MK.",
+      "Noteikumos Nr.250 21.punkta apakšpunktā minētos dokumentus.",
+      "Plašāku informāciju par tehnisko palīglīdzekļu piešķiršanas kārtību var meklēt",
+      "2021.gada 20.aprīļa Ministru kabineta noteikumos Nr.250 „Kārtība, kādā Latvijas",
+      "Neredzīgo biedrība un Latvijas Nedzirdīgo savienība sniedz sociālās rehabilitācijas",
+      "pakalpojumus un nodrošina tehniskos palīglīdzekļus – tiflotehniku un surdotehniku”."
+    ],
+    "image": "assets/images/catalog/skanas-ierakstisanas-un-atskanosanas-ierice-daisy.png",
+    "imageAlt": "skanas-ierakstisanas-un-atskanosanas-ierice-daisy",
+    "imageSource": "https://lnbiedriba.lv/lv/paliglidzeklis/skanas-ierakstisanas-un-atskanosanas-ierice-daisy/",
+    "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
+    "productPage": "https://lnbiedriba.lv/lv/paliglidzeklis/skanas-ierakstisanas-un-atskanosanas-ierice-daisy/",
+    "productLinkType": "resource"
   }
 ]
