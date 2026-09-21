@@ -2462,5 +2462,67 @@
     "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
     "productPage": "https://lnbiedriba.lv/lv/paliglidzeklis/pildspalva-ar-runas-funkciju-teksta-nolasisanai-no-specialam-uzlimem/",
     "productLinkType": "resource"
+  },
+  {
+    "id": "krasu-noteicejs-ar-runas-funkciju",
+    "name": "Krāsu noteicējs ar runas funkciju",
+    "short": "Ierīce ar runas funkciju latviešu valodā paziņo krāsu. Krāsu noteicējs atpazīst līdz 15o krāsu toņiem un spēj noteikt vai telpā ir ieslēgta gaisma",
+    "areas": [
+      "vide"
+    ],
+    "needs": [
+      "simboli"
+    ],
+    "type": "citsValstsAtbalsts",
+    "level": "videjs",
+    "latvian": "Informācija tiks papildināta",
+    "whatIs": "Ierīce, kas ar runas funkciju latviešu valodā nosaka un paziņo priekšmeta krāsu. Tā atpazīst līdz 150 krāsu toņiem un spēj noteikt, vai telpā ir ieslēgta gaisma.\n\nIzmantošana izglītībā:\n\nKrāsu atpazīšana vizuālās mākslas un dizaina uzdevumos.\n\nKrāsainu mācību materiālu, priekšmetu un piederumu izvēle un šķirošana.\n\nDiagrammās, modeļos un citos mācību materiālos izmantoto krāsu noteikšana.\n\nPatstāvības veicināšana, izvēloties apģērbu un personīgās mantas.",
+    "functions": [
+      "Priekšmetu krāsu noteikšana.",
+      "Krāsas paziņošana latviešu valodā.",
+      "Dažādu krāsu toņu atpazīšana.",
+      "Gaismas esamības noteikšana telpā."
+    ],
+    "acquisition": [
+      "Tiflotehnika ir speciālie tehniskie palīglīdzekļi, kas paredzēti personām ar funkcionāliem",
+      "redzes traucējumiem vai anatomiskiem defektiem personu rehabilitēšanai, integrēšanai",
+      "sabiedrībā, mobilitātes un patstāvīgu darbošanās spēju pilnveidošanai.",
+      "Tehniskos palīglīdzekļus var saņemt personas (sākot ar III invaliditātes grupu vai, ja",
+      "personai redzes asums labāk redzošajai acij ar maksimālu korekciju ir zemāks par 0,3 vai",
+      "redzes lauks abās acīs sašaurināts mazāk nekā par 20 grādiem no fiksācijas punkta) un",
+      "neredzīgas personas.",
+      "Lai saņemtu tehnisko palīglīdzekli, persona vai viņas likumiskais pārstāvis iesniedz,",
+      "nosūta elektroniski (ja elektroniskais dokuments sagatavots atbilstoši normatīvajiem",
+      "aktiem par elektronisku dokumentu noformēšanu) vai pa pastu šādus dokumentus:",
+      "•rakstisku iesniegumu brīvā formā vai izmantojot veidlapu, kas pieejama mājas lapā",
+      "(www.lnbiedriba.lv/lv/pakalpojumi/tiflotehnika/ - Pielikums nr.1), norādot vārdu, uzvārdu,",
+      "personas kodu, dzimšanas gadu, dzīvesvietas adresi, tālruņa numuru, e-pasta adresi (ja",
+      "tāda ir), nepieciešamo tehnisko palīglīdzekli, kā arī informāciju par vēlamo saziņas veidu;",
+      "•ja iesniegumu iesniedz likumiskais pārstāvis iesniegumā papildus norāda personas",
+      "likumiskā pārstāvja personas datus (vārds, uzvārds, personas kods) un pievieno",
+      "pārstāvības tiesības apliecinoša dokumenta kopiju;",
+      "(www.lnbiedriba.lv/lv/pakalpojumi/tiflotehnika/ - Pielikums nr.2);",
+      "•ģimenes (vispārējās prakses) ārsta atzinumu vai atbilstošas specialitātes ārstniecības",
+      "personas atzinumu tehniskā palīglīdzekļa saņemšanai, kas saskaņā ar normatīvajiem",
+      "aktiem par medicīnisko dokumentu lietvedības kārtību izsniegts ne vēlāk kā sešus",
+      "mēnešus pirms dokumentu iesniegšanasja invaliditāte nav noteikta pēc redzes, bet ir",
+      "nepieciešami tehniskie palīglīdzekļi funkcionālu redzes traucējumu dēļ.",
+      "(www.lnbiedriba.lv/lv/pakalpojumi/tiflotehnika/ - Pielikums nr. 3)",
+      "•ja personai ir redzes funkcionēšanas traucējumi uz kuru pamata noteikta invaliditāte,",
+      "Atzinumu tehniskā palīglīdzekļa saņemšanai var neiesniegt.",
+      "•ja persona piesakās tehniskā palīglīdzekļa saņemšanai steidzamības kārtā, persona",
+      "papildus augstāk minētajiem dokumentiem iesniedz 2021.gada 20.aprīļa MK.",
+      "Noteikumos Nr.250 21.punkta apakšpunktā minētos dokumentus.",
+      "Plašāku informāciju par tehnisko palīglīdzekļu piešķiršanas kārtību var meklēt",
+      "2021.gada 20.aprīļa Ministru kabineta noteikumos Nr.250 „Kārtība, kādā Latvijas",
+      "Neredzīgo biedrība un Latvijas Nedzirdīgo savienība sniedz sociālās rehabilitācijas",
+      "pakalpojumus un nodrošina tehniskos palīglīdzekļus – tiflotehniku un surdotehniku”."
+    ],
+    "image": "assets/images/catalog/krasu-noteicejs-ar-runas-funkciju.png",
+    "imageAlt": "krasu-noteicejs-ar-runas-funkciju",
+    "imageSource": "https://lnbiedriba.lv/lv/paliglidzeklis/krasu-noteicejs-ar-runas-funkciju-lv/",
+    "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
+    "productPage": "https://lnbiedriba.lv/lv/paliglidzeklis/krasu-noteicejs-ar-runas-funkciju-lv/",
+    "productLinkType": "resource"
   }
 ]
