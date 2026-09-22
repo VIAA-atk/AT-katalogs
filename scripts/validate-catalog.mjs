@@ -22,9 +22,13 @@ for (const [index, resource] of resources.entries()) {
   for (const field of ["name", "short", "latvian", "whatIs", "image", "imageAlt", "imageRightsNote"]) {
     if (typeof resource[field] !== "string" || !resource[field].trim()) throw new Error(`${where}: nav aizpildīts ${field}.`);
   }
-  for (const field of ["areas", "needs", "functions", "acquisition"]) {
+  for (const field of ["areas", "needs", "functions"]) {
     if (!Array.isArray(resource[field]) || !resource[field].length) throw new Error(`${where}: ${field} jābūt netukšam sarakstam.`);
   }
+  const acquisitionValid = typeof resource.acquisition === "string"
+    ? Boolean(resource.acquisition.trim())
+    : Array.isArray(resource.acquisition) && resource.acquisition.some((item) => typeof item === "string" && item.trim());
+  if (!acquisitionValid) throw new Error(`${where}: acquisition jābūt aizpildītam tekstam.`);
   for (const value of resource.areas) if (!allowed.areas.has(value)) throw new Error(`${where}: neatļauta joma ${value}.`);
   for (const value of resource.needs) if (!allowed.needs.has(value)) throw new Error(`${where}: neatļauta vajadzība ${value}.`);
   for (const field of ["type", "level", "productLinkType"]) {
