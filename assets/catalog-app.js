@@ -91,7 +91,12 @@ function section(title, content, list = false) {
     for (const value of content) items.append(node("li", { text: value }));
     wrapper.append(items);
   } else {
-    wrapper.append(node("p", { className: "mt-2 text-sm leading-relaxed text-foreground", text: content }));
+    const paragraph = node("p", {
+      className: "mt-2 text-sm leading-relaxed text-foreground",
+      text: Array.isArray(content) ? content.join("\n") : content,
+    });
+    paragraph.style.whiteSpace = "pre-line";
+    wrapper.append(paragraph);
   }
   return wrapper;
 }
@@ -139,7 +144,7 @@ function openModal(resource, trigger) {
   media.style.height = "16rem";
   elements.panel.replaceChildren(media, node("div", { className: "space-y-5 p-6" }, [
     heading, section("Kas tas ir?", resource.whatIs), section("Funkcijas", resource.functions, true),
-    section("Kur to var iegūt?", resource.acquisition, true), actions,
+    section("Kur to var iegūt?", resource.acquisition), actions,
   ]));
   elements.modal.hidden = false;
   document.body.style.overflow = "hidden";
