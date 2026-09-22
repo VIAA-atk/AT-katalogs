@@ -193,7 +193,7 @@ function setRemoteState(remote) {
   baseCommitSha = remote.headSha;
   catalogBlobSha = remote.catalogSha;
   if (connectedLogin) {
-    ui["connection-info"].textContent = `Savienots kā ${connectedLogin}; ${remote.resources.length} ieraksti; zars ${repository.branch}; datu SHA ${catalogBlobSha.slice(0, 7)}; paneļa versija 17.`;
+    ui["connection-info"].textContent = `Savienots kā ${connectedLogin}; ${remote.resources.length} ieraksti; zars ${repository.branch}; datu SHA ${catalogBlobSha.slice(0, 7)}; paneļa versija 18.`;
   }
 }
 
@@ -252,7 +252,7 @@ function resourceFromForm(original = currentResource(), image = original?.image 
     latvian: ui["field-latvian"].value.trim(),
     whatIs: ui["field-what-is"].value.trim(),
     functions: lines(ui["field-functions"].value),
-    acquisition: lines(ui["field-acquisition"].value),
+    acquisition: ui["field-acquisition"].value.trim(),
     image,
     imageAlt: ui["field-image-alt"].value.trim(),
     imageSource: ui["field-image-source"].value.trim(),
@@ -383,7 +383,8 @@ function setFormValues(resource) {
   setChoiceValues(ui["field-needs"], resource.needs ?? []);
   ui["field-what-is"].value = resource.whatIs ?? "";
   ui["field-functions"].value = (resource.functions ?? []).join("\n");
-  ui["field-acquisition"].value = (resource.acquisition ?? []).join("\n");
+  const acquisition = resource.acquisition ?? "";
+  ui["field-acquisition"].value = Array.isArray(acquisition) ? acquisition.join("\n") : acquisition;
   ui["field-product-page"].value = resource.productPage ?? "";
   ui["field-link-type"].value = resource.productLinkType ?? "resource";
   ui["field-image-alt"].value = resource.imageAlt ?? "";
@@ -575,7 +576,8 @@ function validateRecord(resource, originalId = null) {
   if (!resource.name || !resource.short || !resource.whatIs || !resource.latvian || !resource.imageAlt || !resource.imageRightsNote) throw new Error("Aizpildi visus obligātos teksta laukus.");
   if (!resource.areas.length) throw new Error("Izvēlies vismaz vienu mācību atbalsta jomu.");
   if (!resource.needs.length) throw new Error("Izvēlies vismaz vienu vajadzību/filtru.");
-  if (!resource.functions.length || !resource.acquisition.length) throw new Error("Funkciju un iegūšanas sadaļā jābūt vismaz vienai rindai.");
+  if (!resource.functions.length) throw new Error("Funkciju sadaļā jābūt vismaz vienai rindai.");
+  if (!resource.acquisition.length) throw new Error('Aizpildi sadaļu "Kur to var iegūt?".');
   if (resource.productPage && !resource.productPage.startsWith("https://")) throw new Error("Produkta saitei jāizmanto HTTPS.");
   if (resource.imageSource && !resource.imageSource.startsWith("https://")) throw new Error("Attēla avota saitei jāizmanto HTTPS.");
   if (resources.some((item) => item.id === resource.id && item.id !== originalId)) throw new Error("Šāds identifikators jau tiek izmantots.");
