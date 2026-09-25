@@ -7,6 +7,7 @@ const resources = JSON.parse(await fs.readFile(dataPath, "utf8"));
 const allowed = {
   areas: new Set(["lasisana", "rakstisana", "matematika", "komunikacija", "organizesana", "vide"]),
   needs: new Set(["tts", "vizualaPielagosana", "ocr", "stt", "rakstisanaAtbalsts", "organizesanaAtbalsts", "simboli", "aac", "ierices Vadiba", "matematikaAtbalsts"]),
+  acquisitionOptions: new Set(["bezmaksas", "dalejiBezmaksas", "zemuIzmaksu", "maksas", "projektaIetvaros", "cits"]),
   type: new Set(["ierice", "programmatura", "iebuveta", "bezmaksas", "metodiskais", "materials", "piederums", "atFonds", "citsValstsAtbalsts"]),
   level: new Set(["augsts", "videjs", "zems"]),
   productLinkType: new Set(["product", "category", "resource", "reference"]),
@@ -22,7 +23,7 @@ for (const [index, resource] of resources.entries()) {
   for (const field of ["name", "short", "latvian", "whatIs", "image", "imageAlt", "imageRightsNote"]) {
     if (typeof resource[field] !== "string" || !resource[field].trim()) throw new Error(`${where}: nav aizpildīts ${field}.`);
   }
-  for (const field of ["areas", "needs", "functions"]) {
+  for (const field of ["areas", "needs", "functions", "acquisitionOptions"]) {
     if (!Array.isArray(resource[field]) || !resource[field].length) throw new Error(`${where}: ${field} jābūt netukšam sarakstam.`);
   }
   const acquisitionValid = typeof resource.acquisition === "string"
@@ -31,6 +32,8 @@ for (const [index, resource] of resources.entries()) {
   if (!acquisitionValid) throw new Error(`${where}: acquisition jābūt aizpildītam tekstam.`);
   for (const value of resource.areas) if (!allowed.areas.has(value)) throw new Error(`${where}: neatļauta joma ${value}.`);
   for (const value of resource.needs) if (!allowed.needs.has(value)) throw new Error(`${where}: neatļauta vajadzība ${value}.`);
+  if (new Set(resource.acquisitionOptions).size !== resource.acquisitionOptions.length) throw new Error(`${where}: iegūšanas iespējas atkārtojas.`);
+  for (const value of resource.acquisitionOptions) if (!allowed.acquisitionOptions.has(value)) throw new Error(`${where}: neatļauta iegūšanas iespēja ${value}.`);
   for (const field of ["type", "level", "productLinkType"]) {
     if (!allowed[field].has(resource[field])) throw new Error(`${where}: neatļauta ${field} vērtība.`);
   }

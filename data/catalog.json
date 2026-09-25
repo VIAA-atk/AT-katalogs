@@ -38,6 +38,10 @@
       "Metodiskie materiāli ir brīvi pieejami ikvienam VIAA tīmekļvietnē.",
       "https://www.viaa.gov.lv/lv/metodiskie-materiali-0#eraf-projekta-asistivas-tehnologijas-macibu-atbalstam-metodiskie-materiali"
     ],
+    "acquisitionOptions": [
+      "bezmaksas",
+      "projektaIetvaros"
+    ],
     "image": "assets/images/catalog/eraf-projekta-asistivas-tehnologijas-macibu-atbalstam-metodiskie-materiali.png",
     "imageAlt": "Asistīvās tehnoloģijas mācību atbalstam",
     "imageSource": "https://www.viaa.gov.lv/lv/projekts/asistivastehnologijas",
@@ -78,6 +82,9 @@
       "Šķēres un caurumotājs",
       "Atverams metāla gredzens vai atslēgu piekariņa stiprinājums",
       "Pedagogs vai atbalsta speciālists, kurš izvēlas saturu un māca piekariņa lietošanu"
+    ],
+    "acquisitionOptions": [
+      "zemuIzmaksu"
     ],
     "image": "assets/images/catalog/komunikacijas-atslegu-piekarini.png",
     "imageAlt": "Komunikācijas atslēgu piekariņi",
@@ -120,6 +127,9 @@
       "ARASAAC piktogrammas un materiāli ir bez maksas pieejami tīmekļvietnē. Resursu var izmantot Latvijā, izmantojot interneta pārlūkprogrammu. Piktogrammas var lejupielādēt ierīcē un izmantot digitāli vai izdrukāt.",
       "Izmantojot un pārveidojot ARASAAC piktogrammas, jāievēro licences nosacījumi un jānorāda piktogrammu autors un avots. Piktogrammas tiek izplatītas ar licenci Creative Commons BY-NC-SA: nepieciešama atsauce, tās nedrīkst izmantot komerciāli un atvasinātie materiāli jāizplata ar tādiem pašiem licences nosacījumiem."
     ],
+    "acquisitionOptions": [
+      "bezmaksas"
+    ],
     "image": "assets/images/catalog/komunikacijas-kartites-piem-pecs.png",
     "imageAlt": "Komunikācijas kartītes (piem., PECS) — reāls produkta vai risinājuma attēls",
     "imageSource": "https://arasaac.org/",
@@ -158,6 +168,9 @@
     ],
     "acquisition": [
       "Platforma ir bez maksas pieejama tīmekļvietnē Hugo.gov.lv. To var izmantot tīmekļa pārlūkprogrammā bez programmatūras instalēšanas"
+    ],
+    "acquisitionOptions": [
+      "bezmaksas"
     ],
     "image": "assets/images/catalog/teksta-runas-text-to-speech-lietotnes.png",
     "imageAlt": "Teksta-runas (Text-to-Speech) lietotnes — ražotāja ilustratīvs attēls",
@@ -214,6 +227,10 @@
       "Ierīci Latvijā izstrādā un piedāvā SIA “Brunomaster”. Informācija par iegādi, komplektāciju, cenu un piegādi jānoskaidro pie ražotāja. https://brunomaster.com/produkts/bruno/",
       "*Ierīce ir pieejama 4.2.1.2. projekta AT fondā, projekta sadarbības partneriem."
     ],
+    "acquisitionOptions": [
+      "maksas",
+      "projektaIetvaros"
+    ],
     "image": "assets/images/catalog/audio-atskanotaji.png",
     "imageAlt": "Audio atskaņotāji — reāls produkta vai risinājuma attēls",
     "imageSource": "https://store.humanware.com/heu/victor-reader-stream-handheld-media-player.html",
@@ -268,6 +285,10 @@
       "Pedagogs vai atbalsta speciālists lietotnes iestatīšanai un lietošanas mācīšanai",
       "Aizsargapvalks un, ja nepieciešams, ierīces pārnēsāšanas risinājums"
     ],
+    "acquisitionOptions": [
+      "dalejiBezmaksas",
+      "maksas"
+    ],
     "image": "assets/images/catalog/komunikacijas-kartites-pecs.png",
     "imageAlt": "PECSTalk™ lietotnes ekrānattēls ar PECS piktogrammām, komunikācijas grāmatas lapām un digitālo teikuma joslu.",
     "imageSource": "",
@@ -301,6 +322,9 @@
     "acquisition": [
       "Izmēģināšanai izglītības iestāde var iegādāties piemērota izmēra caurspīdīgas, matētas krāsainās plēves kancelejas vai mākslas preču veikalos. Plēvei jābūt caurspīdīgai, vienmērīgi tonētai un bez raksta, lai teksts zem tās būtu skaidri salasāms.",
       "Ieteicams iegādāties vairāku krāsu komplektu, jo viena krāsa nav piemērota visiem izglītojamajiem."
+    ],
+    "acquisitionOptions": [
+      "zemuIzmaksu"
     ],
     "image": "assets/images/catalog/krasu-filtri-parklaji-pleves.webp",
     "imageAlt": "Krāsu filtri (pārklāji/plēves) — reāls produkta vai risinājuma attēls",
@@ -338,6 +362,9 @@
       "Latvijā pieejama produkta piemērs: Lasīšanas rāmītis un lineāls – 8KAJIS.",
       "Piemēram: https://8kajis.lv/products/lasisanas-ramitis-un-lineals"
     ],
+    "acquisitionOptions": [
+      "zemuIzmaksu"
+    ],
     "image": "assets/images/catalog/lasisanas-lineali.png",
     "imageAlt": "Lasīšanas lineāli — reāls produkta vai risinājuma attēls",
     "imageSource": "https://8kajis.lv/products/lasisanas-ramitis-un-lineals",
@@ -366,6 +393,9 @@
     ],
     "acquisition": [
       "https://opendyslexic.org/ bezmaksas lejupielāde"
+    ],
+    "acquisitionOptions": [
+      "bezmaksas"
     ],
     "image": "assets/images/catalog/lasitajam-draudzigi-fonti-disleksijai-vieglajai-.webp",
     "imageAlt": "Lasītājam draudzīgi fonti (disleksijai, vieglajai valodai) — reāls produkta vai risinājuma attēls",
@@ -401,6 +431,11 @@
       "SymWriter 2 ir maksas programmatūra. Widgit oficiālajā Latvijas atbalsta lapā kā Latvijas izplatītājs norādīts Piktogrammas; pieejama arī 21 dienas bezmaksas izmēģinājuma versija.",
       "*Programma ir pieejama 4.2.1.2. projekta AT fondā, projekta sadarbības partneriem."
     ],
+    "acquisitionOptions": [
+      "dalejiBezmaksas",
+      "maksas",
+      "projektaIetvaros"
+    ],
     "image": "assets/images/catalog/simbolu-programmatura.webp",
     "imageAlt": "Simbolu programmatūra — ražotāja ilustratīvs attēls",
     "imageSource": "https://www.piktogrammas.lv/symwriter/pas%C5%ABt%C4%ABt-licences",
@@ -433,6 +468,10 @@
     "acquisition": [
       "Aisma — SIA \"Brunomaster\" Brunomaster: https://brunomaster.com/",
       "*Ierīce ir pieejama 4.2.1.2. projekta AT fondā, projekta sadarbības partneriem."
+    ],
+    "acquisitionOptions": [
+      "maksas",
+      "projektaIetvaros"
     ],
     "image": "assets/images/catalog/teksta-priekslasitaji-ar-skeneri-galda-priekslas.png",
     "imageAlt": "Teksta priekšlasītāji ar skeneri (galda priekšlasīšanas ierīces) — reāls produkta vai risinājuma attēls",
@@ -473,6 +512,10 @@
       "TextAid ir licencējams tiešsaistes risinājums, to var iegādāties www. exceed.lv",
       "*Licence ir pieejama 4.2.1.2. projekta AT fondā, projekta sadarbības partneriem."
     ],
+    "acquisitionOptions": [
+      "maksas",
+      "projektaIetvaros"
+    ],
     "image": "assets/images/catalog/teksta-runas-text-to-speech-programmas.webp",
     "imageAlt": "Teksta-runas (Text-to-Speech) programmas — ražotāja ilustratīvs attēls",
     "imageSource": "https://www.readspeaker.com/solutions/text-to-speech-online/readspeaker-textaid/",
@@ -511,6 +554,9 @@
     ],
     "acquisition": [
       "IRISPen Reader 8 var iegādāties ražotāja un citu tehnoloģiju tirgotāju internetveikalos."
+    ],
+    "acquisitionOptions": [
+      "maksas"
     ],
     "image": "assets/images/catalog/viedpildspalvas-skenesanai.webp",
     "imageAlt": "Viedpildspalvas (skenēšanai) — reāls produkta vai risinājuma attēls",
@@ -553,6 +599,9 @@
       "GeoGebra bez maksas var izmantot GeoGebra tīmekļvietnē. Lietotnes iespējams lejupielādēt arī datoros, planšetdatoros un viedtālruņos.",
       "Rīka izmantošanai nav obligāti jāizveido lietotāja konts. Konts nepieciešams, ja izveidotos darbus paredzēts saglabāt platformā, kopīgot vai izmantot GeoGebra Classroom iespējas."
     ],
+    "acquisitionOptions": [
+      "bezmaksas"
+    ],
     "image": "assets/images/catalog/digitalais-rutinu-papirs.webp",
     "imageAlt": "Digitālais rūtiņu papīrs — reāls ierīces vai programmas attēls",
     "imageSource": "https://www.geogebra.org/graphing",
@@ -591,6 +640,9 @@
       "GeoGebra grafiskais kalkulators",
       "Pieejama arī lejupielādējama GeoGebra Graphing Calculator lietotne dažādām operētājsistēmām. Lietotāja konts nav obligāts aprēķinu un grafiku veidošanai, bet tas var būt nepieciešams darbu saglabāšanai tiešsaistē un kopīgošanai."
     ],
+    "acquisitionOptions": [
+      "bezmaksas"
+    ],
     "image": "assets/images/catalog/digitalie-grafiku-veidotaji.webp",
     "imageAlt": "Digitālie grafiku veidotāji — reāls ierīces vai programmas attēls",
     "imageSource": "https://www.geogebra.org/graphing",
@@ -619,6 +671,9 @@
     ],
     "acquisition": [
       "Iegādājas kancelejas, elektronikas, mācību materiālu vai specializēto palīglīdzekļu veikalā atbilstoši individuāli izvērtētajai vajadzībai."
+    ],
+    "acquisitionOptions": [
+      "zemuIzmaksu"
     ],
     "image": "assets/images/catalog/lineali-ar-apmalem-taktilie-lineali-un-transport.webp",
     "imageAlt": "Lineāli ar apmalēm, taktilie lineāli un transportieri — reāls produkta vai risinājuma attēls",
@@ -658,6 +713,9 @@
       "Calcularis licenci izglītības iestādei vai ģimenei var iegādāties, sazinoties ar izstrādātāju Constructor Technology AG.",
       "Latvijā nav identificēts oficiāls vietējais izplatītājs, un programma nav pielāgota latviešu valodai. Pirms licences iegādes jānoskaidro:"
     ],
+    "acquisitionOptions": [
+      "maksas"
+    ],
     "image": "assets/images/catalog/matematikas-uzdevumu-atrisinasanas-riki.webp",
     "imageAlt": "Matemātikas uzdevumu atrisināšanas rīki — reāls ierīces vai programmas attēls",
     "imageSource": "https://constructor.tech/products/calcularis",
@@ -686,6 +744,9 @@
     ],
     "acquisition": [
       "Var pagatavot skolā: izdrukā lielākas rūtiņas vai līnijas; taktilam variantam robežas veido ar reljefa līmi vai citu drošu sataustāmu materiālu."
+    ],
+    "acquisitionOptions": [
+      "zemuIzmaksu"
     ],
     "image": "assets/images/catalog/pielagots-papirs-ar-lielam-rutinam-vai-reljefu.webp",
     "imageAlt": "Pielāgots papīrs (ar lielām rūtiņām vai reljefu) — reāls produkta vai risinājuma attēls",
@@ -723,6 +784,9 @@
     "acquisition": [
       "Skaitāmo materiālu un matemātikas manipulatīvus var iegādāties Latvijas mācību līdzekļu, kancelejas preču un izglītojošo rotaļlietu veikalos.",
       "Daļu materiālu var izgatavot arī izglītības iestādē, izmantojot pogas, kociņus, korķus, akmentiņus, kartonu, laminētas kartītes vai citus drošus un izturīgus materiālus."
+    ],
+    "acquisitionOptions": [
+      "zemuIzmaksu"
     ],
     "image": "assets/images/catalog/skaitikli-manipulativi-piem-geometriskas-figuras.png",
     "imageAlt": "Skaitīkļi, manipulatīvi (piem., ģeometriskas figūras, daļskaitļu apļi, skaitīšanas kociņi) — reāls produkta vai risinājuma attēls",
@@ -763,6 +827,9 @@
     "acquisition": [
       "Equatio licenci var iegādāties izstrādātāja tīmekļvietnē. Izglītības iestādei ieteicams pieprasīt demonstrāciju un licences piedāvājumu atbilstoši lietotāju skaitam. Atsevišķs oficiālais izplatītājs Latvijā nav norādīts. https://www.everway.com/products/equatio/"
     ],
+    "acquisitionOptions": [
+      "maksas"
+    ],
     "image": "assets/images/catalog/specialas-matematikas-pieraksta-apzimejumu-progr.png",
     "imageAlt": "Speciālās matemātikas pieraksta/apzīmējumu programmas, formulas atpazīšana no rokraksta — ražotāja ilustratīvs attēls",
     "imageSource": "https://www.everway.com/products/equatio/",
@@ -793,6 +860,9 @@
     ],
     "acquisition": [
       "Pagatavo skolā no digitālā oriģināla, palielinot fontu un attēlus, vienkāršojot izkārtojumu un saglabājot augstu kontrastu; nedrīkst pārkāpt materiāla licences nosacījumus."
+    ],
+    "acquisitionOptions": [
+      "zemuIzmaksu"
     ],
     "image": "assets/images/catalog/lielas-drukas-materiali.png",
     "imageAlt": "Lielas drukas materiāli — reāls produkta vai risinājuma attēls",
@@ -831,6 +901,9 @@
     "acquisition": [
       "LiveVoice ir pieejams tiešsaistē izstrādātāja tīmekļvietnē. Izglītības iestāde var izveidot administratora kontu, izvēlēties lietotāju skaitam atbilstošu plānu un papildus aktivizēt automātiskos subtitrus. Risinājums Latvijā ir izmantojams tiešsaistē."
     ],
+    "acquisitionOptions": [
+      "maksas"
+    ],
     "image": "assets/images/catalog/reallaika-automatisko-subtitru-sistemas.webp",
     "imageAlt": "Reāllaika automātisko subtitru sistēmas — ražotāja ilustratīvs attēls",
     "imageSource": "https://livevoice.io/en",
@@ -860,6 +933,9 @@
     "acquisition": [
       "Interaktīvās taktilās kartes — inovatīvs produkts Latvijā, ko piedāvā SOCINTEGRA.",
       "https://www.socintegra.lv/lv/catalogue/product/interaktivas-taktilas-kartes"
+    ],
+    "acquisitionOptions": [
+      "maksas"
     ],
     "image": "assets/images/catalog/taktilas-kartes-un-gridas-markejumi.jpg",
     "imageAlt": "Taktilās kartes un grīdas marķējumi — reāls produkta vai risinājuma attēls",
@@ -910,6 +986,9 @@
       "Nepieciešama konkrētajai maskai atbilstoša fiziskā tastatūra un stabila darba vieta. Pirms iegādes pedagogam, ergoterapeitam un vajadzības gadījumā IT speciālistam jāizvērtē izglītojamā kustību precizitāte, taustiņu sasniedzamība un piemērotākais maskas biezums.",
       "Jāpārbauda, vai izglītojamais spēj sasniegt visus nepieciešamos taustiņus un vai atveres nav pārāk dziļas vai šauras. Ja maska tiek izgatavota individuāli, pirms galīgās izgatavošanas ieteicams izmēģināt kartona vai cita lēta materiāla paraugu."
     ],
+    "acquisitionOptions": [
+      "maksas"
+    ],
     "image": "assets/images/catalog/tastaturas-maskas-keyguards.png",
     "imageAlt": "Tastatūras maskas (keyguards) — reāls ierīces vai programmas attēls",
     "imageSource": "",
@@ -939,6 +1018,9 @@
     "acquisition": [
       "Ražotāji/izstrādātāji un citi piemēri: Envision Glasses — Envision (Nīderlande); OrCam My Eye, OrCam Read — OrCam Technologies (Izraēla) Exceed: https://www.exceed.lv/"
     ],
+    "acquisitionOptions": [
+      "maksas"
+    ],
     "image": "assets/images/catalog/viedbrilles-ar-ai-vides-atpazisanu.webp",
     "imageAlt": "Viedbrilles ar AI vides atpazīšanu — ražotāja ilustratīvs attēls",
     "imageSource": "https://www.letsenvision.com/glasses/home",
@@ -967,6 +1049,9 @@
     ],
     "acquisition": [
       "Iegādājas kancelejas, elektronikas, mācību materiālu vai specializēto palīglīdzekļu veikalā atbilstoši individuāli izvērtētajai vajadzībai."
+    ],
+    "acquisitionOptions": [
+      "zemuIzmaksu"
     ],
     "image": "assets/images/catalog/burtu-un-ciparu-trafareti.webp",
     "imageAlt": "Burtu un ciparu trafareti — reāls ierīces vai programmas attēls",
@@ -1024,6 +1109,9 @@
       "Satura sinhronizēšana starp ierīcēm atbilstoši izvēlētajam plānam",
       "Goodnotes var lejupielādēt vai atvērt Goodnotes tīmekļvietnē. Tā ir pieejama Apple App Store, Microsoft Store un Google Play, kā arī tīmekļa pārlūkā. Lietotni Latvijā var lejupielādēt un abonēt tiešsaistē. Izglītības iestāde var pieteikties Goodnotes izglītības plānam un izveidot administratora pārvaldītu vidi."
     ],
+    "acquisitionOptions": [
+      "maksas"
+    ],
     "image": "assets/images/catalog/digitalas-piezimju-klades-ar-audio.webp",
     "imageAlt": "Digitālās piezīmju klades ar audio — ražotāja ilustratīvs attēls",
     "imageSource": "https://www.goodnotes.com/",
@@ -1065,6 +1153,9 @@
       "Windows datorā ekrāntastatūru var atvērt sadaļā Iestatījumi → Pieejamība → Tastatūra → Ekrāntastatūra.",
       "Ja ar iebūvēto ekrāntastatūru nepietiek, var izvēlēties specializētu programmatūru ar lielākiem taustiņiem, individuāli veidotu izkārtojumu, skenēšanas vadību vai vārdu paredzēšanu."
     ],
+    "acquisitionOptions": [
+      "bezmaksas"
+    ],
     "image": "assets/images/catalog/ekrana-virtualas-tastaturas.png",
     "imageAlt": "Ekrāna (virtuālās) tastatūras — reāls produkta vai risinājuma attēls",
     "imageSource": "",
@@ -1099,6 +1190,9 @@
     "acquisition": [
       "Ergonomiskus un trīsstūra formas zīmuļus var iegādāties kancelejas preču, grāmatnīcu, bērnu preču un specializēto mācību līdzekļu veikalos Latvijā. Meklēšanā var izmantot vārdus “ergonomisks zīmulis”, “trīsstūra zīmulis”, “resns zīmulis” vai “zīmulis kreiļiem”.",
       "Latvijā pieejami, piemēram, STABILO EASYgraph zīmuļi labročiem un kreiļiem, kā arī dažādu ražotāju trīsstūra formas grafīta un krāsainie zīmuļi"
+    ],
+    "acquisitionOptions": [
+      "zemuIzmaksu"
     ],
     "image": "assets/images/catalog/ergonomiski-zimuli-piem-trisstura-formas.png",
     "imageAlt": "Ergonomiski zīmuļi (piem., trīsstūra formas) — reāls produkta vai risinājuma attēls",
@@ -1142,6 +1236,9 @@
       "Iespējams izveidot canva.com https://www.canva.com/graphs/graphic-organizers/",
       "Paraugs no skola2030 https://mape.gov.lv/api/files/E3F24263-1175-4FDE-9CA4-39508226DAE3/download"
     ],
+    "acquisitionOptions": [
+      "zemuIzmaksu"
+    ],
     "image": "assets/images/catalog/grafiskie-organizatori-uz-papira.png",
     "imageAlt": "Grafiskie organizatori uz papīra — reāls produkta vai risinājuma attēls",
     "imageSource": "https://www.canva.com/graphs/graphic-organizers/",
@@ -1177,6 +1274,9 @@
     "acquisition": [
       "Zīmuļu satvēriena uzmavas var iegādāties kancelejas preču, grāmatnīcu, bērnu preču un specializēto mācību vai terapijas materiālu veikalos Latvijā. Tās var meklēt ar nosaukumiem “zīmuļa uzmava”, “zīmuļa satvērējs”, “zīmuļa turētājs” vai “rakstāmpiederuma satvēriena palīgs”."
     ],
+    "acquisitionOptions": [
+      "zemuIzmaksu"
+    ],
     "image": "assets/images/catalog/gumijas-satvereji-uzmavas-zimuliem.webp",
     "imageAlt": "Gumijas satvērēji (uzmavas zīmuļiem) — reāls produkta vai risinājuma attēls",
     "imageSource": "",
@@ -1205,6 +1305,9 @@
     ],
     "acquisition": [
       "Iegādājas kancelejas preču veikalā; skola izvēlas skolēnam piemērotu papīra toni un drukā ar pietiekamu teksta kontrastu."
+    ],
+    "acquisitionOptions": [
+      "zemuIzmaksu"
     ],
     "image": "assets/images/catalog/krasains-kontrastejoss-papirs.webp",
     "imageAlt": "Krāsains/kontrastējošs papīrs — reāls produkta vai risinājuma attēls",
@@ -1236,6 +1339,9 @@
     "acquisition": [
       "Tildes MI mācībstundu asistents ir Latvijas uzņēmuma SIA “Tilde” izstrādāts mākslīgā intelekta risinājums, kas mācību stundas laikā atpazīst pedagoga runu un reāllaikā attēlo to rakstītā tekstā. Pedagoga teiktais var tikt parādīts uz interaktīvās tāfeles vai izglītojamā datorā.",
       "Rīks var arī tulkot pedagoga teikto citā valodā un pēc mācību stundas sagatavot stundas kopsavilkumu un kontroljautājumus. Tas paredzēts mācību satura pieejamības uzlabošanai, nevis pedagoga aizstāšanai."
+    ],
+    "acquisitionOptions": [
+      "cits"
     ],
     "image": "assets/images/catalog/mi-macibstundu-asistents.webp",
     "imageAlt": "Tildes logotips",
@@ -1274,6 +1380,10 @@
       "Vienkārši pareizrakstības pārbaudes rīki ir iekļauti, piemēram, Microsoft Word, Google dokumentos un citās tekstapstrādes programmās. To funkcijas un latviešu valodas atbalsta kvalitāte var atšķirties.",
       "Projekta “Asistīvās tehnoloģijas mācību atbalstam” ietvaros paredzēta ReadSpeaker TextAid PRO licenču iegāde, tādēļ izmēģinājumā iesaistītajām izglītības iestādēm nav nepieciešams šo licenci iegādāties atsevišķi. Informācija par licenču piešķiršanu, lietotāju skaitu un saņemšanas kārtību jānoskaidro pie projekta īstenotāja vai attiecīgā projekta sadarbības partnera.",
       "Ārpus projekta TextAid PRO licenci izglītības iestāde var iegādāties, sazinoties ar ražotāju ReadSpeaker."
+    ],
+    "acquisitionOptions": [
+      "maksas",
+      "projektaIetvaros"
     ],
     "image": "assets/images/catalog/pareizrakstibas-riki-ar-audio-atgriezenisko-sait.png",
     "imageAlt": "Pareizrakstības rīki ar audio atgriezenisko saiti vai bez tās — ražotāja ilustratīvs attēls",
@@ -1321,6 +1431,10 @@
       "Viens no izglītībai paredzētiem piemēriem ir Book Creator. Pedagogs bezmaksas plānā var izveidot vienu bibliotēku ar līdz 40 digitālām grāmatām un tai pievienot izglītojamos. Rīkā var apvienot tekstu, attēlus, zīmējumus, audio un video. Pieejami arī maksas plāni izglītības iestādēm. Book Creator licences nosacījumi",
       "Cits piemērs ir Canva Education, kas atbilstoši platformas noteikumiem ir bez maksas pieejama prasībām atbilstošiem pirmsskolas un skolu pedagogiem un viņu izglītojamajiem pēc pedagoga statusa pārbaudes."
     ],
+    "acquisitionOptions": [
+      "dalejiBezmaksas",
+      "maksas"
+    ],
     "image": "assets/images/catalog/programmatura-digitalo-stastu-veidosanai-digital.webp",
     "imageAlt": "Programmatūra digitālo stāstu veidošanai (Digital Storytelling) — ražotāja ilustratīvs attēls",
     "imageSource": "https://bookcreator.com/",
@@ -1353,6 +1467,9 @@
       "Latvijā specializēti rakstāmrīki ar papildu svaru nav plaši pieejami.",
       "Var pasūtīt no ārvalstu ergoterapijas un asistīvo palīglīdzekļu piegādātājiem.",
       "Alternatīva ir rakstāmrīkam pievienojama svara uzlika, kas ļauj pielāgot parastu zīmuli vai pildspalvu."
+    ],
+    "acquisitionOptions": [
+      "maksas"
     ],
     "image": "assets/images/catalog/smagie-zimuli-weighted-pencils.webp",
     "imageAlt": "Smagie zīmuļi (Weighted pencils) — reāls ierīces vai programmas attēls",
@@ -1387,6 +1504,9 @@
     "acquisition": [
       "Latvijā: TextAid — SIA \"Exceed\"",
       "Exceed: https://www.exceed.lv/"
+    ],
+    "acquisitionOptions": [
+      "maksas"
     ],
     "image": "assets/images/catalog/vardu-prognozesanas-programmatura.webp",
     "imageAlt": "Vārdu prognozēšanas programmatūra — ražotāja ilustratīvs attēls",
@@ -1424,6 +1544,9 @@
       "Neo Smartpen.",
       "Exceed.lv"
     ],
+    "acquisitionOptions": [
+      "maksas"
+    ],
     "image": "assets/images/catalog/viedpildspalvas-audiosinhronizacijai.jpg",
     "imageAlt": "Digitālās pildspalvas rakstītā teksta digitalizēšanai",
     "imageSource": "https://shop.neosmartpen.com/",
@@ -1459,6 +1582,9 @@
     "acquisition": [
       "Vizuālo dienas plānotāju var izgatavot izglītības iestādē, izmantojot piktogrammas, fotogrāfijas, uzrakstus, laminētas kartītes un līpošo aizdari."
     ],
+    "acquisitionOptions": [
+      "zemuIzmaksu"
+    ],
     "image": "assets/images/catalog/vizualie-dienas-planotaji.png",
     "imageAlt": "Vizuālie dienas plānotāji — reāls produkta vai risinājuma attēls",
     "imageSource": "",
@@ -1491,6 +1617,10 @@
       "Produkta vai informācijas saite:",
       "https://quizlet.com/"
     ],
+    "acquisitionOptions": [
+      "dalejiBezmaksas",
+      "maksas"
+    ],
     "image": "assets/images/catalog/digitalas-atminas-kartes-palidz-iegaumet-informa.webp",
     "imageAlt": "Digitālās atmiņas kartes (palīdz iegaumēt informāciju ar atkārtošanu un pašpārbaudi) — reāls ierīces vai programmas attēls",
     "imageSource": "https://quizlet.com/",
@@ -1521,6 +1651,9 @@
     ],
     "acquisition": [
       "Digitālās jēdzienu kartes var veidot, piemēram, tiešsaistes rīkos Canva.com un Coggle.it, mindmeister.com. Canva piedāvā jēdzienu karšu veidnes un digitālās tāfeles rīkus, savukārt Coggle un mindmeister ļauj veidot, kopīgot un kopīgi rediģēt kartes. Abiem rīkiem ir pieejamas bezmaksas pamatfunkcijas."
+    ],
+    "acquisitionOptions": [
+      "dalejiBezmaksas"
     ],
     "image": "assets/images/catalog/digitalas-jedzienu-kartes.webp",
     "imageAlt": "Digitālās jēdzienu kartes — ražotāja ilustratīvs attēls",
@@ -1554,6 +1687,9 @@
     ],
     "acquisition": [
       "Vienkāršus digitālos diktofonus var iegādāties elektronikas preču veikalos. Risinājums PLAUD Note un tā lietošanai nepieciešamie pakalpojumu plāni ir pieejami PLAUD oficiālajā tīmekļvietnē. Ražotājs piedāvā bezmaksas sākuma plānu ar ierobežotu transkripcijas apjomu un maksas plānus ar papildu iespējām."
+    ],
+    "acquisitionOptions": [
+      "maksas"
     ],
     "image": "assets/images/catalog/digitalie-diktofoni-atgadinajumiem.webp",
     "imageAlt": "Digitālie diktofoni atgādinājumiem — reāls produkta vai risinājuma attēls",
@@ -1593,6 +1729,10 @@
     "acquisition": [
       "Vizuālos taimerus un pielāgotus pulksteņus var iegādāties izglītības preču, kancelejas preču, elektronikas un asistīvo tehnoloģiju veikalos Vienkāršu vizuālo taimeri iespējams izgatavot arī izglītības iestādē, pielāgojot pulksteni ar krāsainām laika iedaļām vai noņemamiem vizuāliem apzīmējumiem."
     ],
+    "acquisitionOptions": [
+      "zemuIzmaksu",
+      "maksas"
+    ],
     "image": "assets/images/catalog/fiziskie-mehaniskie-vizualie-taimeri-pielagoti-p.webp",
     "imageAlt": "Fiziskie/mehāniskie vizuālie taimeri, pielāgoti pulksteņi — ražotāja ilustratīvs attēls",
     "imageSource": "https://www.timetimer.com/products/time-timer-8-magnet",
@@ -1626,6 +1766,9 @@
       "Kontrolsarakstu var izveidot izglītības iestādē, izmantojot papīru, laminētas kartītes, izvēles rūtiņas, fotogrāfijas vai piktogrammas. Digitālus kontrolsarakstus var veidot teksta apstrādes programmās, piezīmju lietotnēs un uzdevumu plānošanas rīkos.",
       "Papildu informācijā vizuālie piemēri no mājas lapas twinkl.co.uk"
     ],
+    "acquisitionOptions": [
+      "zemuIzmaksu"
+    ],
     "image": "assets/images/catalog/kontrolsaraksti.webp",
     "imageAlt": "Kontrolsaraksti — reāls ierīces vai programmas attēls",
     "imageSource": "https://www.developmentaltexts.com/post/taking-breaks-for-self-regulation",
@@ -1655,6 +1798,9 @@
     ],
     "acquisition": [
       "Krāsu kodēšanas sistēmu izglītības iestāde var izveidot pati, izmantojot krāsainas uzlīmes, mapes, marķierus, kartītes, līmlapiņas, rakstāmpiederumus un citus vizuālus apzīmējumus. Digitālā vidē krāsu kodēšanu var izmantot teksta apstrādes programmās, prezentācijās, digitālajās piezīmju kladēs un mācību platformās."
+    ],
+    "acquisitionOptions": [
+      "zemuIzmaksu"
     ],
     "image": "assets/images/catalog/krasu-kodesanas-sistemas.webp",
     "imageAlt": "Krāsu kodēšanas sistēmas — reāls produkta vai risinājuma attēls",
@@ -1688,6 +1834,9 @@
     "acquisition": [
       "Pagatavo skolā vai izmanto gatavu plānotāju; saturu veido īsu tekstu, simbolu vai attēlu veidā un paredz vietu paveiktā atzīmēšanai."
     ],
+    "acquisitionOptions": [
+      "zemuIzmaksu"
+    ],
     "image": "assets/images/catalog/papira-planotaji-vizualie-saraksti.webp",
     "imageAlt": "Papīra plānotāji, vizuālie saraksti — reāls ierīces vai programmas attēls",
     "imageSource": "https://theautismhelper.com/using-a-traveling-schedule/",
@@ -1716,6 +1865,9 @@
     ],
     "acquisition": [
       "Iegādājas specializētā vai mācību materiālu veikalā. Vienkāršu rīku var pagatavot skolā tikai no drošiem, izturīgiem materiāliem, iepriekš izvērtējot skolēna sensoro vajadzību un aizrīšanās risku."
+    ],
+    "acquisitionOptions": [
+      "zemuIzmaksu"
     ],
     "image": "assets/images/catalog/sensorie-un-stresa-mazinasanas-riki-fidgets.webp",
     "imageAlt": "Sensorie un stresa mazināšanas rīki (fidgets) — reāls produkta vai risinājuma attēls",
@@ -1746,6 +1898,9 @@
     "acquisition": [
       "Latvijā: Elektropreču un sadzīves tehnikas izplatītāji",
       "Ražotāji/izstrādātāji un citi piemēri: Puro Sound Labs (ASV) — SIA \"Exceed\" potenciāla sadarbība Exceed: https://www.exceed.lv/"
+    ],
+    "acquisitionOptions": [
+      "maksas"
     ],
     "image": "assets/images/catalog/troksnu-slapejosas-austinas.webp",
     "imageAlt": "Trokšņu slāpējošās austiņas — reāls ierīces vai programmas attēls",
@@ -1778,6 +1933,10 @@
       "Microsoft To Do – bezmaksas, vispārpieejama uzdevumu plānošanas lietotne, kas nav īpaši izstrādāta kā asistīvā tehnoloģija, bet to iespējams pielāgot izglītojamā individuālajām vajadzībām. Ļauj veidot uzdevumu sarakstus, sadalīt uzdevumus soļos, noteikt termiņus un atgādinājumus.",
       "Google Tasks – vispārpieejams uzdevumu plānošanas rīks, ko var izmantot uzdevumu un apakšuzdevumu strukturēšanai, termiņu noteikšanai un atgādinājumiem; integrēts Google vidē, tostarp Calendar un Gmail. Tas nav īpaši izstrādāts kā asistīvā tehnoloģija, tādēļ izmantošana jāpielāgo konkrētā izglītojamā vajadzībām."
     ],
+    "acquisitionOptions": [
+      "dalejiBezmaksas",
+      "maksas"
+    ],
     "image": "assets/images/catalog/uzdevumu-strukturesanas-lietotnes.png",
     "imageAlt": "Uzdevumu strukturēšanas lietotnes — ražotāja ilustratīvs attēls",
     "imageSource": "https://www.todoist.com/",
@@ -1806,6 +1965,10 @@
     ],
     "acquisition": [
       "Lietotne Forest ir pieejama mobilajām ierīcēm Google Play un Apple App Store, kā arī kā paplašinājums pārlūkprogrammai Google Chrome. Atkarībā no ierīces un lietotnes versijas atsevišķas funkcijas var būt par maksu."
+    ],
+    "acquisitionOptions": [
+      "dalejiBezmaksas",
+      "maksas"
     ],
     "image": "assets/images/catalog/uzmanibas-koncentresanas-lietotnes.webp",
     "imageAlt": "Uzmanības koncentrēšanas lietotnes — ražotāja ilustratīvs attēls",
@@ -1837,6 +2000,9 @@
     ],
     "acquisition": [
       "Skatīt: https://www.vtpc.lv/Pakalpojumi/ka-sanemt-tehnisko-paliglidzekli"
+    ],
+    "acquisitionOptions": [
+      "cits"
     ],
     "image": "assets/images/catalog/vaivari-tehnisko-paliglidzeklu.png",
     "imageAlt": "Vaivari tehnisko palīglīdzekļu centrs",
@@ -1879,6 +2045,9 @@
     "acquisition": [
       "Plašāka informācija: https://lnbiedriba.lv/lv/pakalpojumi/tehniskie-paliglidzekli/"
     ],
+    "acquisitionOptions": [
+      "cits"
+    ],
     "image": "assets/images/catalog/latvijas-neredzigo-biedriba.png",
     "imageAlt": "https://lnbiedriba.lv/lv/pakalpojumi/tehniskie-paliglidzekli/",
     "imageSource": "https://lnbiedriba.lv/lv/pakalpojumi/tehniskie-paliglidzekli/",
@@ -1915,6 +2084,9 @@
     "acquisition": [
       "Surdotehnikas piešķiršanas un saņemšanas kārtību nosaka:",
       "Ministru kabineta 20.04.2021. noteikumi Nr.250 „Kārtība, kādā Latvijas Neredzīgo biedrība un Latvijas Nedzirdīgo savienība sniedz sociālās rehabilitācijas pakalpojumus un nodrošina tehniskos palīglīdzekļus – tiflotehniku un surdotehniku”."
+    ],
+    "acquisitionOptions": [
+      "cits"
     ],
     "image": "assets/images/catalog/latvijas-nedzirdigo-savieniba.png",
     "imageAlt": "https://lnbiedriba.lv/lv/pakalpojumi/tehniskie-paliglidzekli/",
@@ -1958,6 +2130,10 @@
     "acquisition": [
       "https://exceed.lv/index.php/lv/produkti/komunikaciju-paliglidzekli/izglitibas-atbalsta-risinajumi/view/776:my-board-buddy-go-iar2"
     ],
+    "acquisitionOptions": [
+      "maksas",
+      "projektaIetvaros"
+    ],
     "image": "assets/images/catalog/my-board-buddy-go-iar2.png",
     "imageAlt": "my Board Buddy GO",
     "imageSource": "https://exceed.lv/index.php/lv/produkti/komunikaciju-paliglidzekli/izglitibas-atbalsta-risinajumi/view/776:my-board-buddy-go-iar2",
@@ -1993,6 +2169,10 @@
     ],
     "acquisition": [
       "https://exceed.lv/index.php/lv/produkti/komunikaciju-paliglidzekli/izglitibas-atbalsta-risinajumi/view/775:my-board-buddy-cam-iar3"
+    ],
+    "acquisitionOptions": [
+      "maksas",
+      "projektaIetvaros"
     ],
     "image": "assets/images/catalog/my-board-buddy-cam-iar3.png",
     "imageAlt": "my Board Buddy GO.",
@@ -2032,6 +2212,10 @@
     ],
     "acquisition": [
       "https://exceed.lv/index.php/lv/produkti/komunikaciju-paliglidzekli/izglitibas-atbalsta-risinajumi/view/774:my-board-buddy-iar1"
+    ],
+    "acquisitionOptions": [
+      "maksas",
+      "projektaIetvaros"
     ],
     "image": "assets/images/catalog/my-board-buddy-air-iar1.png",
     "imageAlt": "my Board Buddy AIR",
@@ -2075,6 +2259,9 @@
       "Tehniskā savietojamība",
       "Paredzēts lietošanai datorā pārlūkprogrammā Google Chrome. Tā kā Microsoft Edge izmanto to pašu Chromium tehnoloģiju, paplašinājumu iespējams instalēt un izmantot arī Microsoft Edge pārlūkprogrammā. Mobilajās ierīcēs pilnvērtīga paplašinājuma darbība netiek nodrošināta."
     ],
+    "acquisitionOptions": [
+      "bezmaksas"
+    ],
     "image": "assets/images/catalog/note-anywhere-digitalas-piezimes-timekllapas-bezmaksas.png",
     "imageAlt": "Tīmekļlapā pie mācību uzdevuma izvietotas krāsainas digitālās piezīmes ar atgādinājumiem.",
     "imageSource": "",
@@ -2112,6 +2299,9 @@
       "Pielāgotas šķēres var iegādāties specializētajos palīglīdzekļu, attīstošo materiālu un izglītības preču veikalos. Latvijā Easi-Grip paš šķēres un līdzīga veida griešanas palīglīdzekļi ir pieejami, piemēram, SIA Palīglīdzekļu Parks",
       "Pielāgotas šķēres pirms iegādes ieteicams praktiski izmēģināt, jo viens modelis nebūs piemērots visiem izglītojamajiem."
     ],
+    "acquisitionOptions": [
+      "maksas"
+    ],
     "image": "assets/images/catalog/pielagotas-skeres.png",
     "imageAlt": "Pašatverošās šķēres ar lokveida rokturi, divroku mācību šķēres un uz galda pamatnes nostiprinātas šķēres.",
     "imageSource": "",
@@ -2145,6 +2335,9 @@
     "acquisition": [
       "Alternatīvā teksta pievienošanas funkcija ir iebūvēta daudzās dokumentu, prezentāciju un tīmekļa satura veidošanas programmās. Microsoft 365 vidē tā ir pieejama, piemēram, Word, PowerPoint, Excel un Outlook. Atsevišķa programma nav jāiegādājas.",
       "Instrukcija pieejama: https://support.microsoft.com/en-us/accessibility/office-accessibility/add-alternative-text-to-a-shape-picture-chart-smartart-graphic-or-other-object"
+    ],
+    "acquisitionOptions": [
+      "bezmaksas"
     ],
     "image": "assets/images/catalog/alternativais-teksts-atteliem-un-citiem-vizualajiem-objektiem.png",
     "imageAlt": "Digitālā dokumentā attēlam tiek pievienots apraksts, kuru iespējams nolasīt ar ekrānlasītāju.",
@@ -2183,6 +2376,9 @@
     ],
     "acquisition": [
       "Tīrskata lasītājs ir iebūvēts pārlūkprogrammā Microsoft Edge, kā arī vairākās Microsoft 365 programmās, tostarp Word, OneNote, Outlook, Teams un Forms. Atsevišķa programma nav jālejupielādē."
+    ],
+    "acquisitionOptions": [
+      "bezmaksas"
     ],
     "image": "assets/images/catalog/microsoft-immersive-reader.png",
     "imageAlt": "Microsoft Tīrskata lasītājā atvērts mācību teksts ar izceltu lasāmo rindiņu un teksta lasīšanas balsī vadīklām.",
@@ -2253,6 +2449,9 @@
       "Neredzīgo biedrība un Latvijas Nedzirdīgo savienība sniedz sociālās rehabilitācijas",
       "pakalpojumus un nodrošina tehniskos palīglīdzekļus – tiflotehniku un surdotehniku”."
     ],
+    "acquisitionOptions": [
+      "cits"
+    ],
     "image": "assets/images/catalog/taktils-datora-displejs.png",
     "imageAlt": "taktils-datora-displejs",
     "imageSource": "https://lnbiedriba.lv/lv/paliglidzeklis/taktils-datora-displejs/",
@@ -2322,6 +2521,9 @@
       "Neredzīgo biedrība un Latvijas Nedzirdīgo savienība sniedz sociālās rehabilitācijas",
       "pakalpojumus un nodrošina tehniskos palīglīdzekļus – tiflotehniku un surdotehniku”."
     ],
+    "acquisitionOptions": [
+      "cits"
+    ],
     "image": "assets/images/catalog/rakstu-zimju-lasisanas-aparats.png",
     "imageAlt": "Rakstu zīmju lasīšanas aparāts",
     "imageSource": "https://lnbiedriba.lv/lv/paliglidzeklis/rakstu-zimju-lasisanas-aparats/",
@@ -2390,6 +2592,9 @@
       "Neredzīgo biedrība un Latvijas Nedzirdīgo savienība sniedz sociālās rehabilitācijas",
       "pakalpojumus un nodrošina tehniskos palīglīdzekļus – tiflotehniku un surdotehniku”."
     ],
+    "acquisitionOptions": [
+      "cits"
+    ],
     "image": "assets/images/catalog/skanas-ierakstisanas-un-atskanosanas-ierice-daisy.png",
     "imageAlt": "skanas-ierakstisanas-un-atskanosanas-ierice-daisy",
     "imageSource": "https://lnbiedriba.lv/lv/paliglidzeklis/skanas-ierakstisanas-un-atskanosanas-ierice-daisy/",
@@ -2456,6 +2661,9 @@
       "Neredzīgo biedrība un Latvijas Nedzirdīgo savienība sniedz sociālās rehabilitācijas",
       "pakalpojumus un nodrošina tehniskos palīglīdzekļus – tiflotehniku un surdotehniku”."
     ],
+    "acquisitionOptions": [
+      "cits"
+    ],
     "image": "assets/images/catalog/pildspalva-ar-runas-funkciju-teksta-nolasisanai-no-specialam-uzlimem.png",
     "imageAlt": "pildspalva-ar-runas-funkciju-teksta-nolasisanai-no-specialam-uzlimem",
     "imageSource": "https://lnbiedriba.lv/lv/paliglidzeklis/pildspalva-ar-runas-funkciju-teksta-nolasisanai-no-specialam-uzlimem/",
@@ -2517,6 +2725,9 @@
       "2021.gada 20.aprīļa Ministru kabineta noteikumos Nr.250 „Kārtība, kādā Latvijas",
       "Neredzīgo biedrība un Latvijas Nedzirdīgo savienība sniedz sociālās rehabilitācijas",
       "pakalpojumus un nodrošina tehniskos palīglīdzekļus – tiflotehniku un surdotehniku”."
+    ],
+    "acquisitionOptions": [
+      "cits"
     ],
     "image": "assets/images/catalog/krasu-noteicejs-ar-runas-funkciju.png",
     "imageAlt": "krasu-noteicejs-ar-runas-funkciju",
@@ -2586,6 +2797,9 @@
       "2021.gada 20.aprīļa Ministru kabineta noteikumos Nr.250 „Kārtība, kādā Latvijas",
       "Neredzīgo biedrība un Latvijas Nedzirdīgo savienība sniedz sociālās rehabilitācijas",
       "pakalpojumus un nodrošina tehniskos palīglīdzekļus – tiflotehniku un surdotehniku”."
+    ],
+    "acquisitionOptions": [
+      "cits"
     ],
     "image": "assets/images/catalog/elektroniski-palielinoss-paliglidzeklis.png",
     "imageAlt": "elektroniski-palielinoss-paliglidzeklis",
@@ -2664,6 +2878,9 @@
       "Neredzīgo biedrība un Latvijas Nedzirdīgo savienība sniedz sociālās rehabilitācijas",
       "pakalpojumus un nodrošina tehniskos palīglīdzekļus – tiflotehniku un surdotehniku”."
     ],
+    "acquisitionOptions": [
+      "cits"
+    ],
     "image": "assets/images/catalog/specializetas-datorprogrammas.png",
     "imageAlt": "Specializētas datorprogrammas",
     "imageSource": "https://lnbiedriba.lv/lv/paliglidzeklis/specializetas-datorprogrammas/",
@@ -2730,6 +2947,9 @@
       "Neredzīgo biedrība un Latvijas Nedzirdīgo savienība sniedz sociālās rehabilitācijas",
       "pakalpojumus un nodrošina tehniskos palīglīdzekļus – tiflotehniku un surdotehniku”."
     ],
+    "acquisitionOptions": [
+      "cits"
+    ],
     "image": "assets/images/catalog/datoru-displeji-ar-skanu.png",
     "imageAlt": "Datoru displeji ar skaņu",
     "imageSource": "https://lnbiedriba.lv/lv/paliglidzeklis/datoru-displeji-ar-skanu/",
@@ -2760,6 +2980,9 @@
       "Šo tehnisko palīglīdzekli iespējams saņemt par valsts budžeta līdzekļiem, piesakoties Vaivaru Tehnisko palīglīdzekļu centrā (VTPC) atbilstoši noteiktajai tehnisko palīglīdzekļu saņemšanas kārtībai.",
       "https://www.vtpc.lv/Pakalpojumi/ka-sanemt-tehnisko-paliglidzekli",
       "https://www.vtpc.lv/katalogs?page=0&cat[]=674"
+    ],
+    "acquisitionOptions": [
+      "cits"
     ],
     "image": "assets/images/catalog/runas-delis-ar-izveles-iespejam.webp",
     "imageAlt": "Runas dēlis ar izvēles iespējām",
@@ -2796,6 +3019,9 @@
       "Nodrošina valsts finansētu tehnisko palīglīdzekļu piešķiršanu un apriti personām ar funkcionēšanas ierobežojumiem, tostarp vajadzību izvērtēšanu, palīglīdzekļu izsniegšanu, pielāgošanu un lietošanas apmācību."
     ],
     "acquisition": "Skatīt: https://www.vtpc.lv/Pakalpojumi/ka-sanemt-tehnisko-paliglidzekli",
+    "acquisitionOptions": [
+      "cits"
+    ],
     "image": "assets/images/catalog/vaivaru-tehnisko-paliglidzeklu-centrs.png",
     "imageAlt": "Vaivaru Tehnisko palīglīdzekļu centrs",
     "imageSource": "",

@@ -4,7 +4,7 @@ function clone(value) {
 
 function same(left, right, field) {
   // Checkbox selections are sets; changing their display order is not an edit.
-  if (["areas", "needs"].includes(field) && Array.isArray(left) && Array.isArray(right)) {
+  if (["areas", "needs", "acquisitionOptions"].includes(field) && Array.isArray(left) && Array.isArray(right)) {
     return same([...new Set(left)].sort(), [...new Set(right)].sort());
   }
   if (left === right) return true;

@@ -8,7 +8,7 @@
     <title>Kataloga administrēšana | VIAA</title>
     <link rel="icon" href="../favicon.svg?v=3" type="image/svg+xml" />
     <link rel="stylesheet" href="./admin.css?v=17" />
-    <script type="module" src="./admin-v17.js?v=18"></script>
+    <script type="module" src="./admin-v17.js?v=19"></script>
   </head>
   <body>
     <header class="site-header">
@@ -41,7 +41,7 @@
           </div>
         </form>
         <p id="auth-status" class="status" role="status"></p>
-        <p class="help">Administratora paneļa versija 17</p>
+        <p class="help">Administratora paneļa versija 19</p>
       </section>
 
       <section id="admin-app" hidden>
@@ -108,6 +108,11 @@
 
                 <fieldset class="choice-group"><legend>Mācību atbalsta jomas *</legend><div id="field-areas" class="choices"></div></fieldset>
                 <fieldset class="choice-group"><legend>Vajadzības / filtri *</legend><div id="field-needs" class="choices"></div></fieldset>
+                <fieldset class="choice-group">
+                  <legend>Iegūšanas iespējas *</legend>
+                  <div id="field-acquisition-options" class="choices"></div>
+                  <p class="help">Atzīmē visas atbilstošās iespējas. Izvērsto informāciju norādi laukā “Kur to var iegūt?”.</p>
+                </fieldset>
 
                 <label>Kas tas ir? *<textarea id="field-what-is" name="whatIs" rows="5" required maxlength="4000"></textarea></label>
                 <label>Funkcijas * <span class="help">Viena funkcija katrā rindā.</span><textarea id="field-functions" name="functions" rows="6" required></textarea></label>

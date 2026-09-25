@@ -15,12 +15,13 @@ const fixture = (id, name) => ({
   id, name, short: "Sākotnējais īsais teksts", areas: ["lasisana"], needs: ["tts"],
   type: "programmatura", level: "augsts", latvian: "Pieejams latviešu valodā",
   whatIs: "Sākotnējais apraksts", functions: ["Funkcija"], acquisition: ["Informācija"],
+  acquisitionOptions: ["cits"],
   image: "assets/images/catalog/catalog-placeholder.svg", imageAlt: "Attēls",
   imageSource: "", imageRightsNote: "Tiesību piezīme", productPage: "", productLinkType: "resource",
 });
 const arasaac = fixture("arasaac", "ARASAAC");
 const other = fixture("cits", "Cits ieraksts");
-const hugo = fixture("hugo-gov-lv", "Hugo.gov.lv");
+const hugo = { ...fixture("hugo-gov-lv", "Hugo.gov.lv"), acquisition: "Informācija" };
 const oldDraft = { ...sync.createUpdateChange(arasaac, {
   ...arasaac, short: "Mans vecais ARASAAC teksts", areas: ["komunikacija"], whatIs: "Mans apraksts",
 }), baseCommitSha: "original" };
@@ -123,7 +124,8 @@ function harness({ backup = oldBackup(), initial = [latestArasaac, other] } = {}
     setTimeout: () => 1, clearTimeout() {},
     sessionStorage: { getItem: (key) => storage.get(key) ?? null, setItem: (key, value) => storage.set(key, value), removeItem: (key) => storage.delete(key) },
     document: { querySelectorAll: (selector) => selector === "[id]" ? Object.values(elements)
-      : [...elements["field-areas"].querySelectorAll("input[type=checkbox]"), ...elements["field-needs"].querySelectorAll("input[type=checkbox]")],
+      : [...elements["field-areas"].querySelectorAll("input[type=checkbox]"), ...elements["field-needs"].querySelectorAll("input[type=checkbox]"),
+        ...elements["field-acquisition-options"].querySelectorAll("input[type=checkbox]")],
       createElement: (tag) => new Element(tag), createTextNode: (textContent) => ({ textContent }) },
     window: { confirm: () => true, addEventListener() {} },
   });

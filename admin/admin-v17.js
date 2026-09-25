@@ -6,7 +6,7 @@ import {
   partitionCatalogChanges,
   resolveCatalogChange,
   withOneConflictRetry,
-} from "./catalog-sync.js?v=17";
+} from "./catalog-sync.js?v=19";
 
 const { clone, same } = catalogSyncInternals;
 const repository = { owner: "VIAA-atk", name: "AT-katalogs", branch: "main", catalogPath: "data/catalog.json" };
@@ -29,6 +29,10 @@ const options = {
     materials: "Mācību materiāls", piederums: "Pielāgots piederums",
     atFonds: "AT Fonds (Projekta numurs 4.2.1.2/1/25/I/001, sadarbības partneriem)",
     citsValstsAtbalsts: "Citu valsts atbalsta sistēmu resurss (VTPC, LNB, LNS)",
+  },
+  acquisitionOptions: {
+    bezmaksas: "Bezmaksas", dalejiBezmaksas: "Daļēji bezmaksas", zemuIzmaksu: "Zemu izmaksu",
+    maksas: "Maksas", projektaIetvaros: "Projekta ietvaros", cits: "Cits",
   },
 };
 
@@ -193,7 +197,7 @@ function setRemoteState(remote) {
   baseCommitSha = remote.headSha;
   catalogBlobSha = remote.catalogSha;
   if (connectedLogin) {
-    ui["connection-info"].textContent = `Savienots kā ${connectedLogin}; ${remote.resources.length} ieraksti; zars ${repository.branch}; datu SHA ${catalogBlobSha.slice(0, 7)}; paneļa versija 18.`;
+    ui["connection-info"].textContent = `Savienots kā ${connectedLogin}; ${remote.resources.length} ieraksti; zars ${repository.branch}; datu SHA ${catalogBlobSha.slice(0, 7)}; paneļa versija 19.`;
   }
 }
 
@@ -232,6 +236,7 @@ function fieldForInput(target) {
   if (inputFields[target.id]) return inputFields[target.id];
   if (target.closest?.("#field-areas")) return "areas";
   if (target.closest?.("#field-needs")) return "needs";
+  if (target.closest?.("#field-acquisition-options")) return "acquisitionOptions";
   return null;
 }
 
@@ -253,6 +258,7 @@ function resourceFromForm(original = currentResource(), image = original?.image 
     whatIs: ui["field-what-is"].value.trim(),
     functions: lines(ui["field-functions"].value),
     acquisition: ui["field-acquisition"].value.trim(),
+    acquisitionOptions: selectedValues(ui["field-acquisition-options"]),
     image,
     imageAlt: ui["field-image-alt"].value.trim(),
     imageSource: ui["field-image-source"].value.trim(),
@@ -385,6 +391,7 @@ function setFormValues(resource) {
   ui["field-functions"].value = (resource.functions ?? []).join("\n");
   const acquisition = resource.acquisition ?? "";
   ui["field-acquisition"].value = Array.isArray(acquisition) ? acquisition.join("\n") : acquisition;
+  setChoiceValues(ui["field-acquisition-options"], resource.acquisitionOptions ?? []);
   ui["field-product-page"].value = resource.productPage ?? "";
   ui["field-link-type"].value = resource.productLinkType ?? "resource";
   ui["field-image-alt"].value = resource.imageAlt ?? "";
@@ -437,7 +444,7 @@ function blankRecord() {
   ui["field-latvian"].value = "Informācija tiks papildināta";
   ui["field-image-rights"].value = "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.";
   ui["image-preview"].src = "../assets/images/catalog/catalog-placeholder.svg";
-  for (const input of document.querySelectorAll('#field-areas input, #field-needs input')) input.checked = false;
+  for (const input of document.querySelectorAll('#field-areas input, #field-needs input, #field-acquisition-options input')) input.checked = false;
   renderList();
   updateDraftState();
   renderConflicts();
@@ -578,6 +585,9 @@ function validateRecord(resource, originalId = null) {
   if (!resource.needs.length) throw new Error("Izvēlies vismaz vienu vajadzību/filtru.");
   if (!resource.functions.length) throw new Error("Funkciju sadaļā jābūt vismaz vienai rindai.");
   if (!resource.acquisition.length) throw new Error('Aizpildi sadaļu "Kur to var iegūt?".');
+  if (!resource.acquisitionOptions.length || resource.acquisitionOptions.some((value) => !Object.hasOwn(options.acquisitionOptions, value))) {
+    throw new Error("Izvēlies vismaz vienu derīgu iegūšanas iespēju.");
+  }
   if (resource.productPage && !resource.productPage.startsWith("https://")) throw new Error("Produkta saitei jāizmanto HTTPS.");
   if (resource.imageSource && !resource.imageSource.startsWith("https://")) throw new Error("Attēla avota saitei jāizmanto HTTPS.");
   if (resources.some((item) => item.id === resource.id && item.id !== originalId)) throw new Error("Šāds identifikators jau tiek izmantots.");
@@ -605,7 +615,8 @@ const fieldLabels = {
   name: "Nosaukums", short: "Īsais teksts kartītē", areas: "Mācību atbalsta jomas",
   needs: "Vajadzības / filtri", type: "Resursa veids", level: "Tehnoloģiju līmenis",
   latvian: "Latviešu valodas pieejamība", whatIs: "Kas tas ir?", functions: "Funkcijas",
-  acquisition: "Kur to var iegūt?", productPage: "Produkta vai informācijas saite",
+  acquisition: "Kur to var iegūt?", acquisitionOptions: "Iegūšanas iespējas",
+  productPage: "Produkta vai informācijas saite",
   productLinkType: "Saites veids", image: "Attēls", imageFile: "Attēla datne",
   imageAlt: "Alternatīvais teksts", imageSource: "Attēla avota saite",
   imageRightsNote: "Attēla izmantošanas tiesību piezīme", record: "Ieraksts",
@@ -1270,6 +1281,7 @@ function handleFormChange(event) {
 
 buildChoices(ui["field-areas"], options.areas);
 buildChoices(ui["field-needs"], options.needs);
+buildChoices(ui["field-acquisition-options"], options.acquisitionOptions);
 ui["auth-form"].addEventListener("submit", connect);
 ui.disconnect.addEventListener("click", disconnect);
 ui.publish.addEventListener("click", () => publish());

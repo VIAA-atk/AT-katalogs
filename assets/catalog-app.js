@@ -16,7 +16,8 @@ const labels = {
 
 const elements = {
   area: document.querySelector("#f-area"), need: document.querySelector("#f-need"), type: document.querySelector("#f-type"),
-  level: document.querySelector("#f-level"), query: document.querySelector("#f-query"), clear: document.querySelector("#clear-filters"),
+  level: document.querySelector("#f-level"), acquisitionOptions: document.querySelector("#f-acquisition-options"),
+  query: document.querySelector("#f-query"), clear: document.querySelector("#clear-filters"),
   count: document.querySelector("#result-count"), status: document.querySelector("#catalog-status"), grid: document.querySelector("#catalog-grid"),
   modal: document.querySelector("#resource-modal"), panel: document.querySelector("#resource-panel"),
 };
@@ -159,6 +160,7 @@ function render() {
     (elements.need.value === "all" || resource.needs.includes(elements.need.value)) &&
     (elements.type.value === "all" || resource.type === elements.type.value) &&
     (elements.level.value === "all" || resource.level === elements.level.value) &&
+    (elements.acquisitionOptions.value === "all" || resource.acquisitionOptions?.includes(elements.acquisitionOptions.value)) &&
     (!query || resource.name.toLocaleLowerCase("lv").includes(query) || resource.short.toLocaleLowerCase("lv").includes(query))
   );
   elements.count.textContent = `Atrasti ${filtered.length} no ${resources.length} risinājumiem`;
@@ -168,10 +170,10 @@ function render() {
   elements.status.textContent = "Pēc izvēlētajiem filtriem nekas netika atrasts. Mēģini notīrīt filtrus.";
 }
 
-for (const filter of [elements.area, elements.need, elements.type, elements.level]) filter.addEventListener("change", render);
+for (const filter of [elements.area, elements.need, elements.type, elements.level, elements.acquisitionOptions]) filter.addEventListener("change", render);
 elements.query.addEventListener("input", render);
 elements.clear.addEventListener("click", () => {
-  for (const filter of [elements.area, elements.need, elements.type, elements.level]) filter.value = "all";
+  for (const filter of [elements.area, elements.need, elements.type, elements.level, elements.acquisitionOptions]) filter.value = "all";
   elements.query.value = "";
   render();
 });
