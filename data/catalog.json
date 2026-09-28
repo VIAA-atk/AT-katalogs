@@ -581,20 +581,18 @@
     "type": "ierice",
     "level": "augsts",
     "latvian": "Daļēji pieejams latviešu valodā",
-    "whatIs": "IRISPen Reader 8 ir pārnēsājama skenēšanas pildspalva ar krāsu skārienekrānu. Virzot ierīci pāri drukāta teksta rindai, tā ieskenē tekstu un ar optiskās rakstzīmju atpazīšanas tehnoloģiju pārvērš to digitālā tekstā.\nAtbalstītajās valodās ierīce var atskaņot ieskenēto tekstu balsī un vienlaikus izcelt ekrānā pašlaik atskaņoto vārdu. Ierīci var izmantot patstāvīgi bez pastāvīga savienojuma ar datoru vai internetu.\nKā to var izmantot izglītībā?\nPirmsskolā ierīci var izmantot ar pedagoga palīdzību, galvenokārt darbā ar atsevišķiem drukātiem vārdiem un svešvalodu apguvē.\n1.–9. klasē to var izmantot, lai izglītojamais:\nieskenētu nepazīstamu vārdu, teikumu vai īsu teksta fragmentu;\nsekotu ieskenētajam tekstam ierīces ekrānā;\nnoklausītos tekstu kādā no piecām atbalstītajām valodām;\natkārtoti noklausītos atsevišķu vārdu vai teikumu;\nsaglabātu ieskenēto tekstu;\npārsūtītu tekstu uz datoru turpmākai apstrādei;\nierakstītu pedagoga skaidrojumu vai savu audio piezīmi;\nizmantotu ierīci svešvalodu apguvē.\nLatviešu valodas mācību materiāliem ierīci var izmantot teksta digitalizēšanai, bet atskaņošanai nepieciešams cits risinājums ar latviešu valodas runas sintēzi.",
+    "whatIs": "IRISPen Reader 8 ir pārnēsājama skenēšanas pildspalva, kas ieskenē drukātu tekstu un pārvērš to digitālā tekstā. Atbalstītajās valodās ierīce var tekstu nolasīt balsī un vienlaikus izcelt atskaņoto vārdu ekrānā.\n\nIerīce palīdz izglītojamajam strādāt ar drukātu tekstu, atkārtoti noklausīties vārdus vai teikumus un saglabāt ieskenēto tekstu. Tā darbojas arī bez pastāvīga interneta vai datora pieslēguma.",
     "functions": [
       "Drukāta teksta skenēšana un atpazīšana 48 valodās.",
-      "Teksta atskaņošana piecās valodās.",
-      "Pašlaik atskaņotā vārda izcelšana ekrānā.",
+      "Teksta priekšlasīšana piecās atbalstītajās valodās.",
+      "Atskaņotā vārda izcelšana ekrānā.",
       "Atskaņošana pa vārdam vai teikumam.",
       "Lasīšanas ātruma un paužu pielāgošana.",
       "Ieskenētā teksta saglabāšana un rediģēšana.",
-      "Teksta fotografēšana un atpazīšana.",
-      "Audioierakstu veidošana mācību stundā.",
-      "Iebūvēta atmiņa un vieta microSD atmiņas kartei.",
-      "Pielāgošana lietošanai ar labo vai kreiso roku.",
+      "Audioierakstu veidošana.",
       "Darbība bezsaistē.",
-      "Teksta failu pārsūtīšana uz datoru."
+      "Teksta failu pārsūtīšana uz datoru.",
+      "Svarīgi: latviešu valodas tekstu var digitalizēt, bet tā priekšlasīšanai nepieciešams cits risinājums ar latviešu valodas runas sintēzi."
     ],
     "acquisition": [
       "IRISPen Reader 8 var iegādāties ražotāja un citu tehnoloģiju tirgotāju internetveikalos."
@@ -604,9 +602,9 @@
     ],
     "image": "assets/images/catalog/viedpildspalvas-skenesanai.webp",
     "imageAlt": "Viedpildspalvas (skenēšanai) — reāls produkta vai risinājuma attēls",
-    "imageSource": "",
+    "imageSource": "https://www.irislink.com/EN-US/c2551/irispen-pen-scanner.aspx",
     "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
-    "productPage": "",
+    "productPage": "https://www.irislink.com/EN-US/c2551/irispen-pen-scanner.aspx",
     "productLinkType": "product"
   },
   {
@@ -2353,7 +2351,7 @@
   },
   {
     "id": "my-board-buddy-air-iar1",
-    "name": "my Board Buddy AIR (IAR1)",
+    "name": "my Board Buddy AIR",
     "short": "Augstā kvalitātē pārraida viedtāfeles attēlu uz monitoru, kas atrodas skolēna tuvumā.",
     "areas": [
       "komunikacija",
