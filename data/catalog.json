@@ -323,7 +323,7 @@
     "type": "piederums",
     "level": "zems",
     "latvian": "Informācija tiks papildināta",
-    "whatIs": "Kā to var izmantot izglītībā?\n\nPirmsskolā un 1.–9. klasē krāsu filtru var uzlikt uz darba lapas, mācību grāmatas, nošu lapas, kartes vai cita drukāta materiāla. Izglītojamajam var piedāvāt vairākas krāsas un novērot, vai kāda no tām palīdz ilgāk strādāt ar tekstu vai padara lasīšanu subjektīvi ērtāku.\n\nIzvēloties filtru, jāņem vērā paša izglītojamā vērtējums un pedagoga novērojumi. Ja filtrs nerada skaidri novērojamu ieguvumu, tā lietošana nav jāturpina.\n\nKrāsu filtrs neaizstāj mērķtiecīgu lasītprasmes mācīšanu, atbilstoši pielāgotu tekstu vai redzes speciālista izvērtējumu.",
+    "whatIs": "Kā to var izmantot izglītībā?\nPirmsskolā un 1.–9. klasē krāsu filtru var uzlikt uz darba lapas, mācību grāmatas, nošu lapas, kartes vai cita drukāta materiāla. Izglītojamajam var piedāvāt vairākas krāsas un novērot, vai kāda no tām palīdz ilgāk strādāt ar tekstu vai padara lasīšanu subjektīvi ērtāku.\nIzvēloties filtru, jāņem vērā paša izglītojamā vērtējums un pedagoga novērojumi. Ja filtrs nerada skaidri novērojamu ieguvumu, tā lietošana nav jāturpina.\nKrāsu filtrs neaizstāj mērķtiecīgu lasītprasmes mācīšanu, atbilstoši pielāgotu tekstu vai redzes speciālista izvērtējumu.",
     "functions": [
       "Maina drukāta materiāla fona krāsu.",
       "Samazina kontrastu starp baltu papīru un tumšu tekstu.",
