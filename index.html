@@ -8,7 +8,13 @@
     <title>Asistīvo tehnoloģiju katalogs | VIAA</title>
     <link rel="icon" href="./favicon.svg?v=3" type="image/svg+xml" />
     <link rel="stylesheet" href="./assets/styles-D7ugMcDj.css" />
-    <script type="module" src="./assets/catalog-app.js?v=7"></script>
+    <style>
+      @media (max-width: 639px) {
+        #catalog-filter-grid { grid-template-columns: minmax(0, 1fr) !important; }
+        #acquisition-filter-wrap { display: block !important; visibility: visible !important; opacity: 1 !important; }
+      }
+    </style>
+    <script type="module" src="./assets/catalog-app.js?v=8"></script>
   </head>
   <body>
     <div class="min-h-screen bg-background">
@@ -47,7 +53,7 @@
         </section>
 
         <section aria-label="Filtri" class="mt-8 rounded-md border border-border bg-card p-4">
-          <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <div id="catalog-filter-grid" class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             <div>
               <label for="f-area" class="mb-1 block text-sm font-medium text-foreground">Asistīvo tehnoloģiju atbalsta veids</label>
               <select id="f-area" class="min-h-11 w-full rounded-md border border-input bg-background px-3 text-sm text-foreground focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring">
@@ -76,7 +82,7 @@
                 <option value="augsts">Augsts līmenis</option><option value="videjs">Vidējs līmenis</option><option value="zems">Zems līmenis</option>
               </select>
             </div>
-            <div>
+            <div id="acquisition-filter-wrap">
               <label for="f-acquisition-options" class="mb-1 block text-sm font-medium text-foreground">Iegūšanas iespējas</label>
               <select id="f-acquisition-options" class="min-h-11 w-full rounded-md border border-input bg-background px-3 text-sm text-foreground focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring">
                 <option value="all">Visas iegūšanas iespējas</option>
