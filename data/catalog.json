@@ -2921,5 +2921,42 @@
     "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
     "productPage": "https://www.vtpc.lv/katalogs?page=0&cat[]=674",
     "productLinkType": "resource"
+  },
+  {
+    "id": "alternativas-komunikacijas-programmatura",
+    "name": "Alternatīvās komunikācijas programmatūra",
+    "short": "Programmatūra komunikācijas veidošanai.",
+    "areas": [
+      "rakstisana",
+      "komunikacija"
+    ],
+    "needs": [
+      "organizesanaAtbalsts",
+      "simboli",
+      "aac",
+      "ierices Vadiba"
+    ],
+    "type": "programmatura",
+    "level": "augsts",
+    "latvian": "Pieejams latviešu valodā (balss sintezators Oskars)",
+    "whatIs": "Piemērota personām ar runas, valodas vai komunikācijas traucējumiem. Programma sniedz iespēju paust vēlmes, vajadzības un komunicēt ar apkārtējiem. Izvēlētie simboli tiek atskaņoti no ierīces, ģenerējot runu. Sniedz iespēju pārvērst tekstu un/vai simbolu runātā valodā, kā arī izmantot lietotājam atbilstošāko programmatūras piekļuves veidu (pieskāriens, acu vadība, datorpele/poga).",
+    "functions": [
+      "Ziņojumu lodziņu skaita pielāgošana;",
+      "Individuālu izklājlapu izveide atbilstoši lietotāja vajadzībām un spējām;",
+      "Personīgo attēlu pievienošana;",
+      "Ievades iespējas izmantojot pieskārienu, pogas, datorpeli, skenēšanu vai acu skata vadāmību;",
+      "Programmatūra darbojas ierīcē, kurā ir instalēta Windows operētājsistēma;",
+      "Programmatūras saņemšanai un lietošanai nepieciešams personīgais dators."
+    ],
+    "acquisition": "Šo tehnisko palīglīdzekli iespējams saņemt par valsts budžeta līdzekļiem, piesakoties Vaivaru Tehnisko palīglīdzekļu centrā (VTPC) atbilstoši noteiktajai tehnisko palīglīdzekļu saņemšanas kārtībai.\nhttps://www.vtpc.lv/Pakalpojumi/ka-sanemt-tehnisko-paliglidzekli\nhttps://www.vtpc.lv/katalogs/programmatura-komunikacijai-0",
+    "acquisitionOptions": [
+      "cits"
+    ],
+    "image": "assets/images/catalog/alternativas-komunikacijas-programmatura.jpg",
+    "imageAlt": "Alternatīvās komunikācijas programmatūra",
+    "imageSource": "https://myhealth.alberta.ca/Health/Pages/conditions.aspx?hwid=custom.ab_aac_child_inst",
+    "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
+    "productPage": "https://www.vtpc.lv/katalogs?page=0&cat[]=674",
+    "productLinkType": "resource"
   }
 ]
