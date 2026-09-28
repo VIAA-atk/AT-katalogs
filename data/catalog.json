@@ -487,13 +487,14 @@
     "type": "atFonds",
     "level": "augsts",
     "latvian": "Pieejams latviešu valodā (balss sintezators Oskars)",
-    "whatIs": "Aisma ir viegls, pārvietojams skeneris un teksta priekšlasītājs no Brunomaster, kas drukātu tekstu pārveido audio formātā un vizualizē to mācību platformā BrunoMaster.\n\nKā to var izmantot izglītībā?\nIzglītībā to izmanto  skolēniem ar lasīšanas traucējumiem, redzes traucējumiem vai citām speciālajām vajadzībām, kuriem nepieciešams teksta priekšlasītājs.",
+    "whatIs": "AISMA ir viegla un pārvietojama ierīce drukāta teksta skenēšanai un priekšlasīšanai. Tā ieskenē grāmatas, darba lapas un citus drukātus materiālus, atpazīst tekstu un nolasa to balsī.\nAtpazīto tekstu iespējams arī attēlot digitālā formā, izmantojot BrunoMaster programmu. Ierīce ir piemērota izglītojamajiem, kuriem redzes traucējumu, lasīšanas grūtību vai citu funkcionēšanas ierobežojumu dēļ ir apgrūtināta drukāta teksta lasīšana.",
     "functions": [
-      "rakstīta teksta nolasīšana balsī",
-      "mācību satura uztveršana klausoties",
-      "uzrakstītā teksta pārbaude ar audio atgriezenisko saiti",
-      "drukāta teksta digitalizēšana",
-      "atpazītā teksta sagatavošana lasīšanai vai rediģēšanai"
+      "Grāmatu, darba lapu un citu drukātu materiālu skenēšana.",
+      "Drukāta teksta automātiska atpazīšana.",
+      "Atpazītā teksta priekšlasīšana balsī.",
+      "Teksta attēlošana digitālā formā.",
+      "Atpazītā teksta sagatavošana turpmākai lasīšanai vai rediģēšanai.",
+      "Uzrakstītā teksta pārbaude, izmantojot priekšlasīšanu."
     ],
     "acquisition": [
       "Aisma — SIA \"Brunomaster\" Brunomaster: https://brunomaster.com/",
