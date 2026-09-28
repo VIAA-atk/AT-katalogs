@@ -2936,7 +2936,7 @@
       "aac",
       "ierices Vadiba"
     ],
-    "type": "programmatura",
+    "type": "citsValstsAtbalsts",
     "level": "augsts",
     "latvian": "Pieejams latviešu valodā (balss sintezators Oskars)",
     "whatIs": "Piemērota personām ar runas, valodas vai komunikācijas traucējumiem. Programma sniedz iespēju paust vēlmes, vajadzības un komunicēt ar apkārtējiem. Izvēlētie simboli tiek atskaņoti no ierīces, ģenerējot runu. Sniedz iespēju pārvērst tekstu un/vai simbolu runātā valodā, kā arī izmantot lietotājam atbilstošāko programmatūras piekļuves veidu (pieskāriens, acu vadība, datorpele/poga).",
