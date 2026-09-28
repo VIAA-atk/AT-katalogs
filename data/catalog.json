@@ -2124,13 +2124,12 @@
     "type": "atFonds",
     "level": "augsts",
     "latvian": "Informācija tiks papildināta",
-    "whatIs": "Kamera ir viegli piestiprināma pie skolēna galda un ar motorizēto objektīvu uztver katru detaļu klasē, kā arī krīta vai baltās tāfeles saturu ar izcilu asumu.\n\nLai nodrošinātu viedtāfeles pieejamību, ieteicams izmantot my Board Buddy AIR vai my Board Buddy GO. Abas ierīces iespējams arī ērti kombinēt.\n\nTālvadības kamera my Board Buddy CAM var tikt kombinēta arī ar dokumentu kameru. Tas palīdz skolēniem ar redzes traucējumiem palielināt dokumentus un objektus no attāluma.\n\nmy Board Buddy ir izstrādāts tieši jaunākiem skolēniem. Tas ir tik vienkārši lietojams, ka to var izmantot bērni jau no 5 gadu vecuma.",
+    "whatIs": "Kamera ir viegli piestiprināma pie skolēna galda un ar motorizēto objektīvu uztver katru detaļu klasē, kā arī krīta vai baltās tāfeles saturu ar izcilu asumu.\nLai nodrošinātu viedtāfeles pieejamību, ieteicams izmantot my Board Buddy AIR vai my Board Buddy GO. Abas ierīces iespējams arī ērti kombinēt.\nTālvadības kamera my Board Buddy CAM var tikt kombinēta arī ar dokumentu kameru. Tas palīdz skolēniem ar redzes traucējumiem palielināt dokumentus un objektus no attāluma.\nMy Board Buddy ir izstrādāts tieši jaunākiem skolēniem. Tas ir tik vienkārši lietojams, ka to var izmantot bērni jau no 5 gadu vecuma.",
     "functions": [
-      "Kamera tiek uzstādīta uz skolēna galda un tiek vadīta ar vienkāršām vadības pogām.",
-      "Skolēni var:",
-      "Palielināt attēlu, lai skaidrāk saskatītu detaļas",
-      "Pielāgot kontrastu un krāsas atbilstoši savām individuālajām redzes vajadzībām",
-      "Saglabāt iecienītās kameras pozīcijas, lai ātri pārslēgtos, piemēram, starp skolotāju un tāfeli"
+      "Kamera tiek uzstādīta uz skolēna galda un tiek vadīta ar vienkāršām vadības pogām;",
+      "Skolēni var palielināt attēlu, lai skaidrāk saskatītu detaļas;",
+      "Pielāgot kontrastu un krāsas atbilstoši savām individuālajām redzes vajadzībām;",
+      "Saglabāt iecienītās kameras pozīcijas, lai ātri pārslēgtos, piemēram, starp skolotāju un tāfeli."
     ],
     "acquisition": [
       "https://exceed.lv/index.php/lv/produkti/komunikaciju-paliglidzekli/izglitibas-atbalsta-risinajumi/view/775:my-board-buddy-cam-iar3"
