@@ -2757,11 +2757,11 @@
     "type": "citsValstsAtbalsts",
     "level": "videjs",
     "latvian": "Informācija tiks papildināta",
-    "whatIs": "Ierīce, kas ar runas funkciju latviešu valodā nosaka un paziņo priekšmeta krāsu. Tā atpazīst līdz 150 krāsu toņiem un spēj noteikt, vai telpā ir ieslēgta gaisma.\n\nIzmantošana izglītībā:\n\nKrāsu atpazīšana vizuālās mākslas un dizaina uzdevumos.\n\nKrāsainu mācību materiālu, priekšmetu un piederumu izvēle un šķirošana.\n\nDiagrammās, modeļos un citos mācību materiālos izmantoto krāsu noteikšana.\n\nPatstāvības veicināšana, izvēloties apģērbu un personīgās mantas.",
+    "whatIs": "Krāsu noteicējs ir ierīce, kas nosaka priekšmeta krāsu un paziņo to balsī latviešu valodā. Tā atpazīst līdz 150 krāsu toņiem un var noteikt gaismas esamību telpā.\nIerīce palīdz izglītojamajiem ar redzes traucējumiem atpazīt krāsas mācību materiālos, priekšmetos un ikdienas vidē.",
     "functions": [
       "Priekšmetu krāsu noteikšana.",
       "Krāsas paziņošana latviešu valodā.",
-      "Dažādu krāsu toņu atpazīšana.",
+      "Līdz 150 krāsu toņu atpazīšana.",
       "Gaismas esamības noteikšana telpā."
     ],
     "acquisition": "Tiflotehnika ir tehniskie palīglīdzekļi cilvēkiem ar redzes traucējumiem, kas palīdz ikdienā pārvietoties, iegūt informāciju un darboties patstāvīgi.\nInformāciju par pieejamajiem palīglīdzekļiem, saņemšanas nosacījumiem un nepieciešamajiem dokumentiem skatiet: https://lnbiedriba.lv/lv/pakalpojumi/tehniskie-paliglidzekli/",
