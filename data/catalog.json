@@ -400,11 +400,11 @@
     "latvian": "Pieejams latviešu valodā",
     "whatIs": "Programmatūra teksta, darba lapu un saziņas materiālu veidošanai ar piktogrammām vai citiem simboliem.",
     "functions": [
-      "informācijas attēlošana ar simboliem vai vizuālām norādēm",
-      "uzdevumu, izvēļu un darbību secības skaidrošana",
-      "vizuāli saprotama mācību satura veidošana",
-      "vajadzību, atbilžu un izvēļu izteikšana alternatīvā veidā",
-      "saziņa ar simboliem, attēliem, tekstu vai balsi"
+      "Informācijas attēlošana ar simboliem vai vizuālām norādēm.",
+      "Uzdevumu, izvēļu un darbību secības skaidrošana.",
+      "Vizuāli saprotama mācību satura veidošana.",
+      "Vajadzību, atbilžu un izvēļu izteikšana alternatīvā veidā.",
+      "Saziņa ar simboliem, attēliem, tekstu"
     ],
     "acquisition": [
       "SymWriter 2 ir maksas programmatūra. Widgit oficiālajā Latvijas atbalsta lapā kā Latvijas izplatītājs norādīts Piktogrammas; pieejama arī 21 dienas bezmaksas izmēģinājuma versija.",
