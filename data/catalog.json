@@ -179,15 +179,13 @@
     "type": "programmatura",
     "level": "augsts",
     "latvian": "Pieejams latviešu valodā",
-    "whatIs": "Hugo.gov.lv ir Latvijas valsts pārvaldes valodas tehnoloģiju platforma, kurā bez maksas pieejami vairāki digitāli valodas rīki. Platformā var tulkot tekstu, dokumentus un tīmekļvietnes, pārvērst tekstu runā un runu tekstā, kā arī izmantot vienkāršās valodas un citus ar latviešu valodu saistītus rīkus.\nKā to var izmantot izglītībā?\nPirmsskolā platformu galvenokārt var izmantot pedagogs, lai sagatavotu bērnam un viņa ģimenei saprotamāku informāciju, tulkotu īsus tekstus vai atskaņotu tekstu balsī.\n1.–9. klasē izglītojamais ar pedagoga atbalstu platformu var izmantot, lai:\nnoklausītos rakstītu tekstu;\ndiktētu tekstu, ja rakstīšana ar roku vai tastatūru sagādā grūtības;\ntulkotu vārdus, norādes un mācību tekstus;\niegūtu vienkāršāk formulētu teksta versiju;\npārbaudītu un pilnveidotu rakstītu tekstu;\nsalīdzinātu informāciju dažādās valodās;\napgūtu jaunus vārdus un mācību jomu terminus.\nRīkus var izmantot individuālā darbā, pedagoga vadītā mācību darbībā un mācību materiālu pielāgošanai.",
+    "whatIs": "Personīgās klausīšanās sistēma, kas pārraida skaņu no televizora, viedtālruņa vai planšetdatora uz lietotāja klausīšanās ierīci. Tā palīdz cilvēkiem ar dzirdes grūtībām skaidrāk uztvert runu, mācību video un citu audiovizuālu saturu.",
     "functions": [
-      "Teksta, dokumentu un tīmekļvietņu automātiska tulkošana.",
-      "Rakstīta teksta atskaņošana balsī.",
-      "Runas pārvēršana rakstītā tekstā.",
-      "Teksta pārveidošana vienkāršāk uztveramā valodā.",
-      "Atbalsts latviešu valodas vārdu un terminu lietošanā.",
-      "Digitāla teksta kopēšana un izmantošana citos mācību materiālos.",
-      "Automātiski izveidots tulkojums,vienkāršots teksts vai runas atšifrējums var saturēt neprecizitātes, tāpēc rezultāts pirms izmantošanas ir jāpārbauda."
+      "Skaņas pastiprināšana un runas uztveres uzlabošana.",
+      "Skaņas pārraidīšana no televizora, viedtālruņa vai planšetdatora.",
+      "Mācību video un cita audiovizuāla satura klausīšanās.",
+      "Bezvadu skaņas pārraide.",
+      "Klausīšanās skaļuma pielāgošana lietotāja vajadzībām."
     ],
     "acquisition": [
       "Platforma ir bez maksas pieejama tīmekļvietnē Hugo.gov.lv. To var izmantot tīmekļa pārlūkprogrammā bez programmatūras instalēšanas"
