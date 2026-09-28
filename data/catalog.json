@@ -2162,15 +2162,16 @@
     "type": "atFonds",
     "level": "videjs",
     "latvian": "Informācija tiks papildināta",
-    "whatIs": "Nepieciešams īpašs risinājums tieši digitālajai tāfelei.\nmy Board Buddy AIR ir šis risinājums.\nTas augstā kvalitātē pārraida viedtāfeles attēlu uz monitoru, kas atrodas skolēna tuvumā. Skolēns pats var pielāgot palielinājumu un krāsu kontrastu, izmantojot tālvadības pulti ar kursorsviru, neietekmējot sākotnējo viedtāfeles attēlu.\nViss ekrāna saturs tiek attēlots ar minimālu aizkavi: teksts, attēli, video un tiešraides piezīmes.",
+    "whatIs": "Ierīce nodrošina interaktīvās tāfeles (viedtāfeles) ekrāna satura bezvadu pārraidi uz skolēna darba vietas tuvumā novietotu monitoru. Skolēnam tiek nodrošināta iespēja individuāli pielāgot saņemtā attēla palielinājumu un krāsu kontrastu, izmantojot tālvadības pulti ar kursorsviru, vienlaikus nemainot interaktīvās tāfeles sākotnējo attēlu un tā attēlojumu pārējiem lietotājiem.\nUz skolēna monitoru tiek pārraidīts viss interaktīvās tāfeles ekrānā redzamais saturs, tostarp teksts, attēli, video materiāli un reāllaikā veiktās piezīmes. Attēla pārraide tiek nodrošināta ar minimālu aizkavi, saglabājot iespēju skolēnam sekot līdzi mācību saturam reāllaikā.",
     "functions": [
-      "Šī vienkāršā, bet ģeniālā ierīce nodrošina vibrācijām brīvu, maksimāli palielināmu viedtāfeles vai jebkuras citas projekcijas attēla kopiju, saglabājot oriģinālo attēla kvalitāti un ļaujot pielāgot krāsas.",
-      "Tā ir ideāli piemērota gan kā papildinājums esošajām skolas sistēmām ar kameru, gan kā patstāvīga ierīce kopā ar monitoru.",
-      "my Board Buddy raidītājs tiek novietots starp attēla avotu (piemēram, klēpjdatoru) un viedtāfeli vai projektoru (beamer), izmantojot HDMI kabeli.",
-      "Attēls bezvadu režīmā tiek pārraidīts uz uztvērēju, kas savienots ar monitoru un kursorsviru ar vienkāršām, krāsainām pogām.",
-      "Lietotājs pats var izvēlēties sev piemērotāko skatījumu, padarot šo ierīci par efektīvāko risinājumu labākai viedtāfeles redzamībai.",
-      "Skolēni ir vairāk iesaistīti mācību procesā un var aktīvi piedalīties uzdevumu izpildē.",
-      "my Board Buddy palīdz viņiem strādāt patstāvīgi."
+      "Viedtāfeles, datora vai cita attēla avota satura pārraidīšana uz skolēna monitoru.",
+      "Attēla bezvadu pārraide ar minimālu aizkavi.",
+      "Teksta, attēlu, video un reāllaika piezīmju attēlošana.",
+      "Individuāla attēla palielināšana.",
+      "Krāsu un kontrasta pielāgošana atbilstoši skolēna redzes vajadzībām.",
+      "Attēla vadība ar kursorsviru un vienkāršām vadības pogām.",
+      "Individuālo attēla iestatījumu izmantošana, neietekmējot uz viedtāfeles vai projektora redzamo saturu.",
+      "Iespēja sekot līdzi klasē demonstrētajam mācību saturam no savas darba vietas."
     ],
     "acquisition": [
       "https://exceed.lv/index.php/lv/produkti/komunikaciju-paliglidzekli/izglitibas-atbalsta-risinajumi/view/774:my-board-buddy-iar1"
