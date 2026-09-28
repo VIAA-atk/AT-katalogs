@@ -277,25 +277,7 @@
       "Vietējo un mākoņkrātuves rezerves kopiju izveide.",
       "Komunikācijas grāmatu izveide ar vairāk nekā 2500 attēliem"
     ],
-    "acquisition": [
-      "PECSTalk™ ir maksas lietotne, kas Latvijā lejupielādējama no Google Play Android ierīcēm. Tā ir pieejama arī Apple App Store iPhone un iPad ierīcēm.",
-      "Pieejama arī PECSTalk™ Lite versija ar ierobežotām funkcijām un septiņu dienu bezmaksas izmēģinājuma periodu. Pilnās versijas cena var atšķirties atkarībā no platformas un valsts, tāpēc tā jāpārbauda attiecīgajā lietotņu veikalā.",
-      "Tehniskā savietojamība",
-      "Android planšetdatori un viedtālruņi",
-      "Apple iPad un iPhone",
-      "Skārienvadība",
-      "Mākoņkrātuve vai ierīces atmiņa rezerves kopiju veidošanai",
-      "Pirms iegādes jāpārbauda konkrētās ierīces operētājsistēmas versija un lietotnes pieejamība Latvijas lietotņu veikalā.",
-      "Kas nepieciešams izglītības iestādei?",
-      "Saderīgs planšetdators vai viedtālrunis",
-      "Google Play vai Apple App Store konts",
-      "Finansējums lietotnes iegādei",
-      "Interneta pieslēgums lietotnes lejupielādei, atjaunināšanai un mākoņfunkcijām",
-      "Ierīces skaļrunis vai ārējais skaļrunis",
-      "Individuāli izveidots izglītojamā vārdu krājums",
-      "Pedagogs vai atbalsta speciālists lietotnes iestatīšanai un lietošanas mācīšanai",
-      "Aizsargapvalks un, ja nepieciešams, ierīces pārnēsāšanas risinājums"
-    ],
+    "acquisition": "PECSTalk™ ir maksas lietotne, kas Latvijā lejupielādējama no Google Play Android ierīcēm. Tā ir pieejama arī Apple App Store iPhone un iPad ierīcēm.\nPieejama arī PECSTalk™ Lite versija ar ierobežotām funkcijām un septiņu dienu bezmaksas izmēģinājuma periodu. Pilnās versijas cena var atšķirties atkarībā no platformas un valsts, tāpēc tā jāpārbauda attiecīgajā lietotņu veikalā.",
     "acquisitionOptions": [
       "maksas"
     ],
