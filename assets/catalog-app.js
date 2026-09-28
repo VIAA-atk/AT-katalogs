@@ -14,6 +14,29 @@ const labels = {
   links: { product: "Ražotāja informācija", category: "Skatīt risinājumu kategoriju", resource: "Papildu informācija", reference: "Papildu informācija" },
 };
 
+function ensureAcquisitionFilter() {
+  if (document.querySelector("#f-acquisition-options")) return;
+  const grid = document.querySelector("#catalog-filter-grid") ?? document.querySelector('section[aria-label="Filtri"] > .grid');
+  if (!grid) return;
+
+  const wrapper = document.createElement("div");
+  wrapper.id = "acquisition-filter-wrap";
+  wrapper.innerHTML = `
+    <label for="f-acquisition-options" class="mb-1 block text-sm font-medium text-foreground">Iegūšanas iespējas</label>
+    <select id="f-acquisition-options" class="min-h-11 w-full rounded-md border border-input bg-background px-3 text-sm text-foreground focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring">
+      <option value="all">Visas iegūšanas iespējas</option>
+      <option value="bezmaksas">Bezmaksas</option>
+      <option value="dalejiBezmaksas">Daļēji bezmaksas</option>
+      <option value="zemuIzmaksu">Zemu izmaksu</option>
+      <option value="maksas">Maksas</option>
+      <option value="projektaIetvaros">Projekta ietvaros</option>
+      <option value="cits">Cits</option>
+    </select>`;
+  grid.append(wrapper);
+}
+
+ensureAcquisitionFilter();
+
 const elements = {
   area: document.querySelector("#f-area"), need: document.querySelector("#f-need"), type: document.querySelector("#f-type"),
   level: document.querySelector("#f-level"), acquisitionOptions: document.querySelector("#f-acquisition-options"),
