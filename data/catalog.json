@@ -2107,7 +2107,7 @@
   {
     "id": "my-board-buddy-cam-iar3",
     "name": "my Board Buddy CAM(IAR3)",
-    "short": "my Board Buddy CAM ir inovatīva 350° kamera, kas īpaši izstrādāta, lai sniegtu optimālu atbalstu skolēniem ar redzes traucējumiem mācību stundās.",
+    "short": "my Board Buddy CAM ir pie skolēna galda piestiprināma tālvadības kamera, kas ļauj skolēnam savā monitorā pietuvināti apskatīt klasē esošus objektus un tāfeles saturu.",
     "areas": [
       "komunikacija",
       "organizesana",
@@ -2122,12 +2122,14 @@
     "type": "atFonds",
     "level": "augsts",
     "latvian": "Informācija tiks papildināta",
-    "whatIs": "Kamera ir viegli piestiprināma pie skolēna galda un ar motorizēto objektīvu uztver katru detaļu klasē, kā arī krīta vai baltās tāfeles saturu ar izcilu asumu.\nLai nodrošinātu viedtāfeles pieejamību, ieteicams izmantot my Board Buddy AIR vai my Board Buddy GO. Abas ierīces iespējams arī ērti kombinēt.\nTālvadības kamera my Board Buddy CAM var tikt kombinēta arī ar dokumentu kameru. Tas palīdz skolēniem ar redzes traucējumiem palielināt dokumentus un objektus no attāluma.\nMy Board Buddy ir izstrādāts tieši jaunākiem skolēniem. Tas ir tik vienkārši lietojams, ka to var izmantot bērni jau no 5 gadu vecuma.",
+    "whatIs": "Kameras motorizētais objektīvs ļauj attālināti mainīt skata virzienu un pietuvinājumu, lai skolēns no savas darba vietas varētu labāk saskatīt uz tāfeles rakstīto un citu mācību procesā demonstrēto informāciju.\nKameru iespējams izmantot kopā ar my Board Buddy AIR vai my Board Buddy GO, kā arī kombinēt ar dokumentu kameru, nodrošinot iespēju apskatīt un palielināt gan attālumā esošu mācību saturu, gan dokumentus un objektus skolēna tuvumā.\nIerīce ir veidota ar vienkāršu vadību, lai to patstāvīgi varētu izmantot arī jaunāka vecuma skolēni.",
     "functions": [
-      "Kamera tiek uzstādīta uz skolēna galda un tiek vadīta ar vienkāršām vadības pogām;",
-      "Skolēni var palielināt attēlu, lai skaidrāk saskatītu detaļas;",
-      "Pielāgot kontrastu un krāsas atbilstoši savām individuālajām redzes vajadzībām;",
-      "Saglabāt iecienītās kameras pozīcijas, lai ātri pārslēgtos, piemēram, starp skolotāju un tāfeli."
+      "Kameras vadība ar vienkāršām vadības pogām no skolēna darba vietas.",
+      "Attēla palielināšana, lai skaidrāk saskatītu tāfeles saturu, objektus un citas detaļas.",
+      "Kontrasta un krāsu pielāgošana atbilstoši individuālajām redzes vajadzībām.",
+      "Biežāk izmantoto kameras pozīciju saglabāšana un ātra pārslēgšanās starp tām, piemēram, starp skolotāju un tāfeli.",
+      "Attālumā esoša mācību satura apskate no skolēna darba vietas.",
+      "Iespēja kombinēt ar dokumentu kameru tuvumā esošu dokumentu un objektu apskatei."
     ],
     "acquisition": [
       "https://exceed.lv/index.php/lv/produkti/komunikaciju-paliglidzekli/izglitibas-atbalsta-risinajumi/view/775:my-board-buddy-cam-iar3"
