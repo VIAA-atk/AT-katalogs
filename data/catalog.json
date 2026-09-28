@@ -731,7 +731,7 @@
     "needs": [
       "organizesanaAtbalsts"
     ],
-    "type": "programmatura",
+    "type": "materials",
     "level": "zems",
     "latvian": "Informācija tiks papildināta",
     "whatIs": "Papīrs ar palielinātu vai sataustāmu režģi, kas palīdz precīzi izvietot skaitļus un darbības.",
@@ -996,7 +996,7 @@
   },
   {
     "id": "viedbrilles-ar-ai-vides-atpazisanu",
-    "name": "Viedbrilles ar AI vides atpazīšanu",
+    "name": "Viedbrilles ar MI vides atpazīšanu",
     "short": "Valkājama ierīce ar kameru un mākslīgā intelekta funkcijām, kas balsī apraksta tekstu, objektus vai apkārtni.",
     "areas": [
       "vide"
@@ -1004,9 +1004,9 @@
     "needs": [
       "ocr"
     ],
-    "type": "programmatura",
+    "type": "ierice",
     "level": "augsts",
-    "latvian": "Nav informācija",
+    "latvian": "Nav informācijas",
     "whatIs": "Valkājama ierīce ar kameru un mākslīgā intelekta funkcijām, kas balsī apraksta tekstu, objektus vai apkārtni.",
     "functions": [
       "drukāta teksta digitalizēšana",
@@ -1325,7 +1325,7 @@
     "needs": [
       "organizesanaAtbalsts"
     ],
-    "type": "programmatura",
+    "type": "atFonds",
     "level": "augsts",
     "latvian": "Pieejams latviešu valodā",
     "whatIs": "Latvijā izstrādāts MI rīks, kas pedagoga runu reāllaikā pārvērš tekstā, tulko un pēc mācību stundas sagatavo kopsavilkumu un kontroljautājumus.",
@@ -1339,6 +1339,7 @@
       "Rīks var arī tulkot pedagoga teikto citā valodā un pēc mācību stundas sagatavot stundas kopsavilkumu un kontroljautājumus. Tas paredzēts mācību satura pieejamības uzlabošanai, nevis pedagoga aizstāšanai."
     ],
     "acquisitionOptions": [
+      "projektaIetvaros",
       "cits"
     ],
     "image": "assets/images/catalog/mi-macibstundu-asistents.webp",
