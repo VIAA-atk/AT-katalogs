@@ -2754,5 +2754,36 @@
     "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
     "productPage": "https://www.vtpc.lv/katalogs?page=0&cat[]=674",
     "productLinkType": "resource"
+  },
+  {
+    "id": "surdotulka-pakalpojumi-berniem-ar-dzirdes-traucejumiem",
+    "name": "Surdotulka pakalpojumi bērniem ar dzirdes traucējumiem",
+    "short": "Surdotulka pakalpojumi bērnam ar dzirdes traucējumiem izglītības programmas apguvei un saskarsmes nodrošināšanai.",
+    "areas": [
+      "vide"
+    ],
+    "needs": [
+      "aac"
+    ],
+    "type": "citsValstsAtbalsts",
+    "level": "zems",
+    "latvian": "Informācija tiks papildināta",
+    "whatIs": "Bērniem ar dzirdes traucējumiem, kuriem tos nevar kompensēt ar tehniskajiem palīglīdzekļiem, ir pieejams surdotulka pakalpojums izglītības programmu apguvei un saziņas nodrošināšanai.\n\nAtbalsts pieejams mācību procesā un ikdienas saziņā. \nPakalpojumu organizē Latvijas Nedzirdīgo savienība (LNS).",
+    "functions": [
+      "Pakalpojums pienākas – bērnam ar dzirdes",
+      "traucējumiem, kuram tos nevar kompensēt ar",
+      "tehniskajiem palīglīdzekļiem"
+    ],
+    "acquisition": "Lai pieprasītu pakalpojumu bērna vecāki vai likumiskie pārstāvji\nvēršas Latvijas Nedzirdīgo savienībā (LNS) un iesniedz\nIesniegumu\nĀrstējošā ārsta izziņu, kas apliecina, ka bērnam ir dzirdes traucējumi un \nnepieciešams surdotulka pakalpojums\nInvaliditātes apliecības kopiju vai citu dokumentu, kas apliecina, ka bērnam ir \nnoteikta invaliditāte, vai piekrišanu, ka LNS pieprasa un saņem no Veselības \nun darbspēju ekspertīzes ārstu valsts komisijas informāciju par bērnam \nnoteikto invaliditāti,",
+    "acquisitionOptions": [
+      "bezmaksas",
+      "cits"
+    ],
+    "image": "assets/images/catalog/surdotulka-pakalpojumi-berniem-ar-dzirdes-traucejumiem.jpg",
+    "imageAlt": "Surdotulka pakalpojumi bērniem ar dzirdes traucējumiem",
+    "imageSource": "",
+    "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
+    "productPage": "https://www.lm.gov.lv/lv/media/29951/download?attachment",
+    "productLinkType": "resource"
   }
 ]
