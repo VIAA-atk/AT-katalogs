@@ -3063,5 +3063,37 @@
     "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
     "productPage": "https://www.lm.gov.lv/lv/media/29951/download?attachment",
     "productLinkType": "resource"
+  },
+  {
+    "id": "savienotajvienibu-radio-un-televizijas-uztverejiem",
+    "name": "Savienotājvienību radio un televīzijas uztvērējiem",
+    "short": "Personīgās klausīšanās sistēma, kas pastiprina un pārraida skaņu no televizora, viedtālruņa vai planšetdatora uz lietotāja austiņām. Tā var palīdzēt cilvēkam ar dzirdes grūtībām skaidrāk uztvert runu un audiovizuālu saturu, tostarp mācību video.",
+    "areas": [
+      "vide"
+    ],
+    "needs": [
+      "ierices Vadiba"
+    ],
+    "type": "ierice",
+    "level": "videjs",
+    "latvian": "Informācija tiks papildināta",
+    "whatIs": "Personīgās klausīšanās sistēma, kas pastiprina un pārraida skaņu no televizora, viedtālruņa vai planšetdatora uz lietotāja austiņām. Tā var palīdzēt cilvēkam ar dzirdes grūtībām skaidrāk uztvert runu un audiovizuālu saturu, tostarp mācību video.",
+    "functions": [
+      "Pastiprina skaņu un palīdz skaidrāk uztvert runu.",
+      "Pārraida skaņu no televizora, viedtālruņa vai planšetdatora uz personīgo pastiprinātāju.",
+      "Ļauj klausīties mācību video un citus audiovizuālus materiālus.",
+      "Nodrošina bezvadu skaņas pārraidi ar Bluetooth.",
+      "Ļauj regulēt klausīšanās skaļumu atbilstoši lietotāja vajadzībām."
+    ],
+    "acquisition": "Valsts apmaksātas savienotājvienības radio un televīzijas uztvērējiem (individuālo dzirdes cilpu radio un TV klausīšanai) var saņemt vājdzirdīgas personas, kuras lieto dzirdes aparātu un nav saņēmušas FM radiofrekvenču pārraides sistēmu. Lai saņemtu individuālo dzirdes cilpu radio un TV klausīšanai, Latvijas Nedzirdīgo savienībā ir jāiesniedz (vai jānosūta pa pastu vai elektroniski atbilstoši normatīvajiem aktiem par elektronisko dokumentu noformēšanu):\n1) rakstisks iesniegums. Iesniegumā norāda vārdu, uzvārdu, personas kodu, dzīvesvietas adresi, tālruņa numuru, elektroniskā e-pasta adresi, informāciju par vēlamo saziņas veidu, nepieciešamo tehnisko palīglīdzekli (iesnieguma paraugu skat. pievienotajos failos);\n2) ģimenes ārsta atzinums vai atbilstošas specialitātes ārstniecības personas atzinums tehniskā palīglīdzekļa saņemšanai, kurš izsniegts ne vēlāk kā sešus mēnešus pirms dokumentu iesniegšanas (atzinuma paraugu skat. pievienotajā failā). Ja Veselības un darbspēju ekspertīzes ārstu valsts komisijas (VDEĀK) izsniegtajā informācijā par invaliditātes noteikšanu ir norādīts, ka jums ir dzirdes funkcionēšanas traucējumi, tad atzinumu var neiesniegt.",
+    "acquisitionOptions": [
+      "cits"
+    ],
+    "image": "assets/images/catalog/savienotajvienibu-radio-un-televizijas-uztverejiem.jpg",
+    "imageAlt": "Savienotājvienību radio un televīzijas uztvērējiem",
+    "imageSource": "",
+    "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
+    "productPage": "https://new.lns.lv/wp-content/uploads/2025/03/Valsts_apmaksatie_surdotehniskie_paliglidzekli-scaled.jpg",
+    "productLinkType": "resource"
   }
 ]
