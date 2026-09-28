@@ -1017,7 +1017,7 @@
     "type": "piederums",
     "level": "zems",
     "latvian": "Maska nemaina tastatūras valodu",
-    "whatIs": "Tastatūras maska jeb taustiņu režģis ir no plastmasas, akrila, metāla vai cita stingra materiāla izgatavots pārklājums ar atverēm katram tastatūras taustiņam. To nostiprina virs fiziskas datora tastatūras.\nAtveres palīdz norobežot taustiņus citu no cita. Izglītojamais var ievietot pirkstu vai rādāmkociņu konkrētajā atverē un nospiest izvēlēto taustiņu, mazāk skarot blakus esošos taustiņus. Uz maskas var arī atbalstīt roku, nenospiežot vairākus taustiņus vienlaikus. Tastatūras maskas skaidrojums\nKā to var izmantot izglītībā?\nTastatūras masku var izmantot, rakstot tekstu, aizpildot digitālas darba lapas, meklējot informāciju, veicot mācību uzdevumus vai izmantojot alternatīvās un augmentatīvās komunikācijas programmatūru.\nTā var palīdzēt izglītojamajiem, kuriem ir:\ngrūti kontrolēt kustības;\ngrūtības izolēt viena pirksta kustību;\ngrūtības noturēt roku virs tastatūras;\ntendence vienlaikus nospiest vairākus taustiņus;\nnepieciešamība rakstīšanai izmantot rādāmkociņu;\ngrūtības vizuāli nošķirt blakus esošos taustiņus.\nMaska var uzlabot taustiņu izvēles precizitāti, bet parasti nepalielina rakstīšanas ātrumu uzreiz. Izglītojamajam nepieciešams laiks tās izmantošanas apguvei.",
+    "whatIs": "Tastatūras maska jeb taustiņu režģis ir no plastmasas, akrila, metāla vai cita stingra materiāla izgatavots pārklājums ar atverēm katram tastatūras taustiņam. To nostiprina virs fiziskas datora tastatūras.\nAtveres palīdz norobežot taustiņus citu no cita. Izglītojamais var ievietot pirkstu vai rādāmkociņu konkrētajā atverē un nospiest izvēlēto taustiņu, mazāk skarot blakus esošos taustiņus. Uz maskas var arī atbalstīt roku, nenospiežot vairākus taustiņus vienlaikus. Tastatūras maskas skaidrojums.",
     "functions": [
       "Fiziski atdala tastatūras taustiņus",
       "Samazina nejaušu blakus esošo taustiņu nospiešanu",
@@ -1030,22 +1030,7 @@
       "Var izmantot kopā ar palielinātu vai augsta kontrasta tastatūru",
       "Pieejamas standarta un individuāli izgatavotas maskas"
     ],
-    "acquisition": [
-      "Tastatūras maskas jāiegādājas konkrētam tastatūras vai portatīvā datora modelim. Tās pieejamas specializētos asistīvo tehnoloģiju veikalos ārvalstīs, piemēram, Keyguard Assistive Technology, kas piedāvā maskas standarta, kompaktām, palielinātām un portatīvo datoru tastatūrām, kā arī individuāli izgatavojamus modeļus. Masku iespējams pasūtīt no ārvalstu piegādātāja vai izgatavot individuāli no akrila vai ar 3D drukas palīdzību. Individuālai izgatavošanai nepieciešami precīzi tastatūras izmēri un taustiņu izvietojums.",
-      "Tehniskā savietojamība",
-      "Tastatūras maskai precīzi jāatbilst konkrētajam tastatūras ražotājam, modelim, izmēram un taustiņu izkārtojumam. Vienam modelim paredzēta maska parasti nebūs izmantojama ar citu tastatūru.",
-      "Pirms pasūtīšanas jāpārbauda:",
-      "tastatūras ražotājs un precīzs modeļa numurs;",
-      "taustiņu izmērs un izvietojums;",
-      "ciparu tastatūras esamība;",
-      "tastatūras ārējie izmēri;",
-      "maskas piestiprināšanas veids;",
-      "vai netiek aizsegti nepieciešamie taustiņu apzīmējumi un indikatori.",
-      "Maskai nav nepieciešama elektrība, programmatūra vai atsevišķs savienojums ar datoru.",
-      "Kas nepieciešams izglītības iestādei?",
-      "Nepieciešama konkrētajai maskai atbilstoša fiziskā tastatūra un stabila darba vieta. Pirms iegādes pedagogam, ergoterapeitam un vajadzības gadījumā IT speciālistam jāizvērtē izglītojamā kustību precizitāte, taustiņu sasniedzamība un piemērotākais maskas biezums.",
-      "Jāpārbauda, vai izglītojamais spēj sasniegt visus nepieciešamos taustiņus un vai atveres nav pārāk dziļas vai šauras. Ja maska tiek izgatavota individuāli, pirms galīgās izgatavošanas ieteicams izmēģināt kartona vai cita lēta materiāla paraugu."
-    ],
+    "acquisition": "Tastatūras maskas jāiegādājas konkrētam tastatūras vai portatīvā datora modelim. Tās pieejamas specializētos asistīvo tehnoloģiju veikalos ārvalstīs, piemēram, Keyguard Assistive Technology, kas piedāvā maskas standarta, kompaktām, palielinātām un portatīvo datoru tastatūrām, kā arī individuāli izgatavojamus modeļus. Masku iespējams pasūtīt no ārvalstu piegādātāja vai izgatavot individuāli no akrila vai ar 3D drukas palīdzību. Individuālai izgatavošanai nepieciešami precīzi tastatūras izmēri un taustiņu izvietojums.",
     "acquisitionOptions": [
       "maksas"
     ],
