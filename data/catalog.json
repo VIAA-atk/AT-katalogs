@@ -1432,8 +1432,8 @@
   },
   {
     "id": "mi-macibstundu-asistents",
-    "name": "Tildes MI mācībstundu asistents”",
-    "short": "Mākslīgā intelekta rīks, kas palīdz sagatavot, pielāgot vai skaidrot mācību saturu atbilstoši skolēna vajadzībām.",
+    "name": "Tildes MI mācībstundu asistents",
+    "short": "Mākslīgā intelekta rīks mācību satura pieejamības atbalstam",
     "areas": [
       "komunikacija",
       "vide"
@@ -1448,16 +1448,15 @@
     "type": "atFonds",
     "level": "augsts",
     "latvian": "Pieejams latviešu valodā",
-    "whatIs": "Latvijā izstrādāts MI rīks, kas pedagoga runu reāllaikā pārvērš tekstā, tulko un pēc mācību stundas sagatavo kopsavilkumu un kontroljautājumus.",
+    "whatIs": "Tildes MI mācībstundu asistents ir Latvijā izstrādāts mākslīgā intelekta rīks, kas pedagoga runu reāllaikā pārvērš rakstītā tekstā. Tekstu var attēlot uz interaktīvās tāfeles vai izglītojamā datorā.\nRīks var tulkot pedagoga teikto citā valodā, kā arī pēc mācību stundas sagatavot stundas kopsavilkumu un kontroljautājumus, palīdzot izglītojamajam atkārtot un pārbaudīt apgūto.",
     "functions": [
-      "uzdevumu un darbību secības organizēšana",
-      "atgādinājumu, piezīmju vai plānu veidošana",
-      "uzmanības noturēšana un paveiktā pārbaude"
+      "Pedagoga runas pārvēršana tekstā reāllaikā.",
+      "Runas attēlošana rakstītā tekstā izglītojamā datorā vai uz interaktīvās tāfeles.",
+      "Pedagoga teiktā tulkošana citā valodā.",
+      "Mācību stundas kopsavilkuma sagatavošana.",
+      "Kontroljautājumu sagatavošana pēc mācību stundas."
     ],
-    "acquisition": [
-      "Tildes MI mācībstundu asistents ir Latvijas uzņēmuma SIA “Tilde” izstrādāts mākslīgā intelekta risinājums, kas mācību stundas laikā atpazīst pedagoga runu un reāllaikā attēlo to rakstītā tekstā. Pedagoga teiktais var tikt parādīts uz interaktīvās tāfeles vai izglītojamā datorā.",
-      "Rīks var arī tulkot pedagoga teikto citā valodā un pēc mācību stundas sagatavot stundas kopsavilkumu un kontroljautājumus. Tas paredzēts mācību satura pieejamības uzlabošanai, nevis pedagoga aizstāšanai."
-    ],
+    "acquisition": "Tildes MI mācībstundu asistents ir licencējams mākslīgā intelekta risinājums, ko piedāvā SIA “Tilde”.\n*Licence ir pieejama 4.2.1.2. projekta AT fondā, projekta sadarbības partneriem.",
     "acquisitionOptions": [
       "projektaIetvaros",
       "cits"
