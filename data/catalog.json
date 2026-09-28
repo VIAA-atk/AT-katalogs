@@ -2778,7 +2778,7 @@
   {
     "id": "elektroniski-palielinoss-paliglidzeklis",
     "name": "Elektroniski palielinošs palīglīdzeklis",
-    "short": "Palīglīdzeklis vājredzīgām personām attēla un teksta palielināšanai. Spēj attēlu un tekstu palielināt no 2 līdz 24 reizēm. Pielāgojami kontrastu jeb krāsu režīmi un citas funkcijas, kas palīdz teksta lasīšanai un attēlu aplūkošanai. Ierīci iespējams uzlādēt.",
+    "short": "Elektroniski palielinošs palīglīdzeklis ir uzlādējama ierīce teksta, attēlu un nelielu objektu palielināšanai.",
     "areas": [
       "lasisana",
       "rakstisana",
@@ -2799,13 +2799,13 @@
     "type": "citsValstsAtbalsts",
     "level": "videjs",
     "latvian": "Informācija tiks papildināta",
-    "whatIs": "Palīglīdzeklis vājredzīgām personām attēla un teksta palielināšanai. Spēj attēlu un tekstu palielināt no 2 līdz 24 reizēm. Pielāgojami kontrastu jeb krāsu režīmi un citas funkcijas, kas palīdz teksta lasīšanai un attēlu aplūkošanai. Ierīci iespējams uzlādēt.\n\nIzmantošana izglītībā\n\nMācību grāmatu un darba lapu lasīšana.\n\nAttēlu, karšu, diagrammu un citu vizuālo materiālu aplūkošana.\n\nRakstīšanas procesa un uzrakstītā teksta pārbaudīšana.\n\nNelielu objektu un demonstrējumu aplūkošana mācību stundās.",
+    "whatIs": "Elektroniski palielinošs palīglīdzeklis ir uzlādējama ierīce teksta, attēlu un nelielu objektu palielināšanai. Attēlu iespējams palielināt no 2 līdz 24 reizēm un pielāgot krāsu un kontrasta režīmus.\nIerīce palīdz izglītojamajiem ar redzes traucējumiem lasīt mācību materiālus, aplūkot attēlus un sekot līdzi rakstīšanas procesam.",
     "functions": [
-      "Funkcijas *",
-      "Drukāta teksta palielināšana.",
-      "Attēlu un priekšmetu palielināšana.",
+      "Teksta, attēlu un priekšmetu palielināšana.",
+      "Palielinājuma regulēšana no 2 līdz 24 reizēm.",
+      "Krāsu un kontrasta režīmu pielāgošana.",
       "Mācību materiālu detalizēta aplūkošana.",
-      "Lasīšanas un rakstīšanas atvieglošana."
+      "Rakstīšanas procesa un uzrakstītā teksta pārbaudīšana."
     ],
     "acquisition": "Tiflotehnika ir tehniskie palīglīdzekļi cilvēkiem ar redzes traucējumiem, kas palīdz ikdienā pārvietoties, iegūt informāciju un darboties patstāvīgi.\nInformāciju par pieejamajiem palīglīdzekļiem, saņemšanas nosacījumiem un nepieciešamajiem dokumentiem skatiet: https://lnbiedriba.lv/lv/pakalpojumi/tehniskie-paliglidzekli/",
     "acquisitionOptions": [
