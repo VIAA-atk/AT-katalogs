@@ -1977,40 +1977,6 @@
     "productLinkType": "product"
   },
   {
-    "id": "vaivari-tehnisko-paliglidzeklu",
-    "name": "Vaivaru Tehnisko palīglīdzekļu centrs",
-    "short": "VTPC nodrošina valsts apmaksātus tehniskos palīglīdzekļus personām ar funkcionēšanas ierobežojumiem. Tie paredzēti funkcionēšanas spēju uzlabošanai vai saglabāšanai un var nodrošināt atbalstu pārvietošanās, pašaprūpes, saziņas, informācijas uztveres, datora lietošanas un citās ikdienas aktivitātēs.",
-    "areas": [
-      "komunikacija",
-      "organizesana",
-      "vide"
-    ],
-    "needs": [
-      "simboli",
-      "aac",
-      "ierices Vadiba"
-    ],
-    "type": "citsValstsAtbalsts",
-    "level": "augsts",
-    "latvian": "Pieejams",
-    "whatIs": "VTPC nodrošina valsts apmaksātus tehniskos palīglīdzekļus personām ar funkcionēšanas ierobežojumiem. Tie paredzēti funkcionēšanas spēju uzlabošanai vai saglabāšanai un var nodrošināt atbalstu pārvietošanās, pašaprūpes, saziņas, informācijas uztveres, datora lietošanas un citās ikdienas aktivitātēs.\nhttps://www.vtpc.lv/Pakalpojumi/ka-sanemt-tehnisko-paliglidzekli\nNodrošina valsts finansētu tehnisko palīglīdzekļu piešķiršanu un apriti personām ar funkcionēšanas ierobežojumiem, tostarp vajadzību izvērtēšanu, palīglīdzekļu izsniegšanu, pielāgošanu un lietošanas apmācību.\nŠie risinājumi nav AT fonda resursi. Informācija katalogā norāda uz iespēju attiecīgo tehnisko palīglīdzekli saņemt VTPC noteiktajā kārtībā.\nhttps://www.vtpc.lv/Pakalpojumi/ka-sanemt-tehnisko-paliglidzekli",
-    "functions": [
-      "Nodrošina valsts finansētu tehnisko palīglīdzekļu piešķiršanu un apriti personām ar funkcionēšanas ierobežojumiem, tostarp vajadzību izvērtēšanu, palīglīdzekļu izsniegšanu, pielāgošanu un lietošanas apmācību."
-    ],
-    "acquisition": [
-      "Skatīt: https://www.vtpc.lv/Pakalpojumi/ka-sanemt-tehnisko-paliglidzekli"
-    ],
-    "acquisitionOptions": [
-      "cits"
-    ],
-    "image": "assets/images/catalog/vaivari-tehnisko-paliglidzeklu.png",
-    "imageAlt": "Vaivari tehnisko palīglīdzekļu centrs",
-    "imageSource": "",
-    "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
-    "productPage": "https://www.vtpc.lv/Pakalpojumi/ka-sanemt-tehnisko-paliglidzekli",
-    "productLinkType": "resource"
-  },
-  {
     "id": "latvijas-neredzigo-biedriba",
     "name": "Latvijas Neredzīgo biedrība",
     "short": "Latvijas Neredzīgo biedrība ir lielākā un vecākā sabiedriskā labuma organizācija, kas apvieno un pārstāv 1., 2. un 3. grupas redzes invalīdu intereses Latvijā.",
@@ -2096,7 +2062,7 @@
   },
   {
     "id": "my-board-buddy-go-iar2",
-    "name": "my Board Buddy GO (IAR2) Risinājums viedtāfeles palielināšanai vairākās klasēs",
+    "name": "my Board Buddy GO (IAR2). Risinājums viedtāfeles palielināšanai vairākās klasēs",
     "short": "Risinājums viedtāfeles palielināšanai vairākās klasēs",
     "areas": [
       "komunikacija",
@@ -2174,7 +2140,7 @@
       "projektaIetvaros"
     ],
     "image": "assets/images/catalog/my-board-buddy-cam-iar3.png",
-    "imageAlt": "my Board Buddy GO.",
+    "imageAlt": "my Board Buddy CAM(IAR3)",
     "imageSource": "https://exceed.lv/index.php/lv/produkti/komunikaciju-paliglidzekli/izglitibas-atbalsta-risinajumi/view/775:my-board-buddy-cam-iar3",
     "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
     "productPage": "https://exceed.lv/index.php/lv/produkti/komunikaciju-paliglidzekli/izglitibas-atbalsta-risinajumi/view/775:my-board-buddy-cam-iar3",
@@ -2533,7 +2499,7 @@
   {
     "id": "skanas-ierakstisanas-un-atskanosanas-ierice-daisy",
     "name": "Skaņas ierakstīšanas un atskaņošanas ierīce (DAISY)",
-    "short": "Skaņas ierakstīšanas un atskaņošanas ierīce (DAISY) ir Daisy formāta lasītājs  jeb audio grāmata. DAISY ir formāts, kas ir izstrādāts kā pilnīgs drukas materiāla audio aizstājējs un tas ir īpaši paredzēts lietošanai cilvēkiem ar drukāta teksta uztveres traucējumiem, neredzīgiem cilvēkiem un cilvēkiem ar redzes traucējumiem un disleksiju. Ir iespējams regulēt lasīšanas ātrumu, lasīt pa rindiņām un ievietot grāmātzīmi.  Ierīces pilnvērtīgai darbībai nepieciešams savienojums ar internetu. Ierīcē iespējams klausīties grāmatas, radio, raidierakstus, televīziju u.c.",
+    "short": "Ierīce DAISY formāta audiogrāmatu un citu pielāgotu audio materiālu atskaņošanai. DAISY formāts veidots kā strukturēts drukāta materiāla audio aizstājējs cilvēkiem ar redzes un lasīšanas traucējumiem.",
     "areas": [
       "lasisana",
       "matematika",
@@ -2548,7 +2514,7 @@
     "type": "citsValstsAtbalsts",
     "level": "videjs",
     "latvian": "Informācija tiks papildināta",
-    "whatIs": "Ierīce DAISY formāta audiogrāmatu un citu pielāgotu audio materiālu atskaņošanai. DAISY formāts veidots kā strukturēts drukāta materiāla audio aizstājējs cilvēkiem ar redzes un lasīšanas traucējumiem.",
+    "whatIs": "Skaņas ierakstīšanas un atskaņošanas ierīce (DAISY) ir Daisy formāta lasītājs  jeb audio grāmata. DAISY ir formāts, kas ir izstrādāts kā pilnīgs drukas materiāla audio aizstājējs un tas ir īpaši paredzēts lietošanai cilvēkiem ar drukāta teksta uztveres traucējumiem, neredzīgiem cilvēkiem un cilvēkiem ar redzes traucējumiem un disleksiju. Ir iespējams regulēt lasīšanas ātrumu, lasīt pa rindiņām un ievietot grāmātzīmi.  Ierīces pilnvērtīgai darbībai nepieciešams savienojums ar internetu. Ierīcē iespējams klausīties grāmatas, radio, raidierakstus, televīziju u.c.",
     "functions": [
       "DAISY formāta audiogrāmatu un mācību materiālu atskaņošana.",
       "Atskaņošanas ātruma pielāgošana.",
