@@ -1804,16 +1804,15 @@
     "latvian": "Informācija tiks papildināta",
     "whatIs": "Neliela digitāla ierīce skaņas ierakstīšanai, saglabāšanai un atkārtotai atskaņošanai. Vienkāršākie risinājumi darbojas kā diktofoni, savukārt risinājumi ar mākslīgā intelekta funkcijām var ierakstu pārvērst tekstā, strukturēt piezīmēs un izveidot kopsavilkumu. Kā piemēru var minēt PLAUD Note.\n\nKā to var izmantot izglītībā?\nIzglītojamais var ierakstīt sev īsu atgādinājumu par veicamo uzdevumu, darba soļiem, nepieciešamajiem mācību piederumiem vai mājasdarbu. Ierīci var izmantot arī savu ideju fiksēšanai pirms rakstu darba, mutvārdu atbilžu sagatavošanai un pedagoga individuāli sniegtu norādījumu atkārtotai noklausīšanai. Tas var palīdzēt izglītojamajiem, kuriem ir grūtības ar rakstīšanu, darba atmiņu, uzmanības noturēšanu vai darbību secības ievērošanu.",
     "functions": [
-      "Balss piezīmju ierakstīšana un atskaņošana",
-      "Ierakstu saglabāšana un sakārtošana",
-      "Ieraksta pārvēršana tekstā",
-      "Ieraksta kopsavilkuma veidošana",
-      "Ierakstu pārsūtīšana uz mobilo lietotni vai datoru",
-      "Funkciju un latviešu valodas atbalsta pieejamība jāprecizē konkrētajam modelim."
+      "Balss piezīmju un atgādinājumu ierakstīšana.",
+      "Ierakstu saglabāšana un atkārtota atskaņošana.",
+      "Ideju un veicamo darbību fiksēšana.",
+      "Ieraksta pārvēršana tekstā.*",
+      "Ieraksta kopsavilkuma veidošana.*",
+      "Ierakstu pārsūtīšana uz mobilo lietotni vai datoru.*",
+      "*Funkcijas un latviešu valodas atbalsts ir atkarīgs no konkrētā ierīces modeļa."
     ],
-    "acquisition": [
-      "Vienkāršus digitālos diktofonus var iegādāties elektronikas preču veikalos. Risinājums PLAUD Note un tā lietošanai nepieciešamie pakalpojumu plāni ir pieejami PLAUD oficiālajā tīmekļvietnē. Ražotājs piedāvā bezmaksas sākuma plānu ar ierobežotu transkripcijas apjomu un maksas plānus ar papildu iespējām."
-    ],
+    "acquisition": "Digitālos diktofonus var iegādāties elektronikas preču veikalos. Ierīces ar papildu MI funkcijām, piemēram, PLAUD Note, pieejamas pie ražotāja un tehnoloģiju tirgotājiem",
     "acquisitionOptions": [
       "maksas"
     ],
