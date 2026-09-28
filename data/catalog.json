@@ -3095,5 +3095,36 @@
     "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
     "productPage": "https://new.lns.lv/wp-content/uploads/2025/03/Valsts_apmaksatie_surdotehniskie_paliglidzekli-scaled.jpg",
     "productLinkType": "resource"
+  },
+  {
+    "id": "fm-radiofrekvencu-parraides-sistema",
+    "name": "FM radiofrekvenču pārraides sistēma",
+    "short": "FM sistēma ir palīgierīce, kas cilvēkiem ar dzirdes traucējumiem ļauj dzirdēt citu teikto trokšņainā vidē, piemēram, teātrī, skolā, baznīcā, muzejā vai citās sabiedriskās vietās. Šī bezvadu sistēma izmanto radioviļņus, lai runas signālus nogādātu tieši klausītāja dzirdes aparātos.",
+    "areas": [
+      "vide"
+    ],
+    "needs": [
+      "aac"
+    ],
+    "type": "citsValstsAtbalsts",
+    "level": "videjs",
+    "latvian": "Informācija tiks papildināta",
+    "whatIs": "FM sistēma ir palīgierīce, kas cilvēkiem ar dzirdes traucējumiem ļauj dzirdēt citu teikto trokšņainā vidē, piemēram, teātrī, skolā, baznīcā, muzejā vai citās sabiedriskās vietās. Šī bezvadu sistēma izmanto radioviļņus, lai runas signālus nogādātu tieši klausītāja dzirdes aparātos. Ierīce domāta tikai dzirdes aparāta lietotājiem pastiprinātas runas izšķirtspējas nodrošināšanai un ietver sevī intelektuālo trokšņu vadību un signālu tīrīšanu augstās frekvenču joslās.",
+    "functions": [
+      "Ja, atrodoties darbā, jums dzirdes problēmas un runas uztveršana sagādā problēmas kā arī dzirdes zudums ietekmē sniegumu darbā.",
+      "Ja jūsu ikdiena ir saistīta ar aktīvu dzīvesveidu un socializēšanos un ir problēmas saklausīt teikto attālumā un troksnī.",
+      "Ja jums ir grūti sadzirdēt teikto tiekoties ar draugiem, sapulcēs un citos sociālos pasākumos.",
+      "Ja, klausoties TV, mobilā tālruņa sarunas, straumējot mūziku u.c, jums nepieciešama sarunu, mūzikas skaidrība."
+    ],
+    "acquisition": "FM radiofrekvenču pārraides sistēmu (raidītāju un uztvērēju), ko apmaksā valsts, var saņemt vājdzirdīgas personas, kas lieto dzirdes aparātu, nav saņēmušas savienotājvienību radio un televīzijas uztvērējiem, un kurām šis tehniskais palīglīdzeklis nepieciešams izglītības vai darba vajadzībām.",
+    "acquisitionOptions": [
+      "cits"
+    ],
+    "image": "assets/images/catalog/fm-radiofrekvencu-parraides-sistema.jpg",
+    "imageAlt": "FM radiofrekvenču pārraides sistēma",
+    "imageSource": "",
+    "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
+    "productPage": "https://new.lns.lv/wp-content/uploads/2025/03/Valsts_apmaksatie_surdotehniskie_paliglidzekli-scaled.jpg",
+    "productLinkType": "resource"
   }
 ]
