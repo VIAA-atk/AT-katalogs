@@ -2003,13 +2003,11 @@
     "type": "citsValstsAtbalsts",
     "level": "augsts",
     "latvian": "Informācija tiks papildināta",
-    "whatIs": "Tiflotehnika ir speciālie tehniskie palīglīdzekļi, kas paredzēti personām ar funkcionāliem redzes traucējumiem vai anatomiskiem defektiem personu rehabilitēšanai, integrēšanai sabiedrībā, mobilitātes un patstāvīgu darbošanās spēju pilnveidošanai.",
+    "whatIs": "Latvijas Neredzīgo biedrība ir lielākā un vecākā sabiedriskā labuma organizācija, kas apvieno un pārstāv 1., 2. un 3. grupas cilvēkus ar redzes invaliditāti intereses Latvijā. \nLatvijas Neredzīgo biedrība ir lielākā nevalstiskā organizācija Latvijā, kurā apvienojušies cilvēki ar redzes traucējumiem, juridiskie biedri un atbalstītāji. LNB Centrālā valde un aktīvisti piedalās valsts politikas veidošanā, aizstāvot savu biedru intereses. Vadošie darbinieki sadarbojas ar LR Labklājības ministriju, aktīvi darbojas invalīdu lietu padomē, kurā apspriež LR likumu un normatīvo aktu projektus, kas attiecas uz sociālo jomu, transporta pakalpojumiem, vides pieejamību u.c.",
     "functions": [
       "https://lnbiedriba.lv/lv/pakalpojumi/tehniskie-paliglidzekli/"
     ],
-    "acquisition": [
-      "Plašāka informācija: https://lnbiedriba.lv/lv/pakalpojumi/tehniskie-paliglidzekli/"
-    ],
+    "acquisition": "Interešu pārstāvība: Pārstāv 1., 2. un 3. grupas redzes invalīdu intereses valsts un pašvaldību institūcijās.\nSociālā rehabilitācija: Sniedz sociālās rehabilitācijas pakalpojumus, lai palīdzētu cilvēkiem ar redzes traucējumiem pielāgoties ikdienas dzīvei.\nTehniskie palīglīdzekļi: Nodrošina biedrus ar tiflotehniku un citiem specifiskiem tehniskajiem palīglīdzekļiem.\nIzglītība un nodarbinātība: Sekmē personu ar redzes invaliditāti izglītību, arodapmācību un iekļaušanos darba tirgū.\nKultūra un sports: Organizē un veicina kultūras, sporta un sabiedrisko aktivitāšu pieejamību redzes invalīdiem.\nPlašāka informācija par tiflotehniku pieejama šeit: https://lnbiedriba.lv/lv/pakalpojumi/tehniskie-paliglidzekli/",
     "acquisitionOptions": [
       "cits"
     ],
