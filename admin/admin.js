@@ -23,6 +23,10 @@ const options = {
     organizesanaAtbalsts: "Darba organizēšanas atbalsts", simboli: "Simboli un vizuālais atbalsts",
     aac: "Alternatīvs saziņas veids", "ierices Vadiba": "Pielāgota ierīces vadība", matematikaAtbalsts: "Matemātikas uzdevumu atbalsts",
   },
+  skills: {
+    lasisana: "Lasīšana", rakstisana: "Rakstīšana", matematika: "Matemātika", sazina: "Saziņa",
+    vizualaUztvere: "Informācijas uztvere", organizesana: "Uzmanība un darba organizēšana", iericesVadiba: "Rīku un ierīču lietošana",
+  },
   types: {
     ierice: "Ierīce", programmatura: "Programmatūra vai lietotne", iebuveta: "Iebūvēta piekļūstamības funkcija",
     bezmaksas: "Bezmaksas digitālais rīks", metodiskais: "Metodiskais materiāls vai pamācība",
@@ -236,6 +240,7 @@ function fieldForInput(target) {
   if (inputFields[target.id]) return inputFields[target.id];
   if (target.closest?.("#field-areas")) return "areas";
   if (target.closest?.("#field-needs")) return "needs";
+  if (target.closest?.("#field-skills")) return "skills";
   if (target.closest?.("#field-acquisition-options")) return "acquisitionOptions";
   return null;
 }
@@ -252,6 +257,7 @@ function resourceFromForm(original = currentResource(), image = original?.image 
     short: ui["field-short"].value.trim(),
     areas: selectedValues(ui["field-areas"]),
     needs: selectedValues(ui["field-needs"]),
+    skills: selectedValues(ui["field-skills"]),
     type: ui["field-type"].value,
     level: ui["field-level"].value,
     latvian: ui["field-latvian"].value.trim(),
@@ -387,6 +393,7 @@ function setFormValues(resource) {
   ui["field-short"].value = resource.short ?? "";
   setChoiceValues(ui["field-areas"], resource.areas ?? []);
   setChoiceValues(ui["field-needs"], resource.needs ?? []);
+  setChoiceValues(ui["field-skills"], resource.skills ?? []);
   ui["field-what-is"].value = resource.whatIs ?? "";
   ui["field-functions"].value = (resource.functions ?? []).join("\n");
   const acquisition = resource.acquisition ?? "";
@@ -444,7 +451,7 @@ function blankRecord() {
   ui["field-latvian"].value = "Informācija tiks papildināta";
   ui["field-image-rights"].value = "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.";
   ui["image-preview"].src = "../assets/images/catalog/catalog-placeholder.svg";
-  for (const input of document.querySelectorAll('#field-areas input, #field-needs input, #field-acquisition-options input')) input.checked = false;
+  for (const input of document.querySelectorAll('#field-areas input, #field-needs input, #field-skills input, #field-acquisition-options input')) input.checked = false;
   renderList();
   updateDraftState();
   renderConflicts();
@@ -583,6 +590,9 @@ function validateRecord(resource, originalId = null) {
   if (!resource.name || !resource.short || !resource.whatIs || !resource.latvian || !resource.imageAlt || !resource.imageRightsNote) throw new Error("Aizpildi visus obligātos teksta laukus.");
   if (!resource.areas.length) throw new Error("Izvēlies vismaz vienu mācību atbalsta jomu.");
   if (!resource.needs.length) throw new Error("Izvēlies vismaz vienu vajadzību/filtru.");
+  if (!resource.skills?.length || resource.skills.some((value) => !Object.hasOwn(options.skills, value))) {
+    throw new Error("Izvēlies vismaz vienu derīgu AT atbalstāmo prasmi.");
+  }
   if (!resource.functions.length) throw new Error("Funkciju sadaļā jābūt vismaz vienai rindai.");
   if (!resource.acquisition.length) throw new Error('Aizpildi sadaļu "Kur to var iegūt?".');
   if (!resource.acquisitionOptions.length || resource.acquisitionOptions.some((value) => !Object.hasOwn(options.acquisitionOptions, value))) {
@@ -613,7 +623,7 @@ function refreshChangeValues(mergedResources) {
 
 const fieldLabels = {
   name: "Nosaukums", short: "Īsais teksts kartītē", areas: "Mācību atbalsta jomas",
-  needs: "Vajadzības / filtri", type: "Resursa veids", level: "Tehnoloģiju līmenis",
+  needs: "Vajadzības / filtri", skills: "AT atbalstāmā prasme", type: "Resursa veids", level: "Tehnoloģiju līmenis",
   latvian: "Latviešu valodas pieejamība", whatIs: "Kas tas ir?", functions: "Funkcijas",
   acquisition: "Kur to var iegūt?", acquisitionOptions: "Iegūšanas iespējas",
   productPage: "Produkta vai informācijas saite",
@@ -1281,6 +1291,7 @@ function handleFormChange(event) {
 
 buildChoices(ui["field-areas"], options.areas);
 buildChoices(ui["field-needs"], options.needs);
+buildChoices(ui["field-skills"], options.skills);
 buildChoices(ui["field-acquisition-options"], options.acquisitionOptions);
 ui["auth-form"].addEventListener("submit", connect);
 ui.disconnect.addEventListener("click", disconnect);

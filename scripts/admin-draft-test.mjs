@@ -12,7 +12,7 @@ const html = await fs.readFile(new URL("../admin/index.html", import.meta.url), 
 const copy = (value) => JSON.parse(JSON.stringify(value));
 const draftKey = "viaa-atk-admin-draft-v16";
 const fixture = (id, name) => ({
-  id, name, short: "Sākotnējais īsais teksts", areas: ["lasisana"], needs: ["tts"],
+  id, name, short: "Sākotnējais īsais teksts", areas: ["lasisana"], needs: ["tts"], skills: ["lasisana"],
   type: "programmatura", level: "augsts", latvian: "Pieejams latviešu valodā",
   whatIs: "Sākotnējais apraksts", functions: ["Funkcija"], acquisition: ["Informācija"],
   acquisitionOptions: ["cits"],

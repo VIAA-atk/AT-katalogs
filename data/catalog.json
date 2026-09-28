@@ -23,6 +23,15 @@
       "ierices Vadiba",
       "matematikaAtbalsts"
     ],
+    "skills": [
+      "lasisana",
+      "rakstisana",
+      "matematika",
+      "sazina",
+      "vizualaUztvere",
+      "organizesana",
+      "iericesVadiba"
+    ],
     "type": "metodiskais",
     "level": "zems",
     "latvian": "Pieejams latviešu valodā",
@@ -60,6 +69,11 @@
       "ocr",
       "simboli",
       "aac"
+    ],
+    "skills": [
+      "sazina",
+      "vizualaUztvere",
+      "organizesana"
     ],
     "type": "piederums",
     "level": "zems",
@@ -108,6 +122,11 @@
       "simboli",
       "aac"
     ],
+    "skills": [
+      "sazina",
+      "vizualaUztvere",
+      "organizesana"
+    ],
     "type": "bezmaksas",
     "level": "augsts",
     "latvian": "Informācija tiek pielāgota",
@@ -152,6 +171,11 @@
       "stt",
       "rakstisanaAtbalsts"
     ],
+    "skills": [
+      "lasisana",
+      "rakstisana",
+      "vizualaUztvere"
+    ],
     "type": "programmatura",
     "level": "augsts",
     "latvian": "Pieejams latviešu valodā",
@@ -189,6 +213,9 @@
     ],
     "needs": [
       "tts"
+    ],
+    "skills": [
+      "lasisana"
     ],
     "type": "atFonds",
     "level": "augsts",
@@ -228,6 +255,10 @@
     "needs": [
       "simboli",
       "aac"
+    ],
+    "skills": [
+      "sazina",
+      "vizualaUztvere"
     ],
     "type": "programmatura",
     "level": "augsts",
@@ -285,6 +316,10 @@
     "needs": [
       "vizualaPielagosana"
     ],
+    "skills": [
+      "lasisana",
+      "vizualaUztvere"
+    ],
     "type": "piederums",
     "level": "zems",
     "latvian": "Informācija tiks papildināta",
@@ -321,6 +356,10 @@
     ],
     "needs": [
       "organizesanaAtbalsts"
+    ],
+    "skills": [
+      "lasisana",
+      "vizualaUztvere"
     ],
     "type": "piederums",
     "level": "zems",
@@ -361,6 +400,10 @@
     "needs": [
       "vizualaPielagosana"
     ],
+    "skills": [
+      "lasisana",
+      "vizualaUztvere"
+    ],
     "type": "programmatura",
     "level": "videjs",
     "latvian": "Pieejams latviešu valodā",
@@ -394,6 +437,11 @@
     "needs": [
       "simboli",
       "aac"
+    ],
+    "skills": [
+      "rakstisana",
+      "sazina",
+      "vizualaUztvere"
     ],
     "type": "atFonds",
     "level": "augsts",
@@ -432,6 +480,9 @@
     "needs": [
       "tts",
       "ocr"
+    ],
+    "skills": [
+      "lasisana"
     ],
     "type": "atFonds",
     "level": "augsts",
@@ -478,6 +529,13 @@
       "simboli",
       "matematikaAtbalsts"
     ],
+    "skills": [
+      "lasisana",
+      "rakstisana",
+      "matematika",
+      "sazina",
+      "vizualaUztvere"
+    ],
     "type": "atFonds",
     "level": "augsts",
     "latvian": "Pieejams latviešu valodā",
@@ -512,6 +570,9 @@
     ],
     "needs": [
       "ocr"
+    ],
+    "skills": [
+      "lasisana"
     ],
     "type": "ierice",
     "level": "augsts",
@@ -556,6 +617,9 @@
     "needs": [
       "matematikaAtbalsts"
     ],
+    "skills": [
+      "matematika"
+    ],
     "type": "programmatura",
     "level": "augsts",
     "latvian": "Nav pieejams latviešu valodā",
@@ -598,6 +662,9 @@
     "needs": [
       "matematikaAtbalsts"
     ],
+    "skills": [
+      "matematika"
+    ],
     "type": "programmatura",
     "level": "augsts",
     "latvian": "Daļēji pieejams latviešu valodā",
@@ -639,6 +706,9 @@
     "needs": [
       "organizesanaAtbalsts"
     ],
+    "skills": [
+      "matematika"
+    ],
     "type": "piederums",
     "level": "zems",
     "latvian": "Informācija tiks papildināta",
@@ -671,6 +741,10 @@
     "needs": [
       "organizesanaAtbalsts",
       "matematikaAtbalsts"
+    ],
+    "skills": [
+      "matematika",
+      "organizesana"
     ],
     "type": "programmatura",
     "level": "augsts",
@@ -712,6 +786,10 @@
     "needs": [
       "organizesanaAtbalsts"
     ],
+    "skills": [
+      "rakstisana",
+      "matematika"
+    ],
     "type": "materials",
     "level": "zems",
     "latvian": "Informācija tiks papildināta",
@@ -743,6 +821,9 @@
     ],
     "needs": [
       "matematikaAtbalsts"
+    ],
+    "skills": [
+      "matematika"
     ],
     "type": "piederums",
     "level": "zems",
@@ -784,6 +865,10 @@
     "needs": [
       "ocr",
       "matematikaAtbalsts"
+    ],
+    "skills": [
+      "lasisana",
+      "matematika"
     ],
     "type": "programmatura",
     "level": "augsts",
@@ -828,6 +913,10 @@
       "organizesanaAtbalsts",
       "simboli"
     ],
+    "skills": [
+      "lasisana",
+      "vizualaUztvere"
+    ],
     "type": "materials",
     "level": "zems",
     "latvian": "Informācija tiks papildināta",
@@ -861,6 +950,10 @@
       "vizualaPielagosana",
       "organizesanaAtbalsts",
       "aac"
+    ],
+    "skills": [
+      "lasisana",
+      "sazina"
     ],
     "type": "programmatura",
     "level": "augsts",
@@ -900,6 +993,9 @@
     "needs": [
       "organizesanaAtbalsts"
     ],
+    "skills": [
+      "vizualaUztvere"
+    ],
     "type": "programmatura",
     "level": "augsts",
     "latvian": "Informācija tiks papildināta",
@@ -932,6 +1028,9 @@
     ],
     "needs": [
       "rakstisanaAtbalsts"
+    ],
+    "skills": [
+      "rakstisana"
     ],
     "type": "piederums",
     "level": "zems",
@@ -985,6 +1084,10 @@
     "needs": [
       "ocr"
     ],
+    "skills": [
+      "lasisana",
+      "vizualaUztvere"
+    ],
     "type": "ierice",
     "level": "augsts",
     "latvian": "Nav informācijas",
@@ -1016,6 +1119,10 @@
     ],
     "needs": [
       "organizesanaAtbalsts"
+    ],
+    "skills": [
+      "rakstisana",
+      "matematika"
     ],
     "type": "piederums",
     "level": "zems",
@@ -1052,6 +1159,10 @@
     "needs": [
       "organizesanaAtbalsts",
       "simboli"
+    ],
+    "skills": [
+      "rakstisana",
+      "organizesana"
     ],
     "type": "programmatura",
     "level": "videjs",
@@ -1110,6 +1221,9 @@
     "needs": [
       "rakstisanaAtbalsts"
     ],
+    "skills": [
+      "rakstisana"
+    ],
     "type": "iebuveta",
     "level": "augsts",
     "latvian": "Pieejama. Var izmantot latviešu valodas tastatūras izkārtojumu un ievadīt tekstu ar latviešu valodas burtiem.",
@@ -1151,6 +1265,10 @@
     ],
     "needs": [
       "ierices Vadiba"
+    ],
+    "skills": [
+      "rakstisana",
+      "iericesVadiba"
     ],
     "type": "piederums",
     "level": "zems",
@@ -1194,6 +1312,11 @@
       "organizesanaAtbalsts",
       "simboli"
     ],
+    "skills": [
+      "sazina",
+      "vizualaUztvere",
+      "organizesana"
+    ],
     "type": "materials",
     "level": "zems",
     "latvian": "Pilnībā pielāgojami latviešu valodā.",
@@ -1235,6 +1358,10 @@
     "needs": [
       "organizesanaAtbalsts"
     ],
+    "skills": [
+      "rakstisana",
+      "iericesVadiba"
+    ],
     "type": "piederums",
     "level": "zems",
     "latvian": "Nav attiecināms.",
@@ -1273,6 +1400,10 @@
     "needs": [
       "vizualaPielagosana"
     ],
+    "skills": [
+      "rakstisana",
+      "vizualaUztvere"
+    ],
     "type": "piederums",
     "level": "zems",
     "latvian": "Informācija tiks papildināta",
@@ -1305,6 +1436,10 @@
     ],
     "needs": [
       "organizesanaAtbalsts"
+    ],
+    "skills": [
+      "sazina",
+      "organizesana"
     ],
     "type": "atFonds",
     "level": "augsts",
@@ -1340,6 +1475,9 @@
     ],
     "needs": [
       "rakstisanaAtbalsts"
+    ],
+    "skills": [
+      "rakstisana"
     ],
     "type": "programmatura",
     "level": "augsts",
@@ -1388,6 +1526,11 @@
       "simboli",
       "aac"
     ],
+    "skills": [
+      "rakstisana",
+      "sazina",
+      "vizualaUztvere"
+    ],
     "type": "programmatura",
     "level": "augsts",
     "latvian": "Daļēji pieejams latviešu valodā",
@@ -1432,6 +1575,10 @@
     "needs": [
       "organizesanaAtbalsts"
     ],
+    "skills": [
+      "rakstisana",
+      "iericesVadiba"
+    ],
     "type": "piederums",
     "level": "zems",
     "latvian": "Informācija tiks papildināta",
@@ -1467,6 +1614,9 @@
     ],
     "needs": [
       "rakstisanaAtbalsts"
+    ],
+    "skills": [
+      "rakstisana"
     ],
     "type": "programmatura",
     "level": "augsts",
@@ -1507,6 +1657,10 @@
       "ocr",
       "organizesanaAtbalsts"
     ],
+    "skills": [
+      "rakstisana",
+      "organizesana"
+    ],
     "type": "ierice",
     "level": "augsts",
     "latvian": "Pieejams latviešu valodā",
@@ -1544,6 +1698,11 @@
     "needs": [
       "organizesanaAtbalsts",
       "simboli"
+    ],
+    "skills": [
+      "sazina",
+      "vizualaUztvere",
+      "organizesana"
     ],
     "type": "materials",
     "level": "zems",
@@ -1583,6 +1742,9 @@
     "needs": [
       "organizesanaAtbalsts"
     ],
+    "skills": [
+      "organizesana"
+    ],
     "type": "materials",
     "level": "videjs",
     "latvian": "Pieejams latviešu valodā",
@@ -1618,6 +1780,9 @@
     "needs": [
       "organizesanaAtbalsts"
     ],
+    "skills": [
+      "organizesana"
+    ],
     "type": "programmatura",
     "level": "augsts",
     "latvian": "Informāciju kartēs var ievadīt latviešu valodā; lietotāja saskarnes valoda no izvēlētā rīka.",
@@ -1652,6 +1817,9 @@
     ],
     "needs": [
       "organizesanaAtbalsts"
+    ],
+    "skills": [
+      "organizesana"
     ],
     "type": "ierice",
     "level": "videjs",
@@ -1695,6 +1863,10 @@
       "simboli",
       "matematikaAtbalsts"
     ],
+    "skills": [
+      "vizualaUztvere",
+      "organizesana"
+    ],
     "type": "ierice",
     "level": "videjs",
     "latvian": "Pieejams latviešu valodā",
@@ -1729,6 +1901,9 @@
     ],
     "needs": [
       "organizesanaAtbalsts"
+    ],
+    "skills": [
+      "organizesana"
     ],
     "type": "piederums",
     "level": "zems",
@@ -1766,6 +1941,10 @@
     "needs": [
       "vizualaPielagosana"
     ],
+    "skills": [
+      "lasisana",
+      "vizualaUztvere"
+    ],
     "type": "piederums",
     "level": "zems",
     "latvian": "Informācija tiks papildināta",
@@ -1799,6 +1978,11 @@
     "needs": [
       "organizesanaAtbalsts",
       "simboli"
+    ],
+    "skills": [
+      "sazina",
+      "vizualaUztvere",
+      "organizesana"
     ],
     "type": "materials",
     "level": "zems",
@@ -1834,6 +2018,9 @@
     "needs": [
       "organizesanaAtbalsts"
     ],
+    "skills": [
+      "organizesana"
+    ],
     "type": "piederums",
     "level": "zems",
     "latvian": "Informācija tiks papildināta",
@@ -1865,6 +2052,9 @@
     ],
     "needs": [
       "organizesanaAtbalsts"
+    ],
+    "skills": [
+      "organizesana"
     ],
     "type": "piederums",
     "level": "zems",
@@ -1898,6 +2088,9 @@
     ],
     "needs": [
       "organizesanaAtbalsts"
+    ],
+    "skills": [
+      "organizesana"
     ],
     "type": "programmatura",
     "level": "augsts",
@@ -1933,6 +2126,9 @@
     ],
     "needs": [
       "organizesanaAtbalsts"
+    ],
+    "skills": [
+      "organizesana"
     ],
     "type": "programmatura",
     "level": "augsts",
@@ -1981,6 +2177,15 @@
       "ierices Vadiba",
       "matematikaAtbalsts"
     ],
+    "skills": [
+      "lasisana",
+      "rakstisana",
+      "matematika",
+      "sazina",
+      "vizualaUztvere",
+      "organizesana",
+      "iericesVadiba"
+    ],
     "type": "citsValstsAtbalsts",
     "level": "augsts",
     "latvian": "Informācija tiks papildināta",
@@ -2012,6 +2217,12 @@
       "stt",
       "simboli",
       "aac"
+    ],
+    "skills": [
+      "lasisana",
+      "rakstisana",
+      "sazina",
+      "vizualaUztvere"
     ],
     "type": "citsValstsAtbalsts",
     "level": "videjs",
@@ -2056,6 +2267,11 @@
       "aac",
       "ierices Vadiba",
       "matematikaAtbalsts"
+    ],
+    "skills": [
+      "lasisana",
+      "vizualaUztvere",
+      "iericesVadiba"
     ],
     "type": "atFonds",
     "level": "augsts",
@@ -2102,6 +2318,10 @@
       "aac",
       "ierices Vadiba"
     ],
+    "skills": [
+      "vizualaUztvere",
+      "iericesVadiba"
+    ],
     "type": "atFonds",
     "level": "augsts",
     "latvian": "Informācija tiks papildināta",
@@ -2143,6 +2363,11 @@
       "simboli",
       "ierices Vadiba",
       "matematikaAtbalsts"
+    ],
+    "skills": [
+      "lasisana",
+      "vizualaUztvere",
+      "iericesVadiba"
     ],
     "type": "atFonds",
     "level": "videjs",
@@ -2186,6 +2411,10 @@
     "needs": [
       "organizesanaAtbalsts"
     ],
+    "skills": [
+      "rakstisana",
+      "organizesana"
+    ],
     "type": "programmatura",
     "level": "videjs",
     "latvian": "Informāciju un piezīmes var rakstīt latviešu valodā. Paplašinājuma saskarne ir angļu valodā.",
@@ -2226,6 +2455,9 @@
     ],
     "needs": [
       "ierices Vadiba"
+    ],
+    "skills": [
+      "iericesVadiba"
     ],
     "type": "piederums",
     "level": "zems",
@@ -2268,6 +2500,9 @@
       "simboli",
       "aac"
     ],
+    "skills": [
+      "vizualaUztvere"
+    ],
     "type": "programmatura",
     "level": "augsts",
     "latvian": "Alternatīvo tekstu iespējams rakstīt latviešu valodā.",
@@ -2305,6 +2540,10 @@
     "needs": [
       "tts",
       "vizualaPielagosana"
+    ],
+    "skills": [
+      "lasisana",
+      "vizualaUztvere"
     ],
     "type": "programmatura",
     "level": "augsts",
@@ -2349,6 +2588,11 @@
     "needs": [
       "rakstisanaAtbalsts",
       "aac"
+    ],
+    "skills": [
+      "lasisana",
+      "rakstisana",
+      "sazina"
     ],
     "type": "citsValstsAtbalsts",
     "level": "videjs",
@@ -2422,6 +2666,9 @@
     "needs": [
       "tts"
     ],
+    "skills": [
+      "lasisana"
+    ],
     "type": "citsValstsAtbalsts",
     "level": "augsts",
     "latvian": "Informācija tiks papildināta",
@@ -2458,6 +2705,10 @@
       "tts",
       "organizesanaAtbalsts"
     ],
+    "skills": [
+      "lasisana",
+      "organizesana"
+    ],
     "type": "citsValstsAtbalsts",
     "level": "videjs",
     "latvian": "Informācija tiks papildināta",
@@ -2493,6 +2744,12 @@
       "organizesanaAtbalsts",
       "simboli"
     ],
+    "skills": [
+      "lasisana",
+      "sazina",
+      "vizualaUztvere",
+      "organizesana"
+    ],
     "type": "programmatura",
     "level": "videjs",
     "latvian": "Informācija tiks papildināta",
@@ -2524,6 +2781,9 @@
     ],
     "needs": [
       "simboli"
+    ],
+    "skills": [
+      "vizualaUztvere"
     ],
     "type": "citsValstsAtbalsts",
     "level": "videjs",
@@ -2561,6 +2821,11 @@
     "needs": [
       "vizualaPielagosana",
       "ierices Vadiba"
+    ],
+    "skills": [
+      "lasisana",
+      "vizualaUztvere",
+      "iericesVadiba"
     ],
     "type": "citsValstsAtbalsts",
     "level": "videjs",
@@ -2608,6 +2873,15 @@
       "ierices Vadiba",
       "matematikaAtbalsts"
     ],
+    "skills": [
+      "lasisana",
+      "rakstisana",
+      "matematika",
+      "sazina",
+      "vizualaUztvere",
+      "organizesana",
+      "iericesVadiba"
+    ],
     "type": "programmatura",
     "level": "videjs",
     "latvian": "Informācija tiks papildināta",
@@ -2647,6 +2921,11 @@
       "stt",
       "aac"
     ],
+    "skills": [
+      "lasisana",
+      "rakstisana",
+      "sazina"
+    ],
     "type": "citsValstsAtbalsts",
     "level": "videjs",
     "latvian": "Informācija tiks papildināta",
@@ -2676,6 +2955,10 @@
     "needs": [
       "simboli",
       "aac"
+    ],
+    "skills": [
+      "sazina",
+      "vizualaUztvere"
     ],
     "type": "citsValstsAtbalsts",
     "level": "videjs",
@@ -2713,6 +2996,12 @@
       "aac",
       "ierices Vadiba"
     ],
+    "skills": [
+      "sazina",
+      "vizualaUztvere",
+      "organizesana",
+      "iericesVadiba"
+    ],
     "type": "citsValstsAtbalsts",
     "level": "augsts",
     "latvian": "Pieejams latviešu valodā (balss sintezators Oskars)",
@@ -2745,6 +3034,10 @@
     ],
     "needs": [
       "aac"
+    ],
+    "skills": [
+      "sazina",
+      "vizualaUztvere"
     ],
     "type": "citsValstsAtbalsts",
     "level": "zems",

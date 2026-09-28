@@ -17,6 +17,16 @@ const publicIds = ids(publicHtml);
 for (const id of [...publicJs.matchAll(/querySelector\("#([^"]+)"\)/g)].map((match) => match[1])) {
   if (!publicIds.has(id)) throw new Error(`Publiskajā HTML nav JavaScript izmantotā #${id}.`);
 }
+if (!publicHtml.includes('<option value="prasme">AT atbalstāmā prasme</option>') ||
+    !publicHtml.includes('id="skill-filter-wrap" hidden') || !publicHtml.includes('id="f-skill"') ||
+    !publicJs.includes('resource.skills.includes(elements.skill.value)')) {
+  throw new Error("AT atbalstāmās prasmes izvēle nav piesaistīta publiskajam filtram.");
+}
+const skillValues = [...publicHtml.matchAll(/<option value="(lasisana|rakstisana|matematika|sazina|vizualaUztvere|organizesana|iericesVadiba)">/g)]
+  .map((match) => match[1]);
+for (const value of new Set(skillValues)) {
+  if (!catalog.some((resource) => resource.skills.includes(value))) throw new Error(`Prasmei ${value} nav neviena risinājuma.`);
+}
 
 const adminIds = ids(adminHtml);
 const adminReferences = new Set([
@@ -24,6 +34,9 @@ const adminReferences = new Set([
   ...[...adminJs.matchAll(/ui\.([a-zA-Z][a-zA-Z0-9]*)/g)].map((match) => match[1]),
 ]);
 for (const id of adminReferences) if (!adminIds.has(id)) throw new Error(`Administratora HTML nav JavaScript izmantotā #${id}.`);
+if (!adminIds.has("field-skills") || !adminJs.includes('buildChoices(ui["field-skills"], options.skills)')) {
+  throw new Error("AT atbalstāmās prasmes nevar rediģēt administratora panelī.");
+}
 
 if (publicHtml.includes("routes-C_WgTdsH.js") || publicHtml.includes("catalog-fallback.js")) throw new Error("Publiskā lapa joprojām izmanto vēsturisko datu pakotni.");
 if (!publicHtml.includes("./data/catalog.json") && !publicJs.includes("./data/catalog.json")) throw new Error("Publiskā lapa nelasa autoritatīvo kataloga datni.");

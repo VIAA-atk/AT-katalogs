@@ -39,6 +39,7 @@ ensureAcquisitionFilter();
 
 const elements = {
   area: document.querySelector("#f-area"), need: document.querySelector("#f-need"), type: document.querySelector("#f-type"),
+  skill: document.querySelector("#f-skill"), skillWrap: document.querySelector("#skill-filter-wrap"),
   level: document.querySelector("#f-level"), acquisitionOptions: document.querySelector("#f-acquisition-options"),
   query: document.querySelector("#f-query"), clear: document.querySelector("#clear-filters"),
   count: document.querySelector("#result-count"), status: document.querySelector("#catalog-status"), grid: document.querySelector("#catalog-grid"),
@@ -177,9 +178,13 @@ function openModal(resource, trigger) {
 }
 
 function render() {
+  const bySkill = elements.area.value === "prasme";
+  elements.skillWrap.hidden = !bySkill;
+  elements.skill.disabled = !bySkill;
   const query = elements.query.value.trim().toLocaleLowerCase("lv");
   const filtered = resources.filter((resource) =>
-    (elements.area.value === "all" || resource.areas.includes(elements.area.value)) &&
+    (elements.area.value === "all" || bySkill || resource.areas.includes(elements.area.value)) &&
+    (!bySkill || (resource.skills?.length && (elements.skill.value === "all" || resource.skills.includes(elements.skill.value)))) &&
     (elements.need.value === "all" || resource.needs.includes(elements.need.value)) &&
     (elements.type.value === "all" || resource.type === elements.type.value) &&
     (elements.level.value === "all" || resource.level === elements.level.value) &&
@@ -193,10 +198,10 @@ function render() {
   elements.status.textContent = "Pēc izvēlētajiem filtriem nekas netika atrasts. Mēģini notīrīt filtrus.";
 }
 
-for (const filter of [elements.area, elements.need, elements.type, elements.level, elements.acquisitionOptions]) filter.addEventListener("change", render);
+for (const filter of [elements.area, elements.skill, elements.need, elements.type, elements.level, elements.acquisitionOptions]) filter.addEventListener("change", render);
 elements.query.addEventListener("input", render);
 elements.clear.addEventListener("click", () => {
-  for (const filter of [elements.area, elements.need, elements.type, elements.level, elements.acquisitionOptions]) filter.value = "all";
+  for (const filter of [elements.area, elements.skill, elements.need, elements.type, elements.level, elements.acquisitionOptions]) filter.value = "all";
   elements.query.value = "";
   render();
 });
