@@ -3044,11 +3044,14 @@
     "acquisitionOptions": [
       "cits"
     ],
-    "image": "assets/images/catalog/fm-radiofrekvencu-parraides-sistema.jpg",
+    "image": "assets/images/catalog/fm-radiofrekvencu-parraides-sistema.png",
     "imageAlt": "FM radiofrekvenču pārraides sistēma",
     "imageSource": "",
     "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
     "productPage": "https://new.lns.lv/wp-content/uploads/2025/03/Valsts_apmaksatie_surdotehniskie_paliglidzekli-scaled.jpg",
-    "productLinkType": "resource"
+    "productLinkType": "resource",
+    "skills": [
+      "sazina"
+    ]
   }
 ]
