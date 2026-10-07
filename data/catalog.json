@@ -377,7 +377,7 @@
       "sazina",
       "vizualaUztvere"
     ],
-    "type": "atFonds",
+    "type": "programmatura",
     "level": "augsts",
     "latvian": "Pieejams latviešu valodā",
     "whatIs": "Programmatūra teksta, darba lapu un saziņas materiālu veidošanai ar piktogrammām vai citiem simboliem.",
@@ -388,10 +388,7 @@
       "Vajadzību, atbilžu un izvēļu izteikšana alternatīvā veidā.",
       "Saziņa ar simboliem, attēliem, tekstu"
     ],
-    "acquisition": [
-      "SymWriter 2 ir maksas programmatūra. Widgit oficiālajā Latvijas atbalsta lapā kā Latvijas izplatītājs norādīts Piktogrammas; pieejama arī 21 dienas bezmaksas izmēģinājuma versija.",
-      "*Programma ir pieejama 4.2.1.2. projekta AT fondā, projekta sadarbības partneriem."
-    ],
+    "acquisition": "SymWriter 2 ir maksas programmatūra. Widgit oficiālajā Latvijas atbalsta lapā kā Latvijas izplatītājs norādīts Piktogrammas; pieejama arī 21 dienas bezmaksas izmēģinājuma versija.\nIegādāties var šeit: https://www.piktogrammas.lv/symwriter/cena",
     "acquisitionOptions": [
       "dalejiBezmaksas",
       "maksas",
