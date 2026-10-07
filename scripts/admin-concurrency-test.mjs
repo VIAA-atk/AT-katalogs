@@ -85,7 +85,7 @@ assert.deepEqual(mergeCatalogChanges(afterTabA, [staleNoOp]), afterTabA, "A stal
 const selectionBase = { ...initial[0], skills: ["lasisana", "rakstisana"] };
 const reorderedSelection = createUpdateChange(selectionBase, { ...selectionBase, skills: ["rakstisana", "lasisana"] });
 assert.deepEqual(reorderedSelection.patch, {}, "Checkbox order is not a field edit.");
-assert.deepEqual(mergeCatalogChanges([{ ...selectionBase, skills: ["sazina"] }], [reorderedSelection])[0].skills, ["sazina"]);
+assert.deepEqual(mergeCatalogChanges([{ ...selectionBase, skills: ["komunikacija"] }], [reorderedSelection])[0].skills, ["komunikacija"]);
 
 const partial = partitionCatalogChanges(afterTabA, [sameFieldChange, tabBChange], localOrder);
 assert.deepEqual(partial.acceptedChanges.map((change) => change.id), ["b"]);

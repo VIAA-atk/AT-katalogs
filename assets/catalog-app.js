@@ -1,7 +1,7 @@
 const labels = {
   skills: {
-    lasisana: "Lasīšana", rakstisana: "Rakstīšana", matematika: "Matemātika", sazina: "Saziņa",
-    vizualaUztvere: "Informācijas uztvere", organizesana: "Uzmanība un darba organizēšana", iericesVadiba: "Rīku un ierīču lietošana",
+    lasisana: "Lasīšana", rakstisana: "Rakstīšana", matematika: "Matemātika", komunikacija: "Komunikācija",
+    organizesana: "Uzmanība, atmiņa un organizēšana", vide: "Piekļuve videi un tehnoloģijām",
   },
   types: {
     ierice: "Ierīce", programmatura: "Programmatūra vai lietotne", iebuveta: "Iebūvēta piekļūstamības funkcija",

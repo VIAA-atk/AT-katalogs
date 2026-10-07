@@ -23,7 +23,7 @@ const arasaac = fixture("arasaac", "ARASAAC");
 const other = fixture("cits", "Cits ieraksts");
 const hugo = { ...fixture("hugo-gov-lv", "Hugo.gov.lv"), acquisition: "Informācija" };
 const oldDraft = { ...sync.createUpdateChange(arasaac, {
-  ...arasaac, short: "Mans vecais ARASAAC teksts", skills: ["sazina"], whatIs: "Mans apraksts",
+  ...arasaac, short: "Mans vecais ARASAAC teksts", skills: ["komunikacija"], whatIs: "Mans apraksts",
 }), baseCommitSha: "original" };
 const latestArasaac = { ...arasaac, short: "GitHub ARASAAC teksts", skills: ["rakstisana"], whatIs: "GitHub apraksts" };
 const oldBackup = () => ({ version: 1, repository: "VIAA-atk/AT-katalogs", changes: [copy(oldDraft)],
@@ -167,6 +167,19 @@ function harness({ backup = oldBackup(), initial = [latestArasaac, other] } = {}
   assert.equal(h.run("recordChanges.get('arasaac').patch.areas"), undefined);
   await h.run("publish(true)");
   assert.deepEqual(h.records()[0], { ...arasaac, short: "Saglabāts vecais labojums" });
+}
+
+// Older skill selections survive when the browser restores an unpublished draft.
+{
+  const oldBase = { ...arasaac, skills: ["sazina", "vizualaUztvere"] };
+  const oldValue = { ...oldBase, skills: ["sazina", "vizualaUztvere", "iericesVadiba", "lasisana"] };
+  const backup = oldBackup();
+  backup.changes = [{ ...sync.createUpdateChange(oldBase, oldValue), baseCommitSha: "original" }];
+  const current = { ...arasaac, skills: ["komunikacija", "vide"] };
+  const h = harness({ backup, initial: [current, other] }); await h.connect();
+  assert.deepEqual(JSON.parse(h.run("JSON.stringify(recordChanges.get('arasaac').patch.skills)")), ["komunikacija", "vide", "lasisana"]);
+  await h.run("publish(true)");
+  assert.deepEqual(h.records()[0].skills, ["komunikacija", "vide", "lasisana"]);
 }
 
 // Discard through the real button while an unrelated new form contains unsaved text.

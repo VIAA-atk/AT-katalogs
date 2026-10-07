@@ -19,10 +19,9 @@
       "lasisana",
       "rakstisana",
       "matematika",
-      "sazina",
-      "vizualaUztvere",
-      "organizesana",
-      "iericesVadiba"
+      "komunikacija",
+      "vide",
+      "organizesana"
     ],
     "type": "metodiskais",
     "level": "zems",
@@ -59,8 +58,8 @@
       "aac"
     ],
     "skills": [
-      "sazina",
-      "vizualaUztvere",
+      "komunikacija",
+      "vide",
       "organizesana"
     ],
     "type": "piederums",
@@ -104,8 +103,8 @@
       "aac"
     ],
     "skills": [
-      "sazina",
-      "vizualaUztvere",
+      "komunikacija",
+      "vide",
       "organizesana"
     ],
     "type": "bezmaksas",
@@ -149,7 +148,7 @@
     "skills": [
       "lasisana",
       "rakstisana",
-      "vizualaUztvere"
+      "vide"
     ],
     "type": "programmatura",
     "level": "augsts",
@@ -222,8 +221,8 @@
       "aac"
     ],
     "skills": [
-      "sazina",
-      "vizualaUztvere"
+      "komunikacija",
+      "vide"
     ],
     "type": "programmatura",
     "level": "augsts",
@@ -262,7 +261,7 @@
     ],
     "skills": [
       "lasisana",
-      "vizualaUztvere"
+      "vide"
     ],
     "type": "piederums",
     "level": "zems",
@@ -300,7 +299,7 @@
     ],
     "skills": [
       "lasisana",
-      "vizualaUztvere"
+      "vide"
     ],
     "type": "piederums",
     "level": "zems",
@@ -340,7 +339,7 @@
     ],
     "skills": [
       "lasisana",
-      "vizualaUztvere"
+      "vide"
     ],
     "type": "programmatura",
     "level": "videjs",
@@ -374,8 +373,8 @@
     ],
     "skills": [
       "rakstisana",
-      "sazina",
-      "vizualaUztvere"
+      "komunikacija",
+      "vide"
     ],
     "type": "programmatura",
     "level": "augsts",
@@ -456,8 +455,8 @@
       "lasisana",
       "rakstisana",
       "matematika",
-      "sazina",
-      "vizualaUztvere"
+      "komunikacija",
+      "vide"
     ],
     "type": "atFonds",
     "level": "augsts",
@@ -809,7 +808,7 @@
     ],
     "skills": [
       "lasisana",
-      "vizualaUztvere"
+      "vide"
     ],
     "type": "materials",
     "level": "zems",
@@ -844,7 +843,7 @@
     ],
     "skills": [
       "lasisana",
-      "sazina"
+      "komunikacija"
     ],
     "type": "programmatura",
     "level": "augsts",
@@ -882,7 +881,7 @@
       "organizesanaAtbalsts"
     ],
     "skills": [
-      "vizualaUztvere"
+      "vide"
     ],
     "type": "programmatura",
     "level": "augsts",
@@ -953,7 +952,7 @@
     ],
     "skills": [
       "lasisana",
-      "vizualaUztvere"
+      "vide"
     ],
     "type": "ierice",
     "level": "augsts",
@@ -1118,7 +1117,7 @@
     ],
     "skills": [
       "rakstisana",
-      "iericesVadiba"
+      "vide"
     ],
     "type": "piederums",
     "level": "zems",
@@ -1157,8 +1156,8 @@
       "simboli"
     ],
     "skills": [
-      "sazina",
-      "vizualaUztvere",
+      "komunikacija",
+      "vide",
       "organizesana"
     ],
     "type": "materials",
@@ -1201,7 +1200,7 @@
     ],
     "skills": [
       "rakstisana",
-      "iericesVadiba"
+      "vide"
     ],
     "type": "piederums",
     "level": "zems",
@@ -1240,7 +1239,7 @@
     ],
     "skills": [
       "rakstisana",
-      "vizualaUztvere"
+      "vide"
     ],
     "type": "piederums",
     "level": "zems",
@@ -1272,7 +1271,7 @@
       "organizesanaAtbalsts"
     ],
     "skills": [
-      "sazina",
+      "komunikacija",
       "organizesana"
     ],
     "type": "atFonds",
@@ -1350,8 +1349,8 @@
     ],
     "skills": [
       "rakstisana",
-      "sazina",
-      "vizualaUztvere"
+      "komunikacija",
+      "vide"
     ],
     "type": "programmatura",
     "level": "augsts",
@@ -1396,7 +1395,7 @@
     ],
     "skills": [
       "rakstisana",
-      "iericesVadiba"
+      "vide"
     ],
     "type": "piederums",
     "level": "zems",
@@ -1506,8 +1505,8 @@
       "simboli"
     ],
     "skills": [
-      "sazina",
-      "vizualaUztvere",
+      "komunikacija",
+      "vide",
       "organizesana"
     ],
     "type": "materials",
@@ -1650,7 +1649,7 @@
       "matematikaAtbalsts"
     ],
     "skills": [
-      "vizualaUztvere",
+      "vide",
       "organizesana"
     ],
     "type": "ierice",
@@ -1723,7 +1722,7 @@
     ],
     "skills": [
       "lasisana",
-      "vizualaUztvere"
+      "vide"
     ],
     "type": "piederums",
     "level": "zems",
@@ -1757,8 +1756,8 @@
       "simboli"
     ],
     "skills": [
-      "sazina",
-      "vizualaUztvere",
+      "komunikacija",
+      "vide",
       "organizesana"
     ],
     "type": "materials",
@@ -1938,10 +1937,9 @@
       "lasisana",
       "rakstisana",
       "matematika",
-      "sazina",
-      "vizualaUztvere",
-      "organizesana",
-      "iericesVadiba"
+      "komunikacija",
+      "vide",
+      "organizesana"
     ],
     "type": "citsValstsAtbalsts",
     "level": "augsts",
@@ -1974,8 +1972,8 @@
     "skills": [
       "lasisana",
       "rakstisana",
-      "sazina",
-      "vizualaUztvere"
+      "komunikacija",
+      "vide"
     ],
     "type": "citsValstsAtbalsts",
     "level": "videjs",
@@ -2018,8 +2016,7 @@
     ],
     "skills": [
       "lasisana",
-      "vizualaUztvere",
-      "iericesVadiba"
+      "vide"
     ],
     "type": "atFonds",
     "level": "augsts",
@@ -2062,8 +2059,7 @@
       "ierices Vadiba"
     ],
     "skills": [
-      "vizualaUztvere",
-      "iericesVadiba"
+      "vide"
     ],
     "type": "atFonds",
     "level": "augsts",
@@ -2104,8 +2100,7 @@
     ],
     "skills": [
       "lasisana",
-      "vizualaUztvere",
-      "iericesVadiba"
+      "vide"
     ],
     "type": "atFonds",
     "level": "videjs",
@@ -2185,7 +2180,7 @@
       "ierices Vadiba"
     ],
     "skills": [
-      "iericesVadiba"
+      "vide"
     ],
     "type": "piederums",
     "level": "zems",
@@ -2226,7 +2221,7 @@
       "aac"
     ],
     "skills": [
-      "vizualaUztvere"
+      "vide"
     ],
     "type": "programmatura",
     "level": "augsts",
@@ -2264,7 +2259,7 @@
     ],
     "skills": [
       "lasisana",
-      "vizualaUztvere"
+      "vide"
     ],
     "type": "programmatura",
     "level": "augsts",
@@ -2306,7 +2301,7 @@
     "skills": [
       "lasisana",
       "rakstisana",
-      "sazina"
+      "komunikacija"
     ],
     "type": "citsValstsAtbalsts",
     "level": "videjs",
@@ -2407,8 +2402,8 @@
     ],
     "skills": [
       "lasisana",
-      "sazina",
-      "vizualaUztvere",
+      "komunikacija",
+      "vide",
       "organizesana"
     ],
     "type": "programmatura",
@@ -2441,7 +2436,7 @@
       "simboli"
     ],
     "skills": [
-      "vizualaUztvere"
+      "vide"
     ],
     "type": "citsValstsAtbalsts",
     "level": "videjs",
@@ -2474,8 +2469,7 @@
     ],
     "skills": [
       "lasisana",
-      "vizualaUztvere",
-      "iericesVadiba"
+      "vide"
     ],
     "type": "citsValstsAtbalsts",
     "level": "videjs",
@@ -2519,10 +2513,9 @@
       "lasisana",
       "rakstisana",
       "matematika",
-      "sazina",
-      "vizualaUztvere",
-      "organizesana",
-      "iericesVadiba"
+      "komunikacija",
+      "vide",
+      "organizesana"
     ],
     "type": "programmatura",
     "level": "videjs",
@@ -2558,7 +2551,7 @@
     "skills": [
       "lasisana",
       "rakstisana",
-      "sazina"
+      "komunikacija"
     ],
     "type": "citsValstsAtbalsts",
     "level": "videjs",
@@ -2587,8 +2580,8 @@
       "aac"
     ],
     "skills": [
-      "sazina",
-      "vizualaUztvere"
+      "komunikacija",
+      "vide"
     ],
     "type": "citsValstsAtbalsts",
     "level": "videjs",
@@ -2623,10 +2616,9 @@
       "ierices Vadiba"
     ],
     "skills": [
-      "sazina",
-      "vizualaUztvere",
-      "organizesana",
-      "iericesVadiba"
+      "komunikacija",
+      "vide",
+      "organizesana"
     ],
     "type": "citsValstsAtbalsts",
     "level": "augsts",
@@ -2659,8 +2651,8 @@
       "aac"
     ],
     "skills": [
-      "sazina",
-      "vizualaUztvere"
+      "komunikacija",
+      "vide"
     ],
     "type": "citsValstsAtbalsts",
     "level": "zems",
@@ -2712,7 +2704,7 @@
     "productPage": "https://new.lns.lv/wp-content/uploads/2025/03/Valsts_apmaksatie_surdotehniskie_paliglidzekli-scaled.jpg",
     "productLinkType": "resource",
     "skills": [
-      "vizualaUztvere"
+      "vide"
     ]
   },
   {
@@ -2743,7 +2735,7 @@
     "productPage": "https://new.lns.lv/wp-content/uploads/2025/03/Valsts_apmaksatie_surdotehniskie_paliglidzekli-scaled.jpg",
     "productLinkType": "resource",
     "skills": [
-      "sazina"
+      "komunikacija"
     ]
   }
 ]

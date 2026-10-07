@@ -20,8 +20,8 @@ for (const id of [...publicJs.matchAll(/querySelector\("#([^"]+)"\)/g)].map((mat
 }
 const expectedSkills = [
   ["lasisana", "Lasīšana"], ["rakstisana", "Rakstīšana"], ["matematika", "Matemātika"],
-  ["sazina", "Saziņa"], ["vizualaUztvere", "Informācijas uztvere"],
-  ["organizesana", "Uzmanība un darba organizēšana"], ["iericesVadiba", "Rīku un ierīču lietošana"],
+  ["komunikacija", "Komunikācija"],
+  ["organizesana", "Uzmanība, atmiņa un organizēšana"], ["vide", "Piekļuve videi un tehnoloģijām"],
 ];
 const skillSelect = publicHtml.match(/<select id="f-skill"[^>]*>([\s\S]*?)<\/select>/)?.[1];
 const skillOptions = [...(skillSelect ?? "").matchAll(/<option value="([^"]+)">([^<]+)<\/option>/g)]
@@ -29,7 +29,7 @@ const skillOptions = [...(skillSelect ?? "").matchAll(/<option value="([^"]+)">(
 if (JSON.stringify(skillOptions) !== JSON.stringify([["all", "Visas prasmes"], ...expectedSkills]) ||
     publicHtml.includes('id="f-area"') || publicHtml.includes('id="skill-filter-wrap"') ||
     publicJs.includes("resource.areas") || !publicJs.includes("resource.skills.includes(elements.skill.value)")) {
-  throw new Error("Publiskajam filtram jāizmanto tikai septiņas AT atbalstāmās prasmes.");
+  throw new Error("Publiskajam filtram jāizmanto tikai sešas AT atbalstāmās prasmes.");
 }
 for (const [value] of expectedSkills) {
   if (!catalog.some((resource) => resource.skills.includes(value))) throw new Error(`Prasmei ${value} nav neviena risinājuma.`);
@@ -59,6 +59,11 @@ const adminReferences = new Set([
 for (const id of adminReferences) if (!adminIds.has(id)) throw new Error(`Administratora HTML nav JavaScript izmantotā #${id}.`);
 if (!adminIds.has("field-skills") || adminIds.has("field-areas") || !adminJs.includes('buildChoices(ui["field-skills"], options.skills)')) {
   throw new Error("AT atbalstāmās prasmes nevar rediģēt administratora panelī.");
+}
+const adminChoices = [...(adminJs.match(/  skills: \{([\s\S]*?)\n  \},/)?.[1] ?? "")
+  .matchAll(/([a-zA-Z]+): "([^"]+)"/g)].map(([, value, label]) => [value, label]);
+if (JSON.stringify(adminChoices) !== JSON.stringify(expectedSkills)) {
+  throw new Error("Administratora prasmes nesakrīt ar publiskā filtra sešām vērtībām.");
 }
 
 if (publicHtml.includes("routes-C_WgTdsH.js") || publicHtml.includes("catalog-fallback.js")) throw new Error("Publiskā lapa joprojām izmanto vēsturisko datu pakotni.");

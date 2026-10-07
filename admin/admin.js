@@ -20,8 +20,8 @@ const options = {
     aac: "Alternatīvs saziņas veids", "ierices Vadiba": "Pielāgota ierīces vadība", matematikaAtbalsts: "Matemātikas uzdevumu atbalsts",
   },
   skills: {
-    lasisana: "Lasīšana", rakstisana: "Rakstīšana", matematika: "Matemātika", sazina: "Saziņa",
-    vizualaUztvere: "Informācijas uztvere", organizesana: "Uzmanība un darba organizēšana", iericesVadiba: "Rīku un ierīču lietošana",
+    lasisana: "Lasīšana", rakstisana: "Rakstīšana", matematika: "Matemātika", komunikacija: "Komunikācija",
+    organizesana: "Uzmanība, atmiņa un organizēšana", vide: "Piekļuve videi un tehnoloģijām",
   },
   types: {
     ierice: "Ierīce", programmatura: "Programmatūra vai lietotne", iebuveta: "Iebūvēta piekļūstamības funkcija",
@@ -840,6 +840,16 @@ async function resolveRecordConflict(conflict, expectedChange, choices) {
   } finally { setBusy(false); }
 }
 
+// Keep edits made before the six-option change while translating their skill selections.
+const legacySkills = {
+  sazina: "komunikacija", vizualaUztvere: "vide", iericesVadiba: "vide",
+};
+function migrateDraftSkills(record) {
+  if (Array.isArray(record?.skills)) {
+    record.skills = [...new Set(record.skills.map((value) => legacySkills[value] ?? value))];
+  }
+}
+
 function restoreBrowserDraft(remote) {
   const backup = readBrowserDraft();
   if (!backup || (!backup.changes?.length && !backup.form && !backup.orderDraft?.operations?.length)) return false;
@@ -853,7 +863,10 @@ function restoreBrowserDraft(remote) {
     if (change?.id && ["create", "update", "delete"].includes(change.kind)) {
       // v16 drafts may contain the classification removed from the catalogue.
       for (const record of [change.base, change.value, change.patch]) {
-        if (record && typeof record === "object") delete record.areas;
+        if (record && typeof record === "object") {
+          delete record.areas;
+          migrateDraftSkills(record);
+        }
       }
       for (const field of ["removedFields", "unverifiedFields"]) {
         if (Array.isArray(change[field])) change[field] = change[field].filter((item) => item !== "areas");
@@ -870,7 +883,9 @@ function restoreBrowserDraft(remote) {
   const snapshot = backup.form;
   if (snapshot?.resource) {
     delete snapshot.resource.areas;
+    migrateDraftSkills(snapshot.resource);
     if (snapshot.base) delete snapshot.base.areas;
+    migrateDraftSkills(snapshot.base);
     if (snapshot.newRecord) blankRecord();
     else {
       const selected = resources.find((resource) => resource.id === snapshot.selectedId);
