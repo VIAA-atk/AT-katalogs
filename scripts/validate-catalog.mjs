@@ -5,7 +5,6 @@ const root = path.resolve(import.meta.dirname, "..");
 const dataPath = path.join(root, "data/catalog.json");
 const resources = JSON.parse(await fs.readFile(dataPath, "utf8"));
 const allowed = {
-  areas: new Set(["lasisana", "rakstisana", "matematika", "komunikacija", "organizesana", "vide"]),
   needs: new Set(["tts", "vizualaPielagosana", "ocr", "stt", "rakstisanaAtbalsts", "organizesanaAtbalsts", "simboli", "aac", "ierices Vadiba", "matematikaAtbalsts"]),
   skills: new Set(["lasisana", "rakstisana", "matematika", "sazina", "vizualaUztvere", "organizesana", "iericesVadiba"]),
   acquisitionOptions: new Set(["bezmaksas", "dalejiBezmaksas", "zemuIzmaksu", "maksas", "projektaIetvaros", "cits"]),
@@ -24,14 +23,14 @@ for (const [index, resource] of resources.entries()) {
   for (const field of ["name", "short", "latvian", "whatIs", "image", "imageAlt", "imageRightsNote"]) {
     if (typeof resource[field] !== "string" || !resource[field].trim()) throw new Error(`${where}: nav aizpildīts ${field}.`);
   }
-  for (const field of ["areas", "needs", "skills", "functions", "acquisitionOptions"]) {
+  if ("areas" in resource) throw new Error(`${where}: novecojis areas lauks.`);
+  for (const field of ["needs", "skills", "functions", "acquisitionOptions"]) {
     if (!Array.isArray(resource[field]) || !resource[field].length) throw new Error(`${where}: ${field} jābūt netukšam sarakstam.`);
   }
   const acquisitionValid = typeof resource.acquisition === "string"
     ? Boolean(resource.acquisition.trim())
     : Array.isArray(resource.acquisition) && resource.acquisition.some((item) => typeof item === "string" && item.trim());
   if (!acquisitionValid) throw new Error(`${where}: acquisition jābūt aizpildītam tekstam.`);
-  for (const value of resource.areas) if (!allowed.areas.has(value)) throw new Error(`${where}: neatļauta joma ${value}.`);
   for (const value of resource.needs) if (!allowed.needs.has(value)) throw new Error(`${where}: neatļauta vajadzība ${value}.`);
   if (new Set(resource.skills).size !== resource.skills.length) throw new Error(`${where}: prasmes atkārtojas.`);
   for (const value of resource.skills) if (!allowed.skills.has(value)) throw new Error(`${where}: neatļauta prasme ${value}.`);

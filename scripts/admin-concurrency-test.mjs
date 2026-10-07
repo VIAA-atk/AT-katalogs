@@ -11,9 +11,9 @@ import {
 
 const clone = (value) => JSON.parse(JSON.stringify(value));
 const initial = [
-  { id: "a", name: "A", short: "A apraksts", areas: ["lasisana"] },
-  { id: "b", name: "B", short: "B apraksts", areas: ["rakstisana"] },
-  { id: "c", name: "C", short: "C apraksts", areas: ["matematika"] },
+  { id: "a", name: "A", short: "A apraksts", skills: ["lasisana"] },
+  { id: "b", name: "B", short: "B apraksts", skills: ["rakstisana"] },
+  { id: "c", name: "C", short: "C apraksts", skills: ["matematika"] },
 ];
 
 const tabAChange = createUpdateChange(initial[0], { ...initial[0], name: "A — cilne A" }, ["name"]);
@@ -82,10 +82,10 @@ const identical = mergeCatalogChanges(afterTabA, [tabAChange]);
 assert.deepEqual(identical, afterTabA, "Identical local and remote edits must not conflict.");
 const staleNoOp = { ...tabAChange, patch: { name: initial[0].name }, value: initial[0] };
 assert.deepEqual(mergeCatalogChanges(afterTabA, [staleNoOp]), afterTabA, "A stale no-op patch must not overwrite GitHub or conflict.");
-const selectionBase = { ...initial[0], areas: ["lasisana", "rakstisana"] };
-const reorderedSelection = createUpdateChange(selectionBase, { ...selectionBase, areas: ["rakstisana", "lasisana"] });
+const selectionBase = { ...initial[0], skills: ["lasisana", "rakstisana"] };
+const reorderedSelection = createUpdateChange(selectionBase, { ...selectionBase, skills: ["rakstisana", "lasisana"] });
 assert.deepEqual(reorderedSelection.patch, {}, "Checkbox order is not a field edit.");
-assert.deepEqual(mergeCatalogChanges([{ ...selectionBase, areas: ["komunikacija"] }], [reorderedSelection])[0].areas, ["komunikacija"]);
+assert.deepEqual(mergeCatalogChanges([{ ...selectionBase, skills: ["sazina"] }], [reorderedSelection])[0].skills, ["sazina"]);
 
 const partial = partitionCatalogChanges(afterTabA, [sameFieldChange, tabBChange], localOrder);
 assert.deepEqual(partial.acceptedChanges.map((change) => change.id), ["b"]);

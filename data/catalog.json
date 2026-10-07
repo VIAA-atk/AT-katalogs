@@ -3,14 +3,6 @@
     "id": "eraf-projekta-asistivas-tehnologijas-macibu-atbalstam-metodiskie-materiali",
     "name": "ERAF projekta \"Asistīvās tehnoloģijas mācību atbalstam\" metodiskie materiāli",
     "short": "ERAF projekta “Asistīvās tehnoloģijas mācību atbalstam” ietvaros izstrādāti metodiskie materiāli par asistīvo tehnoloģiju izmantošanu izglītības programmas apguvei. Materiāli paredzēti pedagogiem, atbalsta personālam un citiem izglītības jomas speciālistiem.",
-    "areas": [
-      "lasisana",
-      "rakstisana",
-      "matematika",
-      "komunikacija",
-      "organizesana",
-      "vide"
-    ],
     "needs": [
       "tts",
       "vizualaPielagosana",
@@ -61,10 +53,6 @@
     "id": "komunikacijas-atslegu-piekarini",
     "name": "Komunikācijas atslēgu piekariņi",
     "short": "Neliels, pārnēsājams kartīšu komplekts ar simboliem, attēliem un/vai vārdiem ikdienas saziņai un darbību secības atbalstam.",
-    "areas": [
-      "komunikacija",
-      "organizesana"
-    ],
     "needs": [
       "ocr",
       "simboli",
@@ -110,13 +98,6 @@
     "id": "komunikacijas-kartites-piem-pecs",
     "name": "ARASAAC – piktogrammu un koplietojamo materiālu krātuve (bezmaksas)",
     "short": "Bezmaksas piktogrammu un koplietojamu materiālu krātuve saziņas, mācību satura uztveres un ikdienas darbību vizuālajam atbalstam.",
-    "areas": [
-      "lasisana",
-      "rakstisana",
-      "matematika",
-      "komunikacija",
-      "organizesana"
-    ],
     "needs": [
       "organizesanaAtbalsts",
       "simboli",
@@ -159,12 +140,6 @@
     "id": "teksta-runas-text-to-speech-lietotnes",
     "name": "Hugo.gov.lv teksta tulkošana, vienkāršošana un atskaņošana, runas pārvēršana tekstā (bezmaksas)",
     "short": "Hugo.gov.lv ir Latvijas valsts pārvaldes valodas tehnoloģiju platforma, kurā bez maksas pieejami vairāki digitāli valodas rīki. Platformā var tulkot tekstu, dokumentus un tīmekļvietnes, pārvērst tekstu runā un runu tekstā, kā arī izmantot vienkāršās valodas un citus ar latviešu valodu saistītus rīkus.",
-    "areas": [
-      "lasisana",
-      "komunikacija",
-      "organizesana",
-      "vide"
-    ],
     "needs": [
       "tts",
       "vizualaPielagosana",
@@ -204,11 +179,6 @@
     "id": "audio-atskanotaji",
     "name": "Teksta priekšlasītājs Bruno 3.0",
     "short": "Specializēts drukāta teksta skenēšanas un priekšlasīšanas risinājums",
-    "areas": [
-      "lasisana",
-      "komunikacija",
-      "vide"
-    ],
     "needs": [
       "tts"
     ],
@@ -247,9 +217,6 @@
     "id": "komunikacijas-kartites-pecs",
     "name": "PECSTalk™ ECS piktogrammu saziņas lietotne (maksas)",
     "short": "Pielāgojama AAK lietotne saziņas ziņojumu veidošanai ar PECS piktogrammām, teikuma joslu un runas izvadi.",
-    "areas": [
-      "komunikacija"
-    ],
     "needs": [
       "simboli",
       "aac"
@@ -290,9 +257,6 @@
     "id": "krasu-filtri-parklaji-pleves",
     "name": "Krāsu filtri (plēves)",
     "short": "Caurspīdīgas krāsainas plēves, ko novieto virs drukāta teksta.",
-    "areas": [
-      "lasisana"
-    ],
     "needs": [
       "vizualaPielagosana"
     ],
@@ -331,9 +295,6 @@
     "id": "lasisanas-lineali",
     "name": "Lasīšanas lineāli teksta rindas izsekošanai",
     "short": "Lineāls vai rāmītis, kas izceļ lasāmo teksta rindu un aizsedz daļu no apkārtējā teksta, palīdzot noturēt skatienu un lasīšanas vietu.",
-    "areas": [
-      "lasisana"
-    ],
     "needs": [
       "organizesanaAtbalsts"
     ],
@@ -374,9 +335,6 @@
     "id": "lasitajam-draudzigi-fonti-disleksijai-vieglajai-",
     "name": "OpenDyslexic un viegli salasāmi fonti",
     "short": "Viegli salasāmi fonti ar skaidri atšķiramām rakstzīmēm, piemērotu burtu izmēru un pietiekamām atstarpēm starp burtiem, vārdiem un rindām.",
-    "areas": [
-      "lasisana"
-    ],
     "needs": [
       "vizualaPielagosana"
     ],
@@ -410,10 +368,6 @@
     "id": "simbolu-programmatura",
     "name": "SymWriter 2",
     "short": "Programmatūra teksta, darba lapu un saziņas materiālu veidošanai ar piktogrammām vai citiem simboliem.",
-    "areas": [
-      "lasisana",
-      "komunikacija"
-    ],
     "needs": [
       "simboli",
       "aac"
@@ -454,9 +408,6 @@
     "id": "teksta-priekslasitaji-ar-skeneri-galda-priekslas",
     "name": "AISMA - Teksta skenēšanas un priekšā lasīšanas ierīce",
     "short": "Ierīce, kas uztver vai noskenē drukātu tekstu, atpazīst to ar optiskās rakstzīmju atpazīšanas (OCR) tehnoloģiju un pārvērš runā. Ierīcē var klausīties grāmatu, darba lapu un citu drukātu materiālu saturu.",
-    "areas": [
-      "lasisana"
-    ],
     "needs": [
       "tts",
       "ocr"
@@ -495,12 +446,6 @@
     "id": "teksta-runas-text-to-speech-programmas",
     "name": "TextAid pro5 – lasīšanas un rakstīšanas atbalsta rīks",
     "short": "TextAid pārvērš digitālu tekstu runā un piedāvā lasīšanas un rakstīšanas atbalsta funkcijas.",
-    "areas": [
-      "lasisana",
-      "rakstisana",
-      "organizesana",
-      "vide"
-    ],
     "needs": [
       "tts",
       "vizualaPielagosana",
@@ -548,10 +493,6 @@
     "id": "viedpildspalvas-skenesanai",
     "name": "IRISPen Reader 8 – skenēšanas pildspalva drukāta teksta atpazīšanai un atskaņošanai",
     "short": "Pārnēsājama skenēšanas pildspalva drukāta teksta atpazīšanai, saglabāšanai un atskaņošanai atbalstītajās valodās.",
-    "areas": [
-      "lasisana",
-      "komunikacija"
-    ],
     "needs": [
       "ocr"
     ],
@@ -591,11 +532,6 @@
     "id": "digitalais-rutinu-papirs",
     "name": "Digitālais rūtiņu papīrs un matemātisko konstrukciju vide (GeoGebra.org)",
     "short": "Digitāla matemātikas darba vide aprēķinu, grafiku, ģeometrisku konstrukciju, tabulu un vizuālu modeļu veidošanai.",
-    "areas": [
-      "rakstisana",
-      "matematika",
-      "organizesana"
-    ],
     "needs": [
       "matematikaAtbalsts"
     ],
@@ -638,9 +574,6 @@
     "id": "digitalie-grafiku-veidotaji",
     "name": "GeoGebra grafiskais kalkulators – funkciju, vienādojumu un datu attēlošanai (bezmaksas)",
     "short": "Bezmaksas digitāls kalkulators funkciju, vienādojumu, koordinātu, grafiku un datu vizuālai attēlošanai.",
-    "areas": [
-      "matematika"
-    ],
     "needs": [
       "matematikaAtbalsts"
     ],
@@ -682,9 +615,6 @@
     "id": "lineali-ar-apmalem-taktilie-lineali-un-transport",
     "name": "Lineāli ar apmalēm, taktilie lineāli un transportieri",
     "short": "Mērīšanas rīki ar paaugstinātām malām, sataustāmām atzīmēm vai pielāgotu marķējumu.",
-    "areas": [
-      "matematika"
-    ],
     "needs": [
       "organizesanaAtbalsts"
     ],
@@ -717,9 +647,6 @@
     "id": "matematikas-uzdevumu-atrisinasanas-riki",
     "name": "Calcularis – adaptīva matemātikas prasmju apguves programma (maksas)",
     "short": "Adaptīva matemātikas mācību programma, kas pielāgo uzdevumus izglītojamā prasmēm un sniedz pedagogam informāciju par progresu un kļūdām.",
-    "areas": [
-      "matematika"
-    ],
     "needs": [
       "organizesanaAtbalsts",
       "matematikaAtbalsts"
@@ -762,9 +689,6 @@
     "id": "pielagots-papirs-ar-lielam-rutinam-vai-reljefu",
     "name": "Pielāgots papīrs (ar lielām rūtiņām vai reljefu)",
     "short": "Papīrs ar palielinātu vai sataustāmu režģi, kas palīdz precīzi izvietot skaitļus un darbības.",
-    "areas": [
-      "matematika"
-    ],
     "needs": [
       "organizesanaAtbalsts"
     ],
@@ -798,9 +722,6 @@
     "id": "skaitikli-manipulativi-piem-geometriskas-figuras",
     "name": "Skaitāmais materiāls un matemātikas manipulatīvi",
     "short": "Praktiski izmantojami priekšmeti skaitļu, darbību, daļskaitļu, ģeometrisko figūru un citu matemātisku jēdzienu izpratnei.",
-    "areas": [
-      "matematika"
-    ],
     "needs": [
       "matematikaAtbalsts"
     ],
@@ -841,9 +762,6 @@
     "id": "specialas-matematikas-pieraksta-apzimejumu-progr",
     "name": "Equatio – matemātisko izteiksmju ievade ar tastatūru, balsi un rokrakstu (maksas)",
     "short": "Rīks matemātisko izteiksmju, formulu un grafiku digitālai veidošanai, izmantojot tastatūru, rokrakstu, balsi vai attēlu.",
-    "areas": [
-      "matematika"
-    ],
     "needs": [
       "ocr",
       "matematikaAtbalsts"
@@ -887,9 +805,6 @@
     "id": "lielas-drukas-materiali",
     "name": "Materiāli palielinātā drukā",
     "short": "Drukāti mācību materiāli ar palielinātu burtu un attēlu izmēru, skaidru izkārtojumu un labu kontrastu.",
-    "areas": [
-      "vide"
-    ],
     "needs": [
       "vizualaPielagosana",
       "organizesanaAtbalsts",
@@ -925,9 +840,6 @@
     "id": "reallaika-automatisko-subtitru-sistemas",
     "name": "LiveVoice – reāllaika automātiskie subtitri un runas tulkošana (maksas)",
     "short": "Tiešsaistes rīks runas automātiskai attēlošanai subtitros un tulkošanai reāllaikā.",
-    "areas": [
-      "vide"
-    ],
     "needs": [
       "vizualaPielagosana",
       "organizesanaAtbalsts",
@@ -969,9 +881,6 @@
     "id": "taktilas-kartes-un-gridas-markejumi",
     "name": "Interaktīvas taktilās kartes",
     "short": "Šādas kartes apvieno datoru, skārienjūtīgu monitoru un caurspīdīgu reljefa slāni, kas ļauj vienlaikus izmantot gan vizuālo, gan taustāmo informāciju. Piemēram, Rīgas pilsētas interaktīvajā kartē attēlotas 170 ielas un objekti: ielas iezīmētas ar punktētām līnijām, dzelzceļš ar cietu līniju, bet objekti atzīmēti ar apļiem. \n\nNeredzīgs lietotājs, izpētot karti un veicot dubultklikšķi uz jebkuras ielas, atskan tās nosaukums. Šo tehnoloģiju iespējams pielāgot ne tikai pilsētas kartēm, bet arī citiem mērķiem, piemēram, mākslas darbu, gleznu vai izstāžu satura interpretācijai.",
-    "areas": [
-      "vide"
-    ],
     "needs": [
       "organizesanaAtbalsts"
     ],
@@ -1005,9 +914,6 @@
     "id": "tastaturas-maskas-keyguards",
     "name": "Tastatūras maskas (taustiņu režģi)",
     "short": "Virs tastatūras novietojams stingrs režģis, kas atdala taustiņus un palīdz precīzāk nospiest izvēlēto taustiņu.",
-    "areas": [
-      "vide"
-    ],
     "needs": [
       "rakstisanaAtbalsts"
     ],
@@ -1045,9 +951,6 @@
     "id": "viedbrilles-ar-ai-vides-atpazisanu",
     "name": "Viedbrilles ar MI vides atpazīšanu",
     "short": "Valkājama ierīce ar kameru un mākslīgā intelekta funkcijām, kas balsī apraksta tekstu, objektus vai apkārtni.",
-    "areas": [
-      "vide"
-    ],
     "needs": [
       "ocr"
     ],
@@ -1081,9 +984,6 @@
     "id": "burtu-un-ciparu-trafareti",
     "name": "Burtu un ciparu trafareti",
     "short": "Veidnes ar izgrieztām burtu vai ciparu formām, pa kurām var vilkt rakstāmrīku.",
-    "areas": [
-      "rakstisana"
-    ],
     "needs": [
       "organizesanaAtbalsts"
     ],
@@ -1117,12 +1017,6 @@
     "id": "digitalas-piezimju-klades-ar-audio",
     "name": "Goodnotes – digitālā piezīmju klade ar rokrakstu, audioierakstu un PDF anotēšanu",
     "short": "Digitāla piezīmju klade, kurā var rakstīt ar roku vai tastatūru, anotēt PDF dokumentus un pievienot ar piezīmēm sinhronizētu audioierakstu.",
-    "areas": [
-      "rakstisana",
-      "matematika",
-      "organizesana",
-      "vide"
-    ],
     "needs": [
       "organizesanaAtbalsts",
       "simboli"
@@ -1180,11 +1074,6 @@
     "id": "ekrana-virtualas-tastaturas",
     "name": "Ekrāntastatūras (virtuālās tastatūras)",
     "short": "Ierīcē iebūvēta piekļūstamības funkcija vai programmatūra. Parasti bezmaksas un iekļauta ierīces operētājsistēmā. Specializētas ekrāntastatūras ar papildu piekļuves iespējām var būt maksas.",
-    "areas": [
-      "rakstisana",
-      "komunikacija",
-      "vide"
-    ],
     "needs": [
       "rakstisanaAtbalsts"
     ],
@@ -1227,9 +1116,6 @@
     "id": "ergonomiski-zimuli-piem-trisstura-formas",
     "name": "Ergonomiski zīmuļi (piem., trīsstūra formas)",
     "short": "Trīsstūra formas vai īpaši veidoti zīmuļi, kas palīdz stabilāk satvert rakstāmpiederumu un kontrolēt tā kustību.",
-    "areas": [
-      "rakstisana"
-    ],
     "needs": [
       "ierices Vadiba"
     ],
@@ -1269,12 +1155,6 @@
     "id": "grafiskie-organizatori-uz-papira",
     "name": "Grafiskie organizatori uz papīra",
     "short": "Vizuāli strukturētas lapas, kas palīdz sakārtot informāciju, saskatīt sakarības un plānot uzdevuma izpildi.",
-    "areas": [
-      "rakstisana",
-      "matematika",
-      "komunikacija",
-      "organizesana"
-    ],
     "needs": [
       "organizesanaAtbalsts",
       "simboli"
@@ -1319,9 +1199,6 @@
     "id": "gumijas-satvereji-uzmavas-zimuliem",
     "name": "Rakstāmpiederumu satvēriena uzmavas (gumijas satvērēji)",
     "short": "Uz zīmuļa vai pildspalvas uzliekamas formas uzmavas ērtākam un stabilākam satvērienam.",
-    "areas": [
-      "rakstisana"
-    ],
     "needs": [
       "organizesanaAtbalsts"
     ],
@@ -1361,9 +1238,6 @@
     "id": "krasains-kontrastejoss-papirs",
     "name": "Krāsains/kontrastējošs papīrs",
     "short": "Papīrs izvēlētā krāsā vai ar izteiktu kontrastu, kas var uzlabot teksta uztveri un samazināt vizuālo slodzi.",
-    "areas": [
-      "rakstisana"
-    ],
     "needs": [
       "vizualaPielagosana"
     ],
@@ -1397,10 +1271,6 @@
     "id": "mi-macibstundu-asistents",
     "name": "Tildes MI mācībstundu asistents",
     "short": "Mākslīgā intelekta rīks mācību satura pieejamības atbalstam",
-    "areas": [
-      "komunikacija",
-      "vide"
-    ],
     "needs": [
       "organizesanaAtbalsts"
     ],
@@ -1435,10 +1305,6 @@
     "id": "pareizrakstibas-riki-ar-audio-atgriezenisko-sait",
     "name": "Pareizrakstības pārbaudes un rakstīšanas atbalsta rīki",
     "short": "Digitāli rīki, kas atpazīst iespējamas pareizrakstības kļūdas, piedāvā labojumus un palīdz pārbaudīt uzrakstīto tekstu.",
-    "areas": [
-      "rakstisana",
-      "komunikacija"
-    ],
     "needs": [
       "rakstisanaAtbalsts"
     ],
@@ -1480,13 +1346,6 @@
     "id": "programmatura-digitalo-stastu-veidosanai-digital",
     "name": "Programmatūra digitālo stāstu veidošanai (Digital Storytelling)",
     "short": "Rīki digitālu stāstu, grāmatu un komiksu veidošanai, apvienojot tekstu, attēlus, zīmējumus, balss ierakstus un video.",
-    "areas": [
-      "lasisana",
-      "rakstisana",
-      "komunikacija",
-      "organizesana",
-      "vide"
-    ],
     "needs": [
       "rakstisanaAtbalsts",
       "simboli",
@@ -1535,9 +1394,6 @@
     "id": "smagie-zimuli-weighted-pencils",
     "name": "Smagie zīmuļi (Weighted pencils)",
     "short": "Zīmuļi, pildspalvas vai rakstāmrīku uzlikas ar palielinātu svaru. Papildu svars maina rakstāmrīka sajūtu un kustības atgriezenisko saiti rakstīšanas vai zīmēšanas laikā.",
-    "areas": [
-      "rakstisana"
-    ],
     "needs": [
       "organizesanaAtbalsts"
     ],
@@ -1575,9 +1431,6 @@
     "id": "vardu-prognozesanas-programmatura",
     "name": "Vārdu prognozēšanas programmatūra",
     "short": "Rakstīšanas atbalsta rīks, kas pēc ievadītajiem burtiem piedāvā iespējamos vārdus vai nākamo vārdu, tā samazinot nepieciešamo taustiņsitienu skaitu.",
-    "areas": [
-      "rakstisana"
-    ],
     "needs": [
       "rakstisanaAtbalsts"
     ],
@@ -1615,10 +1468,6 @@
     "id": "viedpildspalvas-audiosinhronizacijai",
     "name": "Digitālās pildspalvas rakstītā teksta digitalizēšanai",
     "short": "Digitāla pildspalva, kas, rakstot uz speciāli marķēta papīra, uztver pildspalvas kustības un pārvērš rokrakstu digitālā formā. Pierakstus iespējams saglabāt, apskatīt un atkarībā no risinājuma rediģēt datorā vai mobilajā ierīcē.",
-    "areas": [
-      "rakstisana",
-      "vide"
-    ],
     "needs": [
       "ocr",
       "organizesanaAtbalsts"
@@ -1655,9 +1504,6 @@
     "id": "vizualie-dienas-planotaji",
     "name": "Vizuālie dienas plānotāji",
     "short": "Attēlos, simbolos vai īsos tekstos attēlots dienas darbību un notikumu plāns.",
-    "areas": [
-      "rakstisana"
-    ],
     "needs": [
       "organizesanaAtbalsts",
       "simboli"
@@ -1698,10 +1544,6 @@
     "id": "digitalas-atminas-kartes-palidz-iegaumet-informa",
     "name": "Digitālās mācību kartītes (palīdz iegaumēt informāciju ar atkārtošanu un pašpārbaudi)",
     "short": "Digitāls mācību līdzeklis informācijas iegaumēšanai un zināšanu pašpārbaudei, izmantojot jautājumu un atbilžu kartītes.",
-    "areas": [
-      "matematika",
-      "organizesana"
-    ],
     "needs": [
       "organizesanaAtbalsts"
     ],
@@ -1737,9 +1579,6 @@
     "id": "digitalas-jedzienu-kartes",
     "name": "Digitālās jēdzienu kartes",
     "short": "Digitāls grafiskais organizators jēdzienu, ideju un savstarpējo sakarību vizuālai attēlošanai.",
-    "areas": [
-      "organizesana"
-    ],
     "needs": [
       "organizesanaAtbalsts"
     ],
@@ -1774,10 +1613,6 @@
     "id": "digitalie-diktofoni-atgadinajumiem",
     "name": "Digitālie diktofoni atgādinājumiem",
     "short": "Pārnēsājama ierīce mutisku piezīmju, norādījumu un citas svarīgas informācijas ierakstīšanai un atkārtotai noklausīšanai.",
-    "areas": [
-      "organizesana",
-      "vide"
-    ],
     "needs": [
       "organizesanaAtbalsts"
     ],
@@ -1812,14 +1647,6 @@
     "id": "fiziskie-mehaniskie-vizualie-taimeri-pielagoti-p",
     "name": "Vizuālie taimeri un pielāgoti pulksteņi",
     "short": "Ierīces, kas vizuāli attēlo atlikušo laiku un palīdz saprast laika ritējumu, plānot darbības un laikus pabeigt uzdevumu.",
-    "areas": [
-      "lasisana",
-      "rakstisana",
-      "matematika",
-      "komunikacija",
-      "organizesana",
-      "vide"
-    ],
     "needs": [
       "organizesanaAtbalsts",
       "simboli",
@@ -1858,9 +1685,6 @@
     "id": "kontrolsaraksti",
     "name": "Kontrolsaraksti",
     "short": "Secīgs veicamo darbību vai pārbaudāmo punktu saraksts papīra vai digitālā formā.",
-    "areas": [
-      "organizesana"
-    ],
     "needs": [
       "organizesanaAtbalsts"
     ],
@@ -1897,9 +1721,6 @@
     "id": "krasu-kodesanas-sistemas",
     "name": "Krāsu kodēšanas sistēmas",
     "short": "Vienota krāsu apzīmējumu sistēma informācijas grupēšanai, darba organizēšanai un būtiskās informācijas izcelšanai.",
-    "areas": [
-      "organizesana"
-    ],
     "needs": [
       "vizualaPielagosana"
     ],
@@ -1934,9 +1755,6 @@
     "id": "papira-planotaji-vizualie-saraksti",
     "name": "Papīra plānotāji, vizuālie saraksti",
     "short": "Drukāti vai ar roku veidoti plāni, kuros darbi un notikumi attēloti tekstā, simbolos vai attēlos.",
-    "areas": [
-      "organizesana"
-    ],
     "needs": [
       "organizesanaAtbalsts",
       "simboli"
@@ -1974,9 +1792,6 @@
     "id": "sensorie-un-stresa-mazinasanas-riki-fidgets",
     "name": "Sensorie un stresa mazināšanas rīki",
     "short": "Nelieli taustes vai kustību rīki, kas nodrošina kontrolētu sensoro aktivitāti un palīdz pašregulēties.",
-    "areas": [
-      "organizesana"
-    ],
     "needs": [
       "organizesanaAtbalsts"
     ],
@@ -2009,9 +1824,6 @@
     "id": "troksnu-slapejosas-austinas",
     "name": "Trokšņu slāpējošās austiņas",
     "short": "Austiņas vai ausu aizsargi, kas samazina apkārtējās vides trokšņa dzirdamību.",
-    "areas": [
-      "organizesana"
-    ],
     "needs": [
       "organizesanaAtbalsts"
     ],
@@ -2045,9 +1857,6 @@
     "id": "uzdevumu-strukturesanas-lietotnes",
     "name": "Uzdevumu strukturēšanas lietotnes",
     "short": "Lietotnes, kas sadala uzdevumu pārskatāmos soļos un palīdz sekot darba gaitai.",
-    "areas": [
-      "organizesana"
-    ],
     "needs": [
       "organizesanaAtbalsts"
     ],
@@ -2083,9 +1892,6 @@
     "id": "uzmanibas-koncentresanas-lietotnes",
     "name": "Uzmanības koncentrēšanas lietotnes",
     "short": "Lietotnes, kas palīdz noteikt darba intervālus, ierobežot traucēkļus un uzturēt uzmanību uz uzdevumu.",
-    "areas": [
-      "organizesana"
-    ],
     "needs": [
       "organizesanaAtbalsts"
     ],
@@ -2119,14 +1925,6 @@
     "id": "latvijas-neredzigo-biedriba",
     "name": "Latvijas Neredzīgo biedrība",
     "short": "Latvijas Neredzīgo biedrība ir lielākā un vecākā sabiedriskā labuma organizācija, kas apvieno un pārstāv 1., 2. un 3. grupas redzes invalīdu intereses Latvijā.",
-    "areas": [
-      "lasisana",
-      "rakstisana",
-      "matematika",
-      "komunikacija",
-      "organizesana",
-      "vide"
-    ],
     "needs": [
       "tts",
       "vizualaPielagosana",
@@ -2170,10 +1968,6 @@
     "id": "latvijas-nedzirdigo-savieniba",
     "name": "Latvijas Nedzirdīgo savienība",
     "short": "Informācija un pakalpojumi nedzirdīgām un vājdzirdīgām personām, tostarp surdotehniskie palīglīdzekļi, zīmju valodas tulka pakalpojumi un sociālā rehabilitācija.",
-    "areas": [
-      "komunikacija",
-      "vide"
-    ],
     "needs": [
       "vizualaPielagosana",
       "stt",
@@ -2216,11 +2010,6 @@
     "id": "my-board-buddy-go-iar2",
     "name": "my Board Buddy GO",
     "short": "Risinājums viedtāfeles satura apskatei un palielināšanai planšetē vairākās mācību telpās",
-    "areas": [
-      "komunikacija",
-      "organizesana",
-      "vide"
-    ],
     "needs": [
       "vizualaPielagosana",
       "ocr",
@@ -2269,11 +2058,6 @@
     "id": "my-board-buddy-cam-iar3",
     "name": "my Board Buddy CAM",
     "short": "my Board Buddy CAM ir pie skolēna galda piestiprināma tālvadības kamera, kas ļauj skolēnam savā monitorā pietuvināti apskatīt klasē esošus objektus un tāfeles saturu.",
-    "areas": [
-      "komunikacija",
-      "organizesana",
-      "vide"
-    ],
     "needs": [
       "organizesanaAtbalsts",
       "simboli",
@@ -2314,11 +2098,6 @@
     "id": "my-board-buddy-air-iar1",
     "name": "my Board Buddy AIR",
     "short": "Augstā kvalitātē pārraida viedtāfeles attēlu uz monitoru, kas atrodas skolēna tuvumā.",
-    "areas": [
-      "komunikacija",
-      "organizesana",
-      "vide"
-    ],
     "needs": [
       "vizualaPielagosana",
       "organizesanaAtbalsts",
@@ -2363,13 +2142,6 @@
     "id": "note-anywhere-digitalas-piezimes-timekllapas-bezmaksas",
     "name": "Note Anywhere – digitālas piezīmes tīmekļlapās (bezmaksas)",
     "short": "Google Chrome paplašinājums krāsainu digitālo piezīmju pievienošanai jebkurā tīmekļlapas vietā.",
-    "areas": [
-      "lasisana",
-      "rakstisana",
-      "matematika",
-      "komunikacija",
-      "organizesana"
-    ],
     "needs": [
       "organizesanaAtbalsts"
     ],
@@ -2412,9 +2184,6 @@
     "id": "pielagotas-skeres",
     "name": "Pielāgotas šķēres",
     "short": "Šķēres ar pielāgotu rokturi, automātisku atvēršanos, papildu vadības rokturiem vai galda pamatni, kas atvieglo griešanu izglītojamajiem ar kustību un satvēriena grūtībām.  Cena var atšķirties no šķēru veida, izmēra un pielāgojuma.",
-    "areas": [
-      "vide"
-    ],
     "needs": [
       "ierices Vadiba"
     ],
@@ -2455,9 +2224,6 @@
     "id": "alternativais-teksts-atteliem-un-citiem-vizualajiem-objektiem",
     "name": "Alternatīvais teksts attēliem un citiem vizuālajiem objektiem",
     "short": "Īss vizuālā satura apraksts, ko ekrānlasītājs nolasa lietotājam, kurš attēlu, diagrammu vai citu objektu nevar uztvert vizuāli.",
-    "areas": [
-      "vide"
-    ],
     "needs": [
       "simboli",
       "aac"
@@ -2495,10 +2261,6 @@
     "id": "microsoft-immersive-reader",
     "name": "Microsoft Immersive Reader",
     "short": "Bezmaksas Microsoft rīks, kas lasa tekstu balsī, vienkāršo tā attēlojumu un ļauj pielāgot lasīšanas vidi izglītojamā vajadzībām.",
-    "areas": [
-      "lasisana",
-      "vide"
-    ],
     "needs": [
       "tts",
       "vizualaPielagosana"
@@ -2540,13 +2302,6 @@
     "id": "taktils-datora-displejs",
     "name": "Taktils datora displejs",
     "short": "Taktils datora displejs ir ierīce digitāla teksta lasīšanai un rakstīšanai Braila rakstā",
-    "areas": [
-      "lasisana",
-      "rakstisana",
-      "komunikacija",
-      "organizesana",
-      "vide"
-    ],
     "needs": [
       "rakstisanaAtbalsts",
       "aac"
@@ -2583,14 +2338,6 @@
     "id": "rakstu-zimju-lasisanas-aparats",
     "name": "Rakstu zīmju lasīšanas aparāts",
     "short": "Ierīce, ar kuru iespējams drukātu materiālu, piemēram, grāmatas, dokumentus un žurnālus, pārveidot audio formātā un tos noklausīties. Audio failus iespējams saglabāt. Klausoties audio failu, iespējams mainīt atskaņošanas ātrumu.",
-    "areas": [
-      "lasisana",
-      "rakstisana",
-      "matematika",
-      "komunikacija",
-      "organizesana",
-      "vide"
-    ],
     "needs": [
       "tts"
     ],
@@ -2622,13 +2369,6 @@
     "id": "skanas-ierakstisanas-un-atskanosanas-ierice-daisy",
     "name": "Skaņas ierakstīšanas un atskaņošanas ierīce (DAISY)",
     "short": "Ierīce DAISY formāta audiogrāmatu un citu pielāgotu audio materiālu atskaņošanai. DAISY formāts veidots kā strukturēts drukāta materiāla audio aizstājējs cilvēkiem ar redzes un lasīšanas traucējumiem.",
-    "areas": [
-      "lasisana",
-      "matematika",
-      "komunikacija",
-      "organizesana",
-      "vide"
-    ],
     "needs": [
       "tts",
       "organizesanaAtbalsts"
@@ -2663,10 +2403,6 @@
     "id": "pildspalva-ar-runas-funkciju-teksta-nolasisanai-no-specialam-uzlimem",
     "name": "Pildspalva ar runas funkciju teksta nolasīšanai no speciālām uzlīmēm",
     "short": "Ierīce, ar kuras palīdzību tiek ierunāts teksts speciālās uzlīmēs un pēc tam atskaņots. Uzlīmes ir iespējams pielīmēt pie apģērba, produktu iepakojumiem, grāmatām, zāļu iepakojumiem, ikdienas priekšmetiem u.c., un ar ierīces palīdzību nolasīt ierunāto tekstu. Komplektā vairāk nekā 100 uzlīmes un 4 magnēti. Var izmantot kā MP3 atskaņotāju.",
-    "areas": [
-      "komunikacija",
-      "vide"
-    ],
     "needs": [
       "tts",
       "organizesanaAtbalsts",
@@ -2704,9 +2440,6 @@
     "id": "krasu-noteicejs-ar-runas-funkciju",
     "name": "Krāsu noteicējs ar runas funkciju",
     "short": "Ierīce ar runas funkciju latviešu valodā paziņo krāsu. Krāsu noteicējs atpazīst līdz 150 krāsu toņiem un spēj noteikt, vai telpā ir ieslēgta gaisma.",
-    "areas": [
-      "vide"
-    ],
     "needs": [
       "simboli"
     ],
@@ -2738,14 +2471,6 @@
     "id": "elektroniski-palielinoss-paliglidzeklis",
     "name": "Elektroniski palielinošs palīglīdzeklis",
     "short": "Elektroniski palielinošs palīglīdzeklis ir uzlādējama ierīce teksta, attēlu un nelielu objektu palielināšanai.",
-    "areas": [
-      "lasisana",
-      "rakstisana",
-      "matematika",
-      "komunikacija",
-      "organizesana",
-      "vide"
-    ],
     "needs": [
       "vizualaPielagosana",
       "ierices Vadiba"
@@ -2781,14 +2506,6 @@
     "id": "specializetas-datorprogrammas",
     "name": "Specializētas datorprogrammas (Zoomtext, Jaws)",
     "short": "Zoom Text ir tekstu palielinoša programmatūra, kas nodrošina iespēju vājredzīgām personām patstāvīgi lietot datoru.\nJaws ir programmatūra, kas tekstu pārvērš skaņā. Nodrošina iespēju personām, kas nespēj saskatīt palielinātu tekstu patstāvīgi lietot datoru",
-    "areas": [
-      "lasisana",
-      "rakstisana",
-      "matematika",
-      "komunikacija",
-      "organizesana",
-      "vide"
-    ],
     "needs": [
       "tts",
       "vizualaPielagosana",
@@ -2836,14 +2553,6 @@
     "id": "datoru-displeji-ar-skanu",
     "name": "Datoru displeji ar skaņu",
     "short": "Datoru displeji ar skaņu ir latviešu valodas balss sintezators, kurš tekstu pārveido skaņā (TPS). Programmatūru paredzēts lietot ar ekrānlasošajām programmām.",
-    "areas": [
-      "lasisana",
-      "rakstisana",
-      "matematika",
-      "komunikacija",
-      "organizesana",
-      "vide"
-    ],
     "needs": [
       "tts",
       "stt",
@@ -2876,10 +2585,6 @@
     "id": "runas-delis-ar-izveles-iespejam",
     "name": "Runas dēlis ar izvēles iespējām",
     "short": "Alternatīvās komunikācijas tehniskais palīglīdzeklis ir atbalsts personām ar runas, valodas, komunikācijas un kustību traucējumiem.",
-    "areas": [
-      "komunikacija",
-      "organizesana"
-    ],
     "needs": [
       "simboli",
       "aac"
@@ -2914,10 +2619,6 @@
     "id": "alternativas-komunikacijas-programmatura",
     "name": "Alternatīvās komunikācijas programmatūra",
     "short": "Programmatūra komunikācijas veidošanai.",
-    "areas": [
-      "rakstisana",
-      "komunikacija"
-    ],
     "needs": [
       "organizesanaAtbalsts",
       "simboli",
@@ -2957,9 +2658,6 @@
     "id": "surdotulka-pakalpojumi-berniem-ar-dzirdes-traucejumiem",
     "name": "Surdotulka pakalpojumi bērniem ar dzirdes traucējumiem",
     "short": "Surdotulka pakalpojumi bērnam ar dzirdes traucējumiem izglītības programmas apguvei un saskarsmes nodrošināšanai.",
-    "areas": [
-      "vide"
-    ],
     "needs": [
       "aac"
     ],
@@ -2992,9 +2690,6 @@
     "id": "savienotajvienibu-radio-un-televizijas-uztverejiem",
     "name": "Savienotājvienību radio un televīzijas uztvērējiem",
     "short": "Personīgās klausīšanās sistēma, kas pastiprina un pārraida skaņu no televizora, viedtālruņa vai planšetdatora uz lietotāja austiņām. Tā var palīdzēt cilvēkam ar dzirdes grūtībām skaidrāk uztvert runu un audiovizuālu saturu, tostarp mācību video.",
-    "areas": [
-      "vide"
-    ],
     "needs": [
       "ierices Vadiba"
     ],
@@ -3018,15 +2713,15 @@
     "imageSource": "",
     "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
     "productPage": "https://new.lns.lv/wp-content/uploads/2025/03/Valsts_apmaksatie_surdotehniskie_paliglidzekli-scaled.jpg",
-    "productLinkType": "resource"
+    "productLinkType": "resource",
+    "skills": [
+      "vizualaUztvere"
+    ]
   },
   {
     "id": "fm-radiofrekvencu-parraides-sistema",
     "name": "FM radiofrekvenču pārraides sistēma",
     "short": "FM sistēma ir palīgierīce, kas cilvēkiem ar dzirdes traucējumiem ļauj dzirdēt citu teikto trokšņainā vidē, piemēram, teātrī, skolā, baznīcā, muzejā vai citās sabiedriskās vietās. Šī bezvadu sistēma izmanto radioviļņus, lai runas signālus nogādātu tieši klausītāja dzirdes aparātos.",
-    "areas": [
-      "vide"
-    ],
     "needs": [
       "aac"
     ],

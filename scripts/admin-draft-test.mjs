@@ -12,7 +12,7 @@ const html = await fs.readFile(new URL("../admin/index.html", import.meta.url), 
 const copy = (value) => JSON.parse(JSON.stringify(value));
 const draftKey = "viaa-atk-admin-draft-v16";
 const fixture = (id, name) => ({
-  id, name, short: "Sākotnējais īsais teksts", areas: ["lasisana"], needs: ["tts"], skills: ["lasisana"],
+  id, name, short: "Sākotnējais īsais teksts", needs: ["tts"], skills: ["lasisana"],
   type: "programmatura", level: "augsts", latvian: "Pieejams latviešu valodā",
   whatIs: "Sākotnējais apraksts", functions: ["Funkcija"], acquisition: ["Informācija"],
   acquisitionOptions: ["cits"],
@@ -23,9 +23,9 @@ const arasaac = fixture("arasaac", "ARASAAC");
 const other = fixture("cits", "Cits ieraksts");
 const hugo = { ...fixture("hugo-gov-lv", "Hugo.gov.lv"), acquisition: "Informācija" };
 const oldDraft = { ...sync.createUpdateChange(arasaac, {
-  ...arasaac, short: "Mans vecais ARASAAC teksts", areas: ["komunikacija"], whatIs: "Mans apraksts",
+  ...arasaac, short: "Mans vecais ARASAAC teksts", skills: ["sazina"], whatIs: "Mans apraksts",
 }), baseCommitSha: "original" };
-const latestArasaac = { ...arasaac, short: "GitHub ARASAAC teksts", areas: ["rakstisana"], whatIs: "GitHub apraksts" };
+const latestArasaac = { ...arasaac, short: "GitHub ARASAAC teksts", skills: ["rakstisana"], whatIs: "GitHub apraksts" };
 const oldBackup = () => ({ version: 1, repository: "VIAA-atk/AT-katalogs", changes: [copy(oldDraft)],
   orderDraft: null, selectedId: "arasaac", pendingImagePaths: [], form: null });
 
@@ -124,7 +124,7 @@ function harness({ backup = oldBackup(), initial = [latestArasaac, other] } = {}
     setTimeout: () => 1, clearTimeout() {},
     sessionStorage: { getItem: (key) => storage.get(key) ?? null, setItem: (key, value) => storage.set(key, value), removeItem: (key) => storage.delete(key) },
     document: { querySelectorAll: (selector) => selector === "[id]" ? Object.values(elements)
-      : [...elements["field-areas"].querySelectorAll("input[type=checkbox]"), ...elements["field-needs"].querySelectorAll("input[type=checkbox]"),
+      : [...elements["field-skills"].querySelectorAll("input[type=checkbox]"), ...elements["field-needs"].querySelectorAll("input[type=checkbox]"),
         ...elements["field-acquisition-options"].querySelectorAll("input[type=checkbox]")],
       createElement: (tag) => new Element(tag), createTextNode: (textContent) => ({ textContent }) },
     window: { confirm: () => true, addEventListener() {} },
@@ -144,7 +144,7 @@ function harness({ backup = oldBackup(), initial = [latestArasaac, other] } = {}
 // Regression: restore a v16 ARASAAC draft, create Hugo, publish safe records and retain only ARASAAC.
 {
   const h = harness(); await h.connect();
-  assert.deepEqual(JSON.parse(h.run("JSON.stringify(recordConflicts.get('arasaac').fields)")), ["short", "areas", "whatIs"]);
+  assert.deepEqual(JSON.parse(h.run("JSON.stringify(recordConflicts.get('arasaac').fields)")), ["short", "skills", "whatIs"]);
   await h.createHugo(); assert.equal(await h.run("saveDraft()"), true);
   assert.equal(h.elements["editor-title"].textContent, "Labot: Hugo.gov.lv");
   await h.run("publish()");
@@ -155,6 +155,18 @@ function harness({ backup = oldBackup(), initial = [latestArasaac, other] } = {}
   assert.equal(h.storage.get("unrelated-key"), "keep");
   const reopened = harness({ backup: h.backup(), initial: h.records() }); await reopened.connect();
   assert.equal(reopened.run("recordChanges.has('hugo-gov-lv')"), false);
+}
+
+// An old browser draft can retain the deleted classification; keep its other edit when publishing.
+{
+  const legacyBase = { ...arasaac, areas: ["lasisana"] };
+  const legacyValue = { ...legacyBase, areas: ["komunikacija"], short: "Saglabāts vecais labojums" };
+  const backup = oldBackup();
+  backup.changes = [{ ...sync.createUpdateChange(legacyBase, legacyValue), baseCommitSha: "original" }];
+  const h = harness({ backup, initial: [arasaac, other] }); await h.connect();
+  assert.equal(h.run("recordChanges.get('arasaac').patch.areas"), undefined);
+  await h.run("publish(true)");
+  assert.deepEqual(h.records()[0], { ...arasaac, short: "Saglabāts vecais labojums" });
 }
 
 // Discard through the real button while an unrelated new form contains unsaved text.
@@ -184,7 +196,7 @@ function harness({ backup = oldBackup(), initial = [latestArasaac, other] } = {}
   const card = h.elements["conflict-list"].children[0];
   const apply = card.all().find((node) => node.textContent === "Saglabāt izvēlētās versijas melnrakstā");
   assert.equal(apply.disabled, true);
-  for (const [field, choice] of [["short", "mine"], ["areas", "github"], ["whatIs", "mine"]]) {
+  for (const [field, choice] of [["short", "mine"], ["skills", "github"], ["whatIs", "mine"]]) {
     await card.all().find((node) => node.name === `conflict-arasaac-${field}` && node.value === choice).fire("change");
   }
   assert.equal(apply.disabled, false); await apply.fire("click");
@@ -259,7 +271,7 @@ function harness({ backup = oldBackup(), initial = [latestArasaac, other] } = {}
   const h = harness(); await h.connect();
   h.run("globalThis.oldConflict = recordConflicts.get('arasaac'); globalThis.oldChange = clone(recordChanges.get('arasaac'));");
   h.updateRemote([{ ...latestArasaac, short: "Vēl jaunāks GitHub teksts" }, other]);
-  await h.run("resolveRecordConflict(oldConflict, oldChange, {short:'mine',areas:'github',whatIs:'mine'})");
+  await h.run("resolveRecordConflict(oldConflict, oldChange, {short:'mine',skills:'github',whatIs:'mine'})");
   assert.equal(h.run("recordConflicts.get('arasaac').remote.short"), "Vēl jaunāks GitHub teksts");
   assert.equal(h.backup().changes[0].base.short, arasaac.short);
   assert.equal(h.writes(), 0);

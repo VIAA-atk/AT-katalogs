@@ -1,5 +1,6 @@
 import fs from "node:fs/promises";
 import path from "node:path";
+import vm from "node:vm";
 
 const root = path.resolve(import.meta.dirname, "..");
 const read = (relative) => fs.readFile(path.join(root, relative), "utf8");
@@ -17,15 +18,37 @@ const publicIds = ids(publicHtml);
 for (const id of [...publicJs.matchAll(/querySelector\("#([^"]+)"\)/g)].map((match) => match[1])) {
   if (!publicIds.has(id)) throw new Error(`Publiskajā HTML nav JavaScript izmantotā #${id}.`);
 }
-if (!publicHtml.includes('<option value="prasme">AT atbalstāmā prasme</option>') ||
-    !publicHtml.includes('id="skill-filter-wrap" hidden') || !publicHtml.includes('id="f-skill"') ||
-    !publicJs.includes('resource.skills.includes(elements.skill.value)')) {
-  throw new Error("AT atbalstāmās prasmes izvēle nav piesaistīta publiskajam filtram.");
+const expectedSkills = [
+  ["lasisana", "Lasīšana"], ["rakstisana", "Rakstīšana"], ["matematika", "Matemātika"],
+  ["sazina", "Saziņa"], ["vizualaUztvere", "Informācijas uztvere"],
+  ["organizesana", "Uzmanība un darba organizēšana"], ["iericesVadiba", "Rīku un ierīču lietošana"],
+];
+const skillSelect = publicHtml.match(/<select id="f-skill"[^>]*>([\s\S]*?)<\/select>/)?.[1];
+const skillOptions = [...(skillSelect ?? "").matchAll(/<option value="([^"]+)">([^<]+)<\/option>/g)]
+  .map(([, value, label]) => [value, label]);
+if (JSON.stringify(skillOptions) !== JSON.stringify([["all", "Visas prasmes"], ...expectedSkills]) ||
+    publicHtml.includes('id="f-area"') || publicHtml.includes('id="skill-filter-wrap"') ||
+    publicJs.includes("resource.areas") || !publicJs.includes("resource.skills.includes(elements.skill.value)")) {
+  throw new Error("Publiskajam filtram jāizmanto tikai septiņas AT atbalstāmās prasmes.");
 }
-const skillValues = [...publicHtml.matchAll(/<option value="(lasisana|rakstisana|matematika|sazina|vizualaUztvere|organizesana|iericesVadiba)">/g)]
-  .map((match) => match[1]);
-for (const value of new Set(skillValues)) {
+for (const [value] of expectedSkills) {
   if (!catalog.some((resource) => resource.skills.includes(value))) throw new Error(`Prasmei ${value} nav neviena risinājuma.`);
+}
+if (catalog.some((resource) => "areas" in resource)) throw new Error("Datu kopā joprojām ir vecās jomas.");
+// Run the catalogue's actual render() with a small DOM double and compare every result ID to the admin selections.
+const controls = Object.fromEntries(["f-skill", "f-need", "f-type", "f-level", "f-acquisition-options", "f-query",
+  "clear-filters", "result-count", "catalog-status", "catalog-grid", "resource-modal", "resource-panel"]
+  .map((id) => [id, { value: id === "f-query" ? "" : "all", addEventListener() {}, replaceChildren(...items) { this.items = items; } }]));
+const context = vm.createContext({ document: { querySelector: (selector) => controls[selector.slice(1)] }, console });
+const prefix = publicJs.slice(0, publicJs.indexOf("for (const filter of [elements.skill"));
+context.testResources = catalog;
+vm.runInContext(prefix + "\nresources = testResources; createCard = (resource) => ({ id: resource.id });", context);
+for (const [value] of [["all"], ...expectedSkills]) {
+  controls["f-skill"].value = value;
+  vm.runInContext("render()", context);
+  const actual = controls["catalog-grid"].items.map((item) => item.id);
+  const expected = catalog.filter((resource) => value === "all" || resource.skills.includes(value)).map((resource) => resource.id);
+  if (JSON.stringify(actual) !== JSON.stringify(expected)) throw new Error(`Prasmes ${value} filtrs atgrieza nepareizus ierakstus.`);
 }
 
 const adminIds = ids(adminHtml);
@@ -34,7 +57,7 @@ const adminReferences = new Set([
   ...[...adminJs.matchAll(/ui\.([a-zA-Z][a-zA-Z0-9]*)/g)].map((match) => match[1]),
 ]);
 for (const id of adminReferences) if (!adminIds.has(id)) throw new Error(`Administratora HTML nav JavaScript izmantotā #${id}.`);
-if (!adminIds.has("field-skills") || !adminJs.includes('buildChoices(ui["field-skills"], options.skills)')) {
+if (!adminIds.has("field-skills") || adminIds.has("field-areas") || !adminJs.includes('buildChoices(ui["field-skills"], options.skills)')) {
   throw new Error("AT atbalstāmās prasmes nevar rediģēt administratora panelī.");
 }
 
@@ -91,7 +114,7 @@ for (const endpoint of ["/git/blobs", "/git/trees", "/git/commits", "/git/refs/h
   if (!adminJs.includes(endpoint)) throw new Error(`Administratora publicēšanas plūsmā trūkst ${endpoint}.`);
 }
 
-const reading = catalog.filter((item) => item.areas.includes("lasisana"));
+const reading = catalog.filter((item) => item.skills.includes("lasisana"));
 const highLevel = catalog.filter((item) => item.level === "augsts");
 const query = catalog.filter((item) => `${item.name} ${item.short}`.toLocaleLowerCase("lv").includes("braila"));
 if (!reading.length || !highLevel.length || !query.length) throw new Error("Kataloga filtru datus neizdevās pārbaudīt.");

@@ -1,7 +1,7 @@
 const labels = {
-  areas: {
-    lasisana: "Lasīšana", rakstisana: "Rakstīšana", matematika: "Matemātika", komunikacija: "Komunikācija",
-    organizesana: "Uzmanība, atmiņa un organizēšana", vide: "Piekļuve videi un tehnoloģijām",
+  skills: {
+    lasisana: "Lasīšana", rakstisana: "Rakstīšana", matematika: "Matemātika", sazina: "Saziņa",
+    vizualaUztvere: "Informācijas uztvere", organizesana: "Uzmanība un darba organizēšana", iericesVadiba: "Rīku un ierīču lietošana",
   },
   types: {
     ierice: "Ierīce", programmatura: "Programmatūra vai lietotne", iebuveta: "Iebūvēta piekļūstamības funkcija",
@@ -38,8 +38,7 @@ function ensureAcquisitionFilter() {
 ensureAcquisitionFilter();
 
 const elements = {
-  area: document.querySelector("#f-area"), need: document.querySelector("#f-need"), type: document.querySelector("#f-type"),
-  skill: document.querySelector("#f-skill"), skillWrap: document.querySelector("#skill-filter-wrap"),
+  skill: document.querySelector("#f-skill"), need: document.querySelector("#f-need"), type: document.querySelector("#f-type"),
   level: document.querySelector("#f-level"), acquisitionOptions: document.querySelector("#f-acquisition-options"),
   query: document.querySelector("#f-query"), clear: document.querySelector("#clear-filters"),
   count: document.querySelector("#result-count"), status: document.querySelector("#catalog-status"), grid: document.querySelector("#catalog-grid"),
@@ -89,7 +88,7 @@ function createCard(resource) {
   openButton.addEventListener("click", () => openModal(resource, openButton));
 
   const details = node("dl", { className: "mt-auto space-y-1 text-sm" }, [
-    definition("Joma", resource.areas.map((area) => labels.areas[area] ?? area).join(", ")),
+    definition("AT atbalstāmā prasme", resource.skills.map((skill) => labels.skills[skill] ?? skill).join(", ")),
     definition("Veids", labels.types[resource.type] ?? resource.type),
     definition("Līmenis", labels.levels[resource.level] ?? resource.level),
     definition("Latviešu val.", resource.latvian),
@@ -163,7 +162,7 @@ function openModal(resource, trigger) {
   actions.append(close);
   const heading = node("div", {}, [
     node("h2", { className: "text-xl font-semibold text-foreground", text: resource.name, attrs: { id: "resource-dialog-title" } }),
-    node("p", { className: "mt-1 text-sm text-muted-foreground", text: `${resource.areas.map((area) => labels.areas[area] ?? area).join(", ")} · ${labels.types[resource.type] ?? resource.type} · ${resource.latvian}` }),
+    node("p", { className: "mt-1 text-sm text-muted-foreground", text: `${resource.skills.map((skill) => labels.skills[skill] ?? skill).join(", ")} · ${labels.types[resource.type] ?? resource.type} · ${resource.latvian}` }),
   ]);
   const media = node("div", { className: "overflow-hidden rounded-t-md border-b border-border bg-secondary" }, catalogueImage(resource, true));
   media.style.height = "16rem";
@@ -178,13 +177,9 @@ function openModal(resource, trigger) {
 }
 
 function render() {
-  const bySkill = elements.area.value === "prasme";
-  elements.skillWrap.hidden = !bySkill;
-  elements.skill.disabled = !bySkill;
   const query = elements.query.value.trim().toLocaleLowerCase("lv");
   const filtered = resources.filter((resource) =>
-    (elements.area.value === "all" || bySkill || resource.areas.includes(elements.area.value)) &&
-    (!bySkill || (resource.skills?.length && (elements.skill.value === "all" || resource.skills.includes(elements.skill.value)))) &&
+    (elements.skill.value === "all" || resource.skills.includes(elements.skill.value)) &&
     (elements.need.value === "all" || resource.needs.includes(elements.need.value)) &&
     (elements.type.value === "all" || resource.type === elements.type.value) &&
     (elements.level.value === "all" || resource.level === elements.level.value) &&
@@ -198,10 +193,10 @@ function render() {
   elements.status.textContent = "Pēc izvēlētajiem filtriem nekas netika atrasts. Mēģini notīrīt filtrus.";
 }
 
-for (const filter of [elements.area, elements.skill, elements.need, elements.type, elements.level, elements.acquisitionOptions]) filter.addEventListener("change", render);
+for (const filter of [elements.skill, elements.need, elements.type, elements.level, elements.acquisitionOptions]) filter.addEventListener("change", render);
 elements.query.addEventListener("input", render);
 elements.clear.addEventListener("click", () => {
-  for (const filter of [elements.area, elements.skill, elements.need, elements.type, elements.level, elements.acquisitionOptions]) filter.value = "all";
+  for (const filter of [elements.skill, elements.need, elements.type, elements.level, elements.acquisitionOptions]) filter.value = "all";
   elements.query.value = "";
   render();
 });

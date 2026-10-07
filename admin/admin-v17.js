@@ -13,10 +13,6 @@ const repository = { owner: "VIAA-atk", name: "AT-katalogs", branch: "main", cat
 const browserDraftKey = "viaa-atk-admin-draft-v16";
 // Keep the storage key and payload version so existing v16 drafts can be recovered.
 const options = {
-  areas: {
-    lasisana: "Lasīšana", rakstisana: "Rakstīšana", matematika: "Matemātika", komunikacija: "Komunikācija",
-    organizesana: "Uzmanība, atmiņa un organizēšana", vide: "Piekļuve videi un tehnoloģijām",
-  },
   needs: {
     tts: "Teksta priekšā lasīšana", vizualaPielagosana: "Teksta vizuāla pielāgošana", ocr: "Drukāta teksta digitalizēšana",
     stt: "Runas pārvēršana tekstā", rakstisanaAtbalsts: "Rakstīšanas un pareizrakstības atbalsts",
@@ -238,7 +234,6 @@ const inputFields = {
 
 function fieldForInput(target) {
   if (inputFields[target.id]) return inputFields[target.id];
-  if (target.closest?.("#field-areas")) return "areas";
   if (target.closest?.("#field-needs")) return "needs";
   if (target.closest?.("#field-skills")) return "skills";
   if (target.closest?.("#field-acquisition-options")) return "acquisitionOptions";
@@ -250,12 +245,13 @@ function currentResource() {
 }
 
 function resourceFromForm(original = currentResource(), image = original?.image ?? "assets/images/catalog/catalog-placeholder.svg") {
+  const base = { ...(original ?? {}) };
+  delete base.areas;
   return {
-    ...(original ?? {}),
+    ...base,
     id: ui["field-id"].value.trim(),
     name: ui["field-name"].value.trim(),
     short: ui["field-short"].value.trim(),
-    areas: selectedValues(ui["field-areas"]),
     needs: selectedValues(ui["field-needs"]),
     skills: selectedValues(ui["field-skills"]),
     type: ui["field-type"].value,
@@ -391,7 +387,6 @@ function setFormValues(resource) {
   ui["field-type"].value = resource.type ?? "programmatura";
   ui["field-latvian"].value = resource.latvian ?? "";
   ui["field-short"].value = resource.short ?? "";
-  setChoiceValues(ui["field-areas"], resource.areas ?? []);
   setChoiceValues(ui["field-needs"], resource.needs ?? []);
   setChoiceValues(ui["field-skills"], resource.skills ?? []);
   ui["field-what-is"].value = resource.whatIs ?? "";
@@ -451,7 +446,7 @@ function blankRecord() {
   ui["field-latvian"].value = "Informācija tiks papildināta";
   ui["field-image-rights"].value = "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.";
   ui["image-preview"].src = "../assets/images/catalog/catalog-placeholder.svg";
-  for (const input of document.querySelectorAll('#field-areas input, #field-needs input, #field-skills input, #field-acquisition-options input')) input.checked = false;
+  for (const input of document.querySelectorAll('#field-needs input, #field-skills input, #field-acquisition-options input')) input.checked = false;
   renderList();
   updateDraftState();
   renderConflicts();
@@ -588,7 +583,6 @@ function renderList() {
 function validateRecord(resource, originalId = null) {
   if (!/^[a-z0-9][a-z0-9-]*$/.test(resource.id)) throw new Error("Identifikatorā drīkst būt tikai mazie latīņu burti, cipari un defises.");
   if (!resource.name || !resource.short || !resource.whatIs || !resource.latvian || !resource.imageAlt || !resource.imageRightsNote) throw new Error("Aizpildi visus obligātos teksta laukus.");
-  if (!resource.areas.length) throw new Error("Izvēlies vismaz vienu mācību atbalsta jomu.");
   if (!resource.needs.length) throw new Error("Izvēlies vismaz vienu vajadzību/filtru.");
   if (!resource.skills?.length || resource.skills.some((value) => !Object.hasOwn(options.skills, value))) {
     throw new Error("Izvēlies vismaz vienu derīgu AT atbalstāmo prasmi.");
@@ -622,7 +616,7 @@ function refreshChangeValues(mergedResources) {
 }
 
 const fieldLabels = {
-  name: "Nosaukums", short: "Īsais teksts kartītē", areas: "Mācību atbalsta jomas",
+  name: "Nosaukums", short: "Īsais teksts kartītē",
   needs: "Vajadzības / filtri", skills: "AT atbalstāmā prasme", type: "Resursa veids", level: "Tehnoloģiju līmenis",
   latvian: "Latviešu valodas pieejamība", whatIs: "Kas tas ir?", functions: "Funkcijas",
   acquisition: "Kur to var iegūt?", acquisitionOptions: "Iegūšanas iespējas",
@@ -856,7 +850,16 @@ function restoreBrowserDraft(remote) {
 
   recordChanges.clear();
   for (const change of backup.changes ?? []) {
-    if (change?.id && ["create", "update", "delete"].includes(change.kind)) recordChanges.set(change.id, change);
+    if (change?.id && ["create", "update", "delete"].includes(change.kind)) {
+      // v16 drafts may contain the classification removed from the catalogue.
+      for (const record of [change.base, change.value, change.patch]) {
+        if (record && typeof record === "object") delete record.areas;
+      }
+      for (const field of ["removedFields", "unverifiedFields"]) {
+        if (Array.isArray(change[field])) change[field] = change[field].filter((item) => item !== "areas");
+      }
+      recordChanges.set(change.id, change);
+    }
   }
   orderDraft = backup.orderDraft?.operations?.length ? backup.orderDraft : null;
   missingPendingImages.clear();
@@ -866,6 +869,8 @@ function restoreBrowserDraft(remote) {
 
   const snapshot = backup.form;
   if (snapshot?.resource) {
+    delete snapshot.resource.areas;
+    if (snapshot.base) delete snapshot.base.areas;
     if (snapshot.newRecord) blankRecord();
     else {
       const selected = resources.find((resource) => resource.id === snapshot.selectedId);
@@ -888,7 +893,7 @@ function restoreBrowserDraft(remote) {
     ui["field-id"].disabled = !newRecord;
     formDirty = true;
     touchedFields.clear();
-    for (const field of snapshot.touchedFields ?? []) touchedFields.add(field);
+    for (const field of snapshot.touchedFields ?? []) if (field !== "areas") touchedFields.add(field);
     if (snapshot.imageMustBeSelectedAgain) missingPendingImages.add(snapshot.resource.image);
   } else {
     const selected = resources.find((resource) => resource.id === selectedId);
@@ -1289,7 +1294,6 @@ function handleFormChange(event) {
   }
 }
 
-buildChoices(ui["field-areas"], options.areas);
 buildChoices(ui["field-needs"], options.needs);
 buildChoices(ui["field-skills"], options.skills);
 buildChoices(ui["field-acquisition-options"], options.acquisitionOptions);
