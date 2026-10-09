@@ -436,7 +436,8 @@
     "imageSource": "https://brunomaster.com/produkts/aisma/",
     "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
     "productPage": "https://brunomaster.com/produkts/aisma/",
-    "productLinkType": "product"
+    "productLinkType": "product",
+    "secondaryType": "ierice"
   },
   {
     "id": "teksta-runas-text-to-speech-programmas",
