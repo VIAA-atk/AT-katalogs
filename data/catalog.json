@@ -484,7 +484,8 @@
     "imageSource": "https://www.readspeaker.com/solutions/text-to-speech-online/readspeaker-textaid/",
     "imageRightsNote": "Pirms gala publicēšanas saņemt vai pārbaudīt ražotāja atļauju attēla pārpublicēšanai.",
     "productPage": "https://exceed.lv/index.php/lv/produkti/programmaturas/view/680:textaid-pro5",
-    "productLinkType": "product"
+    "productLinkType": "product",
+    "secondaryType": "programmatura"
   },
   {
     "id": "viedpildspalvas-skenesanai",
