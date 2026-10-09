@@ -2497,7 +2497,8 @@
     "imageSource": "https://lnbiedriba.lv/lv/paliglidzeklis/specializeta-paligprogramma-mobilajam-talrunim-teksta-parveidei-skana/",
     "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
     "productPage": "https://lnbiedriba.lv/lv/paliglidzeklis/elektroniski-palielinoss-paliglidzeklis/",
-    "productLinkType": "resource"
+    "productLinkType": "resource",
+    "secondaryType": "ierice"
   },
   {
     "id": "specializetas-datorprogrammas",
@@ -2745,6 +2746,7 @@
     "productLinkType": "resource",
     "skills": [
       "komunikacija"
-    ]
+    ],
+    "secondaryType": "ierice"
   }
 ]
