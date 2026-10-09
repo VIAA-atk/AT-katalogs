@@ -1297,7 +1297,8 @@
     "imageSource": "https://tilde.ai/lv/ai-assistant/",
     "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
     "productPage": "https://tilde.ai/lv/ai-assistant/",
-    "productLinkType": "product"
+    "productLinkType": "product",
+    "secondaryType": "programmatura"
   },
   {
     "id": "pareizrakstibas-riki-ar-audio-atgriezenisko-sait",
