@@ -2088,7 +2088,8 @@
     "imageSource": "https://exceed.lv/index.php/lv/produkti/komunikaciju-paliglidzekli/izglitibas-atbalsta-risinajumi/view/775:my-board-buddy-cam-iar3",
     "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
     "productPage": "https://exceed.lv/index.php/lv/produkti/komunikaciju-paliglidzekli/izglitibas-atbalsta-risinajumi/view/775:my-board-buddy-cam-iar3",
-    "productLinkType": "resource"
+    "productLinkType": "resource",
+    "secondaryType": "ierice"
   },
   {
     "id": "my-board-buddy-air-iar1",
@@ -2131,7 +2132,8 @@
     "imageSource": "https://exceed.lv/index.php/lv/produkti/komunikaciju-paliglidzekli/izglitibas-atbalsta-risinajumi/view/774:my-board-buddy-iar1",
     "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
     "productPage": "https://exceed.lv/index.php/lv/produkti/komunikaciju-paliglidzekli/izglitibas-atbalsta-risinajumi/view/774:my-board-buddy-iar1",
-    "productLinkType": "resource"
+    "productLinkType": "resource",
+    "secondaryType": "ierice"
   },
   {
     "id": "note-anywhere-digitalas-piezimes-timekllapas-bezmaksas",
