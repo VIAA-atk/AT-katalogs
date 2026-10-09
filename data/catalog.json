@@ -2411,7 +2411,7 @@
       "vide",
       "organizesana"
     ],
-    "type": "programmatura",
+    "type": "citsValstsAtbalsts",
     "level": "videjs",
     "latvian": "Informācija tiks papildināta",
     "whatIs": "Ierīce ar kuras palīdzību tiek ierunāts teksts speciālās uzlīmēs un pēc tam atskaņots. Uzlīmes ir iespējams pielīmēt pie apģērba, produktu iepakojumiem, grāmatām, zāļu iepakojumiem, ikdienas priekšmetiem u.c., un ar ierīces palīdzību nolasīt ierunāto tekstu. Komplektā vairāk kā 100 uzlīmes un 4 magnēti. Var izmantot kā MP3 atskaņotāju.",
@@ -2431,7 +2431,8 @@
     "imageSource": "https://lnbiedriba.lv/lv/paliglidzeklis/pildspalva-ar-runas-funkciju-teksta-nolasisanai-no-specialam-uzlimem/",
     "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
     "productPage": "https://lnbiedriba.lv/lv/paliglidzeklis/pildspalva-ar-runas-funkciju-teksta-nolasisanai-no-specialam-uzlimem/",
-    "productLinkType": "resource"
+    "productLinkType": "resource",
+    "secondaryType": "ierice"
   },
   {
     "id": "krasu-noteicejs-ar-runas-funkciju",
