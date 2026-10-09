@@ -210,7 +210,8 @@
     "imageSource": "https://store.humanware.com/heu/victor-reader-stream-handheld-media-player.html",
     "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
     "productPage": "https://brunomaster.com/produkts/bruno/",
-    "productLinkType": "product"
+    "productLinkType": "product",
+    "secondaryType": "ierice"
   },
   {
     "id": "komunikacijas-kartites-pecs",
