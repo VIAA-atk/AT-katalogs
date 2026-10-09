@@ -2575,7 +2575,8 @@
     "imageSource": "https://lnbiedriba.lv/lv/paliglidzeklis/datoru-displeji-ar-skanu/",
     "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
     "productPage": "https://lnbiedriba.lv/lv/paliglidzeklis/datoru-displeji-ar-skanu/",
-    "productLinkType": "resource"
+    "productLinkType": "resource",
+    "secondaryType": "ierice"
   },
   {
     "id": "runas-delis-ar-izveles-iespejam",
