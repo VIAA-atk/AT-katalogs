@@ -51,14 +51,30 @@ for (const [value] of [["all"], ...expectedSkills]) {
   if (JSON.stringify(actual) !== JSON.stringify(expected)) throw new Error(`Prasmes ${value} filtrs atgrieza nepareizus ierakstus.`);
 }
 
-// The admin-only second type must leave the public filter's existing behavior unchanged.
-context.testResources = [{ ...catalog[0], type: "atFonds", secondaryType: "ierice" }];
+// A record assigned to both AT Fonds and devices belongs to either selection exactly once.
+const dualType = { ...catalog[0], id: "two-types", name: "Divu veidu ieraksts", type: "atFonds", secondaryType: "ierice", skills: ["lasisana"] };
+const singleType = { ...catalog[0], id: "one-type", name: "Viena veida ieraksts", type: "ierice", skills: ["rakstisana"] };
+delete singleType.secondaryType;
+context.testResources = [dualType, singleType];
 vm.runInContext("resources = testResources", context);
 controls["f-skill"].value = "all";
-for (const [value, count] of [["atFonds", 1], ["ierice", 0], ["all", 1]]) {
+for (const [value, expected] of [["atFonds", ["two-types"]], ["ierice", ["two-types", "one-type"]], ["programmatura", []], ["all", ["two-types", "one-type"]]]) {
   controls["f-type"].value = value;
   vm.runInContext("render()", context);
-  if (controls["catalog-grid"].items.length !== count) throw new Error("Publiskā resursa veida filtra darbība ir mainīta.");
+  const actual = controls["catalog-grid"].items.map((item) => item.id);
+  if (JSON.stringify(actual) !== JSON.stringify(expected)) throw new Error(`Resursa veida ${value} filtrs neatlasa abus veidus pareizi.`);
+}
+controls["f-type"].value = "ierice";
+controls["f-skill"].value = "lasisana";
+vm.runInContext("render()", context);
+if (JSON.stringify(controls["catalog-grid"].items.map((item) => item.id)) !== JSON.stringify(["two-types"])) {
+  throw new Error("Papildu resursa veids nav pareizi apvienots ar prasmes filtru.");
+}
+controls["f-skill"].value = "all";
+controls["f-query"].value = "Divu veidu";
+vm.runInContext("render()", context);
+if (JSON.stringify(controls["catalog-grid"].items.map((item) => item.id)) !== JSON.stringify(["two-types"])) {
+  throw new Error("Papildu resursa veids nav pareizi apvienots ar meklēšanu.");
 }
 
 const adminIds = ids(adminHtml);

@@ -181,7 +181,7 @@ function render() {
   const filtered = resources.filter((resource) =>
     (elements.skill.value === "all" || resource.skills.includes(elements.skill.value)) &&
     (elements.need.value === "all" || resource.needs.includes(elements.need.value)) &&
-    (elements.type.value === "all" || resource.type === elements.type.value) &&
+    (elements.type.value === "all" || resource.type === elements.type.value || resource.secondaryType === elements.type.value) &&
     (elements.level.value === "all" || resource.level === elements.level.value) &&
     (elements.acquisitionOptions.value === "all" || resource.acquisitionOptions?.includes(elements.acquisitionOptions.value)) &&
     (!query || resource.name.toLocaleLowerCase("lv").includes(query) || resource.short.toLocaleLowerCase("lv").includes(query))
