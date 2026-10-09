@@ -40,6 +40,10 @@ repozitorijā.
 
 - **Pievienot jaunu ierakstu** izveido tukšu formu.
 - Izvēloties ierakstu kreisajā sarakstā, to var labot.
+- **Resursa veids (papildu)** ļauj saglabāt vēl vienu veidu. Izvēlne ir
+  neobligāta un tajā nav **AT Fonds**; izvēle **Nav papildu veida** to noņem.
+  Abi veidi tiek rādīti administratora ierakstu sarakstā. Publiskais katalogs
+  un tā filtrs turpina izmantot tikai pirmo resursa veidu.
 - **Dzēst ierakstu** prasa atsevišķu apstiprinājumu.
 - Rakstīšanas laikā ievadītajam tekstam šajā pārlūka cilnē tiek glabāta
   rezerves kopija, bet GitHub netiek mainīts fonā.

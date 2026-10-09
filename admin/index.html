@@ -8,7 +8,7 @@
     <title>Kataloga administrēšana | VIAA</title>
     <link rel="icon" href="../favicon.svg?v=3" type="image/svg+xml" />
     <link rel="stylesheet" href="./admin.css?v=17" />
-    <script type="module" src="./admin-v17.js?v=22"></script>
+    <script type="module" src="./admin-v17.js?v=23"></script>
   </head>
   <body>
     <header class="site-header">
@@ -41,7 +41,7 @@
           </div>
         </form>
         <p id="auth-status" class="status" role="status"></p>
-        <p class="help">Administratora paneļa versija 20</p>
+        <p class="help">Administratora paneļa versija 23</p>
       </section>
 
       <section id="admin-app" hidden>
@@ -102,7 +102,10 @@
                   <label>Resursa veids *
                     <select id="field-type" name="type" required><option value="ierice">Ierīce</option><option value="programmatura">Programmatūra vai lietotne</option><option value="iebuveta">Iebūvēta piekļūstamības funkcija</option><option value="bezmaksas">Bezmaksas digitālais rīks</option><option value="metodiskais">Metodiskais materiāls vai pamācība</option><option value="materials">Mācību materiāls</option><option value="piederums">Pielāgots piederums</option><option value="atFonds">AT Fonds (Projekta numurs 4.2.1.2/1/25/I/001, sadarbības partneriem)</option><option value="citsValstsAtbalsts">Citu valsts atbalsta sistēmu resurss (VTPC, LNB, LNS)</option></select>
                   </label>
-                  <label>Latviešu valodas pieejamība *<input id="field-latvian" name="latvian" required maxlength="180" /></label>
+                  <label>Resursa veids (papildu)
+                    <select id="field-secondary-type" name="secondaryType"><option value="">Nav papildu veida</option><option value="ierice">Ierīce</option><option value="programmatura">Programmatūra vai lietotne</option><option value="iebuveta">Iebūvēta piekļūstamības funkcija</option><option value="bezmaksas">Bezmaksas digitālais rīks</option><option value="metodiskais">Metodiskais materiāls vai pamācība</option><option value="materials">Mācību materiāls</option><option value="piederums">Pielāgots piederums</option><option value="citsValstsAtbalsts">Citu valsts atbalsta sistēmu resurss (VTPC, LNB, LNS)</option></select>
+                  </label>
+                  <label class="wide">Latviešu valodas pieejamība *<input id="field-latvian" name="latvian" required maxlength="180" /></label>
                   <label class="wide">Īsais teksts kartītē *<textarea id="field-short" name="short" rows="2" required maxlength="1000"></textarea></label>
                 </div>
 

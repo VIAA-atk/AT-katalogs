@@ -39,6 +39,12 @@ for (const [index, resource] of resources.entries()) {
   for (const field of ["type", "level", "productLinkType"]) {
     if (!allowed[field].has(resource[field])) throw new Error(`${where}: neatļauta ${field} vērtība.`);
   }
+  if (Object.hasOwn(resource, "secondaryType")) {
+    if (!allowed.type.has(resource.secondaryType) || resource.secondaryType === "atFonds") {
+      throw new Error(`${where}: neatļauts papildu resursa veids.`);
+    }
+    if (resource.secondaryType === resource.type) throw new Error(`${where}: resursa veidi atkārtojas.`);
+  }
   if (resource.productPage && !/^https:\/\//.test(resource.productPage)) throw new Error(`${where}: ārējai saitei jāizmanto HTTPS.`);
   if (resource.imageSource && !/^https:\/\//.test(resource.imageSource)) throw new Error(`${where}: attēla avotam jāizmanto HTTPS.`);
   if (!/^assets\/images\/catalog\/[a-z0-9.-]+$/.test(resource.image)) throw new Error(`${where}: nederīgs attēla ceļš.`);

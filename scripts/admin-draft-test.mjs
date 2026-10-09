@@ -309,4 +309,73 @@ function harness({ backup = oldBackup(), initial = [latestArasaac, other] } = {}
   await h.run("publish(true)"); assert.deepEqual(h.records()[0], { ...record, name: "Labots nosaukums" });
 }
 
-console.log("Melnrakstu regresijas pārbaudes sekmīgas: ARASAAC/Hugo, individuāla atmešana, lauku izvēles, pārlāde, 409, saglabāšana un attēlu izolācija.");
+// A second type is optional, survives form recovery, and merges with unrelated remote edits.
+{
+  const record = { ...arasaac, type: "atFonds" };
+  const first = harness({ backup: null, initial: [record, other] }); await first.connect(); await first.run("openRecord('arasaac')");
+  assert.equal(first.elements["field-secondary-type"].value, "");
+  first.elements["field-secondary-type"].value = "ierice";
+  first.run("handleFormChange({target: ui['field-secondary-type']}); persistBrowserDraft(true)");
+  assert.equal(first.writes(), 0);
+  const h = harness({ backup: first.backup(), initial: [record, other] }); await h.connect();
+  assert.equal(h.elements["field-type"].value, "atFonds");
+  assert.equal(h.elements["field-secondary-type"].value, "ierice");
+  h.updateRemote([{ ...record, short: "Citā cilnē precizēts teksts" }, other]);
+  await h.run("publish(true)");
+  assert.deepEqual(h.records(), [{ ...record, short: "Citā cilnē precizēts teksts", secondaryType: "ierice" }, other]);
+  assert.equal(h.backup(), null);
+  const reopened = harness({ backup: null, initial: h.records() }); await reopened.connect(); await reopened.run("openRecord('arasaac')");
+  assert.equal(reopened.elements["field-secondary-type"].value, "ierice");
+  await reopened.run("startNewRecord()");
+  assert.equal(reopened.elements["field-secondary-type"].value, "", "New records must not inherit the previous second type.");
+}
+
+// Creation, clearing, further editing and recovery preserve both the primary type and field removal.
+{
+  const created = { ...hugo, type: "atFonds", secondaryType: "ierice" };
+  const h = harness({ backup: null, initial: [arasaac, other] }); await h.connect(); await h.createHugo();
+  h.run(`setFormValues(${JSON.stringify(created)})`);
+  await h.run("publish(true)");
+  assert.deepEqual(h.records(), [arasaac, other, created]);
+  const published = h.records();
+  h.elements["field-secondary-type"].value = "";
+  h.run("handleFormChange({target: ui['field-secondary-type']})");
+  assert.equal(await h.run("saveDraft()"), true);
+  h.elements["field-name"].value = "Precizēts nosaukums";
+  h.run("handleFormChange({target: ui['field-name']})");
+  assert.equal(await h.run("saveDraft()"), true);
+  assert.deepEqual(h.backup().changes[0].removedFields, ["secondaryType"]);
+  const reopened = harness({ backup: h.backup(), initial: published }); await reopened.connect();
+  assert.equal(reopened.elements["field-secondary-type"].value, "");
+  await reopened.run("publish(true)");
+  const { secondaryType, ...withoutSecond } = created;
+  assert.deepEqual(reopened.records(), [arasaac, other, { ...withoutSecond, name: "Precizēts nosaukums" }]);
+  assert.equal(reopened.backup(), null);
+}
+
+// Competing edits to the second type require the same explicit conflict choice as other fields.
+{
+  const record = { ...arasaac, type: "atFonds", secondaryType: "ierice" };
+  const h = harness({ backup: null, initial: [record, other] }); await h.connect(); await h.run("openRecord('arasaac')");
+  h.elements["field-secondary-type"].value = "programmatura";
+  h.run("handleFormChange({target: ui['field-secondary-type']})");
+  h.updateRemote([{ ...record, secondaryType: "piederums" }, other]);
+  await h.run("publish(true)");
+  assert.equal(h.writes(), 0);
+  assert.deepEqual(JSON.parse(h.run("JSON.stringify(recordConflicts.get('arasaac').fields)")), ["secondaryType"]);
+  assert.equal(h.run("formatConflictValue('piederums', 'secondaryType')"), "Pielāgots piederums");
+  await h.run("resolveRecordConflict(recordConflicts.get('arasaac'), clone(recordChanges.get('arasaac')), {secondaryType:'mine'})");
+  await h.run("publish(true)");
+  assert.deepEqual(h.records(), [{ ...record, secondaryType: "programmatura" }, other]);
+}
+
+// AT Fonds remains available as the first type; invalid or repeated second types cannot be saved.
+{
+  const h = harness({ backup: null, initial: [arasaac, other] });
+  for (const secondaryType of ["atFonds", "unknown", "programmatura"]) {
+    assert.throws(() => h.run(`validateRecord(${JSON.stringify({ ...arasaac, secondaryType })}, 'arasaac')`), /resursa veid|AT Fonds/);
+  }
+  assert.doesNotThrow(() => h.run(`validateRecord(${JSON.stringify({ ...arasaac, type: "atFonds", secondaryType: "ierice" })}, 'arasaac')`));
+}
+
+console.log("Melnrakstu regresijas pārbaudes sekmīgas: ARASAAC/Hugo, individuāla atmešana, lauku izvēles, pārlāde, 409, saglabāšana, attēlu izolācija un papildu resursa veids.");

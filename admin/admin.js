@@ -197,7 +197,7 @@ function setRemoteState(remote) {
   baseCommitSha = remote.headSha;
   catalogBlobSha = remote.catalogSha;
   if (connectedLogin) {
-    ui["connection-info"].textContent = `Savienots kā ${connectedLogin}; ${remote.resources.length} ieraksti; zars ${repository.branch}; datu SHA ${catalogBlobSha.slice(0, 7)}; paneļa versija 19.`;
+    ui["connection-info"].textContent = `Savienots kā ${connectedLogin}; ${remote.resources.length} ieraksti; zars ${repository.branch}; datu SHA ${catalogBlobSha.slice(0, 7)}; paneļa versija 23.`;
   }
 }
 
@@ -219,6 +219,7 @@ const inputFields = {
   "field-id": "id",
   "field-level": "level",
   "field-type": "type",
+  "field-secondary-type": "secondaryType",
   "field-latvian": "latvian",
   "field-short": "short",
   "field-what-is": "whatIs",
@@ -247,6 +248,7 @@ function currentResource() {
 function resourceFromForm(original = currentResource(), image = original?.image ?? "assets/images/catalog/catalog-placeholder.svg") {
   const base = { ...(original ?? {}) };
   delete base.areas;
+  delete base.secondaryType;
   return {
     ...base,
     id: ui["field-id"].value.trim(),
@@ -255,6 +257,7 @@ function resourceFromForm(original = currentResource(), image = original?.image 
     needs: selectedValues(ui["field-needs"]),
     skills: selectedValues(ui["field-skills"]),
     type: ui["field-type"].value,
+    ...(ui["field-secondary-type"].value ? { secondaryType: ui["field-secondary-type"].value } : {}),
     level: ui["field-level"].value,
     latvian: ui["field-latvian"].value.trim(),
     whatIs: ui["field-what-is"].value.trim(),
@@ -385,6 +388,7 @@ function setFormValues(resource) {
   ui["field-id"].value = resource.id ?? "";
   ui["field-level"].value = resource.level ?? "videjs";
   ui["field-type"].value = resource.type ?? "programmatura";
+  ui["field-secondary-type"].value = resource.secondaryType ?? "";
   ui["field-latvian"].value = resource.latvian ?? "";
   ui["field-short"].value = resource.short ?? "";
   setChoiceValues(ui["field-needs"], resource.needs ?? []);
@@ -442,6 +446,7 @@ function blankRecord() {
   ui["field-id"].disabled = false;
   ui["field-level"].value = "videjs";
   ui["field-type"].value = "programmatura";
+  ui["field-secondary-type"].value = "";
   ui["field-link-type"].value = "resource";
   ui["field-latvian"].value = "Informācija tiks papildināta";
   ui["field-image-rights"].value = "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.";
@@ -565,7 +570,8 @@ function renderList() {
     const title = document.createElement("strong");
     title.textContent = resource.name;
     const detail = document.createElement("small");
-    detail.textContent = `${options.types[resource.type] ?? resource.type} · ${resource.id}`;
+    detail.textContent = [...new Set([resource.type, resource.secondaryType].filter(Boolean))]
+      .map((value) => options.types[value] ?? value).concat(resource.id).join(" · ");
     button.append(title, detail);
     if (recordChanges.has(resource.id)) {
       const status = document.createElement("small");
@@ -586,6 +592,13 @@ function validateRecord(resource, originalId = null) {
   if (!resource.needs.length) throw new Error("Izvēlies vismaz vienu vajadzību/filtru.");
   if (!resource.skills?.length || resource.skills.some((value) => !Object.hasOwn(options.skills, value))) {
     throw new Error("Izvēlies vismaz vienu derīgu AT atbalstāmo prasmi.");
+  }
+  if (!Object.hasOwn(options.types, resource.type)) throw new Error("Izvēlies derīgu resursa veidu.");
+  if (Object.hasOwn(resource, "secondaryType")) {
+    if (!Object.hasOwn(options.types, resource.secondaryType) || resource.secondaryType === "atFonds") {
+      throw new Error("Izvēlies derīgu papildu resursa veidu vai “Nav papildu veida”. AT Fonds pieejams tikai pirmajā izvēlnē.");
+    }
+    if (resource.secondaryType === resource.type) throw new Error("Papildu resursa veidam jāatšķiras no pirmā resursa veida.");
   }
   if (!resource.functions.length) throw new Error("Funkciju sadaļā jābūt vismaz vienai rindai.");
   if (!resource.acquisition.length) throw new Error('Aizpildi sadaļu "Kur to var iegūt?".');
@@ -618,6 +631,7 @@ function refreshChangeValues(mergedResources) {
 const fieldLabels = {
   name: "Nosaukums", short: "Īsais teksts kartītē",
   needs: "Vajadzības / filtri", skills: "AT atbalstāmā prasme", type: "Resursa veids", level: "Tehnoloģiju līmenis",
+  secondaryType: "Resursa veids (papildu)",
   latvian: "Latviešu valodas pieejamība", whatIs: "Kas tas ir?", functions: "Funkcijas",
   acquisition: "Kur to var iegūt?", acquisitionOptions: "Iegūšanas iespējas",
   productPage: "Produkta vai informācijas saite",
@@ -636,7 +650,7 @@ function rememberConflicts(conflicts, checkedIds = [], checkedOrder = false) {
 function formatConflictValue(value, field) {
   if (value === undefined || value === null || value === "") return "Nav vērtības";
   if (Array.isArray(value)) return value.map((item) => options[field]?.[item] ?? item).join("\n");
-  if (field === "type") return options.types[value] ?? value;
+  if (field === "type" || field === "secondaryType") return options.types[value] ?? value;
   if (field === "level") return { augsts: "Augsts līmenis", videjs: "Vidējs līmenis", zems: "Zems līmenis" }[value] ?? value;
   return typeof value === "object" ? JSON.stringify(value, null, 2) : String(value);
 }
@@ -996,12 +1010,21 @@ function updateRecordChange(original, resource, wasNew, originalId) {
 
   const base = existing?.base ?? formBase ?? original;
   const patch = clone(existing?.patch ?? {});
+  const removedFields = new Set(existing?.removedFields ?? []);
   const fields = touchedFields;
   for (const field of fields) {
-    if (!formBaseUnverified && same(base?.[field], resource[field], field)) delete patch[field];
-    else patch[field] = clone(resource[field]);
+    if (!formBaseUnverified && same(base?.[field], resource[field], field)) {
+      delete patch[field];
+      removedFields.delete(field);
+    } else if (resource[field] === undefined) {
+      delete patch[field];
+      removedFields.add(field);
+    } else {
+      patch[field] = clone(resource[field]);
+      removedFields.delete(field);
+    }
   }
-  if (!Object.keys(patch).length && !pendingImages.has(resource.image) && !missingPendingImages.has(resource.image)) {
+  if (!Object.keys(patch).length && !removedFields.size && !pendingImages.has(resource.image) && !missingPendingImages.has(resource.image)) {
     recordChanges.delete(originalId);
   } else {
     recordChanges.set(originalId, {
@@ -1009,8 +1032,9 @@ function updateRecordChange(original, resource, wasNew, originalId) {
       id: originalId,
       base: clone(base),
       patch,
+      removedFields: [...removedFields],
       unverifiedFields: [...new Set([...(existing?.unverifiedFields ?? []), ...(formBaseUnverified ? touchedFields : [])])]
-        .filter((field) => Object.hasOwn(patch, field)),
+        .filter((field) => Object.hasOwn(patch, field) || removedFields.has(field)),
       value: clone(resource),
       baseCommitSha: existing?.baseCommitSha ?? baseCommitSha,
     });

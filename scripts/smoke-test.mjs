@@ -51,7 +51,24 @@ for (const [value] of [["all"], ...expectedSkills]) {
   if (JSON.stringify(actual) !== JSON.stringify(expected)) throw new Error(`Prasmes ${value} filtrs atgrieza nepareizus ierakstus.`);
 }
 
+// The admin-only second type must leave the public filter's existing behavior unchanged.
+context.testResources = [{ ...catalog[0], type: "atFonds", secondaryType: "ierice" }];
+vm.runInContext("resources = testResources", context);
+controls["f-skill"].value = "all";
+for (const [value, count] of [["atFonds", 1], ["ierice", 0], ["all", 1]]) {
+  controls["f-type"].value = value;
+  vm.runInContext("render()", context);
+  if (controls["catalog-grid"].items.length !== count) throw new Error("Publiskā resursa veida filtra darbība ir mainīta.");
+}
+
 const adminIds = ids(adminHtml);
+const selectOptions = (id) => [...(adminHtml.match(new RegExp(`<select id="${id}"[^>]*>([\\s\\S]*?)<\\/select>`))?.[1] ?? "")
+  .matchAll(/<option value="([^"]*)">([^<]+)<\/option>/g)].map(([, value, label]) => [value, label]);
+const primaryTypes = selectOptions("field-type");
+const secondaryTypes = selectOptions("field-secondary-type");
+if (JSON.stringify(secondaryTypes) !== JSON.stringify([["", "Nav papildu veida"], ...primaryTypes.filter(([value]) => value !== "atFonds")])) {
+  throw new Error("Papildu resursa veidam jāizmanto tās pašas izvēles bez AT Fonda un jābūt noņemamam.");
+}
 const adminReferences = new Set([
   ...[...adminJs.matchAll(/ui\["([^"]+)"\]/g)].map((match) => match[1]),
   ...[...adminJs.matchAll(/ui\.([a-zA-Z][a-zA-Z0-9]*)/g)].map((match) => match[1]),
