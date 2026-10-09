@@ -2608,7 +2608,8 @@
     "imageSource": "https://arbor.lv/katalogs/33_attainment-company",
     "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
     "productPage": "https://www.vtpc.lv/katalogs?page=0&cat[]=674",
-    "productLinkType": "resource"
+    "productLinkType": "resource",
+    "secondaryType": "ierice"
   },
   {
     "id": "alternativas-komunikacijas-programmatura",
