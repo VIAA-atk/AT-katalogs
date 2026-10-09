@@ -2646,7 +2646,8 @@
     "imageSource": "https://myhealth.alberta.ca/Health/Pages/conditions.aspx?hwid=custom.ab_aac_child_inst",
     "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
     "productPage": "https://www.vtpc.lv/katalogs?page=0&cat[]=674",
-    "productLinkType": "resource"
+    "productLinkType": "resource",
+    "secondaryType": "programmatura"
   },
   {
     "id": "surdotulka-pakalpojumi-berniem-ar-dzirdes-traucejumiem",
