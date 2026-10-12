@@ -2548,6 +2548,46 @@
     "productLinkType": "resource"
   },
   {
+    "id": "vaivaru-tehnisko-paliglidzeklu-centrs",
+    "name": "Vaivaru Tehnisko palīglīdzekļu centrs",
+    "short": "Vaivaru Tehnisko palīglīdzekļu centrs nodrošina valsts apmaksātu tehnisko palīglīdzekļu saņemšanu personām ar funkcionēšanas traucējumiem",
+    "needs": [
+      "vizualaPielagosana",
+      "organizesanaAtbalsts",
+      "aac",
+      "ierices Vadiba"
+    ],
+    "skills": [
+      "lasisana",
+      "rakstisana",
+      "matematika",
+      "komunikacija",
+      "organizesana",
+      "vide"
+    ],
+    "type": "citsValstsAtbalsts",
+    "level": "augsts",
+    "latvian": "Latviešu valodā",
+    "whatIs": "Vaivaru Tehnisko palīglīdzekļu centra (VTPC) tīmekļvietne, kurā pieejama informācija par valsts apmaksātiem tehniskajiem palīglīdzekļiem, to saņemšanas kārtību un nepieciešamajiem dokumentiem.",
+    "functions": [
+      "Informācija par valsts apmaksātiem tehniskajiem palīglīdzekļiem",
+      "Tehnisko palīglīdzekļu kataloga pārlūkošana",
+      "Informācija par pieteikšanās kārtību un nepieciešamajiem dokumentiem",
+      "Iespēja pieteikties pakalpojumiem klientu portālā",
+      "Informācija par pakalpojumu saņemšanas vietām un kontaktinformācija"
+    ],
+    "acquisition": "Valsts apmaksātu tehnisko palīglīdzekļu saņemšanai nepieciešams pieteikties VTPC atbilstoši noteiktajai kārtībai.\nSkatīt šeit: https://www.vtpc.lv/Pakalpojumi/ka-sanemt-tehnisko-paliglidzekli",
+    "acquisitionOptions": [
+      "cits"
+    ],
+    "image": "assets/images/catalog/vaivaru-tehnisko-paliglidzeklu-centrs.png",
+    "imageAlt": "vaivaru-tehnisko-paliglidzeklu-centrs",
+    "imageSource": "https://www.vtpc.lv/",
+    "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
+    "productPage": "https://www.vtpc.lv/",
+    "productLinkType": "resource"
+  },
+  {
     "id": "datoru-displeji-ar-skanu",
     "name": "Datoru displeji ar skaņu",
     "short": "Datoru displeji ar skaņu ir latviešu valodas balss sintezators, kurš tekstu pārveido skaņā (TPS). Programmatūru paredzēts lietot ar ekrānlasošajām programmām.",
@@ -2749,45 +2789,5 @@
       "komunikacija"
     ],
     "secondaryType": "ierice"
-  },
-  {
-    "id": "vaivaru-tehnisko-paliglidzeklu-centrs",
-    "name": "Vaivaru Tehnisko palīglīdzekļu centrs",
-    "short": "Vaivaru Tehnisko palīglīdzekļu centrs nodrošina valsts apmaksātu tehnisko palīglīdzekļu saņemšanu personām ar funkcionēšanas traucējumiem",
-    "needs": [
-      "vizualaPielagosana",
-      "organizesanaAtbalsts",
-      "aac",
-      "ierices Vadiba"
-    ],
-    "skills": [
-      "lasisana",
-      "rakstisana",
-      "matematika",
-      "komunikacija",
-      "organizesana",
-      "vide"
-    ],
-    "type": "citsValstsAtbalsts",
-    "level": "augsts",
-    "latvian": "Latviešu valodā",
-    "whatIs": "Vaivaru Tehnisko palīglīdzekļu centra (VTPC) tīmekļvietne, kurā pieejama informācija par valsts apmaksātiem tehniskajiem palīglīdzekļiem, to saņemšanas kārtību un nepieciešamajiem dokumentiem.",
-    "functions": [
-      "Informācija par valsts apmaksātiem tehniskajiem palīglīdzekļiem",
-      "Tehnisko palīglīdzekļu kataloga pārlūkošana",
-      "Informācija par pieteikšanās kārtību un nepieciešamajiem dokumentiem",
-      "Iespēja pieteikties pakalpojumiem klientu portālā",
-      "Informācija par pakalpojumu saņemšanas vietām un kontaktinformācija"
-    ],
-    "acquisition": "Valsts apmaksātu tehnisko palīglīdzekļu saņemšanai nepieciešams pieteikties VTPC atbilstoši noteiktajai kārtībai.\nSkatīt šeit: https://www.vtpc.lv/Pakalpojumi/ka-sanemt-tehnisko-paliglidzekli",
-    "acquisitionOptions": [
-      "cits"
-    ],
-    "image": "assets/images/catalog/vaivaru-tehnisko-paliglidzeklu-centrs.png",
-    "imageAlt": "vaivaru-tehnisko-paliglidzeklu-centrs",
-    "imageSource": "https://www.vtpc.lv/",
-    "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
-    "productPage": "https://www.vtpc.lv/",
-    "productLinkType": "resource"
   }
 ]
