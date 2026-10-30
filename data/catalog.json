@@ -457,7 +457,7 @@
       "komunikacija",
       "vide"
     ],
-    "type": "atFonds",
+    "type": "programmatura",
     "level": "augsts",
     "latvian": "Pieejams latviešu valodā",
     "whatIs": "TextAid Pro5 ir digitāls rīks lasīšanas un rakstīšanas atbalstam. Tas nolasa digitālu tekstu balsī un vienlaikus vizuāli izceļ lasāmo tekstu ekrānā, palīdzot sekot līdzi lasīšanas procesam.\nRīks ir piemērots skolēniem ar lasīšanas un rakstīšanas grūtībām, tostarp disleksiju, kā arī skolēniem, kuriem nepieciešams papildu atbalsts digitāla teksta uztveršanai un patstāvīgam darbam ar mācību materiāliem.",
@@ -482,8 +482,7 @@
     "imageSource": "https://www.readspeaker.com/solutions/text-to-speech-online/readspeaker-textaid/",
     "imageRightsNote": "Pirms gala publicēšanas saņemt vai pārbaudīt ražotāja atļauju attēla pārpublicēšanai.",
     "productPage": "https://exceed.lv/index.php/lv/produkti/programmaturas/view/680:textaid-pro5",
-    "productLinkType": "product",
-    "secondaryType": "programmatura"
+    "productLinkType": "product"
   },
   {
     "id": "viedpildspalvas-skenesanai",
