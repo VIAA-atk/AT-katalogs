@@ -184,7 +184,7 @@
     "skills": [
       "lasisana"
     ],
-    "type": "atFonds",
+    "type": "ierice",
     "level": "augsts",
     "latvian": "Pieejams latviešu valodā (balss sintezators Oskars)",
     "whatIs": "Teksta priekšlasītājs, kas ieskenē grāmatas, darba lapas un citus drukātus materiālus, atpazīst tekstu un nolasa to balsī.\nIerīcei ir iebūvēts dators un vienkārša vadība ar četriem taktili apzīmētiem taustiņiem. Izglītojamais var klausīties tekstu, atkārtoti noklausīties nepieciešamo teikumu vai lappusi un pielāgot lasīšanas ātrumu.\nIerīce ir piemērota izglītojamajiem, kuriem redzes traucējumu, lasīšanas grūtību vai citu funkcionēšanas ierobežojumu dēļ ir apgrūtināta drukāta teksta lasīšana.",
@@ -210,8 +210,7 @@
     "imageSource": "https://store.humanware.com/heu/victor-reader-stream-handheld-media-player.html",
     "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
     "productPage": "https://brunomaster.com/produkts/bruno/",
-    "productLinkType": "product",
-    "secondaryType": "ierice"
+    "productLinkType": "product"
   },
   {
     "id": "komunikacijas-kartites-pecs",
@@ -411,7 +410,7 @@
     "skills": [
       "lasisana"
     ],
-    "type": "atFonds",
+    "type": "ierice",
     "level": "augsts",
     "latvian": "Pieejams latviešu valodā (balss sintezators Oskars)",
     "whatIs": "AISMA ir viegla un pārvietojama ierīce drukāta teksta skenēšanai un priekšlasīšanai. Tā ieskenē grāmatas, darba lapas un citus drukātus materiālus, atpazīst tekstu un nolasa to balsī.\nAtpazīto tekstu iespējams arī attēlot digitālā formā, izmantojot BrunoMaster programmu. Ierīce ir piemērota izglītojamajiem, kuriem redzes traucējumu, lasīšanas grūtību vai citu funkcionēšanas ierobežojumu dēļ ir apgrūtināta drukāta teksta lasīšana.",
@@ -436,8 +435,7 @@
     "imageSource": "https://brunomaster.com/produkts/aisma/",
     "imageRightsNote": "Attēls iegūts no norādītās produkta vai autoritatīvās resursa lapas; pirms gala publicēšanas jāpārbauda pārpublicēšanas tiesības.",
     "productPage": "https://brunomaster.com/produkts/aisma/",
-    "productLinkType": "product",
-    "secondaryType": "ierice"
+    "productLinkType": "product"
   },
   {
     "id": "teksta-runas-text-to-speech-programmas",
@@ -2020,7 +2018,7 @@
       "lasisana",
       "vide"
     ],
-    "type": "atFonds",
+    "type": "ierice",
     "level": "augsts",
     "latvian": "Informācija tiks papildināta",
     "whatIs": "my Board Buddy GO ir risinājums, kas bezvadu režīmā pārraida viedtāfeles, projektora vai cita attēla avota saturu uz skolēna planšeti.\nSkolēns savā planšetē var sekot līdzi klasē demonstrētajam mācību saturam, palielināt attēlu un pielāgot tā krāsas atbilstoši savām redzes vajadzībām, neietekmējot pārējiem skolēniem redzamo attēlu.\nKatrā mācību telpā uzstādītais raidītājs tiek savienots ar attēla avotu, piemēram, skolotāja datoru, un viedtāfeli vai projektoru. Ienākot attiecīgajā telpā, skolēns savā planšetē var izveidot savienojumu ar konkrētās telpas raidītāju un saņemt demonstrēto saturu.\nRisinājums ir īpaši piemērots skolēniem, kuri mācību dienas laikā pārvietojas starp vairākām klasēm, jo vienu planšeti iespējams izmantot savienojumam ar dažādās mācību telpās uzstādītiem raidītājiem.",
@@ -2040,16 +2038,14 @@
       "https://exceed.lv/index.php/lv/produkti/komunikaciju-paliglidzekli/izglitibas-atbalsta-risinajumi/view/776:my-board-buddy-go-iar2"
     ],
     "acquisitionOptions": [
-      "maksas",
-      "projektaIetvaros"
+      "maksas"
     ],
     "image": "assets/images/catalog/my-board-buddy-go-iar2.png",
     "imageAlt": "my Board Buddy GO",
     "imageSource": "https://exceed.lv/index.php/lv/produkti/komunikaciju-paliglidzekli/izglitibas-atbalsta-risinajumi/view/776:my-board-buddy-go-iar2",
     "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
     "productPage": "https://exceed.lv/index.php/lv/produkti/komunikaciju-paliglidzekli/izglitibas-atbalsta-risinajumi/view/776:my-board-buddy-go-iar2",
-    "productLinkType": "resource",
-    "secondaryType": "ierice"
+    "productLinkType": "resource"
   },
   {
     "id": "my-board-buddy-cam-iar3",
@@ -2064,7 +2060,7 @@
     "skills": [
       "vide"
     ],
-    "type": "atFonds",
+    "type": "ierice",
     "level": "augsts",
     "latvian": "Informācija tiks papildināta",
     "whatIs": "Kameras motorizētais objektīvs ļauj attālināti mainīt skata virzienu un pietuvinājumu, lai skolēns no savas darba vietas varētu labāk saskatīt uz tāfeles rakstīto un citu mācību procesā demonstrēto informāciju.\nKameru iespējams izmantot kopā ar my Board Buddy AIR vai my Board Buddy GO, kā arī kombinēt ar dokumentu kameru, nodrošinot iespēju apskatīt un palielināt gan attālumā esošu mācību saturu, gan dokumentus un objektus skolēna tuvumā.\nIerīce ir veidota ar vienkāršu vadību, lai to patstāvīgi varētu izmantot arī jaunāka vecuma skolēni.",
@@ -2088,8 +2084,7 @@
     "imageSource": "https://exceed.lv/index.php/lv/produkti/komunikaciju-paliglidzekli/izglitibas-atbalsta-risinajumi/view/775:my-board-buddy-cam-iar3",
     "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
     "productPage": "https://exceed.lv/index.php/lv/produkti/komunikaciju-paliglidzekli/izglitibas-atbalsta-risinajumi/view/775:my-board-buddy-cam-iar3",
-    "productLinkType": "resource",
-    "secondaryType": "ierice"
+    "productLinkType": "resource"
   },
   {
     "id": "my-board-buddy-air-iar1",
