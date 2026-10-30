@@ -2783,5 +2783,48 @@
       "komunikacija"
     ],
     "secondaryType": "ierice"
+  },
+  {
+    "id": "macibu-platforma-brunomaster",
+    "name": "Mācību platforma Brunomaster",
+    "short": "BrunoMaster ir mācību platforma, kur jebkāda veida tekstu (arī drukāto) pārveido audio formātā un nolasa tekstu lietotājam.",
+    "needs": [
+      "tts",
+      "ocr",
+      "rakstisanaAtbalsts"
+    ],
+    "skills": [
+      "lasisana",
+      "komunikacija",
+      "organizesana"
+    ],
+    "type": "atFonds",
+    "secondaryType": "programmatura",
+    "level": "augsts",
+    "latvian": "Balss sintezators Oskars",
+    "whatIs": "BrunoMaster ir mācību platforma, kur jebkāda veida tekstu (arī drukāto) pārveido audio formātā un nolasa tekstu lietotājam.\nBrunoMaster dod iespēju redzēt skenēto tekstu palielinājumā un sekot līdzi audio lasījumam.",
+    "functions": [
+      "BrunoMaster ir uzstādīts speciāls fonts OpenDyslexic, kurš atvieglo teksta uztveršanu skolēniem ar specifiskiem lasīšans traucējumiem",
+      "Teksta navigācija:",
+      "pa lappusei",
+      "pa paragrāfiem",
+      "pa teikumiem",
+      "pa vārdiem",
+      "pa burtiem",
+      "pa zilbēm",
+      "Audio failus ir iespējams eksportēt uz ārējām ierīcēm, piemēram, MP3 atskaņotājiem, USB zibatmiņām kā arī Android bāzes telefoniem.",
+      "BrunoMaster skenē un atskaņo tekstus vairāk kā 50 valodās un balsīs."
+    ],
+    "acquisition": "https://brunomaster.com/produkts/brunomaster/",
+    "acquisitionOptions": [
+      "maksas",
+      "projektaIetvaros"
+    ],
+    "image": "assets/images/catalog/macibu-platforma-brunomaster.png",
+    "imageAlt": "brunomaster",
+    "imageSource": "",
+    "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
+    "productPage": "https://brunomaster.com/produkts/brunomaster/",
+    "productLinkType": "resource"
   }
 ]
