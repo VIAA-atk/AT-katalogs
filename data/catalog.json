@@ -2106,7 +2106,7 @@
       "lasisana",
       "vide"
     ],
-    "type": "atFonds",
+    "type": "ierice",
     "level": "videjs",
     "latvian": "Informācija tiks papildināta",
     "whatIs": "Ierīce nodrošina interaktīvās tāfeles (viedtāfeles) ekrāna satura bezvadu pārraidi uz skolēna darba vietas tuvumā novietotu monitoru. Skolēnam tiek nodrošināta iespēja individuāli pielāgot saņemtā attēla palielinājumu un krāsu kontrastu, izmantojot tālvadības pulti ar kursorsviru, vienlaikus nemainot interaktīvās tāfeles sākotnējo attēlu un tā attēlojumu pārējiem lietotājiem.\nUz skolēna monitoru tiek pārraidīts viss interaktīvās tāfeles ekrānā redzamais saturs, tostarp teksts, attēli, video materiāli un reāllaikā veiktās piezīmes. Attēla pārraide tiek nodrošināta ar minimālu aizkavi, saglabājot iespēju skolēnam sekot līdzi mācību saturam reāllaikā.",
@@ -2132,8 +2132,7 @@
     "imageSource": "https://exceed.lv/index.php/lv/produkti/komunikaciju-paliglidzekli/izglitibas-atbalsta-risinajumi/view/774:my-board-buddy-iar1",
     "imageRightsNote": "Attēla izmantošanas tiesības jāpārbauda pirms publicēšanas.",
     "productPage": "https://exceed.lv/index.php/lv/produkti/komunikaciju-paliglidzekli/izglitibas-atbalsta-risinajumi/view/774:my-board-buddy-iar1",
-    "productLinkType": "resource",
-    "secondaryType": "ierice"
+    "productLinkType": "resource"
   },
   {
     "id": "note-anywhere-digitalas-piezimes-timekllapas-bezmaksas",
